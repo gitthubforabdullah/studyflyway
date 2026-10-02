@@ -33,6 +33,8 @@ function escapeXml(value) {return value.replaceAll('&','&amp;').replaceAll('"','
 for(const file of htmlFiles) {
   let html=fs.readFileSync(file,'utf8');
   const relative=path.relative(output,file).split(path.sep).join('/');
+  // Google verification files must retain their supplied content and stay out of the sitemap.
+  if (/^google[a-f0-9]+\.html$/.test(relative)) continue;
   const noindex=html.includes('name="robots" content="noindex');
   // Netlify Pretty URLs removes .html; use the final URL as canonical.
   const url=base+'/'+(relative==='index.html'?'':relative.replace(/\.html$/,''));

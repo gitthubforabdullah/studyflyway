@@ -12,7 +12,7 @@ function collect(dir) {
     if (['dist', 'node_modules', '.git', '.tmp'].includes(ent.name)) continue;
     const target = path.join(dir, ent.name);
     if (ent.isDirectory()) collect(target);
-    else if (ent.name.endsWith('.html')) files.push(target);
+    else if (ent.name.endsWith('.html') && !/^google[a-f0-9]+\.html$/.test(ent.name)) files.push(target);
   }
 }
 collect(output);
