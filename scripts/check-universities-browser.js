@@ -108,7 +108,7 @@ async function run() {
     const position = JSON.parse(rect);
     await send('Input.dispatchMouseEvent', {type: 'mouseMoved', x: position.x + position.width / 2, y: position.y + position.height / 2});
     assert.equal(await evaluate("document.querySelector('[data-destinations-menu]').classList.contains('is-open')"), true);
-    assert.equal(await evaluate("document.querySelectorAll('#destination-links a').length"), 6);
+    assert.equal(await evaluate("document.querySelectorAll('#destination-links a').length"), 5);
     for (const page of ['/about.html','/countries/canada.html','/scholarships/pearson.html','/universities/university-of-toronto.html','/english-tests.html','/404.html']) {
       await send('Input.dispatchMouseEvent', {type:'mouseMoved', x:1, y:500});
       await visit(page);
@@ -125,7 +125,7 @@ async function run() {
     }
     await send('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});
     await visit('/english-tests.html');
-    await evaluate("document.querySelector('[data-menu]').click(); document.querySelector('.nav-dropdown-toggle').click()");
+    await evaluate("document.querySelector('[data-menu]').click(); document.querySelector('.nav-dropdown-toggle').focus()");
     assert.equal(await evaluate("getComputedStyle(document.querySelector('#destination-links')).display"),'block');
     assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true);
     await send('Emulation.setScriptExecutionDisabled',{value:true}); scriptsDisabled=true;
@@ -134,6 +134,13 @@ async function run() {
     assert.equal(await evaluate("document.querySelector('#ielts').innerText.includes('IELTS Academic')"),true);
     await send('Emulation.setScriptExecutionDisabled',{value:false}); scriptsDisabled=false;
     await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
+    await visit('/about.html');
+    await evaluate("document.querySelector('.nav-dropdown-toggle').click()");
+    for (let attempt=0;attempt<50;attempt++) {
+      if (await evaluate("location.pathname === '/destinations.html'")) break;
+      await sleep(100);
+    }
+    assert.equal(await evaluate('location.pathname'),'/destinations.html','Destinations link navigates');
     await visit('/scholarships.html');
     assert.equal(await evaluate("document.querySelectorAll('[data-scholarship]').length"), 10);
     assert.deepEqual(runtimeErrors, []);

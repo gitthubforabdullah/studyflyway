@@ -22,7 +22,7 @@ for (const file of files) {
   const html = fs.readFileSync(file, 'utf8');
   const rel = path.relative(output, file);
   assert.equal((html.match(/data-destinations-menu/g)||[]).length,1, rel+': shared dropdown');
-  assert(html.includes('>Destinations</button>'),rel+': no dropdown arrow');
+  assert(/class="nav-dropdown-toggle"[^>]*>Destinations<\/a>/.test(html),rel+': no dropdown arrow');
   assert.equal((html.match(/href="[^"]*english-tests.html"/g)||[]).length,2,rel+': English Tests navigation and footer');
   const head=html.match(/<head>[\s\S]*?<\/head>/)[0];
   assert.equal((head.match(/adsbygoogle.js\?client=ca-pub-9576135533715323/g)||[]).length,1,rel+': AdSense preserved');

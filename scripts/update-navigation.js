@@ -12,7 +12,7 @@ function update(dir) {
     let html = fs.readFileSync(file, 'utf8');
     const prefix = entry.name === '404.html' ? '/' : '../'.repeat(path.relative(root, dir).split(path.sep).filter(Boolean).length);
     const countries = {australia:'Australia', canada:'Canada', uk:'United Kingdom', germany:'Germany', 'new-zealand':'New Zealand'};
-    const dropdown = `<div class="nav-dropdown" data-destinations-menu><button type="button" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="destination-links">Destinations</button><div id="destination-links" class="nav-dropdown-panel">${Object.entries(countries).map(([slug,name])=>`<a href="${prefix}countries/${slug}.html">${name}</a>`).join('')}<a class="nav-dropdown-all" href="${prefix}destinations.html">All destinations</a></div></div>`;
+    const dropdown = `<div class="nav-dropdown" data-destinations-menu><a href="${prefix}destinations.html" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="destination-links">Destinations</a><div id="destination-links" class="nav-dropdown-panel">${Object.entries(countries).map(([slug,name])=>`<a href="${prefix}countries/${slug}.html">${name}</a>`).join('')}</div></div>`;
     html = html.replace(/<nav\b[\s\S]*?<\/nav>/, nav => {
       nav = nav.replace(/<div class="nav-dropdown" data-destinations-menu>[\s\S]*?<\/div>\s*<\/div>|<a\b[^>]*>Destinations<\/a>/, dropdown);
       if (!nav.includes('english-tests.html')) nav = nav.replace(/<a\b[^>]*>Guides<\/a>/, link => link + `<a href="${prefix}english-tests.html"${entry.name==='english-tests.html'?' aria-current="page"':''}>English Tests</a>`);

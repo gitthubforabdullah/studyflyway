@@ -17,7 +17,7 @@ if (menu && nav) {
 }
 const now = Date.now();
 document.querySelectorAll('[data-destinations-menu]').forEach(dropdown => {
-  const toggle = dropdown.querySelector('button');
+  const toggle = dropdown.querySelector('.nav-dropdown-toggle');
   const setOpen = open => {
     dropdown.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', String(open));
@@ -28,7 +28,7 @@ document.querySelectorAll('[data-destinations-menu]').forEach(dropdown => {
   dropdown.addEventListener('pointerleave', event => {
     if (event.pointerType === 'mouse' && !dropdown.contains(document.activeElement)) setOpen(false);
   });
-  toggle.addEventListener('click', () => setOpen(!dropdown.classList.contains('is-open')));
+  toggle.addEventListener('focus', () => setOpen(true));
   dropdown.addEventListener('focusout', event => {
     if (!dropdown.contains(event.relatedTarget)) setOpen(false);
   });
@@ -36,13 +36,13 @@ document.querySelectorAll('[data-destinations-menu]').forEach(dropdown => {
     if (event.key === 'Escape') {
       event.preventDefault();
       event.stopPropagation();
-      setOpen(false);
       toggle.focus();
+      setOpen(false);
     }
     if (event.key === 'ArrowDown' && event.target === toggle) {
       event.preventDefault();
       setOpen(true);
-      dropdown.querySelector('a').focus();
+      dropdown.querySelector('.nav-dropdown-panel a').focus();
     }
   });
   document.addEventListener('click', event => {
