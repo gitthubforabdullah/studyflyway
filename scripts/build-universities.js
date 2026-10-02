@@ -47,6 +47,7 @@ ${chrome(header, prefix)}
 ${content}
 </main>
 ${chrome(footer, prefix)}
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "07d8341858dd49e6ba9de3b370754367"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
