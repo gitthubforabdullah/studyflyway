@@ -92,6 +92,7 @@ async function run() {
     for (const u of records) {
       await visit('/universities/' + u.slug + '.html');
       assert.equal(await evaluate('document.querySelectorAll("h1").length'), 1);
+      assert.equal(await evaluate("document.querySelector('.university-profile-hero img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': photo beside heading on mobile');
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), true, u.name + ': mobile overflow');
       assert.equal(await evaluate('document.querySelectorAll(".campus-gallery img").length'), 3);
       assert.equal(await evaluate('[...document.querySelectorAll(".campus-gallery img")].every(img=>img.loading==="lazy")'), true);
@@ -100,6 +101,7 @@ async function run() {
     for(const u of added) {
       await visit('/universities/'+u.slug+'.html');
       assert.equal(await evaluate('document.querySelectorAll("h1").length'),1);
+      assert.equal(await evaluate("document.querySelector('.university-profile-lettermark').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': consistent side-by-side header');
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true,u.name+': mobile overflow');
     }
     await visit('/universities/university-of-melbourne.html');
@@ -154,6 +156,10 @@ async function run() {
       await sleep(100);
     }
     assert.equal(await evaluate('location.pathname'),'/destinations.html','Destinations link navigates');
+    await visit('/universities/university-of-melbourne.html');
+    assert.equal(await evaluate("document.querySelector('.university-profile-hero img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,'Desktop photo beside heading');
+    const profileShot=await send('Page.captureScreenshot',{format:'png'});
+    fs.writeFileSync(path.join(temp,'profile-desktop.png'),Buffer.from(profileShot.data,'base64'));
     await visit('/scholarships.html');
     assert.equal(await evaluate("document.querySelectorAll('[data-scholarship]').length"), 10);
     assert.deepEqual(runtimeErrors, []);

@@ -87,17 +87,18 @@ for (const university of universities) {
     const title = source.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1].replace(/<[^>]*>/g, '');
     return `<li>${anchor('../scholarships/' + slug + '.html', title)}</li>`;
   }).join('\n');
-  const content = `<div class="page-top">
+  const content = `<div class="page-top university-profile-top">
   <div class="wrap">
     <div class="crumb">${anchor('../index.html', 'Home')} / ${anchor('../universities.html', 'Universities')} / ${escape(u.name)}</div>
+    <div class="university-profile-hero"><div class="university-profile-heading">
     <span class="eyebrow">Explore your university options</span>
     <h1>${escape(u.name)}</h1>
     <p>${escape(u.city)} · ${country}</p>
+    </div>${figure(gallery[0], 960, false)}</div>
     <div class="actions">${anchor(u.links.website, 'Visit official university website', 'btn')} ${anchor('../countries/' + u.country + '.html', 'Study in ' + country, 'btn secondary')}</div>
     <p class="university-reviewed">Last checked <time datetime="${u.checked}">2 October 2026</time></p>
   </div>
 </div>
-<div class="wrap university-campus-header">${figure(gallery[0], 1280, false)}</div>
 <section class="section">
   <div class="wrap article-layout university-layout">
     <article class="article university-article">
@@ -129,7 +130,7 @@ for (const university of universities) {
 for (const u of additional) {
   const country=countries[u.country];
   const resources=Object.entries(u.links).filter(([key])=>key!=='website').map(([key,url])=>`<li>${anchor(url,labels[key])}</li>`).join('');
-  const content=`<div class="page-top"><div class="wrap"><div class="crumb">${anchor('../index.html','Home')} / ${anchor('../universities.html','Universities')} / ${escape(u.name)}</div><span class="eyebrow">University information</span><h1>${escape(u.name)}</h1><p>${escape(u.city)} · ${country}</p><div class="actions">${anchor(u.links.website,'Visit official university website','btn')}${anchor('../countries/'+u.country+'.html','Study in '+country,'btn secondary')}</div></div></div>
+  const content=`<div class="page-top university-profile-top"><div class="wrap"><div class="crumb">${anchor('../index.html','Home')} / ${anchor('../universities.html','Universities')} / ${escape(u.name)}</div><div class="university-profile-hero"><div class="university-profile-heading"><span class="eyebrow">University information</span><h1>${escape(u.name)}</h1><p>${escape(u.city)} · ${country}</p></div><div class="university-profile-lettermark" aria-hidden="true">${escape(u.name.split(/\s+/).filter(word=>!['of','the','and'].includes(word.toLowerCase())).map(word=>word[0]).slice(0,4).join(''))}</div></div><div class="actions">${anchor(u.links.website,'Visit official university website','btn')}${anchor('../countries/'+u.country+'.html','Study in '+country,'btn secondary')}</div></div></div>
   <section class="section"><div class="wrap reading article">
   <section><h2>Introduction</h2><p>${escape(u.intro)}</p><p class="credit">Source: ${anchor(u.links.website,'Official university website')}.</p></section>
   <section><h2>Academic options and admissions</h2><p>Start with the university's official course information and select your intended programme and study level. Requirements vary by programme. Pakistani applicants should confirm qualification recognition, subject prerequisites, English or other teaching-language requirements, documents and deadlines directly with admissions.</p>${u.links.courses?'<p>'+anchor(u.links.courses,'Browse official courses and study options')+'</p>':''}${u.links.admissions?'<p>'+anchor(u.links.admissions,'Official admissions information')+'</p>':''}<p>${anchor('../english-tests.html','IELTS and PTE guidance')} · ${anchor('../guides/application-checklist.html','Application checklist')}</p></section>
