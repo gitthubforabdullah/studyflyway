@@ -58,6 +58,17 @@ async function run() {
       for (let i = 0; i < 150; i++) { await sleep(100); if (await evaluate(`location.pathname === ${JSON.stringify(url.split('?')[0])} && document.readyState !== 'loading' && (${scriptsDisabled ? 'true' : "document.documentElement.classList.contains('js') && (!document.querySelector('[data-university-filters]') || !document.querySelector('[data-university-filters]').hidden)"})`)) return; }
       throw Error('Page did not become readable: ' + url);
     };
+    if(process.argv.includes('--preview')) {
+      await visit('/universities.html');
+      await evaluate("document.querySelector('#university-results').scrollIntoView()");
+      let shot=await send('Page.captureScreenshot',{format:'png'});
+      fs.writeFileSync(path.join(temp,'cards-desktop.png'),Buffer.from(shot.data,'base64'));
+      await visit('/universities/university-of-melbourne.html');
+      for(let i=0;i<100;i++){if(await evaluate("document.querySelector('.university-profile-hero img').complete"))break;await sleep(100);}
+      shot=await send('Page.captureScreenshot',{format:'png'});
+      fs.writeFileSync(path.join(temp,'profile-desktop.png'),Buffer.from(shot.data,'base64'));
+      console.log('Design previews captured.');await send('Browser.close').catch(()=>{});return;
+    }
     const visible = () => evaluate("[...document.querySelectorAll('[data-university]')].filter(card => !card.hidden).length");
     const filter = (q, country) => evaluate(`document.querySelector('#university-search').value=${JSON.stringify(q)};document.querySelector('#university-country').value=${JSON.stringify(country)};document.querySelector('#university-search').dispatchEvent(new Event('input',{bubbles:true}));`);
     await visit('/universities.html');

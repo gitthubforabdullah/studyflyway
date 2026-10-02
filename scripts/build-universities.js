@@ -75,6 +75,20 @@ function figure(photo, size, lazy = true) {
 }
 const profileDir = path.join(root, 'universities');
 fs.mkdirSync(profileDir, {recursive: true});
+function identity(u) {
+  const initials=u.name.split(/\s+/).filter(word=>!['of','the','and'].includes(word.toLowerCase())).map(word=>word[0]).slice(0,4).join('');
+  return `<span class="university-identity" aria-hidden="true">${escape(initials)}</span>`;
+}
+function icon(kind) {
+  const paths={location:'M12 21s7-7 7-12a7 7 0 0 0-14 0c0 5 7 12 7 12z M15 9a3 3 0 1 1-6 0 3 3 0 0 1 6 0',study:'M2 8l10-5 10 5-10 5-10-5z M6 10v7c4 3 8 3 12 0v-7 M22 8v9',funding:'M4 5h16v14H4z M8 9h8 M8 13h6'};
+  return `<svg class="university-fact-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[kind]}"></path></svg>`;
+}
+function profileHeader(u,photo) {
+  const country=countries[u.country];
+  const initials=identity(u).replace('university-identity','university-profile-lettermark');
+  return `<div class="page-top university-profile-top"><div class="wrap"><div class="crumb">${anchor('../index.html','Home')} / ${anchor('../universities.html','Universities')} / ${anchor('../countries/'+u.country+'.html',country)} / ${escape(u.name)}</div>
+  <div class="university-profile-hero"><div class="university-profile-heading"><span class="eyebrow">Explore your university options</span><div class="university-title-row">${identity(u)}<h1>${escape(u.name)}</h1></div><p>${escape(u.city)} · ${country}</p><div class="actions">${anchor(u.links.website,'Visit official website','btn')}${anchor(u.links.courses||'#academic-options',u.links.courses?'View official courses':'Explore study options','btn secondary')}</div><p class="university-reviewed">Last checked <time datetime="${u.checked}">2 October 2026</time></p></div>${photo?figure(photo,960,false):initials}</div></div></div>`;
+}
 for (const university of universities) {
   const u = university;
   const country = countries[u.country];
@@ -87,18 +101,7 @@ for (const university of universities) {
     const title = source.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)[1].replace(/<[^>]*>/g, '');
     return `<li>${anchor('../scholarships/' + slug + '.html', title)}</li>`;
   }).join('\n');
-  const content = `<div class="page-top university-profile-top">
-  <div class="wrap">
-    <div class="crumb">${anchor('../index.html', 'Home')} / ${anchor('../universities.html', 'Universities')} / ${escape(u.name)}</div>
-    <div class="university-profile-hero"><div class="university-profile-heading">
-    <span class="eyebrow">Explore your university options</span>
-    <h1>${escape(u.name)}</h1>
-    <p>${escape(u.city)} · ${country}</p>
-    </div>${figure(gallery[0], 960, false)}</div>
-    <div class="actions">${anchor(u.links.website, 'Visit official university website', 'btn')} ${anchor('../countries/' + u.country + '.html', 'Study in ' + country, 'btn secondary')}</div>
-    <p class="university-reviewed">Last checked <time datetime="${u.checked}">2 October 2026</time></p>
-  </div>
-</div>
+  const content = `${profileHeader(u, gallery[0])}
 <section class="section">
   <div class="wrap article-layout university-layout">
     <article class="article university-article">
@@ -130,22 +133,23 @@ for (const university of universities) {
 for (const u of additional) {
   const country=countries[u.country];
   const resources=Object.entries(u.links).filter(([key])=>key!=='website').map(([key,url])=>`<li>${anchor(url,labels[key])}</li>`).join('');
-  const content=`<div class="page-top university-profile-top"><div class="wrap"><div class="crumb">${anchor('../index.html','Home')} / ${anchor('../universities.html','Universities')} / ${escape(u.name)}</div><div class="university-profile-hero"><div class="university-profile-heading"><span class="eyebrow">University information</span><h1>${escape(u.name)}</h1><p>${escape(u.city)} · ${country}</p></div><div class="university-profile-lettermark" aria-hidden="true">${escape(u.name.split(/\s+/).filter(word=>!['of','the','and'].includes(word.toLowerCase())).map(word=>word[0]).slice(0,4).join(''))}</div></div><div class="actions">${anchor(u.links.website,'Visit official university website','btn')}${anchor('../countries/'+u.country+'.html','Study in '+country,'btn secondary')}</div></div></div>
+  const content=`${profileHeader(u)}
   <section class="section"><div class="wrap reading article">
   <section><h2>Introduction</h2><p>${escape(u.intro)}</p><p class="credit">Source: ${anchor(u.links.website,'Official university website')}.</p></section>
-  <section><h2>Academic options and admissions</h2><p>Start with the university's official course information and select your intended programme and study level. Requirements vary by programme. Pakistani applicants should confirm qualification recognition, subject prerequisites, English or other teaching-language requirements, documents and deadlines directly with admissions.</p>${u.links.courses?'<p>'+anchor(u.links.courses,'Browse official courses and study options')+'</p>':''}${u.links.admissions?'<p>'+anchor(u.links.admissions,'Official admissions information')+'</p>':''}<p>${anchor('../english-tests.html','IELTS and PTE guidance')} · ${anchor('../guides/application-checklist.html','Application checklist')}</p></section>
-  <section><h2>Tuition and scholarships</h2><p>Compare the fee for your specific course, intake and international fee status. Ask the university about compulsory charges and scholarship eligibility before making a budget. No numerical tuition estimate or funding guarantee is given here.</p>${u.links.fees?'<p>'+anchor(u.links.fees,'Official tuition and fee information')+'</p>':''}${u.links.scholarships?'<p>'+anchor(u.links.scholarships,'Official scholarships and funding information')+'</p>':''}<p>${anchor('../scholarships.html?country='+u.country,'Explore '+country+' scholarship guides')} · ${anchor('../guides/study-budget.html','Plan your study budget')}</p></section>
+  <section id="academic-options"><h2>Academic options and admissions</h2><p>Start with the university's official course information and select your intended programme and study level. Requirements vary by programme. Pakistani applicants should confirm qualification recognition, subject prerequisites, English or other teaching-language requirements, documents and deadlines directly with admissions.</p>${u.links.courses?'<p>'+anchor(u.links.courses,'Browse official courses and study options')+'</p>':''}${u.links.admissions?'<p>'+anchor(u.links.admissions,'Official admissions information')+'</p>':''}<p>${anchor('../english-tests.html','IELTS and PTE guidance')} · ${anchor('../guides/application-checklist.html','Application checklist')}</p></section>
+  <section id="tuition"><h2>Tuition and scholarships</h2><p>Compare the fee for your specific course, intake and international fee status. Ask the university about compulsory charges and scholarship eligibility before making a budget. No numerical tuition estimate or funding guarantee is given here.</p>${u.links.fees?'<p>'+anchor(u.links.fees,'Official tuition and fee information')+'</p>':''}${u.links.scholarships?'<p>'+anchor(u.links.scholarships,'Official scholarships and funding information')+'</p>':''}<p>${anchor('../scholarships.html?country='+u.country,'Explore '+country+' scholarship guides')} · ${anchor('../guides/study-budget.html','Plan your study budget')}</p></section>
   <section><h2>Campus and accommodation planning</h2><p>Check the teaching campus for your course before choosing housing. Use the university's current student information to compare accommodation availability, library access, study facilities, societies, sport and international student support. Confirm contracts, commuting costs and support arrangements directly.</p>${u.links.accommodation?'<p>'+anchor(u.links.accommodation,'Official accommodation information')+'</p>':''}${u.links.life?'<p>'+anchor(u.links.life,'Official student life information')+'</p>':''}</section>
   <section><h2>Official links and sources</h2><div class="actions">${anchor(u.links.website,'Visit official university website','btn')}</div>${resources?'<ul class="source-list list-space">'+resources+'</ul>':''}<p class="credit list-space">Institution and official website checked <time datetime="${u.checked}">2 October 2026</time>. This concise profile provides a starting point for your research. Check programme details with the institution. Founding dates, detailed campus descriptions and campus photographs are omitted where they have not been independently reviewed.</p><p>StudyFlyway is an independent information portal. Listings do not establish partnerships or guaranteed admissions.</p></section>
   </div></section>`;
   fs.writeFileSync(path.join(profileDir,u.slug+'.html'),document(u.name+' — Study and Official Resources',`Explore ${u.name} in ${country}. Find its official website and plan admissions, scholarships and accommodation for study abroad.`,content,'../'));
 }
 function card(u) {
-  const photo = photos[u.id]?.[0];
-  const initials=u.name.split(/\s+/).filter(word=>!['of','the','and'].includes(word.toLowerCase())).map(word=>word[0]).slice(0,4).join('');
+  const profile='universities/'+u.slug+'.html';
   return `<article class="card university-card" id="university-${u.slug}" data-university data-country="${u.country}" data-university-name="${escape(u.name)}">
-    <div class="university-card-photo">${photo?image(photo,960):`<div class="university-card-lettermark" aria-hidden="true">${escape(initials)}</div>`}</div>
-    <div class="university-card-content"><span class="badge">${countries[u.country]}</span><h2>${anchor('universities/' + u.slug + '.html', u.name)}</h2><p class="university-location">${escape(u.city)} · ${countries[u.country]}</p><p>${escape(u.intro.split(/(?<=\.)\s/)[0])}</p><div class="university-card-bottom">${anchor('universities/' + u.slug + '.html', 'View university', 'btn')}<p class="credit">${photo?credit(photo)+' Layout preview cropped.':anchor(u.links.website,'Official university website')}</p></div></div>
+    <div class="university-card-content"><span class="badge">${countries[u.country]}</span>${identity(u)}<h2>${anchor(profile,u.name)}</h2><p class="university-location">${escape(u.city)} &middot; ${countries[u.country]}</p>
+    <p class="university-course-link">${anchor(u.links.courses||profile+'#academic-options',u.links.courses?'View official courses':'Explore study options')}</p>
+    <ul class="university-card-facts"><li>${icon('location')}<span>${escape(u.city)}</span></li><li>${icon('study')}${anchor(u.links.admissions||profile+'#academic-options','International application information')}</li><li>${icon('funding')}${anchor(profile+'#tuition','Tuition and scholarship guidance')}</li></ul>
+    <div class="university-card-bottom">${anchor(profile,'View details','btn secondary')}</div></div>
   </article>`;
 }
 const directory = `<div class="page-top"><div class="wrap"><div class="crumb">${anchor('index.html', 'Home')} / Universities</div><span class="eyebrow">Find your place to learn</span><h1>Explore universities abroad</h1><p>Discover ${listings.length} universities: 20 each in Australia, Canada, the UK and Germany, plus all eight universities in New Zealand. Compare official study and application resources before building your shortlist.</p><p class="university-reviewed">Independent information for Pakistani students · Last checked 2 October 2026</p></div></div>
