@@ -21,6 +21,11 @@ const titles = new Set();
 for (const file of files) {
   const html = fs.readFileSync(file, 'utf8');
   const rel = path.relative(output, file);
+  assert.equal((html.match(/data-destinations-menu/g)||[]).length,1, rel+': shared dropdown');
+  assert(html.includes('>Destinations</button>'),rel+': no dropdown arrow');
+  assert.equal((html.match(/href="[^"]*english-tests.html"/g)||[]).length,2,rel+': English Tests navigation and footer');
+  const head=html.match(/<head>[\s\S]*?<\/head>/)[0];
+  assert.equal((head.match(/adsbygoogle.js\?client=ca-pub-9576135533715323/g)||[]).length,1,rel+': AdSense preserved');
   if (!/<nav id="navigation"[\s\S]*?>Universities<\/a>/.test(html)) errors.push(`${rel}: missing navigation link`);
   if (!/<footer[\s\S]*?>Universities<\/a>/.test(html)) errors.push(`${rel}: missing footer link`);
   for (const [, attr, url] of html.matchAll(/\b(href|src)="([^"]+)"/g)) {
@@ -62,6 +67,7 @@ const sitemapPath = path.join(output, 'sitemap.xml');
 if (output !== root && fs.existsSync(sitemapPath)) {
   const sitemap = fs.readFileSync(sitemapPath, 'utf8');
   assert(sitemap.includes('/universities</loc>'));
+  assert(sitemap.includes('/english-tests</loc>'));
   for (const u of records) {
     assert(sitemap.includes('/universities/' + u.slug + '</loc>'));
     const html = fs.readFileSync(path.join(output, 'universities', u.slug + '.html'), 'utf8');

@@ -20,4 +20,5 @@
 @media(max-width:1050px){.nav-dropdown-toggle{font-size:.82rem}}
 @media(max-width:800px){.nav-dropdown-toggle{font-size:.94rem}.nav-dropdown-panel{left:0;min-width:210px;max-width:calc(100vw - 36px)}}
 .navlinks{gap:20px}
-@media(min-width:801px) and (max-width:1100px){.navrow{min-height:74px;flex-wrap:wrap;padding:13px 0}.menu{display:block}.navlinks{width:100%;flex-wrap:wrap;padding:10px 0;gap:18px}.js .navlinks{display:none}.js .navlinks.expanded{display:flex}.navlinks a,.nav-dropdown-toggle{font-size:.94rem}}
+@media(min-width:801px) and (max-width:1200px){.navrow{min-height:74px;flex-wrap:wrap;padding:13px 0}.menu{display:block}.navlinks{width:100%;flex-wrap:wrap;padding:10px 0;gap:18px}.js .navlinks{display:none}.js .navlinks.expanded{display:flex}.navlinks a,.nav-dropdown-toggle{font-size:.94rem}}
+@media(max-width:1200px){.nav-dropdown.is-open .nav-dropdown-panel,html:not(.js) .nav-dropdown:hover .nav-dropdown-panel,html:not(.js) .nav-dropdown:focus-within .nav-dropdown-panel{position:static;margin-top:5px}.nav-dropdown{max-width:100%}}

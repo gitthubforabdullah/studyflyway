@@ -51,7 +51,7 @@ async function run() {
     await send('Runtime.enable');
     await send('Network.enable');
     // Use the site's existing font fallbacks so remote font loading cannot delay scripts.
-    await send('Network.setBlockedURLs', {urls: ['*fonts.googleapis.com*', '*fonts.gstatic.com*']});
+    await send('Network.setBlockedURLs', {urls: ['*fonts.googleapis.com*', '*fonts.gstatic.com*', '*pagead2.googlesyndication.com*']});
     let scriptsDisabled = false;
     const visit = async url => {
       await send('Page.navigate', {url: base + url});
@@ -109,6 +109,31 @@ async function run() {
     await send('Input.dispatchMouseEvent', {type: 'mouseMoved', x: position.x + position.width / 2, y: position.y + position.height / 2});
     assert.equal(await evaluate("document.querySelector('[data-destinations-menu]').classList.contains('is-open')"), true);
     assert.equal(await evaluate("document.querySelectorAll('#destination-links a').length"), 6);
+    for (const page of ['/about.html','/countries/canada.html','/scholarships/pearson.html','/universities/university-of-toronto.html','/english-tests.html','/404.html']) {
+      await send('Input.dispatchMouseEvent', {type:'mouseMoved', x:1, y:500});
+      await visit(page);
+      const box = JSON.parse(await evaluate("JSON.stringify(document.querySelector('[data-destinations-menu]').getBoundingClientRect().toJSON())"));
+      await send('Input.dispatchMouseEvent', {type:'mouseMoved', x:box.x+box.width/2, y:box.y+box.height/2});
+      assert.equal(await evaluate("document.querySelector('.nav-dropdown-toggle').textContent.trim()"), 'Destinations');
+      assert.equal(await evaluate("document.querySelector('.nav-dropdown-toggle').getAttribute('aria-expanded')"), 'true', page);
+      assert.equal(await evaluate("getComputedStyle(document.querySelector('#destination-links')).display"), 'block', page);
+      await evaluate("document.querySelector('.nav-dropdown-toggle').focus()");
+      await send('Input.dispatchKeyEvent',{type:'keyDown',key:'ArrowDown',code:'ArrowDown'});
+      assert.equal(await evaluate("document.activeElement.textContent"), 'Australia');
+      await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'});
+      assert.equal(await evaluate("document.querySelector('.nav-dropdown-toggle').getAttribute('aria-expanded')"), 'false');
+    }
+    await send('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});
+    await visit('/english-tests.html');
+    await evaluate("document.querySelector('[data-menu]').click(); document.querySelector('.nav-dropdown-toggle').click()");
+    assert.equal(await evaluate("getComputedStyle(document.querySelector('#destination-links')).display"),'block');
+    assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true);
+    await send('Emulation.setScriptExecutionDisabled',{value:true}); scriptsDisabled=true;
+    await visit('/english-tests.html');
+    assert.equal(await evaluate("document.querySelectorAll('h1').length"),1);
+    assert.equal(await evaluate("document.querySelector('#ielts').innerText.includes('IELTS Academic')"),true);
+    await send('Emulation.setScriptExecutionDisabled',{value:false}); scriptsDisabled=false;
+    await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
     await visit('/scholarships.html');
     assert.equal(await evaluate("document.querySelectorAll('[data-scholarship]').length"), 10);
     assert.deepEqual(runtimeErrors, []);
