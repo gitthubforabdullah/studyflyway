@@ -1,0 +1,13 @@
+[build]
+  command = "node prepare.js"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# This is a multi-page website. Do not add a /* /index.html SPA rewrite.
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true
