@@ -153,7 +153,7 @@ for (const u of additional) {
 function card(u) {
   const profile='universities/'+u.slug+'.html';
   return `<article class="card university-card" id="university-${u.slug}" data-university data-country="${u.country}" data-university-name="${escape(u.name)}">
-    <div class="university-card-content"><span class="badge">${countries[u.country]}</span>${identity(u)}<h2>${anchor(profile,u.name)}</h2><p class="university-location">${escape(u.city)} &middot; ${countries[u.country]}</p>
+    <div class="university-card-content"><span class="badge">${countries[u.country]}</span>${identity(u)}<h2>${anchor(profile,u.name)}</h2>
     <p class="university-course-link">${anchor(u.links.courses||profile+'#academic-options',u.links.courses?'View official courses':'Explore study options')}</p>
     <ul class="university-card-facts"><li>${icon('location')}<span>${escape(u.city)}</span></li><li>${icon('study')}${anchor(u.links.admissions||profile+'#academic-options','International application information')}</li><li>${icon('funding')}${anchor(profile+'#tuition','Tuition and scholarship guidance')}</li></ul>
     <div class="university-card-bottom">${anchor(profile,'View details','btn secondary')}</div></div>
