@@ -20,6 +20,7 @@ function document(title, description, content, prefix, directory = false) {
   return `<!doctype html>
 <html lang="en">
 <head>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9576135533715323" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>${escape(title)} | StudyFlyway</title>
