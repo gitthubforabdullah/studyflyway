@@ -62,16 +62,23 @@ async function run() {
     const filter = (q, country) => evaluate(`document.querySelector('#university-search').value=${JSON.stringify(q)};document.querySelector('#university-country').value=${JSON.stringify(country)};document.querySelector('#university-search').dispatchEvent(new Event('input',{bubbles:true}));`);
     await visit('/universities.html');
     console.log('Directory loaded; checking filters.');
-    assert.equal(await visible(), 15);
-    await filter('', 'canada'); assert.equal(await visible(), 3);
+    assert.equal(await visible(), 88);
+    const grid = await evaluate("getComputedStyle(document.querySelector('#university-results')).gridTemplateColumns");
+    assert.equal(grid.split(' ').length,3,'Three desktop columns');
+    const aligned = await evaluate("JSON.stringify([...document.querySelectorAll('[data-university]')].slice(0,3).map(card=>card.getBoundingClientRect().top))");
+    assert.equal(new Set(JSON.parse(aligned)).size,1,'First three cards sit side by side');
+    await filter('', 'canada'); assert.equal(await visible(), 20);
     await filter('TORONTO', 'canada'); assert.equal(await visible(), 1);
     await filter('toronto', 'germany'); assert.equal(await visible(), 0);
     assert.equal(await evaluate("document.querySelector('[data-university-empty]').hidden"), false);
-    await evaluate("document.querySelector('[data-university-reset]').click()"); assert.equal(await visible(), 15);
+    await evaluate("document.querySelector('[data-university-reset]').click()"); assert.equal(await visible(), 88);
     assert.equal(await evaluate('document.activeElement.id'), 'university-search');
     await filter('  british   columbia ', ''); assert.equal(await visible(), 1);
-    await visit('/universities.html?country=uk'); assert.equal(await visible(), 3);
-    await visit('/universities.html?country=invalid'); assert.equal(await visible(), 15);
+    await visit('/universities.html?country=uk'); assert.equal(await visible(), 20);
+    await visit('/universities.html?country=new-zealand'); assert.equal(await visible(),8);
+    await filter('gottingen','germany'); assert.equal(await visible(),1);
+    await filter('queens','canada'); assert.equal(await visible(),1);
+    await visit('/universities.html?country=invalid'); assert.equal(await visible(), 88);
     for (const width of [1440, 1200, 1024, 800, 390, 320]) {
       await send('Emulation.setDeviceMetricsOverride', {width, height: 900, deviceScaleFactor: 1, mobile: width < 800});
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), true, 'Directory overflow at ' + width);
@@ -89,6 +96,12 @@ async function run() {
       assert.equal(await evaluate('document.querySelectorAll(".campus-gallery img").length'), 3);
       assert.equal(await evaluate('[...document.querySelectorAll(".campus-gallery img")].every(img=>img.loading==="lazy")'), true);
     }
+    const added = JSON.parse(fs.readFileSync(path.join(root,'research/additional-universities.json'),'utf8'));
+    for(const u of added) {
+      await visit('/universities/'+u.slug+'.html');
+      assert.equal(await evaluate('document.querySelectorAll("h1").length'),1);
+      assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true,u.name+': mobile overflow');
+    }
     await visit('/universities/university-of-melbourne.html');
     await evaluate("document.querySelector('#gallery').scrollIntoView()");
     await sleep(2000);
@@ -97,7 +110,7 @@ async function run() {
     await send('Emulation.setScriptExecutionDisabled', {value: true});
     scriptsDisabled = true;
     await visit('/universities.html');
-    assert.equal(await visible(), 15);
+    assert.equal(await visible(), 88);
     assert.equal(await evaluate("document.querySelector('[data-university-filters]').hidden"), true);
     assert.equal(await evaluate("getComputedStyle(document.querySelector('.university-country-links')).display"), 'flex');
     await send('Emulation.setScriptExecutionDisabled', {value: false});
@@ -150,7 +163,7 @@ async function run() {
     await send('Emulation.setDeviceMetricsOverride', {width: 390, height: 900, deviceScaleFactor: 1, mobile: true});
     const mobile = await send('Page.captureScreenshot', {format: 'png'});
     fs.writeFileSync(path.join(temp, 'directory-mobile.png'), Buffer.from(mobile.data, 'base64'));
-    console.log('Passed browser checks: search, country filters, combined empty results, reset and focus, query URLs, six viewport sizes, 15 mobile profiles, no-JavaScript content, existing dropdown and scholarship directory.');
+    console.log('Passed browser checks: search, country filters, combined empty results, reset and focus, query URLs, six viewport sizes, 88 mobile profiles, no-JavaScript content, existing dropdown and scholarship directory.');
     await send('Browser.close').catch(() => {});
   } finally {
     if (socket) socket.close();

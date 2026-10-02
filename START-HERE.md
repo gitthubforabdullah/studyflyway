@@ -58,6 +58,7 @@ Open this folder in VS Code:
 - Consultant links: `consultants.html`
 - University directory: `universities.html`; profiles: `universities/*.html`
 - University content and official sources: `research/universities.json`
+- Additional university records and official resources: `research/additional-universities.json` (73 concise profiles; directory total 88)
 - Campus photo sources, creators and licences: `research/campus-photos.json`
 - University-specific layout and filters: `assets/universities.css` and `assets/universities.js`
 

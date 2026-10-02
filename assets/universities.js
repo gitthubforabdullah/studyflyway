@@ -7,7 +7,7 @@ if (universityFilters) {
   const groups = [...document.querySelectorAll('[data-university-country]')];
   const count = document.querySelector('[data-university-count]');
   const empty = document.querySelector('[data-university-empty]');
-  const normalise = text => text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const normalise = text => text.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/['’]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
   const parameters = new URLSearchParams(location.search);
   search.value = parameters.get('q') || '';
   if ([...country.options].some(option => option.value === parameters.get('country'))) country.value = parameters.get('country');

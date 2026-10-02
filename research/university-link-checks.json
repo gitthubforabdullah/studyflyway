@@ -1,0 +1,1376 @@
+[
+  {
+    "name": "Australian National University",
+    "kind": "life",
+    "url": "https://www.anu.edu.au/students/student-life",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "courses",
+    "url": "https://programsandcourses.anu.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "UNSW Sydney",
+    "kind": "website",
+    "url": "https://www.unsw.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "UNSW Sydney",
+    "kind": "admissions",
+    "url": "https://www.unsw.edu.au/study/international-students",
+    "status": 200
+  },
+  {
+    "name": "UNSW Sydney",
+    "kind": "fees",
+    "url": "https://www.unsw.edu.au/study/how-to-apply/fees",
+    "status": 200
+  },
+  {
+    "name": "UNSW Sydney",
+    "kind": "scholarships",
+    "url": "https://www.unsw.edu.au/study/how-to-apply/scholarships",
+    "status": 200
+  },
+  {
+    "name": "UNSW Sydney",
+    "kind": "accommodation",
+    "url": "https://www.unsw.edu.au/accommodation",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "accommodation",
+    "url": "https://www.anu.edu.au/students/accommodation",
+    "status": 200
+  },
+  {
+    "name": "University of Queensland",
+    "kind": "website",
+    "url": "https://www.uq.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "website",
+    "url": "https://www.anu.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "scholarships",
+    "url": "https://www.anu.edu.au/students/scholarships",
+    "status": 200
+  },
+  {
+    "name": "University of Queensland",
+    "kind": "scholarships",
+    "url": "https://scholarships.uq.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "University of Queensland",
+    "kind": "courses",
+    "url": "https://programs-courses.uq.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "fees",
+    "url": "https://www.anu.edu.au/students/program-administration/fees-payments",
+    "status": 200
+  },
+  {
+    "name": "University of Western Australia",
+    "kind": "website",
+    "url": "https://www.uwa.edu.au/home",
+    "status": 200
+  },
+  {
+    "name": "University of Western Australia",
+    "kind": "courses",
+    "url": "https://www.uwa.edu.au/study/explore-courses/find-a-course",
+    "status": 403
+  },
+  {
+    "name": "University of Western Australia",
+    "kind": "admissions",
+    "url": "https://www.uwa.edu.au/study/support-information/international-students",
+    "status": 200
+  },
+  {
+    "name": "University of Western Australia",
+    "kind": "scholarships",
+    "url": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships",
+    "status": 200
+  },
+  {
+    "name": "Adelaide University",
+    "kind": "website",
+    "url": "https://adelaide.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "University of Western Australia",
+    "kind": "accommodation",
+    "url": "https://www.uwa.edu.au/study/discover-uwa/accommodation",
+    "status": 200
+  },
+  {
+    "name": "University of Technology Sydney",
+    "kind": "website",
+    "url": "https://www.uts.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "Adelaide University",
+    "kind": "life",
+    "url": "https://adelaide.edu.au/life-at-adelaide/student-life/",
+    "status": 200
+  },
+  {
+    "name": "Adelaide University",
+    "kind": "admissions",
+    "url": "https://adelaide.edu.au/study/international-students/",
+    "status": 200
+  },
+  {
+    "name": "Australian National University",
+    "kind": "admissions",
+    "url": "https://study.anu.edu.au/related-information/information-prospective-international-students",
+    "status": "read ECONNRESET"
+  },
+  {
+    "name": "Adelaide University",
+    "kind": "scholarships",
+    "url": "https://adelaide.edu.au/study/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "Adelaide University",
+    "kind": "accommodation",
+    "url": "https://adelaide.edu.au/life-at-adelaide/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "University of Technology Sydney",
+    "kind": "accommodation",
+    "url": "https://www.uts.edu.au/for-students/current-students/support/uts-housing-service",
+    "status": 200
+  },
+  {
+    "name": "University of Technology Sydney",
+    "kind": "courses",
+    "url": "https://www.uts.edu.au/courses",
+    "status": 200
+  },
+  {
+    "name": "University of Technology Sydney",
+    "kind": "admissions",
+    "url": "https://www.uts.edu.au/for-students/international",
+    "status": 200
+  },
+  {
+    "name": "Deakin University",
+    "kind": "website",
+    "url": "https://www.deakin.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "Griffith University",
+    "kind": "website",
+    "url": "https://www.griffith.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "RMIT University",
+    "kind": "admissions",
+    "url": "https://www.rmit.edu.au/study-with-us/international-students",
+    "status": 200
+  },
+  {
+    "name": "RMIT University",
+    "kind": "website",
+    "url": "https://www.rmit.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "RMIT University",
+    "kind": "courses",
+    "url": "https://www.rmit.edu.au/study-with-us/levels-of-study",
+    "status": 200
+  },
+  {
+    "name": "RMIT University",
+    "kind": "life",
+    "url": "https://www.rmit.edu.au/life-at-rmit/student-life",
+    "status": 200
+  },
+  {
+    "name": "Curtin University",
+    "kind": "courses",
+    "url": "https://search.curtin.edu.au/results/courses?q=",
+    "status": 403
+  },
+  {
+    "name": "Queensland University of Technology",
+    "kind": "website",
+    "url": "https://www.qut.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "RMIT University",
+    "kind": "scholarships",
+    "url": "https://www.rmit.edu.au/scholarships",
+    "status": 200
+  },
+  {
+    "name": "Curtin University",
+    "kind": "website",
+    "url": "https://www.curtin.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "Macquarie University",
+    "kind": "website",
+    "url": "https://www.mq.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "University of Newcastle",
+    "kind": "website",
+    "url": "https://www.newcastle.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "University of Wollongong",
+    "kind": "website",
+    "url": "https://www.uow.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "University of Wollongong",
+    "kind": "courses",
+    "url": "https://www.uow.edu.au/study/courses/",
+    "status": 200
+  },
+  {
+    "name": "Flinders University",
+    "kind": "website",
+    "url": "https://www.flinders.edu.au/",
+    "status": 200
+  },
+  {
+    "name": "La Trobe University",
+    "kind": "website",
+    "url": "https://www.latrobe.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "University of Wollongong",
+    "kind": "admissions",
+    "url": "https://www.uow.edu.au/study/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Alberta",
+    "kind": "website",
+    "url": "https://www.ualberta.ca/",
+    "status": 403
+  },
+  {
+    "name": "University of Tasmania",
+    "kind": "website",
+    "url": "https://www.utas.edu.au/",
+    "status": 403
+  },
+  {
+    "name": "Flinders University",
+    "kind": "courses",
+    "url": "https://www.flinders.edu.au/study/courses",
+    "status": 200
+  },
+  {
+    "name": "McMaster University",
+    "kind": "admissions",
+    "url": "https://future.mcmaster.ca/info-hub/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Waterloo",
+    "kind": "admissions",
+    "url": "https://uwaterloo.ca/admissions/",
+    "status": 200
+  },
+  {
+    "name": "University of Waterloo",
+    "kind": "website",
+    "url": "https://uwaterloo.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Wollongong",
+    "kind": "accommodation",
+    "url": "https://www.uow.edu.au/study/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "University of Ottawa",
+    "kind": "website",
+    "url": "https://www.uottawa.ca/en",
+    "status": 200
+  },
+  {
+    "name": "McMaster University",
+    "kind": "website",
+    "url": "https://www.mcmaster.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Ottawa",
+    "kind": "admissions",
+    "url": "https://www.uottawa.ca/study/applying-uottawa",
+    "status": 200
+  },
+  {
+    "name": "Western University",
+    "kind": "admissions",
+    "url": "https://international.uwo.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Calgary",
+    "kind": "website",
+    "url": "https://www.ucalgary.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Calgary",
+    "kind": "admissions",
+    "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions",
+    "status": 200
+  },
+  {
+    "name": "Western University",
+    "kind": "courses",
+    "url": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+    "status": 200
+  },
+  {
+    "name": "Western University",
+    "kind": "website",
+    "url": "https://www.uwo.ca/",
+    "status": 200
+  },
+  {
+    "name": "Curtin University",
+    "kind": "scholarships",
+    "url": "https://www.curtin.edu.au/study/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "University of Calgary",
+    "kind": "courses",
+    "url": "https://www.ucalgary.ca/future-students/undergraduate/programs",
+    "status": 200
+  },
+  {
+    "name": "University of Calgary",
+    "kind": "life",
+    "url": "https://www.ucalgary.ca/future-students/graduate/student-life",
+    "status": 200
+  },
+  {
+    "name": "Queen's University",
+    "kind": "website",
+    "url": "https://www.queensu.ca/",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "website",
+    "url": "https://www.dal.ca/",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "admissions",
+    "url": "https://www.dal.ca/international-students.html",
+    "status": 200
+  },
+  {
+    "name": "Queen's University",
+    "kind": "admissions",
+    "url": "https://www.queensu.ca/admission/international/students",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "courses",
+    "url": "https://www.dal.ca/study/programs.html",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "accommodation",
+    "url": "https://www.dal.ca/life-at-dal/housing.html",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "fees",
+    "url": "https://www.dal.ca/admissions/cost-and-payment/tuition.html",
+    "status": 200
+  },
+  {
+    "name": "Dalhousie University",
+    "kind": "scholarships",
+    "url": "https://www.dal.ca/admissions/scholarships-financial-aid/scholarships.html",
+    "status": 200
+  },
+  {
+    "name": "Queen's University",
+    "kind": "courses",
+    "url": "https://www.queensu.ca/academics/programs",
+    "status": 200
+  },
+  {
+    "name": "Simon Fraser University",
+    "kind": "website",
+    "url": "https://www.sfu.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Victoria",
+    "kind": "website",
+    "url": "https://www.uvic.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Victoria",
+    "kind": "accommodation",
+    "url": "https://www.uvic.ca/residence/index.php",
+    "status": 200
+  },
+  {
+    "name": "University of Victoria",
+    "kind": "admissions",
+    "url": "https://www.uvic.ca/info-for/international/index.php",
+    "status": 200
+  },
+  {
+    "name": "University of Victoria",
+    "kind": "courses",
+    "url": "https://www.uvic.ca/undergraduate/index.php",
+    "status": 200
+  },
+  {
+    "name": "Simon Fraser University",
+    "kind": "courses",
+    "url": "https://www.sfu.ca/main/programs.html",
+    "status": 200
+  },
+  {
+    "name": "York University",
+    "kind": "admissions",
+    "url": "https://yorkinternational.yorku.ca/",
+    "status": "unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+  },
+  {
+    "name": "York University",
+    "kind": "website",
+    "url": "https://www.yorku.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Manitoba",
+    "kind": "website",
+    "url": "https://www.umanitoba.ca/",
+    "status": 200
+  },
+  {
+    "name": "Concordia University",
+    "kind": "admissions",
+    "url": "https://www.concordia.ca/admissions/undergraduate.html",
+    "status": 200
+  },
+  {
+    "name": "York University",
+    "kind": "courses",
+    "url": "https://futurestudents.yorku.ca/",
+    "status": 200
+  },
+  {
+    "name": "Concordia University",
+    "kind": "website",
+    "url": "https://www.concordia.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Manitoba",
+    "kind": "admissions",
+    "url": "https://www.umanitoba.ca/admissions",
+    "status": 200
+  },
+  {
+    "name": "University of Manitoba",
+    "kind": "fees",
+    "url": "https://umanitoba.ca/explore/student-experience/tuition-and-financial-supports",
+    "status": 200
+  },
+  {
+    "name": "University of Saskatchewan",
+    "kind": "admissions",
+    "url": "https://www.usask.ca/admission/index.php",
+    "status": 200
+  },
+  {
+    "name": "University of Saskatchewan",
+    "kind": "courses",
+    "url": "https://admissions.usask.ca/programs/find-a-program.php",
+    "status": 200
+  },
+  {
+    "name": "University of Saskatchewan",
+    "kind": "website",
+    "url": "https://www.usask.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of Saskatchewan",
+    "kind": "life",
+    "url": "https://students.usask.ca/essentials/community.php",
+    "status": 200
+  },
+  {
+    "name": "University of Manitoba",
+    "kind": "courses",
+    "url": "https://www.umanitoba.ca/explore/programs-of-study/undergraduate",
+    "status": 200
+  },
+  {
+    "name": "University of Guelph",
+    "kind": "website",
+    "url": "https://www.uoguelph.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of New Brunswick",
+    "kind": "admissions",
+    "url": "https://www.unb.ca/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Guelph",
+    "kind": "courses",
+    "url": "https://admission.uoguelph.ca/programs",
+    "status": 200
+  },
+  {
+    "name": "University of New Brunswick",
+    "kind": "website",
+    "url": "https://www.unb.ca/",
+    "status": 200
+  },
+  {
+    "name": "University of New Brunswick",
+    "kind": "scholarships",
+    "url": "https://www.unb.ca/scholarships/index.html",
+    "status": 200
+  },
+  {
+    "name": "University of New Brunswick",
+    "kind": "life",
+    "url": "https://www.unb.ca/studentlife",
+    "status": 200
+  },
+  {
+    "name": "Concordia University",
+    "kind": "courses",
+    "url": "https://www.concordia.ca/admissions/undergraduate/programs.html",
+    "status": 200
+  },
+  {
+    "name": "Memorial University of Newfoundland",
+    "kind": "website",
+    "url": "https://www.mun.ca/",
+    "status": 200
+  },
+  {
+    "name": "Memorial University of Newfoundland",
+    "kind": "admissions",
+    "url": "https://www.mun.ca/main/become-a-student/",
+    "status": 200
+  },
+  {
+    "name": "University of Oxford",
+    "kind": "website",
+    "url": "https://www.ox.ac.uk/",
+    "status": 403
+  },
+  {
+    "name": "University of Guelph",
+    "kind": "admissions",
+    "url": "https://www.uoguelph.ca/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Cambridge",
+    "kind": "website",
+    "url": "https://www.cam.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "Memorial University of Newfoundland",
+    "kind": "fees",
+    "url": "https://www.mun.ca/finance/fees/",
+    "status": 200
+  },
+  {
+    "name": "University of Cambridge",
+    "kind": "courses",
+    "url": "https://www.undergraduate.study.cam.ac.uk/courses?ucam-ref=homepage-signpost",
+    "status": 200
+  },
+  {
+    "name": "Memorial University of Newfoundland",
+    "kind": "courses",
+    "url": "https://www.mun.ca/main/programs.php",
+    "status": 200
+  },
+  {
+    "name": "Imperial College London",
+    "kind": "website",
+    "url": "https://www.imperial.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University College London",
+    "kind": "website",
+    "url": "https://www.ucl.ac.uk/",
+    "status": 403
+  },
+  {
+    "name": "Imperial College London",
+    "kind": "fees",
+    "url": "https://www.imperial.ac.uk/study/fees-and-funding/",
+    "status": 200
+  },
+  {
+    "name": "Imperial College London",
+    "kind": "admissions",
+    "url": "https://www.imperial.ac.uk/study/international-students/",
+    "status": 200
+  },
+  {
+    "name": "King's College London",
+    "kind": "website",
+    "url": "https://www.kcl.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "Imperial College London",
+    "kind": "courses",
+    "url": "https://www.imperial.ac.uk/study/courses/",
+    "status": 200
+  },
+  {
+    "name": "King's College London",
+    "kind": "admissions",
+    "url": "https://www.kcl.ac.uk/study/international",
+    "status": 200
+  },
+  {
+    "name": "King's College London",
+    "kind": "accommodation",
+    "url": "https://www.kcl.ac.uk/accommodation/index.aspx",
+    "status": "Protocol \"http:\" not supported. Expected \"https:\""
+  },
+  {
+    "name": "King's College London",
+    "kind": "courses",
+    "url": "https://www.kcl.ac.uk/study/undergraduate",
+    "status": 200
+  },
+  {
+    "name": "Imperial College London",
+    "kind": "life",
+    "url": "https://www.imperial.ac.uk/study/student-life/",
+    "status": 200
+  },
+  {
+    "name": "London School of Economics and Political Science",
+    "kind": "website",
+    "url": "https://www.lse.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "London School of Economics and Political Science",
+    "kind": "accommodation",
+    "url": "https://www.lse.ac.uk/student-life/accommodation",
+    "status": 200
+  },
+  {
+    "name": "London School of Economics and Political Science",
+    "kind": "life",
+    "url": "https://www.lse.ac.uk/student-life",
+    "status": 200
+  },
+  {
+    "name": "London School of Economics and Political Science",
+    "kind": "courses",
+    "url": "https://www.lse.ac.uk/programmes/search-courses",
+    "status": 200
+  },
+  {
+    "name": "University of Bristol",
+    "kind": "admissions",
+    "url": "https://www.bristol.ac.uk/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Bristol",
+    "kind": "website",
+    "url": "https://www.bristol.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Bristol",
+    "kind": "accommodation",
+    "url": "https://www.bristol.ac.uk/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "University of Bristol",
+    "kind": "courses",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/search/",
+    "status": 200
+  },
+  {
+    "name": "University of New Brunswick",
+    "kind": "courses",
+    "url": "https://www.unb.ca/academics/programs/",
+    "status": 200
+  },
+  {
+    "name": "University of Warwick",
+    "kind": "website",
+    "url": "https://warwick.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Glasgow",
+    "kind": "website",
+    "url": "https://www.gla.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Warwick",
+    "kind": "admissions",
+    "url": "https://warwick.ac.uk/study/international?location=more_links",
+    "status": 200
+  },
+  {
+    "name": "University of Warwick",
+    "kind": "accommodation",
+    "url": "https://warwick.ac.uk/accommodation?location=more_links",
+    "status": 200
+  },
+  {
+    "name": "University of Glasgow",
+    "kind": "admissions",
+    "url": "https://www.gla.ac.uk/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Glasgow",
+    "kind": "life",
+    "url": "https://www.gla.ac.uk/study/studentlife/",
+    "status": 200
+  },
+  {
+    "name": "University of Glasgow",
+    "kind": "scholarships",
+    "url": "https://www.gla.ac.uk/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "admissions",
+    "url": "https://www.southampton.ac.uk/international",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "scholarships",
+    "url": "https://www.southampton.ac.uk/study/fees-funding/scholarships",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "website",
+    "url": "https://www.southampton.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "accommodation",
+    "url": "https://www.southampton.ac.uk/student-life/accommodation",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "life",
+    "url": "https://www.southampton.ac.uk/student-life",
+    "status": 200
+  },
+  {
+    "name": "University of Southampton",
+    "kind": "courses",
+    "url": "https://www.southampton.ac.uk/courses",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "admissions",
+    "url": "https://www.liverpool.ac.uk/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "fees",
+    "url": "https://www.liverpool.ac.uk/study/fees-and-funding/tuition-fees/",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "website",
+    "url": "https://www.liverpool.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "accommodation",
+    "url": "https://www.liverpool.ac.uk/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "courses",
+    "url": "https://www.liverpool.ac.uk/courses/",
+    "status": "Protocol \"http:\" not supported. Expected \"https:\""
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "scholarships",
+    "url": "https://www.liverpool.ac.uk/study/fees-and-funding/scholarships-and-bursaries/",
+    "status": 200
+  },
+  {
+    "name": "University of Liverpool",
+    "kind": "life",
+    "url": "https://www.liverpool.ac.uk/student-life/",
+    "status": 200
+  },
+  {
+    "name": "University of Nottingham",
+    "kind": "fees",
+    "url": "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
+    "status": 200
+  },
+  {
+    "name": "University of Nottingham",
+    "kind": "website",
+    "url": "https://www.nottingham.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Nottingham",
+    "kind": "admissions",
+    "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+    "status": 200
+  },
+  {
+    "name": "University of Leeds",
+    "kind": "website",
+    "url": "https://www.leeds.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Leeds",
+    "kind": "courses",
+    "url": "https://courses.leeds.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of Leeds",
+    "kind": "admissions",
+    "url": "https://www.leeds.ac.uk/international-students",
+    "status": 200
+  },
+  {
+    "name": "Durham University",
+    "kind": "website",
+    "url": "https://www.durham.ac.uk/",
+    "status": 403
+  },
+  {
+    "name": "University of St Andrews",
+    "kind": "website",
+    "url": "https://www.st-andrews.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "University of St Andrews",
+    "kind": "fees",
+    "url": "https://www.st-andrews.ac.uk/study/fees-and-funding/",
+    "status": 200
+  },
+  {
+    "name": "University of Nottingham",
+    "kind": "accommodation",
+    "url": "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx",
+    "status": 200
+  },
+  {
+    "name": "University of St Andrews",
+    "kind": "scholarships",
+    "url": "https://www.st-andrews.ac.uk/study/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "University of St Andrews",
+    "kind": "accommodation",
+    "url": "https://www.st-andrews.ac.uk/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "Queen Mary University of London",
+    "kind": "website",
+    "url": "https://www.qmul.ac.uk/",
+    "status": 403
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "admissions",
+    "url": "https://www.lancaster.ac.uk/study/international-students/",
+    "status": 200
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "website",
+    "url": "https://www.lancaster.ac.uk/",
+    "status": 200
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "fees",
+    "url": "https://www.lancaster.ac.uk/study/fees-and-funding/",
+    "status": 200
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "accommodation",
+    "url": "https://www.lancaster.ac.uk/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "scholarships",
+    "url": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/",
+    "status": 200
+  },
+  {
+    "name": "Lancaster University",
+    "kind": "courses",
+    "url": "https://www.lancaster.ac.uk/study/undergraduate/courses/",
+    "status": 200
+  },
+  {
+    "name": "Technische Universität Berlin",
+    "kind": "accommodation",
+    "url": "https://www.tu.berlin/en/studying/university-life/accommodation",
+    "status": 200
+  },
+  {
+    "name": "Technische Universität Berlin",
+    "kind": "website",
+    "url": "https://www.tu.berlin/en/",
+    "status": 200
+  },
+  {
+    "name": "Leipzig University",
+    "kind": "website",
+    "url": "https://www.uni-leipzig.de/en",
+    "status": 200
+  },
+  {
+    "name": "Technische Universität Berlin",
+    "kind": "courses",
+    "url": "https://www.tu.berlin/en/studying/study-programs",
+    "status": 200
+  },
+  {
+    "name": "Leipzig University",
+    "kind": "admissions",
+    "url": "https://www.uni-leipzig.de/en/international",
+    "status": 200
+  },
+  {
+    "name": "Freie Universität Berlin",
+    "kind": "courses",
+    "url": "https://www.fu-berlin.de/en/studium/studienangebot/index.html",
+    "status": 200
+  },
+  {
+    "name": "Freie Universität Berlin",
+    "kind": "website",
+    "url": "https://www.fu-berlin.de/en/",
+    "status": 200
+  },
+  {
+    "name": "Humboldt-Universität zu Berlin",
+    "kind": "website",
+    "url": "https://www.hu-berlin.de/en",
+    "status": 200
+  },
+  {
+    "name": "Karlsruhe Institute of Technology",
+    "kind": "website",
+    "url": "https://www.kit.edu/english/",
+    "status": 200
+  },
+  {
+    "name": "Karlsruhe Institute of Technology",
+    "kind": "admissions",
+    "url": "https://www.intl.kit.edu/english/14011.php",
+    "status": 200
+  },
+  {
+    "name": "Leipzig University",
+    "kind": "courses",
+    "url": "https://www.uni-leipzig.de/en/studying/prospective-students/courses-of-study",
+    "status": 200
+  },
+  {
+    "name": "University of Bonn",
+    "kind": "admissions",
+    "url": "https://www.uni-bonn.de/en/international",
+    "status": 200
+  },
+  {
+    "name": "University of Bonn",
+    "kind": "website",
+    "url": "https://www.uni-bonn.de/en",
+    "status": 200
+  },
+  {
+    "name": "Karlsruhe Institute of Technology",
+    "kind": "courses",
+    "url": "https://www.sle.kit.edu/english/vorstudium/study-programs.php",
+    "status": 200
+  },
+  {
+    "name": "University of Hamburg",
+    "kind": "courses",
+    "url": "https://www.uni-hamburg.de/en/campuscenter/studienangebot.html",
+    "status": 200
+  },
+  {
+    "name": "University of Hamburg",
+    "kind": "website",
+    "url": "https://www.uni-hamburg.de/en.html",
+    "status": 200
+  },
+  {
+    "name": "University of Hamburg",
+    "kind": "admissions",
+    "url": "https://www.uni-hamburg.de/en/internationales.html",
+    "status": 200
+  },
+  {
+    "name": "University of Tübingen",
+    "kind": "website",
+    "url": "https://uni-tuebingen.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Freiburg",
+    "kind": "courses",
+    "url": "https://uni-freiburg.de/en/studies/orientation/",
+    "status": 200
+  },
+  {
+    "name": "University of Göttingen",
+    "kind": "website",
+    "url": "https://www.uni-goettingen.de/en/",
+    "status": "Protocol \"http:\" not supported. Expected \"https:\""
+  },
+  {
+    "name": "TU Dresden",
+    "kind": "website",
+    "url": "https://tu-dresden.de/?set_language=en",
+    "status": 200
+  },
+  {
+    "name": "University of Tübingen",
+    "kind": "fees",
+    "url": "https://uni-tuebingen.de/en/study/organizing-your-studies/fees/",
+    "status": 200
+  },
+  {
+    "name": "TU Dresden",
+    "kind": "courses",
+    "url": "https://tu-dresden.de/sins",
+    "status": 200
+  },
+  {
+    "name": "University of Freiburg",
+    "kind": "website",
+    "url": "https://uni-freiburg.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Tübingen",
+    "kind": "courses",
+    "url": "https://uni-tuebingen.de/en/study/finding-a-course/",
+    "status": 200
+  },
+  {
+    "name": "University of Tübingen",
+    "kind": "accommodation",
+    "url": "https://uni-tuebingen.de/en/study/student-life/student-housing/",
+    "status": 200
+  },
+  {
+    "name": "University of Tübingen",
+    "kind": "life",
+    "url": "https://uni-tuebingen.de/en/study/student-life/",
+    "status": 200
+  },
+  {
+    "name": "University of Cologne",
+    "kind": "website",
+    "url": "https://uni-koeln.de/en/",
+    "status": 200
+  },
+  {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "kind": "website",
+    "url": "https://www.fau.eu/",
+    "status": 200
+  },
+  {
+    "name": "University of Münster",
+    "kind": "website",
+    "url": "https://www.uni-muenster.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Münster",
+    "kind": "admissions",
+    "url": "https://www.uni-muenster.de/international/en/index.shtml",
+    "status": 200
+  },
+  {
+    "name": "University of Cologne",
+    "kind": "admissions",
+    "url": "https://uni-koeln.de/en/university/at-a-glance/international",
+    "status": 200
+  },
+  {
+    "name": "University of Mannheim",
+    "kind": "website",
+    "url": "https://www.uni-mannheim.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Mannheim",
+    "kind": "fees",
+    "url": "https://www.uni-mannheim.de/en/academics/during-your-studies/organizing-your-studies/fees/",
+    "status": 200
+  },
+  {
+    "name": "University of Mannheim",
+    "kind": "admissions",
+    "url": "https://www.uni-mannheim.de/en/about/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Stuttgart",
+    "kind": "website",
+    "url": "https://www.uni-stuttgart.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Stuttgart",
+    "kind": "admissions",
+    "url": "https://www.uni-stuttgart.de/en/university/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Stuttgart",
+    "kind": "accommodation",
+    "url": "https://www.uni-stuttgart.de/en/study/new-in-stuttgart/housing/",
+    "status": 200
+  },
+  {
+    "name": "University of Stuttgart",
+    "kind": "courses",
+    "url": "https://www.uni-stuttgart.de/en/study/study-programs/",
+    "status": 200
+  },
+  {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "kind": "courses",
+    "url": "https://www.fau.eu/studying/degree-programs/all-degree-programs/",
+    "status": 200
+  },
+  {
+    "name": "University of Mannheim",
+    "kind": "courses",
+    "url": "https://www.uni-mannheim.de/en/academics/before-your-studies/programs/",
+    "status": 200
+  },
+  {
+    "name": "Auckland University of Technology",
+    "kind": "website",
+    "url": "https://www.aut.ac.nz/",
+    "status": 403
+  },
+  {
+    "name": "University of Würzburg",
+    "kind": "scholarships",
+    "url": "https://www.uni-wuerzburg.de/en/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "University of Würzburg",
+    "kind": "courses",
+    "url": "https://www.uni-wuerzburg.de/en/international/studying-in-wuerzburg/",
+    "status": 200
+  },
+  {
+    "name": "University of Würzburg",
+    "kind": "admissions",
+    "url": "https://www.uni-wuerzburg.de/en/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Würzburg",
+    "kind": "website",
+    "url": "https://www.uni-wuerzburg.de/en/",
+    "status": 200
+  },
+  {
+    "name": "University of Waikato",
+    "kind": "website",
+    "url": "https://www.waikato.ac.nz/",
+    "status": 200
+  },
+  {
+    "name": "University of Waikato",
+    "kind": "admissions",
+    "url": "https://www.waikato.ac.nz/study/apply/international/",
+    "status": 200
+  },
+  {
+    "name": "University of Waikato",
+    "kind": "scholarships",
+    "url": "https://www.waikato.ac.nz/study/scholarships/",
+    "status": 200
+  },
+  {
+    "name": "University of Waikato",
+    "kind": "accommodation",
+    "url": "https://www.waikato.ac.nz/students/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "University of Cologne",
+    "kind": "courses",
+    "url": "https://studienorientierung.uni-koeln.de/range_of_courses/index_eng.html",
+    "status": 200
+  },
+  {
+    "name": "University of Waikato",
+    "kind": "life",
+    "url": "https://www.waikato.ac.nz/students/",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "website",
+    "url": "https://www.wgtn.ac.nz/",
+    "status": 200
+  },
+  {
+    "name": "Massey University",
+    "kind": "accommodation",
+    "url": "https://www.massey.ac.nz/student-life/accommodation/",
+    "status": 200
+  },
+  {
+    "name": "Massey University",
+    "kind": "admissions",
+    "url": "https://www.massey.ac.nz/study/international-students/",
+    "status": 200
+  },
+  {
+    "name": "Massey University",
+    "kind": "courses",
+    "url": "https://www.massey.ac.nz/study/find-a-subject-course-or-qualification/",
+    "status": 200
+  },
+  {
+    "name": "Massey University",
+    "kind": "website",
+    "url": "https://www.massey.ac.nz/",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "admissions",
+    "url": "https://www.wgtn.ac.nz/international",
+    "status": 200
+  },
+  {
+    "name": "Lincoln University",
+    "kind": "website",
+    "url": "https://www.lincoln.ac.nz/",
+    "status": 403
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "fees",
+    "url": "https://www.wgtn.ac.nz/international/scholarships-fees",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "courses",
+    "url": "https://www.wgtn.ac.nz/study/programmes-courses",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "scholarships",
+    "url": "https://www.wgtn.ac.nz/scholarships/scholarships",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "accommodation",
+    "url": "https://www.wgtn.ac.nz/accommodation",
+    "status": 200
+  },
+  {
+    "name": "Victoria University of Wellington",
+    "kind": "life",
+    "url": "https://www.wgtn.ac.nz/students/student-life",
+    "status": 200
+  }
+]
