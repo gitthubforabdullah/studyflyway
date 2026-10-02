@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
 require('./scripts/update-navigation');
+require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));

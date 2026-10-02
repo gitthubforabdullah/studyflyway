@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
   const target = path.resolve(root, '.' + decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname));
   if (!target.startsWith(root + path.sep) || !fs.existsSync(target) || fs.statSync(target).isDirectory()) { res.writeHead(404); res.end(); return; }
-  const types = {'.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.webp': 'image/webp'};
+  const types = {'.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.ico':'image/x-icon'};
   res.setHeader('Content-Type', types[path.extname(target)] || 'application/octet-stream');
   res.end(fs.readFileSync(target));
 });
@@ -64,7 +64,7 @@ async function run() {
       let shot=await send('Page.captureScreenshot',{format:'png'});
       fs.writeFileSync(path.join(temp,'cards-desktop.png'),Buffer.from(shot.data,'base64'));
       await visit('/universities/university-of-melbourne.html');
-      for(let i=0;i<100;i++){if(await evaluate("document.querySelector('.university-profile-hero img').complete"))break;await sleep(100);}
+      for(let i=0;i<100;i++){if(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').complete"))break;await sleep(100);}
       shot=await send('Page.captureScreenshot',{format:'png'});
       fs.writeFileSync(path.join(temp,'profile-desktop.png'),Buffer.from(shot.data,'base64'));
       console.log('Design previews captured.');await send('Browser.close').catch(()=>{});return;
@@ -72,6 +72,8 @@ async function run() {
     const visible = () => evaluate("[...document.querySelectorAll('[data-university]')].filter(card => !card.hidden).length");
     const filter = (q, country) => evaluate(`document.querySelector('#university-search').value=${JSON.stringify(q)};document.querySelector('#university-country').value=${JSON.stringify(country)};document.querySelector('#university-search').dispatchEvent(new Event('input',{bubbles:true}));`);
     await visit('/universities.html');
+    await evaluate("Promise.all([...document.querySelectorAll('.university-identity img')].slice(0,3).map(img=>img.decode()))");
+    assert.equal(await evaluate("[...document.querySelectorAll('.university-identity img')].slice(0,3).every(img=>img.naturalWidth>0)"),true,'Card website icons load');
     console.log('Directory loaded; checking filters.');
     assert.equal(await visible(), 88);
     const grid = await evaluate("getComputedStyle(document.querySelector('#university-results')).gridTemplateColumns");
@@ -103,10 +105,12 @@ async function run() {
     for (const u of records) {
       await visit('/universities/' + u.slug + '.html');
       assert.equal(await evaluate('document.querySelectorAll("h1").length'), 1);
-      assert.equal(await evaluate("document.querySelector('.university-profile-hero img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': photo beside heading on mobile');
+      assert.equal(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': photo beside heading on mobile');
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), true, u.name + ': mobile overflow');
       assert.equal(await evaluate('document.querySelectorAll(".campus-gallery img").length'), 3);
       assert.equal(await evaluate('[...document.querySelectorAll(".campus-gallery img")].every(img=>img.loading==="lazy")'), true);
+      await evaluate("Promise.all([...document.querySelectorAll('[data-campus-image]')].map(img=>{img.loading='eager';return img.decode()}))");
+      assert.equal(await evaluate("[...document.querySelectorAll('[data-campus-image]')].every(img=>img.naturalWidth>0 && new URL(img.src).origin===location.origin)"),true,u.name+': campus photographs served locally');
     }
     const added = JSON.parse(fs.readFileSync(path.join(root,'research/additional-universities.json'),'utf8'));
     for(const u of added) {
@@ -168,7 +172,7 @@ async function run() {
     }
     assert.equal(await evaluate('location.pathname'),'/destinations.html','Destinations link navigates');
     await visit('/universities/university-of-melbourne.html');
-    assert.equal(await evaluate("document.querySelector('.university-profile-hero img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,'Desktop photo beside heading');
+    assert.equal(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,'Desktop photo beside heading');
     const profileShot=await send('Page.captureScreenshot',{format:'png'});
     fs.writeFileSync(path.join(temp,'profile-desktop.png'),Buffer.from(profileShot.data,'base64'));
     await visit('/scholarships.html');

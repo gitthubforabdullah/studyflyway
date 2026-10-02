@@ -4,10 +4,13 @@ const fs = require('node:fs');
 const path = require('node:path');
 const crypto = require('node:crypto');
 const root = path.resolve(__dirname, '..');
+const styleVersion = require('./sync-university-styles');
 const universities = JSON.parse(fs.readFileSync(path.join(root, 'research/universities.json'), 'utf8'));
 const additional = JSON.parse(fs.readFileSync(path.join(root, 'research/additional-universities.json'), 'utf8'));
 const listings = [...universities, ...additional].sort((a,b)=>a.country.localeCompare(b.country)||a.name.localeCompare(b.name));
 const photos = JSON.parse(fs.readFileSync(path.join(root, 'research/campus-photos.json'), 'utf8'));
+const iconFile=path.join(root,'research/university-icons.json');
+const universityIcons=fs.existsSync(iconFile)?JSON.parse(fs.readFileSync(iconFile,'utf8')):{};
 const countries = {australia: 'Australia', canada: 'Canada', uk: 'United Kingdom', germany: 'Germany', 'new-zealand': 'New Zealand'};
 const labels = {website: 'Official university website', about: 'History and university background', subjects: 'Academic structure', campus: 'Campus locations', courses: 'Courses and study options', admissions: 'International admissions and applications', requirements: 'Current entry requirements', fees: 'Tuition fees and study costs', scholarships: 'Scholarships and funding', accommodation: 'Accommodation options', life: 'Student life and campus facilities', support: 'Student support services'};
 const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
@@ -32,8 +35,7 @@ function document(title, description, content, prefix, directory = false) {
   <meta property="og:title" content="${escape(title)} | StudyFlyway">
   <meta property="og:description" content="${escape(description)}">
   <link rel="icon" href="${prefix}assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="${prefix}assets/style.css">
-  <link rel="stylesheet" href="${prefix}assets/universities.css">
+  <link rel="stylesheet" href="${prefix}assets/style.css?v=${styleVersion}">
   <script src="${prefix}assets/app.js" defer></script>
   ${directory ? '<script src="assets/universities.js" defer></script>' : ''}
 </head>
@@ -49,6 +51,7 @@ ${chrome(footer, prefix)}
 `;
 }
 function imageUrl(photo, size) {
+  if(photo.local) return '/' + photo.local;
   const filename = photo.file.replaceAll(' ', '_');
   const hash = crypto.createHash('md5').update(filename).digest('hex');
   const encoded = encodeURIComponent(filename);
@@ -76,6 +79,10 @@ function figure(photo, size, lazy = true) {
 const profileDir = path.join(root, 'universities');
 fs.mkdirSync(profileDir, {recursive: true});
 function identity(u) {
+  const siteIcon=universityIcons[u.id];
+  if(siteIcon) return `<span class="university-identity university-identity-icon"><img src="/${siteIcon.file}" alt="${escape(u.name)} website icon" width="${siteIcon.width}" height="${siteIcon.height}" loading="lazy" decoding="async"></span>`;
+  const photo=photos[u.id]?.[0];
+  if(photo?.local) return `<span class="university-identity university-identity-photo">${image(photo,96)}<span class="sr-only">Campus photograph; credits in university profile</span></span>`;
   const initials=u.name.split(/\s+/).filter(word=>!['of','the','and'].includes(word.toLowerCase())).map(word=>word[0]).slice(0,4).join('');
   return `<span class="university-identity" aria-hidden="true">${escape(initials)}</span>`;
 }
@@ -185,7 +192,10 @@ for (const [key, label] of Object.entries(countries)) {
 const creditsPath = path.join(root, 'credits.html');
 let credits = fs.readFileSync(creditsPath, 'utf8');
 credits = credits.replace(/<section id="university-photos"[^>]*>[\s\S]*?<\/section>/, '');
+credits = credits.replace(/<section id="university-icons"[^>]*>[\s\S]*?<\/section>/, '');
 const photoCredits = `<section id="university-photos" class="section"><div class="wrap reading"><h2>University campus photographs</h2><p>Authentic campus photographs sourced from Wikimedia Commons. Each photo has its own reuse permission, creator credit and source page. Images are displayed at responsive sizes; card and header previews may be cropped. Historical photographs do not establish current accommodation or facility availability.</p>${universities.map(u => `<h3>${anchor('universities/' + u.slug + '.html', u.name)}</h3><ul class="source-list">${photos[u.id].map(photo => `<li>${escape(photo.caption)} ${credit(photo)}</li>`).join('')}</ul>`).join('')}</div></section>`;
 credits = credits.replace('</main>', photoCredits + '</main>');
+const iconCredits=`<section id="university-icons" class="section"><div class="wrap reading"><h2>University website icons</h2><p>Small public website icons identify institutions in the university directory. They are cached locally for reliable display and remain the marks of their respective owners. Their use does not establish a partnership or endorsement. Campus photographs have separate creator credits and licences above.</p><ul class="source-list">${listings.filter(u=>universityIcons[u.id]).map(u=>`<li>${anchor(universityIcons[u.id].website,u.name)}</li>`).join('')}</ul></div></section>`;
+credits = credits.replace('</main>',iconCredits+'</main>');
 fs.writeFileSync(creditsPath, credits);
 console.log(`Generated ${listings.length} static university profiles and the directory.`);

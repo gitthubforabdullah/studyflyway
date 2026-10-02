@@ -1,0 +1,698 @@
+{
+  "monash": {
+    "file": "assets/university-icons/monash-university.png",
+    "website": "https://www.monash.edu/",
+    "source": "Public website favicon for www.monash.edu",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "melbourne": {
+    "file": "assets/university-icons/university-of-melbourne.png",
+    "website": "https://www.unimelb.edu.au/",
+    "source": "Public website favicon for www.unimelb.edu.au",
+    "width": 96,
+    "height": 96,
+    "checked": "2026-10-02"
+  },
+  "sydney": {
+    "file": "assets/university-icons/university-of-sydney.png",
+    "website": "https://www.sydney.edu.au/",
+    "source": "Public website favicon for www.sydney.edu.au",
+    "width": 96,
+    "height": 96,
+    "checked": "2026-10-02"
+  },
+  "mcgill": {
+    "file": "assets/university-icons/mcgill-university.png",
+    "website": "https://www.mcgill.ca/",
+    "source": "Public website favicon for www.mcgill.ca",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "manchester": {
+    "file": "assets/university-icons/university-of-manchester.png",
+    "website": "https://www.manchester.ac.uk/",
+    "source": "Public website favicon for www.manchester.ac.uk",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "ubc": {
+    "file": "assets/university-icons/university-of-british-columbia.png",
+    "website": "https://www.ubc.ca/",
+    "source": "Public website favicon for www.ubc.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "edinburgh": {
+    "file": "assets/university-icons/university-of-edinburgh.png",
+    "website": "https://www.ed.ac.uk/",
+    "source": "Public website favicon for www.ed.ac.uk",
+    "width": 48,
+    "height": 48,
+    "checked": "2026-10-02"
+  },
+  "birmingham": {
+    "file": "assets/university-icons/university-of-birmingham.png",
+    "website": "https://www.birmingham.ac.uk/",
+    "source": "Public website favicon for www.birmingham.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "tum": {
+    "file": "assets/university-icons/technical-university-of-munich.png",
+    "website": "https://www.tum.de/en/",
+    "source": "Public website favicon for www.tum.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "toronto": {
+    "file": "assets/university-icons/university-of-toronto.png",
+    "website": "https://www.utoronto.ca/",
+    "source": "Public website favicon for www.utoronto.ca",
+    "width": 48,
+    "height": 48,
+    "checked": "2026-10-02"
+  },
+  "auckland": {
+    "file": "assets/university-icons/university-of-auckland.png",
+    "website": "https://www.auckland.ac.nz/",
+    "source": "Public website favicon for www.auckland.ac.nz",
+    "width": 127,
+    "height": 145,
+    "checked": "2026-10-02"
+  },
+  "heidelberg": {
+    "file": "assets/university-icons/heidelberg-university.png",
+    "website": "https://www.uni-heidelberg.de/en",
+    "source": "Public website favicon for www.uni-heidelberg.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "otago": {
+    "file": "assets/university-icons/university-of-otago.png",
+    "website": "https://www.otago.ac.nz/",
+    "source": "Public website favicon for www.otago.ac.nz",
+    "width": 114,
+    "height": 114,
+    "checked": "2026-10-02"
+  },
+  "canterbury": {
+    "file": "assets/university-icons/university-of-canterbury.png",
+    "website": "https://www.canterbury.ac.nz/",
+    "source": "Public website favicon for www.canterbury.ac.nz",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "unsw-sydney": {
+    "file": "assets/university-icons/unsw-sydney.png",
+    "website": "https://www.unsw.edu.au/",
+    "source": "Public website favicon for www.unsw.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "australian-national-university": {
+    "file": "assets/university-icons/australian-national-university.png",
+    "website": "https://www.anu.edu.au/",
+    "source": "Public website favicon for www.anu.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-queensland": {
+    "file": "assets/university-icons/university-of-queensland.png",
+    "website": "https://www.uq.edu.au/",
+    "source": "Public website favicon for www.uq.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "rwth": {
+    "file": "assets/university-icons/rwth-aachen-university.png",
+    "website": "https://www.rwth-aachen.de/",
+    "source": "Public website favicon for www.rwth-aachen.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-western-australia": {
+    "file": "assets/university-icons/university-of-western-australia.png",
+    "website": "https://www.uwa.edu.au/home",
+    "source": "Public website favicon for www.uwa.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-technology-sydney": {
+    "file": "assets/university-icons/university-of-technology-sydney.png",
+    "website": "https://www.uts.edu.au/",
+    "source": "Public website favicon for www.uts.edu.au",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "deakin-university": {
+    "file": "assets/university-icons/deakin-university.png",
+    "website": "https://www.deakin.edu.au/",
+    "source": "Public website favicon for www.deakin.edu.au",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "rmit-university": {
+    "file": "assets/university-icons/rmit-university.png",
+    "website": "https://www.rmit.edu.au/",
+    "source": "Public website favicon for www.rmit.edu.au",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "adelaide-university": {
+    "file": "assets/university-icons/adelaide-university.png",
+    "website": "https://adelaide.edu.au/",
+    "source": "Public website favicon for adelaide.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "queensland-university-of-technology": {
+    "file": "assets/university-icons/queensland-university-of-technology.png",
+    "website": "https://www.qut.edu.au/",
+    "source": "Public website favicon for www.qut.edu.au",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "curtin-university": {
+    "file": "assets/university-icons/curtin-university.png",
+    "website": "https://www.curtin.edu.au/",
+    "source": "Public website favicon for www.curtin.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-wollongong": {
+    "file": "assets/university-icons/university-of-wollongong.png",
+    "website": "https://www.uow.edu.au/",
+    "source": "Public website favicon for www.uow.edu.au",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "macquarie-university": {
+    "file": "assets/university-icons/macquarie-university.png",
+    "website": "https://www.mq.edu.au/",
+    "source": "Public website favicon for www.mq.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "griffith-university": {
+    "file": "assets/university-icons/griffith-university.png",
+    "website": "https://www.griffith.edu.au/",
+    "source": "Public website favicon for www.griffith.edu.au",
+    "width": 57,
+    "height": 57,
+    "checked": "2026-10-02"
+  },
+  "university-of-newcastle": {
+    "file": "assets/university-icons/university-of-newcastle.png",
+    "website": "https://www.newcastle.edu.au/",
+    "source": "Public website favicon for www.newcastle.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "la-trobe-university": {
+    "file": "assets/university-icons/la-trobe-university.png",
+    "website": "https://www.latrobe.edu.au/",
+    "source": "Public website favicon for www.latrobe.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-alberta": {
+    "file": "assets/university-icons/university-of-alberta.png",
+    "website": "https://www.ualberta.ca/",
+    "source": "Public website favicon for www.ualberta.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "flinders-university": {
+    "file": "assets/university-icons/flinders-university.png",
+    "website": "https://www.flinders.edu.au/",
+    "source": "Public website favicon for www.flinders.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-tasmania": {
+    "file": "assets/university-icons/university-of-tasmania.png",
+    "website": "https://www.utas.edu.au/",
+    "source": "Public website favicon for www.utas.edu.au",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-waterloo": {
+    "file": "assets/university-icons/university-of-waterloo.png",
+    "website": "https://uwaterloo.ca/",
+    "source": "Public website favicon for uwaterloo.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-ottawa": {
+    "file": "assets/university-icons/university-of-ottawa.png",
+    "website": "https://www.uottawa.ca/en",
+    "source": "Public website favicon for www.uottawa.ca",
+    "width": 48,
+    "height": 48,
+    "checked": "2026-10-02"
+  },
+  "western-university": {
+    "file": "assets/university-icons/western-university.png",
+    "website": "https://www.uwo.ca/",
+    "source": "Public website favicon for www.uwo.ca",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "university-of-calgary": {
+    "file": "assets/university-icons/university-of-calgary.png",
+    "website": "https://www.ucalgary.ca/",
+    "source": "Public website favicon for www.ucalgary.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "queen-s-university": {
+    "file": "assets/university-icons/queen-s-university.png",
+    "website": "https://www.queensu.ca/",
+    "source": "Public website favicon for www.queensu.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "simon-fraser-university": {
+    "file": "assets/university-icons/simon-fraser-university.png",
+    "website": "https://www.sfu.ca/",
+    "source": "Public website favicon for www.sfu.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "dalhousie-university": {
+    "file": "assets/university-icons/dalhousie-university.png",
+    "website": "https://www.dal.ca/",
+    "source": "Public website favicon for www.dal.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "york-university": {
+    "file": "assets/university-icons/york-university.png",
+    "website": "https://www.yorku.ca/",
+    "source": "Public website favicon for www.yorku.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "concordia-university": {
+    "file": "assets/university-icons/concordia-university.png",
+    "website": "https://www.concordia.ca/",
+    "source": "Public website favicon for www.concordia.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-victoria": {
+    "file": "assets/university-icons/university-of-victoria.png",
+    "website": "https://www.uvic.ca/",
+    "source": "Public website favicon for www.uvic.ca",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "university-of-manitoba": {
+    "file": "assets/university-icons/university-of-manitoba.png",
+    "website": "https://www.umanitoba.ca/",
+    "source": "Public website favicon for www.umanitoba.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-new-brunswick": {
+    "file": "assets/university-icons/university-of-new-brunswick.png",
+    "website": "https://www.unb.ca/",
+    "source": "Public website favicon for www.unb.ca",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "university-of-saskatchewan": {
+    "file": "assets/university-icons/university-of-saskatchewan.png",
+    "website": "https://www.usask.ca/",
+    "source": "Public website favicon for www.usask.ca",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "university-of-guelph": {
+    "file": "assets/university-icons/university-of-guelph.png",
+    "website": "https://www.uoguelph.ca/",
+    "source": "Public website favicon for www.uoguelph.ca",
+    "width": 64,
+    "height": 64,
+    "checked": "2026-10-02"
+  },
+  "memorial-university-of-newfoundland": {
+    "file": "assets/university-icons/memorial-university-of-newfoundland.png",
+    "website": "https://www.mun.ca/",
+    "source": "Public website favicon for www.mun.ca",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-cambridge": {
+    "file": "assets/university-icons/university-of-cambridge.png",
+    "website": "https://www.cam.ac.uk/",
+    "source": "Public website favicon for www.cam.ac.uk",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "university-of-oxford": {
+    "file": "assets/university-icons/university-of-oxford.png",
+    "website": "https://www.ox.ac.uk/",
+    "source": "Public website favicon for www.ox.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "imperial-college-london": {
+    "file": "assets/university-icons/imperial-college-london.png",
+    "website": "https://www.imperial.ac.uk/",
+    "source": "Public website favicon for www.imperial.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "king-s-college-london": {
+    "file": "assets/university-icons/king-s-college-london.png",
+    "website": "https://www.kcl.ac.uk/",
+    "source": "Public website favicon for www.kcl.ac.uk",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "university-college-london": {
+    "file": "assets/university-icons/university-college-london.png",
+    "website": "https://www.ucl.ac.uk/",
+    "source": "Public website favicon for www.ucl.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "london-school-of-economics-and-political-science": {
+    "file": "assets/university-icons/london-school-of-economics-and-political-science.png",
+    "website": "https://www.lse.ac.uk/",
+    "source": "Public website favicon for www.lse.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-bristol": {
+    "file": "assets/university-icons/university-of-bristol.png",
+    "website": "https://www.bristol.ac.uk/",
+    "source": "Public website favicon for www.bristol.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-glasgow": {
+    "file": "assets/university-icons/university-of-glasgow.png",
+    "website": "https://www.gla.ac.uk/",
+    "source": "Public website favicon for www.gla.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-warwick": {
+    "file": "assets/university-icons/university-of-warwick.png",
+    "website": "https://warwick.ac.uk/",
+    "source": "Public website favicon for warwick.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-liverpool": {
+    "file": "assets/university-icons/university-of-liverpool.png",
+    "website": "https://www.liverpool.ac.uk/",
+    "source": "Public website favicon for www.liverpool.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-southampton": {
+    "file": "assets/university-icons/university-of-southampton.png",
+    "website": "https://www.southampton.ac.uk/",
+    "source": "Public website favicon for www.southampton.ac.uk",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "university-of-leeds": {
+    "file": "assets/university-icons/university-of-leeds.png",
+    "website": "https://www.leeds.ac.uk/",
+    "source": "Public website favicon for www.leeds.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "durham-university": {
+    "file": "assets/university-icons/durham-university.png",
+    "website": "https://www.durham.ac.uk/",
+    "source": "Public website favicon for www.durham.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "queen-mary-university-of-london": {
+    "file": "assets/university-icons/queen-mary-university-of-london.png",
+    "website": "https://www.qmul.ac.uk/",
+    "source": "Public website favicon for www.qmul.ac.uk",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "university-of-st-andrews": {
+    "file": "assets/university-icons/university-of-st-andrews.png",
+    "website": "https://www.st-andrews.ac.uk/",
+    "source": "Public website favicon for www.st-andrews.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "lancaster-university": {
+    "file": "assets/university-icons/lancaster-university.png",
+    "website": "https://www.lancaster.ac.uk/",
+    "source": "Public website favicon for www.lancaster.ac.uk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "technische-universitat-berlin": {
+    "file": "assets/university-icons/technische-universitat-berlin.png",
+    "website": "https://www.tu.berlin/en/",
+    "source": "Public website favicon for www.tu.berlin",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "freie-universitat-berlin": {
+    "file": "assets/university-icons/freie-universitat-berlin.png",
+    "website": "https://www.fu-berlin.de/en/",
+    "source": "Public website favicon for www.fu-berlin.de",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "humboldt-universitat-zu-berlin": {
+    "file": "assets/university-icons/humboldt-universitat-zu-berlin.png",
+    "website": "https://www.hu-berlin.de/en",
+    "source": "Public website favicon for www.hu-berlin.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-bonn": {
+    "file": "assets/university-icons/university-of-bonn.png",
+    "website": "https://www.uni-bonn.de/en",
+    "source": "Public website favicon for www.uni-bonn.de",
+    "width": 64,
+    "height": 64,
+    "checked": "2026-10-02"
+  },
+  "university-of-hamburg": {
+    "file": "assets/university-icons/university-of-hamburg.png",
+    "website": "https://www.uni-hamburg.de/en.html",
+    "source": "Public website favicon for www.uni-hamburg.de",
+    "width": 16,
+    "height": 16,
+    "checked": "2026-10-02"
+  },
+  "university-of-tubingen": {
+    "file": "assets/university-icons/university-of-tubingen.png",
+    "website": "https://uni-tuebingen.de/en/",
+    "source": "Public website favicon for uni-tuebingen.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "tu-dresden": {
+    "file": "assets/university-icons/tu-dresden.png",
+    "website": "https://tu-dresden.de/?set_language=en",
+    "source": "Public website favicon for tu-dresden.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-freiburg": {
+    "file": "assets/university-icons/university-of-freiburg.png",
+    "website": "https://uni-freiburg.de/en/",
+    "source": "Public website favicon for uni-freiburg.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-gottingen": {
+    "file": "assets/university-icons/university-of-gottingen.png",
+    "website": "https://www.uni-goettingen.de/en/",
+    "source": "Public website favicon for www.uni-goettingen.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-munster": {
+    "file": "assets/university-icons/university-of-munster.png",
+    "website": "https://www.uni-muenster.de/en/",
+    "source": "Public website favicon for www.uni-muenster.de",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-02"
+  },
+  "friedrich-alexander-universitat-erlangen-nurnberg": {
+    "file": "assets/university-icons/friedrich-alexander-universitat-erlangen-nurnberg.png",
+    "website": "https://www.fau.eu/",
+    "source": "Public website favicon for www.fau.eu",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-mannheim": {
+    "file": "assets/university-icons/university-of-mannheim.png",
+    "website": "https://www.uni-mannheim.de/en/",
+    "source": "Public website favicon for www.uni-mannheim.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-stuttgart": {
+    "file": "assets/university-icons/university-of-stuttgart.png",
+    "website": "https://www.uni-stuttgart.de/en/",
+    "source": "Public website favicon for www.uni-stuttgart.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-cologne": {
+    "file": "assets/university-icons/university-of-cologne.png",
+    "website": "https://uni-koeln.de/en/",
+    "source": "Public website favicon for uni-koeln.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-wurzburg": {
+    "file": "assets/university-icons/university-of-wurzburg.png",
+    "website": "https://www.uni-wuerzburg.de/en/",
+    "source": "Public website favicon for www.uni-wuerzburg.de",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "auckland-university-of-technology": {
+    "file": "assets/university-icons/auckland-university-of-technology.png",
+    "website": "https://www.aut.ac.nz/",
+    "source": "Public website favicon for www.aut.ac.nz",
+    "width": 24,
+    "height": 24,
+    "checked": "2026-10-02"
+  },
+  "massey-university": {
+    "file": "assets/university-icons/massey-university.png",
+    "website": "https://www.massey.ac.nz/",
+    "source": "Public website favicon for www.massey.ac.nz",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-waikato": {
+    "file": "assets/university-icons/university-of-waikato.png",
+    "website": "https://www.waikato.ac.nz/",
+    "source": "Public website favicon for www.waikato.ac.nz",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "lincoln-university": {
+    "file": "assets/university-icons/lincoln-university.png",
+    "website": "https://www.lincoln.ac.nz/",
+    "source": "Public website favicon for www.lincoln.ac.nz",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "victoria-university-of-wellington": {
+    "file": "assets/university-icons/victoria-university-of-wellington.png",
+    "website": "https://www.wgtn.ac.nz/",
+    "source": "Public website favicon for www.wgtn.ac.nz",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-02"
+  },
+  "university-of-nottingham": {
+    "file": "assets/university-icons/university-of-nottingham.jpg",
+    "website": "https://www.nottingham.ac.uk/",
+    "source": "Public website favicon for www.nottingham.ac.uk",
+    "width": 64,
+    "height": 64,
+    "checked": "2026-10-02"
+  },
+  "leipzig-university": {
+    "file": "assets/university-icons/leipzig-university.jpg",
+    "website": "https://www.uni-leipzig.de/en",
+    "source": "Public website favicon for www.uni-leipzig.de",
+    "width": 64,
+    "height": 64,
+    "checked": "2026-10-02"
+  },
+  "karlsruhe-institute-of-technology": {
+    "file": "assets/university-icons/karlsruhe-institute-of-technology.jpg",
+    "website": "https://www.kit.edu/english/",
+    "source": "Public website favicon for www.kit.edu",
+    "width": 64,
+    "height": 64,
+    "checked": "2026-10-02"
+  }
+}

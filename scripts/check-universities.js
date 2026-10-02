@@ -59,7 +59,7 @@ assert.equal(records.length, 15);
 for (const u of records) {
   assert(fs.existsSync(path.join(output, 'universities', u.slug + '.html')));
   assert.equal(photos[u.id].length, 3);
-  assert(photos[u.id].every(photo => photo.author && photo.license && photo.source));
+  assert(photos[u.id].every(photo => photo.author && photo.license && photo.source && photo.local && fs.existsSync(path.join(output, photo.local))),u.name+': locally hosted, credited photographs');
   const guide = fs.readFileSync(path.join(output, 'countries', u.country + '.html'), 'utf8');
   assert(guide.includes('../universities/' + u.slug + '.html'), `${u.name}: linked country guide`);
 }

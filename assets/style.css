@@ -23,3 +23,97 @@
 @media(min-width:801px) and (max-width:1200px){.navrow{min-height:74px;flex-wrap:wrap;padding:13px 0}.menu{display:block}.navlinks{width:100%;flex-wrap:wrap;padding:10px 0;gap:18px}.js .navlinks{display:none}.js .navlinks.expanded{display:flex}.navlinks a,.nav-dropdown-toggle{font-size:.94rem}}
 @media(max-width:1200px){.nav-dropdown.is-open .nav-dropdown-panel,html:not(.js) .nav-dropdown:hover .nav-dropdown-panel,html:not(.js) .nav-dropdown:focus-within .nav-dropdown-panel{position:static;margin-top:5px}.nav-dropdown{max-width:100%}}
 @media(max-width:1200px){.navlinks.expanded .nav-dropdown-panel{display:block;position:static;margin-top:5px}}
+
+/* Shared university styles: generated from universities.css. */
+/* University directory and profiles: shared colours and fonts come from style.css. */
+.university-identity{display:flex;align-items:center;justify-content:center;width:68px;height:68px;flex:none;align-self:flex-start;border:1px solid var(--line);border-radius:10px;background:linear-gradient(135deg,var(--blue),var(--lilac));box-shadow:0 4px 14px #14234e0c;color:#5551b7;font-family:Manrope,Arial,sans-serif;font-size:1.15rem;font-weight:800;letter-spacing:.03em}
+.university-fact-icon{flex:none;color:var(--ink)}
+.university-identity-photo{overflow:hidden;background:white;padding:0}
+.university-identity-photo img{width:100%;height:100%;object-fit:cover}
+.university-identity-icon{background:white;padding:8px;overflow:hidden}
+.university-identity-icon img{width:100%;height:100%;object-fit:contain}
+.university-profile-lettermark img{width:45%;height:160px;object-fit:contain}
+.university-reviewed{font-size:.82rem;margin-top:20px!important}
+.university-filters{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) auto;gap:18px;align-items:end;border:1px solid var(--line);border-radius:16px;padding:24px;background:#fff}
+.university-filters label{display:block;font-size:.84rem;font-weight:700;margin-bottom:6px}
+.university-filters .btn{min-height:45px}
+.js .university-country-links{display:none}
+.university-country{margin-bottom:45px;scroll-margin-top:120px}
+.university-country h2{font-size:1.7rem;margin-bottom:24px}
+.university-card{padding:0;overflow:hidden}
+.university-card-photo{position:relative;background:linear-gradient(120deg,var(--blue),var(--lilac));aspect-ratio:16/10}
+.university-card-photo img{width:100%;height:100%;object-fit:cover}
+.university-card-content{padding:24px;display:flex;flex-direction:column;flex:1}
+.university-card-content h3{font-size:1.25rem;margin:15px 0 10px}
+.university-card-content h2{font-size:1.25rem;margin:15px 0 10px;overflow-wrap:anywhere}
+.university-card-content h2 a{color:var(--ink);text-decoration:none}
+.university-card-content h2 a:hover{color:var(--primary)}
+.university-directory-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:24px 0}
+.university-directory-grid>[hidden]{display:none}
+.university-directory-grid>.card{min-width:0;scroll-margin-top:120px}
+.university-card-lettermark{height:100%;display:flex;align-items:center;justify-content:center;font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:3rem;letter-spacing:.05em;color:#5551b7}
+@media(max-width:1000px){.university-directory-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(max-width:600px){.university-directory-grid{grid-template-columns:1fr}}
+.university-card-content .university-location{font-size:.8rem;margin-bottom:15px}
+.university-card-bottom{margin-top:auto;padding-top:8px}
+.university-card-bottom .btn{width:100%}
+.university-card-bottom .credit{font-size:.7rem;margin:14px 0 0;line-height:1.6}
+.university-campus-header{margin-top:32px}
+.university-profile-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;gap:36px;margin-top:24px}
+.university-profile-heading{min-width:0}
+.university-profile-heading h1{font-size:clamp(2rem,4vw,3.6rem);overflow-wrap:anywhere}
+.university-profile-heading p{margin-bottom:0}
+.university-profile-hero .campus-photo img{width:100%;height:280px;object-fit:cover;border-radius:20px}
+.university-profile-hero .campus-photo figcaption{font-size:.72rem;overflow-wrap:anywhere}
+.university-profile-lettermark{display:flex;align-items:center;justify-content:center;min-height:230px;border:1px solid #ffffffc9;border-radius:20px;background:#ffffff70;font-family:Manrope,Arial,sans-serif;font-weight:800;font-size:4rem;color:#5551b7;letter-spacing:.04em}
+@media(max-width:600px){.university-profile-hero{grid-template-columns:minmax(0,1fr) 110px;gap:16px;align-items:start}.university-profile-heading h1{font-size:1.7rem;margin:12px 0}.university-profile-heading .eyebrow{font-size:.65rem}.university-profile-heading p{font-size:.85rem}.university-profile-hero .campus-photo{display:contents}.university-profile-hero .campus-photo img{grid-column:2;grid-row:1;height:130px;border-radius:12px}.university-profile-hero .campus-photo figcaption{grid-column:1/-1;margin-top:0}.university-profile-lettermark{min-height:130px;font-size:1.9rem;border-radius:12px}}
+.campus-photo{margin:0;min-width:0}
+.university-campus-header img{width:100%;height:440px;object-fit:cover;border-radius:22px;background:var(--pale)}
+.campus-photo figcaption{font-size:.8rem;color:var(--muted);margin-top:12px;line-height:1.6}
+.campus-photo .credit{display:block;margin-top:5px}
+.university-layout{gap:45px}
+.university-article{max-width:none;min-width:0}
+.university-article section{scroll-margin-top:115px}
+.university-facts{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 20px}
+.university-facts>div{border:1px solid var(--line);border-radius:12px;padding:18px;background:#fafbff}
+.university-facts dt{font-size:.78rem;color:var(--muted);margin-bottom:6px}
+.university-facts dd{font-size:.95rem;font-weight:600;margin:0;line-height:1.6}
+.university-fact-wide{grid-column:1/-1}
+.university-subjects{columns:2;column-gap:30px}
+.university-subjects li{break-inside:avoid}
+.campus-gallery{display:grid;grid-template-columns:1fr 1fr;gap:25px 20px}
+.campus-gallery img{width:100%;height:auto;aspect-ratio:auto;border-radius:12px;background:var(--pale)}
+.campus-gallery .campus-photo:first-child{grid-column:1/-1}
+.campus-image-failed img{visibility:hidden}
+.campus-image-status{padding:16px;border:1px dashed var(--line);border-radius:10px;color:var(--muted);background:var(--pale);font-size:.84rem}
+.university-card-photo .campus-image-status{position:absolute;inset:16px;margin:0;display:flex;align-items:center;justify-content:center;text-align:center}
+@media(max-width:800px){.university-campus-header img{height:320px}.university-filters{grid-template-columns:1fr 1fr}.university-filters>div:first-child{grid-column:1/-1}.university-filters .btn{height:45px}.university-layout{gap:24px}}
+@media(max-width:520px){.university-filters,.university-facts,.campus-gallery{grid-template-columns:1fr}.university-facts .university-fact-wide{grid-column:auto}.university-campus-header img{height:240px}.university-subjects{columns:1}.university-card-content{padding:22px}.university-country h2{font-size:1.45rem}.university-filters{padding:18px}.university-country{margin-bottom:35px}}
+
+/* Compact directory cards and a split profile masthead. */
+.university-card{border-color:#ccd2e2;border-radius:16px;box-shadow:none;transition:border-color .15s,box-shadow .15s}
+.university-card:hover,.university-card:focus-within{border-color:var(--primary);box-shadow:0 8px 28px #5555e910}
+.university-card-content{padding:24px;gap:0}
+.university-card-content .badge{margin-bottom:14px}
+.university-card-content h2{min-height:3.6em;font-size:1.25rem;line-height:1.25;margin:18px 0 10px}
+.university-card-content .university-location{font-size:.9rem;min-height:2.6em;margin-bottom:16px}
+.university-course-link{margin:0 0 20px!important;font-size:.94rem!important}
+.university-course-link a{text-decoration:none}
+.university-course-link a:hover{text-decoration:underline}
+.university-card-facts{list-style:none;padding:20px 0 0;margin:0 0 24px;border-top:1px solid var(--line)}
+.university-card-facts li{display:flex;align-items:flex-start;gap:12px;margin-bottom:16px;font-size:.88rem;line-height:1.5}
+.university-card-facts li:last-child{margin-bottom:0}
+.university-card-facts a{color:var(--ink);text-decoration:none}
+.university-card-facts a:hover{color:var(--primary);text-decoration:underline}
+.university-card-bottom .btn{border-radius:100px;border-color:#8d95ae;background:white;color:var(--ink);box-shadow:none;min-height:44px}
+.university-card-bottom .btn:hover{border-color:var(--primary);background:var(--lilac);color:var(--primary)}
+.university-profile-top{padding-bottom:42px}
+.university-profile-hero{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:end;gap:40px;margin-top:26px}
+.university-title-row{display:flex;align-items:center;gap:18px;margin:20px 0}
+.university-title-row h1{font-size:clamp(2rem,3.3vw,3.1rem);margin:0;line-height:1.15}
+.university-profile-heading .actions{gap:12px}
+.university-profile-heading .btn{border-radius:100px;padding:12px 20px}
+.university-profile-hero .campus-photo img{height:360px;border-radius:120px 0 120px 0}
+.university-profile-lettermark{width:100%;min-height:360px;border-radius:120px 0 120px 0;font-size:4rem;background:linear-gradient(135deg,#d7edff,#e3ddff)}
+@media(max-width:800px){.university-profile-hero{gap:24px}.university-title-row{gap:12px}.university-title-row .university-identity{width:52px;height:52px;font-size:.85rem}.university-profile-heading .btn{padding:10px 15px;font-size:.8rem}.university-profile-hero .campus-photo img,.university-profile-lettermark{height:280px;min-height:280px;border-radius:80px 0 80px 0}}
+@media(max-width:600px){.university-profile-hero{grid-template-columns:minmax(0,1fr) 110px;align-items:start;gap:16px}.university-title-row{display:block;margin:12px 0}.university-title-row .university-identity{width:40px;height:40px;font-size:.75rem;margin-bottom:12px}.university-title-row h1{font-size:1.55rem}.university-profile-hero .campus-photo img,.university-profile-lettermark{height:150px;min-height:150px;border-radius:38px 0 38px 0}.university-profile-lettermark{font-size:1.8rem}.university-profile-heading .actions{flex-direction:column;align-items:stretch;margin-top:18px}.university-profile-heading .btn{white-space:normal;text-align:center;padding:10px 12px}.university-card-content h2,.university-card-content .university-location{min-height:0}}

@@ -14,7 +14,9 @@ Run `node scripts/build-universities.js` after editing these records. It regener
 
 Run `node scripts/check-universities.js` to check source pages, or add `--dist` to check the deployment output.
 
-Campus images load from Wikimedia Commons. The photos are authentic, but some are historical; captions and source pages identify their subjects. Image failure messages preserve the source and credits. Header and directory previews use CSS cropping; gallery images preserve their original proportions. Per-image licences apply independently of the site's code and text. Do not replace them with unrelated campus imagery or generated photographs.
+All 45 reviewed campus images are served locally from `assets/campus/`. Their original Wikimedia Commons sources, creator credits and reuse licences remain in `campus-photos.json` and beneath each photograph. Some are historical; captions and source pages identify their subjects. Header previews use CSS cropping; gallery images preserve their original proportions. Per-image licences apply independently of the site's code and text. Do not replace them with unrelated campus imagery or generated photographs.
+
+Directory cards use 87 locally cached institutional website icons in `assets/university-icons/`, with sources recorded in `university-icons.json`. These are identification marks owned by their institutions, not campus photographs or claims of affiliation. McMaster retains a lettermark because a suitable site icon could not be retrieved. The shared stylesheet includes university layout rules through `scripts/sync-university-styles.js`; content-derived URL versions prevent stale stylesheet caching. Edit `assets/universities.css`, then rebuild to synchronise the shared styles.
 
 No numerical fee estimates are published. The university's current programme and study-year schedule is the source for fees. UK and German scholarship cross-links are regional research starting points, not claims that a university or programme participates in every award.
 

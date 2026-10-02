@@ -8,7 +8,8 @@
       "height": 2204,
       "caption": "University Square, looking towards Melbourne Law School and surrounding university buildings.",
       "source": "https://commons.wikimedia.org/wiki/File:The_University_of_Melbourne.JPG",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/melbourne-1.jpg"
     },
     {
       "file": "Melba hall university of melbourne.jpg",
@@ -18,7 +19,8 @@
       "height": 501,
       "caption": "Melba Hall at the University of Melbourne.",
       "source": "https://commons.wikimedia.org/wiki/File:Melba_hall_university_of_melbourne.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/melbourne-2.jpg"
     },
     {
       "file": "Old Quad lawn University of Melbourne 2018.jpg",
@@ -28,7 +30,8 @@
       "height": 4032,
       "caption": "The Old Quad lawn at the Parkville campus.",
       "source": "https://commons.wikimedia.org/wiki/File:Old_Quad_lawn_University_of_Melbourne_2018.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/melbourne-3.jpg"
     }
   ],
   "sydney": [
@@ -40,7 +43,8 @@
       "height": 1440,
       "caption": "The Quadrangle at the University of Sydney’s main campus.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Campus1.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/sydney-1.jpg"
     },
     {
       "file": "Quadrangle, University of Sydney.jpg",
@@ -50,7 +54,8 @@
       "height": 1536,
       "caption": "Another view of the University of Sydney Quadrangle.",
       "source": "https://commons.wikimedia.org/wiki/File:Quadrangle%2C_University_of_Sydney.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/sydney-2.jpg"
     },
     {
       "file": "University of Sydney School of Mathematics and Statistics.jpg",
@@ -60,7 +65,8 @@
       "height": 4080,
       "caption": "The Carslaw Building, home to the School of Mathematics and Statistics.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Sydney_School_of_Mathematics_and_Statistics.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/sydney-3.jpg"
     }
   ],
   "monash": [
@@ -72,7 +78,8 @@
       "height": 1712,
       "caption": "The Robert Menzies Building near the fountain at Clayton.",
       "source": "https://commons.wikimedia.org/wiki/File:Clayton_-_Monash_University.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/monash-1.jpg"
     },
     {
       "file": "Monash University Clayton Campus.jpg",
@@ -82,7 +89,8 @@
       "height": 832,
       "caption": "A panoramic view of the Robert Menzies Building at Clayton.",
       "source": "https://commons.wikimedia.org/wiki/File:Monash_University_Clayton_Campus.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/monash-2.jpg"
     },
     {
       "file": "MonashUni-Clayton-3a.jpg",
@@ -92,7 +100,8 @@
       "height": 1932,
       "caption": "The Chancellory building at Monash’s Clayton campus.",
       "source": "https://commons.wikimedia.org/wiki/File:MonashUni-Clayton-3a.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/monash-3.jpg"
     }
   ],
   "ubc": [
@@ -104,7 +113,8 @@
       "height": 3072,
       "caption": "The Irving K. Barber Learning Centre and Ladner Clock Tower in Vancouver.",
       "source": "https://commons.wikimedia.org/wiki/File:UBC-3.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/ubc-1.jpg"
     },
     {
       "file": "Iona Building, University of British Columbia.jpg",
@@ -114,7 +124,8 @@
       "height": 1944,
       "caption": "The Iona Building on UBC’s Point Grey campus.",
       "source": "https://commons.wikimedia.org/wiki/File:Iona_Building%2C_University_of_British_Columbia.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/ubc-2.jpg"
     },
     {
       "file": "CIRSUBC.JPG",
@@ -124,7 +135,8 @@
       "height": 2448,
       "caption": "The Centre for Interactive Research in Sustainability at UBC Vancouver.",
       "source": "https://commons.wikimedia.org/wiki/File:CIRSUBC.JPG",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/ubc-3.jpg"
     }
   ],
   "toronto": [
@@ -136,7 +148,8 @@
       "height": 1536,
       "caption": "University College at the St. George campus.",
       "source": "https://commons.wikimedia.org/wiki/File:UT_University_College.JPG",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/toronto-1.jpg"
     },
     {
       "file": "University of Toronto Campus, seen from Robarts Library.jpg",
@@ -146,7 +159,8 @@
       "height": 794,
       "caption": "The St. George campus and downtown setting, seen from Robarts Library.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Toronto_Campus%2C_seen_from_Robarts_Library.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/toronto-2.jpg"
     },
     {
       "file": "University of Toronto campus in November 2023 1.jpg",
@@ -156,7 +170,8 @@
       "height": 3072,
       "caption": "The University of Toronto campus photographed in November 2023.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Toronto_campus_in_November_2023_1.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/toronto-3.jpg"
     }
   ],
   "mcgill": [
@@ -168,7 +183,8 @@
       "height": 2592,
       "caption": "McGill’s downtown campus in Montréal.",
       "source": "https://commons.wikimedia.org/wiki/File:Campus_of_McGill_University_-_panoramio.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/mcgill-1.jpg"
     },
     {
       "file": "McGill Arts Building2.jpg",
@@ -178,7 +194,8 @@
       "height": 1884,
       "caption": "The Arts Building on McGill’s downtown campus.",
       "source": "https://commons.wikimedia.org/wiki/File:McGill_Arts_Building2.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/mcgill-2.jpg"
     },
     {
       "file": "McGill University downtown campus 06.jpg",
@@ -188,7 +205,8 @@
       "height": 3456,
       "caption": "The Macdonald-Harrington Building at McGill.",
       "source": "https://commons.wikimedia.org/wiki/File:McGill_University_downtown_campus_06.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/mcgill-3.jpg"
     }
   ],
   "manchester": [
@@ -200,7 +218,8 @@
       "height": 3168,
       "caption": "The entrance to Whitworth Hall.",
       "source": "https://commons.wikimedia.org/wiki/File:Whitworth_Hall.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/manchester-1.jpg"
     },
     {
       "file": "AMBS 1.jpg",
@@ -210,7 +229,8 @@
       "height": 2160,
       "caption": "Alliance Manchester Business School.",
       "source": "https://commons.wikimedia.org/wiki/File:AMBS_1.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/manchester-2.jpg"
     },
     {
       "file": "Alan Gilbert Square.jpg",
@@ -220,7 +240,8 @@
       "height": 2160,
       "caption": "Alan Gilbert Square at the University of Manchester.",
       "source": "https://commons.wikimedia.org/wiki/File:Alan_Gilbert_Square.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/manchester-3.jpg"
     }
   ],
   "edinburgh": [
@@ -232,7 +253,8 @@
       "height": 3456,
       "caption": "Old College at the University of Edinburgh.",
       "source": "https://commons.wikimedia.org/wiki/File:DSCN4551_Edinburgh_University_Old_College.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/edinburgh-1.jpg"
     },
     {
       "file": "Old College, University of Edinburgh 01.jpg",
@@ -242,7 +264,8 @@
       "height": 3024,
       "caption": "A further view of Old College.",
       "source": "https://commons.wikimedia.org/wiki/File:Old_College%2C_University_of_Edinburgh_01.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/edinburgh-2.jpg"
     },
     {
       "file": "Old College, University of Edinburgh 03.jpg",
@@ -252,7 +275,8 @@
       "height": 4032,
       "caption": "Architectural detail at Old College.",
       "source": "https://commons.wikimedia.org/wiki/File:Old_College%2C_University_of_Edinburgh_03.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/edinburgh-3.jpg"
     }
   ],
   "birmingham": [
@@ -264,7 +288,8 @@
       "height": 2448,
       "caption": "The University of Birmingham campus seen from the north.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Birmingham_campus_from_the_north.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/birmingham-1.jpg"
     },
     {
       "file": "Birmingham MMB 26 University of Birmingham.jpg",
@@ -274,7 +299,8 @@
       "height": 2345,
       "caption": "The university campus viewed from a passing train.",
       "source": "https://commons.wikimedia.org/wiki/File:Birmingham_MMB_26_University_of_Birmingham.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/birmingham-2.jpg"
     },
     {
       "file": "Old Joe, University of Birmingham.jpg",
@@ -284,7 +310,8 @@
       "height": 7952,
       "caption": "Old Joe clock tower seen from the Green Heart.",
       "source": "https://commons.wikimedia.org/wiki/File:Old_Joe%2C_University_of_Birmingham.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/birmingham-3.jpg"
     }
   ],
   "tum": [
@@ -296,7 +323,8 @@
       "height": 1536,
       "caption": "The Audimax at TUM’s central Munich campus.",
       "source": "https://commons.wikimedia.org/wiki/File:TUM-Audimax.JPG",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/tum-1.jpg"
     },
     {
       "file": "Technische Universitaet Muenchen-1.jpg",
@@ -306,7 +334,8 @@
       "height": 1000,
       "caption": "TUM’s main building in Munich.",
       "source": "https://commons.wikimedia.org/wiki/File:Technische_Universitaet_Muenchen-1.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/tum-2.jpg"
     },
     {
       "file": "Arcisstr. 21 TUM Muenchen-2.jpg",
@@ -316,7 +345,8 @@
       "height": 2259,
       "caption": "The main building on Arcisstraße, Munich.",
       "source": "https://commons.wikimedia.org/wiki/File:Arcisstr._21_TUM_Muenchen-2.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/tum-3.jpg"
     }
   ],
   "heidelberg": [
@@ -328,7 +358,8 @@
       "height": 960,
       "caption": "Heidelberg’s Old Town university area and library.",
       "source": "https://commons.wikimedia.org/wiki/File:Heidelberg_Universit%C3%A4t_Heidelberg_Campus_Altstadt_IMG_0837.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/heidelberg-1.jpg"
     },
     {
       "file": "Heidelberg University library P1100118.jpg",
@@ -338,7 +369,8 @@
       "height": 960,
       "caption": "The University Library at the Old Town campus.",
       "source": "https://commons.wikimedia.org/wiki/File:Heidelberg_University_library_P1100118.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/heidelberg-2.jpg"
     },
     {
       "file": "HeidelbergAlteUniversität.jpg",
@@ -348,7 +380,8 @@
       "height": 1944,
       "caption": "The Old University building in Heidelberg.",
       "source": "https://commons.wikimedia.org/wiki/File:HeidelbergAlteUniversit%C3%A4t.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/heidelberg-3.jpg"
     }
   ],
   "rwth": [
@@ -360,7 +393,8 @@
       "height": 1500,
       "caption": "RWTH Aachen’s main building.",
       "source": "https://commons.wikimedia.org/wiki/File:RWTH_Aachen_Hauptgeb%C3%A4ude.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/rwth-1.jpg"
     },
     {
       "file": "RWTH Hauptgebäude Seite.jpg",
@@ -370,7 +404,8 @@
       "height": 2393,
       "caption": "A side view of RWTH Aachen’s main building.",
       "source": "https://commons.wikimedia.org/wiki/File:RWTH_Hauptgeb%C3%A4ude_Seite.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/rwth-2.jpg"
     },
     {
       "file": "Aachen RWTH Hauptgebaeude.jpg",
@@ -380,7 +415,8 @@
       "height": 3320,
       "caption": "Another view of the main building in Aachen.",
       "source": "https://commons.wikimedia.org/wiki/File:Aachen_RWTH_Hauptgebaeude.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/rwth-3.jpg"
     }
   ],
   "auckland": [
@@ -392,7 +428,8 @@
       "height": 975,
       "caption": "The University of Auckland Clocktower.",
       "source": "https://commons.wikimedia.org/wiki/File:UoA-ClockTower.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/auckland-1.jpg"
     },
     {
       "file": "University of Auckland, Grafton Campus, 2016-01-21.jpg",
@@ -402,7 +439,8 @@
       "height": 3168,
       "caption": "The university’s Grafton campus in 2016.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Auckland%2C_Grafton_Campus%2C_2016-01-21.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/auckland-2.jpg"
     },
     {
       "file": "International House (University of Auckland), front entrance.jpg",
@@ -412,7 +450,8 @@
       "height": 1756,
       "caption": "The entrance to International House, a historical university residence photograph.",
       "source": "https://commons.wikimedia.org/wiki/File:International_House_(University_of_Auckland)%2C_front_entrance.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/auckland-3.jpg"
     }
   ],
   "otago": [
@@ -424,7 +463,8 @@
       "height": 1536,
       "caption": "The Clocktower Building at the Dunedin campus.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Otago.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/otago-1.jpg"
     },
     {
       "file": "University of Otago - Clocktower building.JPG",
@@ -434,7 +474,8 @@
       "height": 1728,
       "caption": "A further view of Otago’s Clocktower Building.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Otago_-_Clocktower_building.JPG",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/otago-2.jpg"
     },
     {
       "file": "University of Otago Richardson Building.jpg",
@@ -444,7 +485,8 @@
       "height": 1811,
       "caption": "The Richardson Building on the Dunedin campus.",
       "source": "https://commons.wikimedia.org/wiki/File:University_of_Otago_Richardson_Building.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/otago-3.jpg"
     }
   ],
   "canterbury": [
@@ -456,7 +498,8 @@
       "height": 1584,
       "caption": "The Ilam campus seen from the Rutherford Building.",
       "source": "https://commons.wikimedia.org/wiki/File:UC_ViewFromRutherfordBuilding_gobeirne.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/canterbury-1.jpg"
     },
     {
       "file": "Puaka-James Hight, main entrance.jpg",
@@ -466,7 +509,8 @@
       "height": 2592,
       "caption": "The entrance to Puaka–James Hight at the Ilam campus.",
       "source": "https://commons.wikimedia.org/wiki/File:Puaka-James_Hight%2C_main_entrance.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/canterbury-2.jpg"
     },
     {
       "file": "Ilam Apartments in 2019.jpg",
@@ -476,7 +520,8 @@
       "height": 1956,
       "caption": "The grounds of Ilam Apartments in Christchurch, photographed in 2019.",
       "source": "https://commons.wikimedia.org/wiki/File:Ilam_Apartments_in_2019.jpg",
-      "checked": "2026-10-02"
+      "checked": "2026-10-02",
+      "local": "assets/campus/canterbury-3.jpg"
     }
   ]
 }
