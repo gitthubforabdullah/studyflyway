@@ -9,13 +9,19 @@ const additional = JSON.parse(fs.readFileSync(path.join(root, 'research/addition
 const listings = [...records, ...additional];
 const editorial = require('../research/university-editorial-content.json');
 const researchSources = require('../research/university-profile-sources.json');
+const detailedFacts = new Map(require('../research/university-detailed-facts.json').map(record => [record.id, record]));
 assert.equal(Object.keys(editorial).length, listings.length, 'Every university has editorial content');
 assert.equal(new Set(Object.values(editorial).map(item => item.overview)).size, listings.length, 'University overviews are distinct');
 for (const u of listings) {
   assert(editorial[u.id]?.checks.length >= 2, u.name + ': individual comparison guidance');
   assert(researchSources.find(item => item.id === u.id)?.sources.length, u.name + ': research sources');
   const html = fs.readFileSync(path.join(output, 'universities', u.slug + '.html'), 'utf8');
-  for (const id of ['study-fit', 'application-planning', 'offer-planning', 'compare-universities']) {
+  const facts = detailedFacts.get(u.id);
+  assert(facts?.ranking && facts.internationalStudents, u.name + ': ranking and international-student data');
+  assert(html.includes('id="rankings-and-community"'), u.name + ': ranking and international-student section');
+  assert(html.includes(facts.ranking.position), u.name + ': ranking position rendered');
+  assert(html.includes(Number(facts.internationalStudents.total).toLocaleString('en-US')), u.name + ': international-student total rendered');
+  for (const id of ['study-fit', 'rankings-and-community', 'application-planning', 'offer-planning', 'compare-universities']) {
     assert.equal((html.match(new RegExp('id="' + id + '"', 'g')) || []).length, 1, u.name + ': ' + id);
   }
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);

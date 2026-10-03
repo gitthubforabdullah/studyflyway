@@ -2,6 +2,7 @@
 
 const editorial = require('../research/university-editorial-content.json');
 const sources = new Map(require('../research/university-profile-sources.json').map(record => [record.id, record]));
+const detailedFacts = new Map(require('../research/university-detailed-facts.json').map(record => [record.id, record]));
 
 // Editorial text is deliberately stored independently of the generated HTML.
 // New factual claims need an official source; planning suggestions are advice,
@@ -29,6 +30,19 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
       ${researchLinks(u)}
       <h3>What this means for your shortlist</h3><p>${escape(record.study)}</p>
       <ul>${record.checks.map(check => `<li>${escape(check)}</li>`).join('')}</ul>
+    </section>`;
+  }
+
+  function rankings(u) {
+    const facts = detailedFacts.get(u.id);
+    if (!facts?.ranking || !facts.internationalStudents) throw Error('Missing ranking or international-student facts: ' + u.id);
+    const edition = facts.ranking.edition ? ` (${facts.ranking.edition})` : '';
+    return `<section id="rankings-and-community"><h2>Ranking and international community</h2>
+      <dl class="university-facts">
+        <div><dt>${escape(facts.ranking.publisher)}${edition}</dt><dd>${escape(facts.ranking.position)}</dd></div>
+        <div><dt>International students</dt><dd>${Number(facts.internationalStudents.total).toLocaleString('en-US')}</dd></div>
+      </dl>
+      <p class="credit">Ranking and student total: ${anchor(facts.ranking.source, 'QS institutional profile')}. ${escape(facts.internationalStudents.basis)}. Figures were checked ${escape(facts.checked)}; rankings and enrolment totals can change between editions.</p>
     </section>`;
   }
 
@@ -69,11 +83,11 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
   }
 
   function navigation(u, gallery = false) {
-    const items = [['study-fit', 'University and study fit'], ['academic-options', 'Academic options'], ['application-planning', 'Application planning'], ['tuition', 'Tuition and funding'], ['offer-planning', 'Compare the full offer'], ['campus-life', 'Campus and housing']];
+    const items = [['study-fit', 'University and study fit'], ['rankings-and-community', 'Ranking and international students'], ['academic-options', 'Academic options'], ['application-planning', 'Application planning'], ['tuition', 'Tuition and funding'], ['offer-planning', 'Compare the full offer'], ['campus-life', 'Campus and housing']];
     if (gallery) items.push(['gallery', 'Campus photographs']);
     items.push(['compare-universities', 'Other universities'], ['sources', 'Sources']);
     return `<aside class="sidebar"><h2>In this profile</h2>${items.map(([id,label]) => anchor('#' + id, label)).join('')}${anchor('../universities.html?country=' + u.country, 'Universities in ' + countries[u.country], 'btn')}</aside>`;
   }
 
-  return {studyFit, applicationPlan, budgetPlan, related, navigation, date};
+  return {studyFit, rankings, applicationPlan, budgetPlan, related, navigation, date};
 };
