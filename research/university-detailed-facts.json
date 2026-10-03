@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "melbourne",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=22",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-melbourne"
+    },
+    "internationalStudents": {
+      "total": 27427,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-melbourne"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "sydney",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "28",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-sydney"
+    },
+    "internationalStudents": {
+      "total": 32920,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-sydney"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "monash",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "31",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/monash-university"
+    },
+    "internationalStudents": {
+      "total": 36026,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/monash-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "ubc",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "45",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-british-columbia"
+    },
+    "internationalStudents": {
+      "total": 15364,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-british-columbia"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "toronto",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "32",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-toronto"
+    },
+    "internationalStudents": {
+      "total": 33467,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-toronto"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "mcgill",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "30",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/mcgill-university"
+    },
+    "internationalStudents": {
+      "total": 10131,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/mcgill-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "manchester",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=40",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-manchester"
+    },
+    "internationalStudents": {
+      "total": 19593,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-manchester"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "edinburgh",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "35",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/university-edinburgh"
+    },
+    "internationalStudents": {
+      "total": 16725,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-edinburgh"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "birmingham",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=68",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-birmingham"
+    },
+    "internationalStudents": {
+      "total": 12562,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-birmingham"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "tum",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "25",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/technical-university-munich"
+    },
+    "internationalStudents": {
+      "total": 13816,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/technical-university-munich"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "heidelberg",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "86",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/universitat-heidelberg"
+    },
+    "internationalStudents": {
+      "total": 5044,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/universitat-heidelberg"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "rwth",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "104",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/rwth-aachen-university"
+    },
+    "internationalStudents": {
+      "total": 10304,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/rwth-aachen-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "auckland",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "67",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-auckland"
+    },
+    "internationalStudents": {
+      "total": 12699,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-auckland"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "otago",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "198",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-otago"
+    },
+    "internationalStudents": {
+      "total": 3168,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-otago"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "canterbury",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "257",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/university-canterbury-te-whare-wananga-o-waitaha"
+    },
+    "internationalStudents": {
+      "total": 2837,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-canterbury-te-whare-wananga-o-waitaha"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "australian-national-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "29",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/australian-national-university-anu"
+    },
+    "internationalStudents": {
+      "total": 7332,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/australian-national-university-anu"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "unsw-sydney",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "19",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney"
+    },
+    "internationalStudents": {
+      "total": 22804,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-queensland",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=40",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-queensland"
+    },
+    "internationalStudents": {
+      "total": 24334,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-queensland"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-western-australia",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=77",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-western-australia"
+    },
+    "internationalStudents": {
+      "total": 12230,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-western-australia"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "adelaide-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "79",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/adelaide-university"
+    },
+    "internationalStudents": {
+      "total": 16376,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/adelaide-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-technology-sydney",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=87",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-technology-sydney-uts"
+    },
+    "internationalStudents": {
+      "total": 9871,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-technology-sydney-uts"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "rmit-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=119",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/rmit-university"
+    },
+    "internationalStudents": {
+      "total": 12148,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/rmit-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "deakin-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "227",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/deakin-university"
+    },
+    "internationalStudents": {
+      "total": 12197,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/deakin-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "griffith-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=230",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/griffith-university"
+    },
+    "internationalStudents": {
+      "total": 11182,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/griffith-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "queensland-university-of-technology",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "240",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/queensland-university-technology-qut"
+    },
+    "internationalStudents": {
+      "total": 6441,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/queensland-university-technology-qut"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "curtin-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "189",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/curtin-university"
+    },
+    "internationalStudents": {
+      "total": 7105,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/curtin-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "macquarie-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=126",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/macquarie-university-sydney-australia"
+    },
+    "internationalStudents": {
+      "total": 10611,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/macquarie-university-sydney-australia"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-wollongong",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "195",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-wollongong"
+    },
+    "internationalStudents": {
+      "total": 5181,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-wollongong"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-newcastle",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "244",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-newcastle-australia-uon"
+    },
+    "internationalStudents": {
+      "total": 2590,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-newcastle-australia-uon"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "la-trobe-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=241",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/la-trobe-university"
+    },
+    "internationalStudents": {
+      "total": 5481,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/la-trobe-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "flinders-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=374",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/flinders-university"
+    },
+    "internationalStudents": {
+      "total": 6160,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/flinders-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-tasmania",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "311",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-tasmania"
+    },
+    "internationalStudents": {
+      "total": 3046,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-tasmania"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-alberta",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "96",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/university-alberta"
+    },
+    "internationalStudents": {
+      "total": 8392,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-alberta"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "mcmaster-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=174",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/mcmaster-university"
+    },
+    "internationalStudents": {
+      "total": 5631,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/mcmaster-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-waterloo",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=113",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-waterloo"
+    },
+    "internationalStudents": {
+      "total": 9465,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-waterloo"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-ottawa",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=228",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-ottawa"
+    },
+    "internationalStudents": {
+      "total": 11287,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-ottawa"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "western-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=142",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/western-university"
+    },
+    "internationalStudents": {
+      "total": 6682,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/western-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-calgary",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "249",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-calgary"
+    },
+    "internationalStudents": {
+      "total": 8426,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-calgary"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "queen-s-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=179",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/queens-university-kingston"
+    },
+    "internationalStudents": {
+      "total": 3676,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/queens-university-kingston"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "dalhousie-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "298",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/dalhousie-university"
+    },
+    "internationalStudents": {
+      "total": 4205,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/dalhousie-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "simon-fraser-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "312",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/simon-fraser-university"
+    },
+    "internationalStudents": {
+      "total": 6929,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/simon-fraser-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-victoria",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=370",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-victoria-uvic"
+    },
+    "internationalStudents": {
+      "total": 2642,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-victoria-uvic"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "york-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=322",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/york-university"
+    },
+    "internationalStudents": {
+      "total": 8841,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/york-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "concordia-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=497",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/concordia-university"
+    },
+    "internationalStudents": {
+      "total": 10661,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/concordia-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-manitoba",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=560",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-manitoba"
+    },
+    "internationalStudents": {
+      "total": 6429,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-manitoba"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=411",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-saskatchewan"
+    },
+    "internationalStudents": {
+      "total": 3759,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-saskatchewan"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-guelph",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=546",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-guelph"
+    },
+    "internationalStudents": {
+      "total": 2557,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-guelph"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=677",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-new-brunswick"
+    },
+    "internationalStudents": {
+      "total": 2044,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-new-brunswick"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "721-730",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/memorial-university-newfoundland"
+    },
+    "internationalStudents": {
+      "total": 3132,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/memorial-university-newfoundland"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-oxford",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "4",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-oxford"
+    },
+    "internationalStudents": {
+      "total": 9087,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-oxford"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-cambridge",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "6",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-cambridge"
+    },
+    "internationalStudents": {
+      "total": 7973,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-cambridge"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "imperial-college-london",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=2",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/imperial-college-london"
+    },
+    "internationalStudents": {
+      "total": 10802,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/imperial-college-london"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-college-london",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "9",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/ucl-university-college-london"
+    },
+    "internationalStudents": {
+      "total": 25672,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/ucl-university-college-london"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "king-s-college-london",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "37",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/kings-college-london"
+    },
+    "internationalStudents": {
+      "total": 15316,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/kings-college-london"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "london-school-of-economics-and-political-science",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "62",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse"
+    },
+    "internationalStudents": {
+      "total": 9015,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-bristol",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "57",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-bristol"
+    },
+    "internationalStudents": {
+      "total": 9889,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-bristol"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-warwick",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=68",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-warwick"
+    },
+    "internationalStudents": {
+      "total": 10139,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-warwick"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-glasgow",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "80",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/university-glasgow"
+    },
+    "internationalStudents": {
+      "total": 13191,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-glasgow"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-southampton",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=111",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-southampton"
+    },
+    "internationalStudents": {
+      "total": 8855,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-southampton"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-liverpool",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "139",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-liverpool"
+    },
+    "internationalStudents": {
+      "total": 8578,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-liverpool"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-leeds",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=77",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-leeds"
+    },
+    "internationalStudents": {
+      "total": 9974,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-leeds"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-nottingham",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "97",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-nottingham"
+    },
+    "internationalStudents": {
+      "total": 8705,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-nottingham"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "durham-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "85",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/durham-university"
+    },
+    "internationalStudents": {
+      "total": 7246,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/durham-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-st-andrews",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=115",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-st-andrews"
+    },
+    "internationalStudents": {
+      "total": 5270,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-st-andrews"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "queen-mary-university-of-london",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "103",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/queen-mary-university-london"
+    },
+    "internationalStudents": {
+      "total": 12331,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/queen-mary-university-london"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "lancaster-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "164",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/lancaster-university"
+    },
+    "internationalStudents": {
+      "total": 4492,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/lancaster-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "leipzig-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=540",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/universitat-leipzig"
+    },
+    "internationalStudents": {
+      "total": 3382,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/universitat-leipzig"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "technische-universitat-berlin",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=158",
+      "edition": null,
+      "source": "https://www.topuniversities.com/universities/technische-universitat-berlin-tu-berlin"
+    },
+    "internationalStudents": {
+      "total": 5912,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/technische-universitat-berlin-tu-berlin"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "freie-universitat-berlin",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=98",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/freie-universitaet-berlin"
+    },
+    "internationalStudents": {
+      "total": 4948,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/freie-universitaet-berlin"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "humboldt-universitat-zu-berlin",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=140",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/humboldt-universitat-zu-berlin"
+    },
+    "internationalStudents": {
+      "total": 6005,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/humboldt-universitat-zu-berlin"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "karlsruhe-institute-of-technology",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "110",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology"
+    },
+    "internationalStudents": {
+      "total": 3984,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-bonn",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=209",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/rheinische-friedrich-wilhelms-universitat-bonn"
+    },
+    "internationalStudents": {
+      "total": 5441,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/rheinische-friedrich-wilhelms-universitat-bonn"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-hamburg",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=209",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/universitat-hamburg"
+    },
+    "internationalStudents": {
+      "total": 3612,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/universitat-hamburg"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-tubingen",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=230",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/eberhard-karls-universitat-tubingen"
+    },
+    "internationalStudents": {
+      "total": 3682,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/eberhard-karls-universitat-tubingen"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-freiburg",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "245",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/albert-ludwigs-universitaet-freiburg"
+    },
+    "internationalStudents": {
+      "total": 3651,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/albert-ludwigs-universitaet-freiburg"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-gottingen",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=261",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-gottingen"
+    },
+    "internationalStudents": {
+      "total": 3317,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-gottingen"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "tu-dresden",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=185",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/technische-universitat-dresden"
+    },
+    "internationalStudents": {
+      "total": 3590,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/technische-universitat-dresden"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "friedrich-alexander-universitat-erlangen-nurnberg",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=218",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/friedrich-alexander-universitat-erlangen-nurnberg"
+    },
+    "internationalStudents": {
+      "total": 5492,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/friedrich-alexander-universitat-erlangen-nurnberg"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-cologne",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "269",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-cologne"
+    },
+    "internationalStudents": {
+      "total": 4382,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-cologne"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-munster",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=370",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-munster"
+    },
+    "internationalStudents": {
+      "total": 1428,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-munster"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-mannheim",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=425",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/universitat-mannheim"
+    },
+    "internationalStudents": {
+      "total": 1457,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/universitat-mannheim"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-stuttgart",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=318",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/universitat-stuttgart"
+    },
+    "internationalStudents": {
+      "total": 3009,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/universitat-stuttgart"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-wurzburg",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "430",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/julius-maximilians-universitat-wurzburg"
+    },
+    "internationalStudents": {
+      "total": 2271,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/julius-maximilians-universitat-wurzburg"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "auckland-university-of-technology",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "431",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/auckland-university-technology-aut"
+    },
+    "internationalStudents": {
+      "total": 8704,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/auckland-university-technology-aut"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "university-of-waikato",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=293",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/university-waikato"
+    },
+    "internationalStudents": {
+      "total": 2830,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/university-waikato"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "massey-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "215",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/massey-university"
+    },
+    "internationalStudents": {
+      "total": 3531,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/massey-university"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "victoria-university-of-wellington",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=241",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/victoria-university-wellington"
+    },
+    "internationalStudents": {
+      "total": 3508,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/victoria-university-wellington"
+    },
+    "checked": "2026-10-04"
+  },
+  {
+    "id": "lincoln-university",
+    "ranking": {
+      "publisher": "QS World University Rankings",
+      "position": "=419",
+      "edition": "2027",
+      "source": "https://www.topuniversities.com/universities/lincoln-university"
+    },
+    "internationalStudents": {
+      "total": 1335,
+      "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
+      "source": "https://www.topuniversities.com/universities/lincoln-university"
+    },
+    "checked": "2026-10-04"
+  }
+]
