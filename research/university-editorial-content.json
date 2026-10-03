@@ -1,0 +1,706 @@
+{
+  "melbourne": {
+    "overview": "Melbourne is worth comparing at two levels: the undergraduate degree you enter and the specialist qualification you may want afterwards. Its broad bachelor degrees and graduate study options make the sequence of study an important part of the decision, particularly for students considering a professional career.",
+    "study": "Use the course handbook to map a possible major, required subjects and later graduate entry conditions. A university-wide subject list does not show whether a particular undergraduate combination satisfies the next degree. Keep the cost and duration of each stage separate when comparing Melbourne with a direct-entry professional course elsewhere.",
+    "checks": [
+      "Identify which major supplies the prerequisites for your intended graduate course.",
+      "Check whether teaching takes place at Parkville or a specialist campus before choosing accommodation."
+    ]
+  },
+  "sydney": {
+    "overview": "Sydney combines a broad range of disciplines with a large city-campus setting. Its science options alone extend from molecular biology and psychology to geosciences. This breadth makes it useful to compare the content of majors, rather than choosing only from the title of a bachelor degree.",
+    "study": "Read the degree rules alongside the unit descriptions. Look for compulsory introductory subjects, progression requirements and the room left for electives. For health, music or other specialist study, identify the teaching location and any additional selection process before arranging travel or housing.",
+    "checks": [
+      "Compare the first-year units of two related majors before deciding.",
+      "Ask whether practical teaching or clinical activities take place away from Camperdown and Darlington."
+    ]
+  },
+  "monash": {
+    "overview": "Monash has distinct Australian study locations at Clayton, Caulfield, Peninsula and Parkville, as well as an international network. Its location guide associates examples such as business study with Caulfield and nursing with Peninsula. The campus is therefore a core part of a course comparison, not just an address.",
+    "study": "The university offers scientific, professional and creative fields, including engineering, information technology, pharmacy and art and design. Compare the exact Australian course code, delivery location and degree structure. An overseas Monash programme or a similarly named course at another campus may have different application arrangements.",
+    "checks": [
+      "Save the campus and course code from the Australian course page.",
+      "If considering a double degree, compare its total duration and compulsory units with the single-degree alternatives."
+    ]
+  },
+  "australian-national-university": {
+    "overview": "Australian National University is based at Acton in Canberra, with additional locations that support fieldwork and research. The main campus combines teaching buildings, libraries, residences and everyday services in a capital-city setting. ANU also maintains specialist facilities beyond Acton, including a coastal field station.",
+    "study": "Start with the Programs and Courses catalogue and distinguish a degree from its majors and individual courses. For research study, the relevant school and potential supervisory team matter more than the university name alone. Campus facilities can help you understand the setting, but access to a research project needs separate confirmation.",
+    "checks": [
+      "Compare the compulsory courses and elective space in your preferred ANU degree.",
+      "Ask whether any fieldwork, research visits or specialist teaching will take place outside Acton."
+    ]
+  },
+  "unsw-sydney": {
+    "overview": "UNSW has several distinct locations. Kensington is its main Sydney campus, while Paddington houses the School of Art & Design; Canberra has a different academic and defence-related setting. Its science portfolio includes physical, natural and human sciences, illustrating the range available beyond a single technical discipline.",
+    "study": "Choose the programme first, then check the campus and its current teaching calendar. Creative applicants should read any portfolio instructions carefully; science applicants should examine prerequisite subjects and laboratory components. Do not assume that a course advertised under the UNSW name is delivered in Kensington or has the same admissions route as another campus.",
+    "checks": [
+      "Match your application to the correct UNSW campus and programme.",
+      "Check the current term structure and required attendance before estimating accommodation dates."
+    ]
+  },
+  "university-of-queensland": {
+    "overview": "The University of Queensland has several contrasting study environments. St Lucia is its riverside Brisbane setting, Gatton has a working-farm environment, Herston is associated with clinical activity, and Dutton Park has a biomedical focus. The location attached to a programme can therefore reveal a great deal about its learning environment.",
+    "study": "When comparing UQ courses, look beyond the degree name to where practical learning happens. A laboratory, clinical or field-based programme can have a different timetable and travel pattern from a classroom-based course. Research applicants can use UQ's expert directory to identify relevant work before asking about supervision.",
+    "checks": [
+      "Record the teaching campus and any practical locations for your programme.",
+      "Ask how fieldwork, laboratories or clinical activities affect attendance and additional study costs."
+    ]
+  },
+  "university-of-western-australia": {
+    "overview": "UWA offers study in areas including architecture and design, business and commerce, data and computer science, and natural and physical sciences. Its Perth base is complemented by an Albany campus, a health campus and other specialist facilities. These locations should not be treated as interchangeable study options.",
+    "study": "Use the study-area pages to narrow your interests, then compare the actual course structure. A broad subject area can lead to different majors, qualification levels and professional routes. For a course involving health or specialist facilities, check where teaching occurs and whether later stages require movement between sites.",
+    "checks": [
+      "Compare the major requirements within the degree rather than relying on the study-area label.",
+      "Confirm whether your offer is for Perth, Albany or another named teaching location."
+    ]
+  },
+  "adelaide-university": {
+    "overview": "Adelaide University publishes study options across fields such as agriculture and veterinary science, engineering, computing, health, business, music and education. Its footprint includes city, suburban and regional locations across South Australia. Applicants need to match the current degree listing to the location and intake they intend to enter.",
+    "study": "The current Adelaide University catalogue should be the starting point for a new application. Check that saved brochures, scholarship descriptions and course links refer to the same institution and intake as your offer. For practical subjects, inspect where specialist teaching takes place instead of assuming every part of the degree is in central Adelaide.",
+    "checks": [
+      "Use the current Adelaide University course code and application instructions.",
+      "Confirm the campus, compulsory practical activities and applicable fee schedule for the advertised intake."
+    ]
+  },
+  "university-of-technology-sydney": {
+    "overview": "UTS is embedded in Sydney's city environment, with its main hub extending around Broadway, Haymarket and Blackfriars. Specialist facilities also operate beyond this hub, including Moore Park and Botany. Its location information connects Broadway with science, health, engineering, information technology and design-related teaching.",
+    "study": "A city university can offer convenient access to services while still requiring travel between buildings. Compare the course handbook with the campus map and identify the facilities used by your subject. If a course mentions projects or industry engagement, ask how those components are assessed and whether participation is compulsory or competitive.",
+    "checks": [
+      "Check the location of your faculty and any off-site practical facilities.",
+      "Compare compulsory project subjects with optional industry activities in the course handbook."
+    ]
+  },
+  "rmit-university": {
+    "overview": "RMIT's Australian campuses include Melbourne City, Brunswick and Bundoora. The city campus is integrated with central Melbourne, while Bundoora provides a parkland setting and Brunswick sits within a different urban neighbourhood. RMIT also has overseas locations, so an Australian study plan needs a clearly identified delivery campus.",
+    "study": "The university's facilities include specialist learning environments such as its Design Hub. Use those facilities as a starting point for questions about your own programme: which studios or laboratories will you use, what equipment must you provide, and how much work is completed on campus? A facility being advertised does not establish access for every course.",
+    "checks": [
+      "Confirm the Australian campus and qualification level on the offer.",
+      "For studio or practical courses, request a list of materials, equipment and additional selection tasks."
+    ]
+  },
+  "deakin-university": {
+    "overview": "Deakin's Australian locations include Melbourne Burwood, Geelong Waterfront, Geelong Waurn Ponds and Warrnambool. These range from metropolitan to coastal and regional settings. The university publishes separate international and subject guides, which help connect a course choice with the experience of a particular campus.",
+    "study": "Read the international guide alongside the course page rather than assuming that every degree runs at every location. A course available in more than one mode may have different attendance arrangements. Compare where compulsory activities occur and whether the programme is suitable for the on-campus study plan you are making.",
+    "checks": [
+      "Check campus availability and delivery mode for the exact intake.",
+      "Compare accommodation and transport at your teaching location, rather than budgeting for Melbourne by default."
+    ]
+  },
+  "griffith-university": {
+    "overview": "Griffith's campus network spans the Gold Coast, Logan and Brisbane. Its academic options range from music and performing arts to environmental science, engineering and information technology. The university's current campus information also describes changes to Brisbane teaching locations, making intake-specific checks particularly useful.",
+    "study": "A student choosing a creative programme and a student choosing engineering may have quite different facilities and daily travel needs. Use the current programme page to identify the teaching location, practical components and selection requirements. Where a new campus or relocation is advertised, ask which commencing cohort it affects.",
+    "checks": [
+      "Confirm the campus for your starting year, especially where a relocation is advertised.",
+      "Check whether your course needs an audition, portfolio, practical placement or specialist equipment."
+    ]
+  },
+  "queensland-university-of-technology": {
+    "overview": "QUT has two principal Brisbane campuses with different subject groupings. Gardens Point includes business, law, engineering, information technology, mathematics and science. Kelvin Grove includes education, health, design and creative industries. This makes QUT's campus guide useful early in the shortlisting process.",
+    "study": "The distinction matters when comparing courses across subject areas or considering a double degree. Check whether teaching uses one or both campuses, then plan travel and accommodation around the likely timetable. The university's public venues and facilities can help you explore the environment, but course-specific access should be confirmed separately.",
+    "checks": [
+      "Map each part of a proposed double degree to its teaching campus.",
+      "Compare the practical facilities relevant to your subject at Gardens Point and Kelvin Grove."
+    ]
+  },
+  "curtin-university": {
+    "overview": "Curtin's Australian presence includes Perth and Kalgoorlie, alongside a wider international campus network. Its teaching areas include business and law, health sciences, humanities, and science and engineering. The study-area catalogue also covers agriculture, sustainability, architecture and creative industries.",
+    "study": "First decide which qualification and country of delivery you want, then examine the course content. An international campus carrying the Curtin name does not automatically share Australian attendance, fee or application arrangements. For a practical discipline, find out whether fieldwork or specialist training is tied to a particular location.",
+    "checks": [
+      "Check that the course is offered at your intended Australian campus.",
+      "Compare the balance of classroom study, laboratory work and field activities before budgeting."
+    ]
+  },
+  "macquarie-university": {
+    "overview": "Macquarie's main Wallumattagal campus is in Macquarie Park, Sydney, within a business and technology precinct. The campus combines teaching spaces, a library, recreation facilities and a university hospital. A separate city-campus setting is also part of the university's location information.",
+    "study": "The surrounding organisations and facilities are useful context, but they do not guarantee an internship or clinical experience. Review the actual learning outcomes, project subjects and eligibility rules of your programme. When comparing degrees, ask what practical experience is built into the curriculum and what students must arrange or compete for separately.",
+    "checks": [
+      "Confirm Wallumattagal or city-campus delivery on the course page.",
+      "Separate compulsory practical learning from optional placements or employer events."
+    ]
+  },
+  "university-of-wollongong": {
+    "overview": "UOW's main Wollongong campus sits in a bushland setting, while its network also includes an Innovation Campus and metropolitan and regional teaching locations. The university has overseas campuses as well. A Wollongong-based student experience can therefore be quite different from another programme delivered under the same university name.",
+    "study": "Use the course finder to confirm the qualification, location and attendance mode together. If you are comparing a regional teaching location with the main campus, ask about the facilities and support available where you will actually study. Include any travel between sites in your weekly plan.",
+    "checks": [
+      "Match the degree code to Wollongong or the specific advertised teaching location.",
+      "Ask which libraries, practical facilities and student services are available at that location."
+    ]
+  },
+  "university-of-newcastle": {
+    "overview": "The University of Newcastle in Australia has a multi-campus footprint that includes Callaghan, Newcastle City and the Central Coast. Its city-campus information highlights business and law teaching at NUspace and the Q Building. This profile concerns the Australian institution, which is separate from Newcastle University in the UK.",
+    "study": "Compare the campus named on the course page with the facilities and housing you are researching. A city teaching location and a larger campus setting can produce different commuting patterns. Where a course includes projects or practical work, ask whether these take place at another university site or an external organisation.",
+    "checks": [
+      "Use the Australian newcastle.edu.au website when checking your programme.",
+      "Confirm the teaching site before comparing Callaghan, city or Central Coast accommodation."
+    ]
+  },
+  "la-trobe-university": {
+    "overview": "La Trobe has metropolitan and regional locations, including Melbourne at Bundoora, Bendigo, Shepparton, Albury-Wodonga and Mildura. Its course areas range from arts and business to agricultural sciences, computing, education and health-related subjects. A regional course option should be investigated as its own study setting.",
+    "study": "Start with the subject you want, then compare the campuses at which the full qualification is available. For professional or health-related study, read the practical requirements as well as the academic entry requirements. Check where later-year teaching happens so that your housing plan covers the whole course rather than only the first semester.",
+    "checks": [
+      "Verify that all stages of your chosen degree are available at the selected campus.",
+      "Ask about the location and travel expectations of any compulsory practical activities."
+    ]
+  },
+  "flinders-university": {
+    "overview": "Flinders' campus history connects Bedford Park with the university's beginnings, Tonsley with education, research and industry activity, and the City Campus with its more recent Adelaide presence. Its course search covers fields including arts, business, engineering, law, nursing and science.",
+    "study": "Choose the learning environment that belongs to the actual degree rather than the campus photograph you prefer. A programme using specialist facilities may require attendance at a particular site. Compare timetable expectations, practical components and course duration before deciding whether a city or suburban housing option is convenient.",
+    "checks": [
+      "Identify whether the programme is based at Bedford Park, Tonsley or the City Campus.",
+      "Check practical teaching locations and any additional attendance requirements in the course rules."
+    ]
+  },
+  "university-of-tasmania": {
+    "overview": "The University of Tasmania has campuses in Hobart, Launceston and Burnie, as well as a Sydney presence and other study locations. Its academic groupings include business and economics, arts and education, and science and engineering. The institution's name alone does not establish that a particular course is taught on the island.",
+    "study": "Check the location and delivery arrangements attached to your course. If you want to study in Tasmania, confirm that the programme and intake meet that plan rather than selecting an interstate study centre by mistake. Compare local housing, transport and practical teaching requirements separately for each campus.",
+    "checks": [
+      "Record the city and teaching site shown on the course offer.",
+      "Use that location's campus map and housing resources when building the living-cost budget."
+    ]
+  },
+  "ubc": {
+    "overview": "UBC's Vancouver and Okanagan campuses belong to the same university but offer different degree choices and living environments. Vancouver is in the Lower Mainland, while Okanagan is in Kelowna. The distinction is particularly important when comparing a subject that is offered at both campuses.",
+    "study": "Read each campus's degree requirements independently. Compare available specialisations, compulsory courses and any later selection into a major. Choosing UBC should include choosing where and what you will study; a general university admission page cannot answer every programme-level question. Housing and travel budgets should follow the selected campus.",
+    "checks": [
+      "Compare the Vancouver and Okanagan versions of your intended degree.",
+      "Ask whether entry to the degree also secures entry to your preferred major."
+    ]
+  },
+  "toronto": {
+    "overview": "Toronto's three campuses are St. George, Mississauga and Scarborough. Across the university, study extends through humanities, life sciences, mathematical sciences, commerce, computing, engineering and creative disciplines. A subject name can appear in more than one campus context, so a Toronto shortlist needs more detail than the institution name.",
+    "study": "Compare admission categories and the rules for entering a specialist, major or other programme after enrolment. Read the academic calendar for the campus you select. Also check whether accommodation and student services are administered locally, especially if you are comparing living near downtown Toronto with Mississauga or Scarborough.",
+    "checks": [
+      "Save the campus and admission category alongside your preferred subject.",
+      "Check any first-year grades or prerequisite courses needed for later programme selection."
+    ]
+  },
+  "mcgill": {
+    "overview": "McGill's academic range includes law, music, sciences and professional subjects across its downtown and Macdonald campuses. Its Montréal setting and the different character of these campuses are useful considerations alongside the course itself. The academic catalogue should establish where a particular qualification is delivered.",
+    "study": "For a broad degree, compare available majors and the courses required to progress. For professional study, inspect the programme's own language, prerequisite and selection rules instead of assuming the general university requirements are enough. Check the practical teaching location before choosing housing, especially for a course associated with Macdonald campus.",
+    "checks": [
+      "Confirm both the programme language requirements and its teaching location.",
+      "Compare the intended major with the entry faculty and degree shown on the application."
+    ]
+  },
+  "university-of-alberta": {
+    "overview": "The University of Alberta operates across several locations, including Edmonton campuses and Augustana in Camrose. Its campus network also includes Campus Saint-Jean. This means that location and language context deserve attention before an applicant treats two Alberta programmes as equivalent choices.",
+    "study": "Start with the faculty and programme rather than a university-wide subject heading. Compare the academic calendar, first-year requirements and the route into your intended specialisation. Where a campus has a distinct language or teaching setting, ask admissions which qualifications and language evidence apply to that specific programme.",
+    "checks": [
+      "Identify the campus and language of instruction for the selected qualification.",
+      "Compare your intended major with the programme's first-year subject requirements."
+    ]
+  },
+  "mcmaster-university": {
+    "overview": "McMaster's main campus is in Hamilton, Ontario. Its academic information describes a research-focused learning environment and directs applicants to individual faculties, libraries and student services. Exploring the faculty behind a course helps distinguish the academic experience from a general description of the university.",
+    "study": "Read how the programme introduces its subject in the first year and whether students choose a later specialisation. Inspect project work, laboratory components and any supplementary application before deciding that two similarly named courses are comparable. A research-focused institution can offer different experiences across taught, professional and research degrees.",
+    "checks": [
+      "Check whether the first year is a general entry route or a named specialisation.",
+      "Record any supplementary form, interview or portfolio listed by the programme."
+    ]
+  },
+  "university-of-waterloo": {
+    "overview": "Waterloo's faculties cover arts, engineering, environment, health, mathematics and science. It also has satellite locations in Cambridge, Kitchener and Stratford. These distinctions matter when investigating a specialised programme, particularly if its facilities or teaching are outside the main Waterloo campus.",
+    "study": "When a programme offers a co-op or another work-integrated route, compare it with the regular study sequence. Ask about the timing of work terms, related fees and how students obtain positions; an advertised route should not be treated as a guaranteed job. Use the academic calendar to compare the underlying degree requirements.",
+    "checks": [
+      "Confirm the teaching location and any movement required during the degree.",
+      "If considering co-op, compare the study/work sequence, eligibility and extra charges with the regular route."
+    ]
+  },
+  "university-of-ottawa": {
+    "overview": "The University of Ottawa is an English-French bilingual institution in Canada's capital. Its faculties span areas including arts, education, engineering and health. The bilingual environment is a practical academic consideration: applicants should establish the language arrangements of their particular programme rather than relying on the institution's overall description.",
+    "study": "Compare the available language streams, required language evidence and the language of compulsory courses. If you want to develop skills in the other language, ask which options fit inside the degree rather than adding assumptions to the timetable. Professional and clinical subjects may have additional programme-specific expectations.",
+    "checks": [
+      "Record the language stream and evidence required for admission.",
+      "Ask whether all compulsory courses can be completed in your intended language."
+    ]
+  },
+  "western-university": {
+    "overview": "Western is based in London, Ontario, rather than London in the United Kingdom. It offers a broad academic environment across faculties and schools, with an academic calendar that helps students understand degree combinations. Its campus setting combines historic and modern buildings.",
+    "study": "Compare the structure of the programme with any later module or specialisation you hope to enter. Read the conditions for progression as carefully as the initial admission requirements. If an option is delivered through an affiliated institution, confirm which application, fee and housing information applies to that route.",
+    "checks": [
+      "Use the Canadian university's programme and fee pages when comparing offers.",
+      "Check the grades and courses needed to enter or continue your intended module."
+    ]
+  },
+  "university-of-calgary": {
+    "overview": "Calgary's faculties and schools include engineering, business, science, arts, architecture and planning, education, social work, medicine and veterinary medicine. This combination offers both broad academic study and specialised professional routes, which need to be compared at the programme level.",
+    "study": "A professional school appearing in the university directory does not mean that every applicant can enter it directly after secondary school. Check prerequisite degrees, subject preparation and applicant eligibility. Research applicants should distinguish a thesis-based route from a course-based qualification and ask which department handles the application.",
+    "checks": [
+      "Identify whether the programme is direct entry, graduate entry or a research route.",
+      "Compare required previous subjects and any portfolio or professional selection criteria."
+    ]
+  },
+  "queen-s-university": {
+    "overview": "Queen's main campus is in Kingston, Ontario. Its academic offerings include undergraduate and graduate qualifications, while its international information also describes study opportunities connected with Bader College in the UK. For a Canadian degree plan, keep the main teaching location distinct from optional overseas experiences.",
+    "study": "Compare the degree requirements with any exchange or international opportunity that interests you. Ask how credits are approved and whether time away changes costs or course sequencing. For a professional programme, use the faculty's admissions instructions, since university-wide information may not cover all selection steps.",
+    "checks": [
+      "Confirm the primary study location on your course and offer documents.",
+      "If considering study abroad, ask how it fits the degree requirements and total budget."
+    ]
+  },
+  "dalhousie-university": {
+    "overview": "Dalhousie has several Halifax campuses and an Agricultural Campus near Truro in Nova Scotia. Its wider teaching network also includes programme-specific locations. The difference between an urban Halifax setting and the agricultural setting is important when researching accommodation, practical learning and daily travel.",
+    "study": "Start with the programme page and trace where its teaching and practical components take place. An agricultural qualification and a course taught in central Halifax should not share an assumed housing budget. If your programme includes professional or clinical learning, ask which later-year locations may be involved.",
+    "checks": [
+      "Distinguish Halifax teaching from the Agricultural Campus when shortlisting.",
+      "Check whether later practical or clinical stages require attendance at another site."
+    ]
+  },
+  "simon-fraser-university": {
+    "overview": "Simon Fraser offers a connected university experience across distinct campuses. Its academic departments include computing science, engineering science, mechatronic systems engineering and sustainable energy engineering, alongside arts, education and other fields. Similar technical degree names can hide substantial differences in curriculum.",
+    "study": "Compare the required mathematics, computing and design work within each programme, not just the qualification title. Then identify where the teaching takes place and whether course selection might involve more than one campus. For a research pathway, examine the department's research areas and supervisor arrangements separately.",
+    "checks": [
+      "Compare the core subjects of related engineering or computing degrees.",
+      "Confirm the campus used by the programme and any cross-campus timetable requirements."
+    ]
+  },
+  "university-of-victoria": {
+    "overview": "The University of Victoria offers study across faculties that include education, engineering and computer science, health and social sciences, with wider options across its academic catalogue. Faculty and programme pages are the useful next step after identifying UVic as a possible destination.",
+    "study": "For a degree with several pathways, compare the balance of compulsory study, electives and practical work. If work experience or co-op is offered, ask how entry, placement searches and study scheduling operate for your programme. Research students should look at the specific academic unit rather than treating all graduate routes as the same.",
+    "checks": [
+      "Match the desired specialisation to the correct faculty and qualification.",
+      "Ask how any work-experience route changes the study sequence and budget."
+    ]
+  },
+  "york-university": {
+    "overview": "York's Greater Toronto Area network includes Keele, Markham and the bilingual Glendon campus. The campuses have different academic and community settings. That variation makes it important to establish the location and language context of a course before comparing York with another university.",
+    "study": "Use the course catalogue to identify the faculty, campus and programme requirements together. For a bilingual or language-related route, check the evidence needed at entry and how language study continues through the degree. A programme at a new or different location may have its own facilities and commuting considerations.",
+    "checks": [
+      "Confirm whether your course is based at Keele, Markham or Glendon.",
+      "Check language expectations and campus-specific facilities before accepting an offer."
+    ]
+  },
+  "concordia-university": {
+    "overview": "Concordia's Montréal experience is spread across two campuses, including its downtown setting and Loyola. The university describes learning across arts and science and other academic schools, with facilities and student services distributed between locations. Campus choice is therefore part of understanding the course experience.",
+    "study": "Identify where the programme's compulsory teaching takes place and allow for travel if activities use both campuses. For creative or applied subjects, examine the role of studios, projects and practical assessment. Ask whether any portfolio, audition or additional material is required beyond the standard academic application.",
+    "checks": [
+      "Map your programme to its teaching campus and specialist facilities.",
+      "Check for subject-specific application materials and their separate deadlines."
+    ]
+  },
+  "university-of-manitoba": {
+    "overview": "The University of Manitoba has two main campuses in Winnipeg and a broad set of faculties, colleges and schools. Its academic information includes the Rady Faculty of Health Sciences and the Faculty of Science. The official calendar brings together course descriptions and programme and graduation requirements.",
+    "study": "Use the calendar to check whether your intended degree has a direct-entry route or requires previous university study. For a health-related option, inspect the programme's applicant rules and practical requirements separately. Compare the teaching location with housing and transport rather than treating all Winnipeg study as one campus experience.",
+    "checks": [
+      "Check the entry route and any required prior university courses.",
+      "Identify the campus used for the degree and any later practical teaching."
+    ]
+  },
+  "university-of-saskatchewan": {
+    "overview": "USask's main campus is in Saskatoon. Its colleges include agriculture and bioresources, engineering, arts and science, business and health-related disciplines. The university highlights research connected with water, food security and infectious diseases, offering useful starting points for students exploring research interests.",
+    "study": "A broad research theme is not itself a degree or a funded position. Find the department, programme and potential research group that match your background. Taught-course applicants should compare compulsory subjects and progression rules, while research applicants should ask about supervision and funding as separate decisions.",
+    "checks": [
+      "Connect your research interest to an actual department and degree.",
+      "Check whether admission, supervisor agreement and funding require separate applications."
+    ]
+  },
+  "university-of-guelph": {
+    "overview": "Guelph's academic range includes physical and life sciences, arts, social sciences, business, agriculture and veterinary sciences. Its main campus is in Guelph, while Ridgetown has a distinct applied agriculture, animal science and environmental focus. These settings support different types of qualification and learning.",
+    "study": "Compare the level and structure of the qualification as well as the subject. A diploma, bachelor degree and professional veterinary route are not interchangeable entry points. Where practical study is important, ask about the relevant facilities, compulsory attendance and programme-specific eligibility rather than inferring access from the university's overall academic range.",
+    "checks": [
+      "Check qualification level and campus when comparing agriculture or animal-related study.",
+      "Confirm prior-study requirements for any professional programme."
+    ]
+  },
+  "university-of-new-brunswick": {
+    "overview": "UNB has campuses in Fredericton and Saint John, and the programme catalogue should be used to distinguish their study options. Its listings include a wide academic range and some partnership-based routes, such as a fine-arts combination involving university study and studio learning.",
+    "study": "A programme with teaching shared between institutions needs careful reading of the qualification structure. Check where each component is taught, how credits contribute and which admissions office handles the application. For any UNB course, compare campus availability and the complete sequence of study before planning housing.",
+    "checks": [
+      "Confirm Fredericton or Saint John delivery for the complete qualification.",
+      "For a partnership route, ask where each component is taught and how it is credited."
+    ]
+  },
+  "memorial-university-of-newfoundland": {
+    "overview": "Memorial's teaching footprint extends across Newfoundland and Labrador and beyond. Its faculties include business, education, engineering and applied science, medicine and nursing, while Grenfell and other locations add distinct study settings. Engineering options include ocean and naval architectural engineering alongside other disciplines.",
+    "study": "Match the programme to its campus and delivery mode before making a Newfoundland study plan. For a specialised engineering route, compare the design, science and practical requirements with related degrees. The institution's broad geographic reach means housing and travel assumptions need to be checked against the exact course location.",
+    "checks": [
+      "Identify the campus and attendance mode attached to the programme.",
+      "Compare specialist engineering content and any compulsory practical or work terms."
+    ]
+  },
+  "manchester": {
+    "overview": "Manchester's academic structure connects humanities, science and engineering, and biology, medicine and health. Its Oxford Road setting brings university buildings into the wider city. Applicants can use the faculty structure to identify both the right course and the academic unit responsible for detailed admissions questions.",
+    "study": "Compare modules and assessment methods within the school that teaches your subject. Two courses sharing a broad title can differ in mathematics, laboratory work, independent study or professional content. Research applicants should use the university's Research Explorer to investigate relevant work before writing a focused enquiry.",
+    "checks": [
+      "Identify the school responsible for the course, not just its broad faculty.",
+      "For research study, compare potential supervisors' work with your proposed project."
+    ]
+  },
+  "edinburgh": {
+    "overview": "Edinburgh organises study across arts, humanities and social sciences; medicine and veterinary medicine; and science and engineering. Its schools include specialist areas such as informatics and veterinary study. The breadth of the institution makes the degree finder more useful than a university-wide description for an individual application.",
+    "study": "Check where your school teaches and how the degree progresses from introductory to advanced study. If comparing a Scottish undergraduate programme with a course elsewhere in the UK, use the published duration and year-by-year structure rather than assuming they are identical. Specialist clinical and practical activities need their own location checks.",
+    "checks": [
+      "Compare the full degree duration and progression rules with other offers.",
+      "Identify teaching and practical locations before selecting accommodation."
+    ]
+  },
+  "birmingham": {
+    "overview": "Birmingham's academic colleges cover arts and law, engineering and physical sciences, life and environmental sciences, medicine and health, and social sciences. The UK profile centres on Edgbaston, while the university also has a Dubai presence. Country of delivery is an essential distinction when comparing courses.",
+    "study": "Read the UK course page and identify its compulsory modules, optional pathways and any additional selection process. A course with a similar title at another location may use different admissions, fees and attendance arrangements. For a research degree, investigate the school and supervisory fit rather than applying only on the strength of a college name.",
+    "checks": [
+      "Confirm that the course and offer refer to the UK teaching location you want.",
+      "Compare the course modules with the skills or professional route you hope to develop."
+    ]
+  },
+  "university-of-oxford": {
+    "overview": "Oxford is a collegiate university: academic divisions, departments and faculties operate alongside colleges. The central university and the college therefore have different roles in the student experience. Understanding that structure helps applicants separate course content and selection from college community and accommodation questions.",
+    "study": "Choose the academic course before comparing colleges. Read the current course-specific application instructions for any admissions test, written work or interview, then check the college information relevant to your study level. Graduate applicants should investigate the department's programme and research arrangements separately from college preferences.",
+    "checks": [
+      "List the selection steps published for your specific Oxford course.",
+      "Separate academic course requirements from college and accommodation preferences."
+    ]
+  },
+  "university-of-cambridge": {
+    "overview": "Cambridge combines academic faculties and departments with a college system. Students belong to a subject community and a smaller college community, so teaching, academic support and everyday student life are organised through more than one part of the university. The arrangement is important when researching an application.",
+    "study": "Start with the subject and its current application requirements, then examine college options. Compare how the course develops over its full duration and whether later subject choices depend on earlier preparation. A college preference should not replace checking the academic fit or any course-specific selection task.",
+    "checks": [
+      "Read the course structure and selection instructions before choosing a college preference.",
+      "Check which support and accommodation questions should go to the college rather than the department."
+    ]
+  },
+  "imperial-college-london": {
+    "overview": "Imperial concentrates on science, technology, engineering, medicine and business. Its academic structure includes engineering disciplines such as aeronautics, bioengineering and chemical engineering, alongside other scientific and professional fields. It is therefore useful to compare precise technical content rather than looking for a broadly interchangeable course.",
+    "study": "Inspect mathematics and science prerequisites, the balance of theory and practical work, and the qualification awarded at the end. If comparing a taught master's with a research route, identify the size and nature of the research component. Professional recognition and any later training should be checked for the intended career and country.",
+    "checks": [
+      "Compare the compulsory technical modules and prerequisite subjects.",
+      "Confirm the exact qualification, duration and research or project component."
+    ]
+  },
+  "university-college-london": {
+    "overview": "UCL has a historic Bloomsbury base in central London and a campus in east London, alongside a broad academic structure. Its faculties include medical and population health sciences, education and many other disciplines. A programme's teaching location should be checked independently of the university's familiar central-London image.",
+    "study": "Compare the campus, academic department and module choices together. For an interdisciplinary programme, identify which parts are compulsory and which depend on elective availability. Research applicants should look for the relevant department and research group, while all applicants should build travel assumptions around the actual teaching location.",
+    "checks": [
+      "Confirm whether the programme is taught in Bloomsbury, east London or another location.",
+      "Check the required modules and available choices in an interdisciplinary degree."
+    ]
+  },
+  "king-s-college-london": {
+    "overview": "King's has several London campuses with different academic roles. Strand houses arts and sciences, Guy's is associated with life sciences, medicine and dentistry, and Denmark Hill is home to the Institute of Psychiatry, Psychology & Neuroscience. St Thomas' also supports medical and dental teaching.",
+    "study": "The relevant campus can change the practical experience and travel pattern of a degree. Examine where lectures, laboratories and clinical learning take place, and ask whether later stages use additional sites. For health-related courses, read professional selection and language requirements alongside the general admissions guidance.",
+    "checks": [
+      "Map the course's teaching and practical activities to the named campuses.",
+      "For clinical study, check additional selection requirements and later placement locations."
+    ]
+  },
+  "london-school-of-economics-and-political-science": {
+    "overview": "LSE specialises in the social sciences. Its government department, for example, covers areas such as comparative politics, political economy, political theory and public policy. This subject-focused identity makes LSE a different comparison from a university with a large engineering or laboratory-science portfolio.",
+    "study": "Look closely at the methods used by the programme: some social-science degrees place substantial emphasis on statistics, economics or quantitative analysis, while others use different approaches. Compare compulsory courses and entry prerequisites before choosing a programme on the basis of a broad interest in politics, business or society.",
+    "checks": [
+      "Identify the quantitative and research-methods requirements of the degree.",
+      "Compare the actual course content of related economics, policy and social-science options."
+    ]
+  },
+  "university-of-bristol": {
+    "overview": "Bristol's academic schools connect arts, law and social sciences with health, life sciences and other scientific disciplines. Its directory includes economics, education, modern languages, business, law and policy studies. The school behind a course is a useful starting point for understanding its academic approach.",
+    "study": "Compare compulsory units and optional pathways, especially where similar subject labels occur in different schools. A policy-focused qualification and a more quantitative economics course can lead to very different workloads. For a professional or practical programme, examine the additional requirements attached to the course rather than the university alone.",
+    "checks": [
+      "Identify which school teaches the programme and how it is assessed.",
+      "Compare required methods, practical work and elective choices across related courses."
+    ]
+  },
+  "university-of-warwick": {
+    "overview": "Warwick is located in Coventry and organises its academic departments across arts, social sciences, and science, engineering and medicine. Its department directory provides a route to specific course and research information. The university name should not be used as a substitute for checking its actual location.",
+    "study": "Compare related subjects through their departments and course structures. Where a programme combines disciplines, ask how the required modules fit together and which options are available in later years. Research applicants should investigate departmental expertise and supervision, while taught-course applicants should focus on curriculum and assessment.",
+    "checks": [
+      "Use the Coventry campus location when researching housing and travel.",
+      "For an interdisciplinary course, compare compulsory modules with the advertised elective choices."
+    ]
+  },
+  "university-of-glasgow": {
+    "overview": "Glasgow's academic colleges cover arts and humanities, medical and veterinary life sciences, science and engineering, and social sciences. That structure accommodates both broad academic subjects and specialist professional study. The course page remains the best way to establish the route available to an individual applicant.",
+    "study": "Compare the published degree duration and progression structure with other UK options. For medicine, veterinary study or another professional subject, check course-specific eligibility and selection rather than assuming general international requirements are sufficient. Research interests should be traced to a school or group within the relevant college.",
+    "checks": [
+      "Check programme duration and the rules for progressing to advanced study.",
+      "Read any professional-course selection requirements separately from general international admissions."
+    ]
+  },
+  "university-of-southampton": {
+    "overview": "Southampton operates across several teaching locations. Its campus guide distinguishes general university facilities from specialist settings such as University Hospital Southampton, where medicine has teaching space. The wider university also advertises overseas locations, so a UK application needs a clearly identified course and campus.",
+    "study": "Map the qualification to its teaching site and practical facilities. If comparing UK and overseas versions of a programme, treat the entry rules, fees and student experience as separate questions. For a course involving a hospital, studio or laboratory, ask where each stage takes place and whether additional travel is required.",
+    "checks": [
+      "Confirm the country and campus of delivery on the current course page.",
+      "Check the locations of specialist or clinical teaching before choosing housing."
+    ]
+  },
+  "university-of-liverpool": {
+    "overview": "Liverpool's city-centre campus contains much of its teaching and research activity. Veterinary study has a distinct setting at Leahurst, including teaching hospitals. This difference illustrates why applicants should investigate specialist locations rather than assuming that all courses are delivered in the city centre.",
+    "study": "Compare course content and practical learning sites together. A programme with animal or clinical teaching may involve a different pattern of attendance from a classroom-based subject. Before accepting housing, check where you will study in each year and whether the course lists additional practical requirements or expenses.",
+    "checks": [
+      "Check whether your programme uses the city campus, Leahurst or other locations.",
+      "Read the year-by-year practical requirements and ask about travel arrangements."
+    ]
+  },
+  "university-of-leeds": {
+    "overview": "Leeds offers a broad research and teaching environment. Its faculty organisation changed in September 2026, including a health and life sciences grouping. Applicants using an older brochure should therefore check the current school and course pages for the correct academic contacts and programme information.",
+    "study": "Choose the course by its current content and qualification rather than an older faculty label. Compare required modules, optional years and any practical components. If a link in a saved guide no longer matches the current structure, use the university's course finder and ask the responsible school to confirm the right admissions route.",
+    "checks": [
+      "Use current course and school pages rather than relying on old faculty names.",
+      "Compare the full course structure, including any optional placement or overseas-study year."
+    ]
+  },
+  "university-of-nottingham": {
+    "overview": "Nottingham's academic range includes arts, engineering, science, social sciences, and medicine and health sciences. Its institutional information describes a university with UK and overseas campuses. Those locations should be distinguished when checking which course, application route and student experience a listing refers to.",
+    "study": "For a UK study plan, confirm the programme on the current UK course finder and record its teaching location. Then compare compulsory subjects, practical learning and any additional selection requirements. An older prospectus or a similarly named overseas course should not be treated as confirmation of the current UK offer.",
+    "checks": [
+      "Confirm UK delivery and the current programme code.",
+      "Check the latest course-specific requirements instead of using an older university factsheet as admissions guidance."
+    ]
+  },
+  "durham-university": {
+    "overview": "Durham's collegiate structure is a defining part of its student experience. Colleges provide smaller communities within the wider university, while academic departments organise subject study. The college guide distinguishes locations around the city, so the community and housing choice deserves its own research.",
+    "study": "Choose the course on academic grounds, then compare college arrangements and locations. Ask which accommodation, catering and community facilities apply to the college option you are considering. Academic eligibility and college preferences are different parts of the process and should be recorded separately in your application plan.",
+    "checks": [
+      "Separate the course application requirements from college preferences.",
+      "Compare college location, catering and accommodation contract terms."
+    ]
+  },
+  "university-of-st-andrews": {
+    "overview": "St Andrews organises teaching through academic schools, institutes and centres. Its school directory includes areas such as art history, computer science and medicine, illustrating both humanities and scientific options. The school responsible for a subject is the right place to investigate detailed academic requirements.",
+    "study": "Compare the exact qualification and its progression rules, particularly where subject combinations or later choices are possible. If considering a professional programme, check whether it has a distinct structure or selection route. Read the published course duration rather than assuming that all UK undergraduate degrees follow the same pattern.",
+    "checks": [
+      "Check the available subject combinations and any progression conditions.",
+      "Compare the full duration and qualification structure with other UK offers."
+    ]
+  },
+  "queen-mary-university-of-london": {
+    "overview": "Queen Mary spans humanities and social sciences, science and engineering, and medicine and dentistry. Mile End houses many academic schools, while medical and dental teaching also uses Whitechapel, Charterhouse Square and other locations. The programme's campus pattern is therefore important for everyday planning.",
+    "study": "Find the school and teaching sites attached to your course before comparing London accommodation. For a medical or dental route, read practical and selection requirements in full. For other subjects, inspect compulsory modules and the opportunities to specialise, rather than assuming that the broader faculty title describes the whole course.",
+    "checks": [
+      "Confirm whether teaching is primarily at Mile End or a specialist campus.",
+      "Check any cross-campus or clinical attendance requirements before signing a housing contract."
+    ]
+  },
+  "lancaster-university": {
+    "overview": "Lancaster combines academic faculties with a college system. Every student belongs to a college, including students who commute rather than live on campus. Colleges provide communities and facilities alongside the departments responsible for academic teaching and research.",
+    "study": "Research the degree and the college experience as complementary choices. Compare module requirements and assessment through the department, then look at accommodation and community arrangements through the colleges. If you plan to live off campus, ask how college membership and activities fit a commuting routine.",
+    "checks": [
+      "Separate academic department questions from college and housing questions.",
+      "Compare accommodation contracts and commuting arrangements without assuming that college membership requires living on campus."
+    ]
+  },
+  "tum": {
+    "overview": "TUM combines engineering and technology with natural sciences, life sciences, health, management and social questions. Its teaching and research take place at several locations, including Munich and Garching. Selecting a TUM programme therefore involves checking the campus, academic school and language of instruction together.",
+    "study": "For a master's application, compare your previous modules with the programme's academic prerequisites rather than relying only on the title of your bachelor degree. Read the current application process and fee rules for your nationality and course. A broad assumption about low-cost study in Germany is not a substitute for TUM's own fee information.",
+    "checks": [
+      "Map your previous subjects to the programme's required academic background.",
+      "Check the exact teaching location, language and applicable tuition or fee rules."
+    ]
+  },
+  "heidelberg": {
+    "overview": "Heidelberg combines a broad subject range with distinct teaching settings. Natural sciences are associated with Neuenheimer Feld, while its wider academic structure includes humanities, law and medical study. The university's subject catalogue also distinguishes medical faculties in Heidelberg and Mannheim.",
+    "study": "Check which degree type and location belong to the subject you want. A bachelor's, master's and state-examination route can have different purposes and admissions procedures. An English-language website does not establish that teaching is in English; use the programme's language requirements and module information to plan your preparation.",
+    "checks": [
+      "Confirm the degree type, teaching language and campus in the subject catalogue.",
+      "For medical study, distinguish the Heidelberg and Mannheim routes and their application instructions."
+    ]
+  },
+  "rwth": {
+    "overview": "RWTH's course catalogue extends beyond engineering to natural sciences, geosciences, economics, humanities, medical subjects and teacher education. The university's technical identity should therefore be considered alongside the specific academic requirements of the programme you want.",
+    "study": "For an engineering or computing master's, compare required prior knowledge with your transcript and detailed module descriptions. Similar degree titles can contain different amounts of mathematics, programming or technical study. Also distinguish regular university courses from separately administered programmes when checking tuition, semester contributions and application arrangements.",
+    "checks": [
+      "Prepare module descriptions as well as your transcript for prerequisite comparisons.",
+      "Check whether the course uses regular RWTH or separate programme administration and fees."
+    ]
+  },
+  "leipzig-university": {
+    "overview": "Leipzig is a comprehensive university founded in 1409. Its academic range spans humanities, social sciences, natural and life sciences, with fields such as law, medicine, teaching and pharmacy forming part of its public-service-related study portfolio. It should not be approached as a narrowly specialised technical institution.",
+    "study": "The first comparison is the type of qualification attached to your subject. A professional or state-examination route may differ substantially from a bachelor's or master's programme. Check language evidence and the precise application procedure for your qualification background, then compare modules and progression requirements.",
+    "checks": [
+      "Identify the qualification type rather than searching only by subject name.",
+      "Check the language and application route for applicants with your prior qualifications."
+    ]
+  },
+  "technische-universitat-berlin": {
+    "overview": "TU Berlin's central campus is in Charlottenburg, around Ernst-Reuter-Platz and Straße des 17. Juni. Its campus information identifies facilities for subjects including mathematics, chemistry, physics and architecture. The urban setting is useful to understand before choosing housing elsewhere in Berlin.",
+    "study": "For a technical programme, inspect the required prior mathematics and subject preparation. For architecture or another design-related route, read any additional selection instructions. Campus proximity does not establish academic fit: compare the module handbook, degree type and teaching language before deciding that the programme matches your background.",
+    "checks": [
+      "Compare prior subject preparation with the programme's module requirements.",
+      "Use the Charlottenburg campus map and actual teaching sites to estimate commuting time."
+    ]
+  },
+  "freie-universitat-berlin": {
+    "overview": "Freie Universität Berlin offers a broad spectrum of subjects through academic departments and central institutes. Its structure includes scientific, humanities and social-science fields, with medical study linked to Charité. The programme catalogue distinguishes different bachelor combinations and professional qualification routes.",
+    "study": "When a degree uses a main subject with additional module components, check how the combination works before applying. A subject appearing in the catalogue may not be a complete standalone qualification. Confirm the language requirements, available combinations and application instructions for each part of the intended study plan.",
+    "checks": [
+      "Check whether the subject is a standalone degree or part of a combination.",
+      "Confirm the required language evidence and the route for the complete qualification."
+    ]
+  },
+  "humboldt-universitat-zu-berlin": {
+    "overview": "Humboldt's academic portfolio spans humanities, social sciences, law, economics, natural sciences and life sciences. Its research reporting describes a university distributed across Berlin, including facilities for agricultural and horticultural work. Department and campus details help explain the practical setting of a chosen subject.",
+    "study": "Read the subject regulations alongside the module handbook, particularly for an interdisciplinary or combined programme. Identify where practical teaching takes place and whether research interests belong to the department offering the degree. A research centre mentioned in university publicity is not automatically a separate student admissions route.",
+    "checks": [
+      "Match the degree to its department, regulations and teaching location.",
+      "For research study, distinguish a research centre from the programme that awards the qualification."
+    ]
+  },
+  "karlsruhe-institute-of-technology": {
+    "overview": "KIT was formed in 2009 through the merger of the University of Karlsruhe and Forschungszentrum Karlsruhe. It combines university teaching with a research-centre setting. Its academic departments organise degree courses, doctoral study and the regulations that govern students' qualifications.",
+    "study": "For an applicant, the important distinction is between the wider research organisation and the department offering the degree. Compare compulsory modules, language requirements and the relevant admissions process. Research applicants should identify a suitable group and clarify how supervision, enrolment and any funded position connect to one another.",
+    "checks": [
+      "Use the academic department's degree rules rather than a research-centre description alone.",
+      "Ask separately about doctoral supervision, university admission and funding arrangements."
+    ]
+  },
+  "university-of-bonn": {
+    "overview": "Bonn combines academic faculties with interdisciplinary research centres. Its location information describes Poppelsdorf as a setting where several disciplines come together and notes links with the university hospital on Venusberg. These academic and geographic distinctions are useful when investigating a specialised subject.",
+    "study": "Start with the field-of-study guide, then move to the exact qualification and module handbook. An interdisciplinary research theme may sit across several departments, so identify which programme provides the training you want. Confirm the campus and practical location before choosing housing, especially where hospital or field facilities are relevant.",
+    "checks": [
+      "Connect a broad research interest to the department and degree offering it.",
+      "Check whether teaching or practical work uses Poppelsdorf, a hospital site or another location."
+    ]
+  },
+  "university-of-hamburg": {
+    "overview": "Hamburg offers a wide range of degree programmes through its faculties, including medicine at the University Medical Center Hamburg-Eppendorf. Its official statistics note programmes in different languages. Applicants should therefore investigate the specific degree rather than assume one teaching language or campus arrangement applies everywhere.",
+    "study": "Compare the programme regulations, module content and required language evidence together. For a health-related course, check whether professional selection and practical attendance add requirements beyond the general admissions process. Research students should identify the relevant faculty and group instead of applying only on the basis of a broad university research theme.",
+    "checks": [
+      "Confirm the teaching language and accepted evidence for the particular degree.",
+      "Identify any medical-centre or other specialist teaching location before planning accommodation."
+    ]
+  },
+  "university-of-tubingen": {
+    "overview": "Tübingen is a long-established university with a broad faculty structure and extensive humanities study alongside other disciplines. Its humanities information spans areas such as ancient studies, history, languages, philosophy and media. The university also provides tools for exploring courses and language-specific offerings.",
+    "study": "Distinguish the language of an individual course from the language and requirements of a full degree. Finding an English-taught module does not establish that the entire qualification can be completed in English. Compare the programme regulations with the course catalogue and ask the subject adviser to resolve any uncertainty.",
+    "checks": [
+      "Confirm the language of the whole qualification, not only a selected module.",
+      "Check how optional courses count towards the degree's compulsory requirements."
+    ]
+  },
+  "university-of-freiburg": {
+    "overview": "Freiburg has a broad faculty structure that includes biology, chemistry and pharmacy, theology and other disciplines. Its academic information links departments with specialist libraries, institutes and research environments. The course catalogue provides another level of detail below the degree title.",
+    "study": "Use the degree regulations to establish the required modules, then inspect the current course catalogue for how teaching is organised. A course listing alone does not establish admission to the qualification or permission to take every class. Research applicants should look for the relevant institute and clarify supervision and enrolment requirements.",
+    "checks": [
+      "Read the programme regulations before building a study plan from individual courses.",
+      "Compare required practical or laboratory components with your previous preparation."
+    ]
+  },
+  "university-of-gottingen": {
+    "overview": "Göttingen offers natural sciences, humanities, social sciences and medicine through its faculty structure. Its comprehensive academic range makes it possible to investigate different disciplinary approaches within one university, but each degree still has its own curriculum and admissions conditions.",
+    "study": "For a master's application, identify the subject-specific background expected by the department. Compare the content of your previous degree, including methods and practical study, rather than assuming a matching title is sufficient. If you want interdisciplinary study, check which outside modules can actually count towards the qualification.",
+    "checks": [
+      "Map prior modules to the department's subject prerequisites.",
+      "Check the rules for taking and counting courses outside the main discipline."
+    ]
+  },
+  "tu-dresden": {
+    "overview": "TU Dresden groups its faculties into broader academic divisions while retaining a wide range of subjects. Its structure includes education as well as technical and scientific fields. The university's name alone therefore does not describe the range or requirements of every programme.",
+    "study": "Use the faculty and programme pages to understand whether the route leads to a bachelor's, master's or another qualification. Compare the module handbook and language rules with your academic preparation. For interdisciplinary research, identify the programme responsible for admission rather than treating a division-wide research theme as an application route.",
+    "checks": [
+      "Check the qualification type and the faculty responsible for admissions.",
+      "Compare the module handbook with the subject preparation shown on your transcript."
+    ]
+  },
+  "friedrich-alexander-universitat-erlangen-nurnberg": {
+    "overview": "FAU combines a broad disciplinary range with locations in Erlangen, Nuremberg and beyond. Its science faculty covers fields such as biology, chemistry, geography, mathematics and physics, while the wider university includes other professional and academic subjects. The two-city identity is relevant to practical study planning.",
+    "study": "Confirm where the programme's teaching occurs and whether optional modules use another location. Compare the degree requirements with any research interests, rather than assuming all topics advertised by the university are available within one course. Language and prior-study requirements should be read at programme level.",
+    "checks": [
+      "Identify the teaching city for compulsory modules and practical activities.",
+      "Check which optional subjects can be included without creating timetable or travel conflicts."
+    ]
+  },
+  "university-of-cologne": {
+    "overview": "Cologne's academic profile is built around a broad set of faculties and collaborative research. Its faculty directory includes management, economics and social sciences alongside other disciplines. The individual faculty websites provide more precise information than the university-wide research profile for a prospective student.",
+    "study": "Compare the actual qualification, module structure and entry background expected by the relevant faculty. If a programme links several subjects, check how much of each discipline is compulsory. A research strength or centre can help identify academic interests, but it does not establish an available degree place or funding.",
+    "checks": [
+      "Read the faculty's current programme regulations and prerequisite subjects.",
+      "Distinguish research-centre publicity from a degree or funded research opportunity."
+    ]
+  },
+  "university-of-munster": {
+    "overview": "Münster has a broad academic range that includes law, medicine, business and economics, education, social sciences and theology. Its profile also points to smaller specialist subjects such as Scandinavian studies. This mix gives applicants reasons to compare individual departments rather than judging only by institutional size.",
+    "study": "For a specialist subject, check the language preparation and available qualification combinations. For a professional route, investigate the degree type and selection procedure separately. Use the current faculty directory to find the right academic contact, particularly when an older overview uses a different organisational structure.",
+    "checks": [
+      "Check subject-language preparation and any combined-degree requirements.",
+      "Use the current faculty and programme pages for the responsible admissions contact."
+    ]
+  },
+  "university-of-mannheim": {
+    "overview": "Mannheim's academic identity is particularly connected with economics and social sciences. Its campus includes the setting around the baroque palace, and its wider academic organisation also includes law, business and mathematically oriented fields. The subject emphasis helps distinguish Mannheim from a broad technical university.",
+    "study": "Look closely at quantitative preparation when comparing economics, business or related analytical programmes. A similar degree title elsewhere may have a different balance of mathematics, statistics and social-science methods. For a research route, investigate the relevant department or graduate school and its application process.",
+    "checks": [
+      "Compare required mathematics, statistics and methods modules with your previous study.",
+      "Distinguish a taught degree from a research or graduate-school admissions route."
+    ]
+  },
+  "university-of-stuttgart": {
+    "overview": "Stuttgart describes a technologically oriented university that connects engineering and natural sciences with humanities, management, economics and social sciences. Its faculty structure provides a route into specialised technical fields as well as related nontechnical disciplines. The range supports comparisons based on course content rather than the university label alone.",
+    "study": "For an engineering or science master's, check the detailed academic prerequisites and the balance of theoretical, computational and practical work. For an interdisciplinary programme, identify the contribution of each subject. Confirm the teaching language and delivery location before planning language preparation and accommodation.",
+    "checks": [
+      "Compare the technical prerequisites with your transcript and module descriptions.",
+      "Check the balance of theory, project work and practical study in the programme."
+    ]
+  },
+  "university-of-wurzburg": {
+    "overview": "Würzburg, also known as Julius-Maximilians-Universität or JMU, offers a broad faculty range. Its subjects include biology, chemistry and pharmacy, mathematics and computing, physics and astronomy, medicine, humanities, law and economics. Recognising both institutional names can help applicants navigate official resources.",
+    "study": "Start with the intended qualification and examine how its modules fit your previous preparation. Professional or state-examination routes need different planning from a taught master's. If combining subjects or looking for interdisciplinary options, check the permitted combinations and language requirements in the regulations rather than inferring them from the faculty list.",
+    "checks": [
+      "Recognise JMU and Julius-Maximilians-Universität as names used in official resources.",
+      "Confirm qualification type, permitted subject combinations and programme language."
+    ]
+  },
+  "auckland": {
+    "overview": "Auckland offers undergraduate and postgraduate qualifications across a broad academic range. Its study finder also explains conjoint programmes, which combine two undergraduate qualifications. Within arts and education, its listings include subjects ranging from communication and global studies to music, teaching and fine arts.",
+    "study": "Compare a single degree, a double-major structure and a conjoint programme as different choices. They may involve different entry conditions, workloads and total durations. Start with the qualification rules and map the compulsory courses before deciding that a combination fits your interests and budget. Teaching location should also be checked for each part.",
+    "checks": [
+      "Distinguish a double major within one degree from a conjoint programme.",
+      "Compare total duration, compulsory courses and progression requirements for the proposed combination."
+    ]
+  },
+  "otago": {
+    "overview": "Otago's main campus is in Dunedin, with other teaching locations across New Zealand. Its academic divisions include business, health sciences, humanities and sciences. The subject guide distinguishes majors, minors and individual papers, giving applicants a useful way to plan a broader bachelor degree.",
+    "study": "Use the qualification regulations to check which subjects can be combined and which papers are required. For a health-related or other professional route, investigate its own entry and selection rules. An option listed in the subject guide is not proof that it can be added freely to every degree or studied at every campus.",
+    "checks": [
+      "Map the intended major, any minor and compulsory papers within the qualification.",
+      "Check the teaching location and separate selection rules of a professional route."
+    ]
+  },
+  "canterbury": {
+    "overview": "Canterbury's subject catalogue spans areas such as accounting, geology, engineering, languages and creative practice. It distinguishes a subject from the courses offered within it, and its course information can be filtered by academic year. That distinction is useful when building a detailed study plan.",
+    "study": "Start with the qualification you want, then identify the major or subject and its required courses. Check prerequisites and the year in which each course is available. A subject appearing in the catalogue may contribute to more than one qualification, so the degree regulations remain the basis for a valid programme of study.",
+    "checks": [
+      "Use the catalogue for your intended academic year.",
+      "Check prerequisites and how the chosen courses count towards the qualification."
+    ]
+  },
+  "auckland-university-of-technology": {
+    "overview": "AUT operates across three Auckland campuses and highlights facilities such as laboratories, studios and practical learning spaces. Its course search distinguishes individual courses, specialisations and qualification types. Applicants should connect these levels rather than treating a course-search result as a complete degree.",
+    "study": "Choose the qualification first and check the campus where its compulsory teaching is offered. Then inspect individual course descriptions to understand practical work and assessment. If the timetable involves more than one location, include travel in your housing decision rather than assuming all Auckland teaching is within a single campus.",
+    "checks": [
+      "Distinguish an individual course from the qualification it contributes to.",
+      "Confirm teaching locations for compulsory courses and practical facilities."
+    ]
+  },
+  "university-of-waikato": {
+    "overview": "Waikato's New Zealand locations include Hamilton and Tauranga. The Hamilton campus includes accommodation and learning facilities, while Tauranga has a city-centre setting. Its subject guide links some areas closely with location, including aquaculture study at Tauranga.",
+    "study": "Compare the subjects available at each campus before selecting where to live. A qualification with flexible subject choices still has compulsory requirements, and not every option will necessarily be taught at both locations. If practical work is important to your choice, ask where it takes place and how it fits the timetable.",
+    "checks": [
+      "Confirm that your intended subjects are available at the selected campus.",
+      "Ask where practical or field-based components are taught and how travel is arranged."
+    ]
+  },
+  "massey-university": {
+    "overview": "Massey offers on-campus study in Auckland, Wellington and Manawatū, as well as other locations and online options. Its study pages distinguish qualifications, courses and subjects. The choice of delivery mode is therefore as important as the qualification name when planning to move to New Zealand.",
+    "study": "Confirm that the programme is available on campus at your intended location and intake. An online listing should not be assumed to provide the same attendance arrangements as a campus-based course. Compare the compulsory courses and specialist facilities at the selected campus, and ask how practical activities are scheduled.",
+    "checks": [
+      "Check campus, intake and delivery mode together before applying.",
+      "Confirm where practical activities occur and whether they require additional travel."
+    ]
+  },
+  "victoria-university-of-wellington": {
+    "overview": "Te Herenga Waka—Victoria University of Wellington has three main city campuses. Kelburn is a central hub with the main library and student services, while other locations serve different academic areas. The university's campus guide specifically identifies architecture, building science and design-related teaching at a separate campus.",
+    "study": "Map the qualification to its lecture and practical locations before comparing housing. A programme spanning several subjects may involve movement between sites. Use the timetable and campus guides to understand the routine, then compare compulsory courses, studio or project work and the degree's total duration.",
+    "checks": [
+      "Check the teaching campus for each major part of the qualification.",
+      "For architecture or design, read practical, studio and any portfolio requirements alongside academic entry rules."
+    ]
+  },
+  "lincoln-university": {
+    "overview": "Lincoln has a campus near Christchurch and a strong connection with land-based teaching and research. Its publications cover agriculture, horticulture, viticulture, environment, landscape architecture, property, business, tourism and recreation. University farms form part of its practical research and teaching environment.",
+    "study": "Compare how much scientific, practical and business content appears in your preferred qualification. Two land-related degrees can prepare students for different work and further-study paths. For a course involving field or farm activities, ask about attendance, equipment and travel requirements before estimating the full cost of study.",
+    "checks": [
+      "Compare the scientific, management and practical components of related degrees.",
+      "Ask which farm or field activities are compulsory and what additional equipment or travel they require."
+    ]
+  }
+}

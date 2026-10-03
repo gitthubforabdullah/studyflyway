@@ -7,6 +7,23 @@ const output = process.argv.includes('--dist') ? path.join(root, 'dist') : root;
 const records = JSON.parse(fs.readFileSync(path.join(root, 'research/universities.json'), 'utf8'));
 const additional = JSON.parse(fs.readFileSync(path.join(root, 'research/additional-universities.json'), 'utf8'));
 const listings = [...records, ...additional];
+const editorial = require('../research/university-editorial-content.json');
+const researchSources = require('../research/university-profile-sources.json');
+assert.equal(Object.keys(editorial).length, listings.length, 'Every university has editorial content');
+assert.equal(new Set(Object.values(editorial).map(item => item.overview)).size, listings.length, 'University overviews are distinct');
+for (const u of listings) {
+  assert(editorial[u.id]?.checks.length >= 2, u.name + ': individual comparison guidance');
+  assert(researchSources.find(item => item.id === u.id)?.sources.length, u.name + ': research sources');
+  const html = fs.readFileSync(path.join(output, 'universities', u.slug + '.html'), 'utf8');
+  for (const id of ['study-fit', 'application-planning', 'offer-planning', 'compare-universities']) {
+    assert.equal((html.match(new RegExp('id="' + id + '"', 'g')) || []).length, 1, u.name + ': ' + id);
+  }
+  const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+  assert.equal(new Set(ids).size, ids.length, u.name + ': unique section IDs');
+}
+if (output !== root && fs.existsSync(path.join(root, 'ads.txt'))) {
+  assert.equal(fs.readFileSync(path.join(output, 'ads.txt'), 'utf8'), fs.readFileSync(path.join(root, 'ads.txt'), 'utf8'), 'Build preserves ads.txt');
+}
 const photos = JSON.parse(fs.readFileSync(path.join(root, 'research/campus-photos.json'), 'utf8'));
 const files = [];
 function collect(dir) {

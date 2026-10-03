@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "melbourne",
+    "sources": [
+      {
+        "title": "About the University of Melbourne",
+        "url": "https://about.unimelb.edu.au/"
+      },
+      {
+        "title": "Study at the University of Melbourne",
+        "url": "https://study.unimelb.edu.au/"
+      },
+      {
+        "title": "Strategy 2030 | University of Melbourne",
+        "url": "https://about.unimelb.edu.au/strategy/strategy-2030"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "sydney",
+    "sources": [
+      {
+        "title": "Study areas - The University of Sydney",
+        "url": "https://www.sydney.edu.au/science/study/study-areas.html"
+      },
+      {
+        "title": "Study with us - The University of Sydney",
+        "url": "https://www.sydney.edu.au/study.html"
+      },
+      {
+        "title": "About us - The University of Sydney",
+        "url": "https://www.sydney.edu.au/about-us.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "monash",
+    "sources": [
+      {
+        "title": "Campus locations | Monash University",
+        "url": "https://www.monash.edu/about/our-locations"
+      },
+      {
+        "title": "Monash Explorer",
+        "url": "https://explorer.monash.edu/"
+      },
+      {
+        "title": "Our Locations – study at Monash University",
+        "url": "https://www.monash.edu/study/why-choose-monash/our-locations"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "ubc",
+    "sources": [
+      {
+        "title": "Overview and Facts | The University of British Columbia",
+        "url": "https://www.ubc.ca/about/facts.html"
+      },
+      {
+        "title": "UBC Campuses | The University of British Columbia",
+        "url": "https://www.ubc.ca/our-campuses/"
+      },
+      {
+        "title": "About UBC | The University of British Columbia",
+        "url": "https://www.ubc.ca/about/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "toronto",
+    "sources": [
+      {
+        "title": "Campuses | University of Toronto",
+        "url": "https://www.utoronto.ca/university-life/campuses"
+      },
+      {
+        "title": "Quick facts | University of Toronto",
+        "url": "https://www.utoronto.ca/about-u-of-t/quick-facts"
+      },
+      {
+        "title": "Academics | University of Toronto",
+        "url": "https://www.utoronto.ca/academics"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "mcgill",
+    "sources": [
+      {
+        "title": "Quick facts | About McGill - McGill University",
+        "url": "https://www.mcgill.ca/about/quickfacts"
+      },
+      {
+        "title": "Academics - McGill University",
+        "url": "https://www.mcgill.ca/academics/"
+      },
+      {
+        "title": "McGill University Quick Facts",
+        "url": "https://www.mcgill.ca/boardofgovernors/sites/boardofgovernors/files/2025-10/board-of-governors-handbook-2025-26-web.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "manchester",
+    "sources": [
+      {
+        "title": "Faculties and Schools | Structure of The University of Manchester",
+        "url": "https://www.manchester.ac.uk/about/structure/faculties-schools/"
+      },
+      {
+        "title": "Our campus | The University of Manchester",
+        "url": "https://www.manchester.ac.uk/about/our-campus/"
+      },
+      {
+        "title": "Structure of The University of Manchester",
+        "url": "https://www.manchester.ac.uk/about/structure/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "edinburgh",
+    "sources": [
+      {
+        "title": "Colleges and schools | Schools and departments | The University of Edinburgh",
+        "url": "https://www.ed.ac.uk/schools-departments/colleges-schools"
+      },
+      {
+        "title": "Schools and departments | The University of Edinburgh",
+        "url": "https://www.ed.ac.uk/schools-departments"
+      },
+      {
+        "title": "About us | The University of Edinburgh",
+        "url": "https://www.ed.ac.uk/about"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "birmingham",
+    "sources": [
+      {
+        "title": "Our Colleges - University of Birmingham",
+        "url": "https://www.birmingham.ac.uk/about/our-colleges"
+      },
+      {
+        "title": "Our Colleges - University of Birmingham",
+        "url": "https://www.birmingham.ac.uk/university/colleges"
+      },
+      {
+        "title": "Colleges, Schools and Departments - University of Birmingham",
+        "url": "https://www.birmingham.ac.uk/about/colleges-schools-and-departments"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "tum",
+    "sources": [
+      {
+        "title": "Faculty at the Technical University of Munich (TUM) - Academic Excellence",
+        "url": "https://www.professoren.tum.de/en/"
+      },
+      {
+        "title": "Munich: TUM locations around the city - TUM",
+        "url": "https://www.tum.de/en/about-tum/locations/munich"
+      },
+      {
+        "title": "Campus locations of TUM – in Bavaria and around the globe - TUM",
+        "url": "https://www.tum.de/en/about-tum/locations"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "heidelberg",
+    "sources": [
+      {
+        "title": "Faculties - Heidelberg University",
+        "url": "https://www.uni-heidelberg.de/faculties/"
+      },
+      {
+        "title": "Subject Catalogue - Heidelberg University",
+        "url": "https://www.uni-heidelberg.de/subjects/index.html"
+      },
+      {
+        "title": "Heidelberg University - Zukunft seit 1386",
+        "url": "https://www.uni-heidelberg.de/en/university/about-the-university/mission-statement-principles"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "rwth",
+    "sources": [
+      {
+        "title": "Courses of Study | RWTH Aachen University | EN",
+        "url": "https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/~efv/Studiengaenge/lidx/1/?mobile=1"
+      },
+      {
+        "title": "University Development Plan",
+        "url": "https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaacnrryss"
+      },
+      {
+        "title": "University",
+        "url": "https://www.wiwi.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaauvdrth"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "auckland",
+    "sources": [
+      {
+        "title": "Subjects and courses – University of Auckland",
+        "url": "https://www.auckland.ac.nz/en/arts/study-with-us/study-options/subjects-and-courses.html"
+      },
+      {
+        "title": "Find a study option – University of Auckland",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option.html"
+      },
+      {
+        "title": "Campus locations – University of Auckland",
+        "url": "https://www.auckland.ac.nz/en/on-campus/our-campuses/campus-locations0.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "otago",
+    "sources": [
+      {
+        "title": "Subjects available to new students | University of Otago",
+        "url": "https://www.otago.ac.nz/subjects"
+      },
+      {
+        "title": "University of Otago Campuses and maps, About us | University of Otago",
+        "url": "https://www.otago.ac.nz/about/campuses"
+      },
+      {
+        "title": "University of Otago Campuses and maps, About us | University of Otago",
+        "url": "https://www.otago.ac.nz/international/about/campuses"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "canterbury",
+    "sources": [
+      {
+        "title": "University Subjects | Find University Approved Subjects | UC",
+        "url": "https://www.canterbury.ac.nz/study/academic-study/subjects"
+      },
+      {
+        "title": "Subjects | University of Canterbury",
+        "url": "https://courseinfo.canterbury.ac.nz/subjects.aspx"
+      },
+      {
+        "title": "Bachelor’s degrees | Bachelor degree options | UC",
+        "url": "https://www.canterbury.ac.nz/study/getting-started/about-our-qualifications/bachelors-degrees"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "australian-national-university",
+    "sources": [
+      {
+        "title": "Campuses & facilities | Australian National University",
+        "url": "https://www.anu.edu.au/about/campuses-facilities"
+      },
+      {
+        "title": "The 5 best study spots on campus at ANU | The Australian National University",
+        "url": "https://study.anu.edu.au/explore-anu/stories/5-best-study-spots-campus-anu"
+      },
+      {
+        "title": "About ANU | Australian National University",
+        "url": "https://www.anu.edu.au/about"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "unsw-sydney",
+    "sources": [
+      {
+        "title": "Our campuses | About us - UNSW Sydney",
+        "url": "https://www.unsw.edu.au/about-us/our-story/our-campuses"
+      },
+      {
+        "title": "Study areas | Science - UNSW Sydney",
+        "url": "https://www.unsw.edu.au/science/study-with-us/study-areas"
+      },
+      {
+        "title": "UNSW campuses and locations | UNSW Sydney",
+        "url": "https://www.unsw.edu.au/study/discover/campus"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-queensland",
+    "sources": [
+      {
+        "title": "Campuses and facilities - About - The University of Queensland",
+        "url": "https://about.uq.edu.au/campuses-facilities"
+      },
+      {
+        "title": "The University of Queensland",
+        "url": "https://www.uq.edu.au/"
+      },
+      {
+        "title": "Browse study areas at UQ",
+        "url": "https://study.uq.edu.au/study-options/browse-study-areas"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-western-australia",
+    "sources": [
+      {
+        "title": "Study areas | Study | UWA",
+        "url": "https://www.uwa.edu.au/study/explore-courses/study-areas"
+      },
+      {
+        "title": "Our campus | The University of Western Australia",
+        "url": "https://www.uwa.edu.au/about/Locations"
+      },
+      {
+        "title": "Undergraduate | Study | UWA",
+        "url": "https://www.uwa.edu.au/study/explore-courses/undergraduate"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "adelaide-university",
+    "sources": [
+      {
+        "title": "Study | Adelaide University",
+        "url": "https://adelaide.edu.au/study/"
+      },
+      {
+        "title": "Our study areas | School of Society and Culture | Adelaide University",
+        "url": "https://adelaide.edu.au/about/school/society-and-culture/our-study-areas/"
+      },
+      {
+        "title": "Campuses | Life at Adelaide | Adelaide University",
+        "url": "https://adelaide.edu.au/life-at-adelaide/campuses/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-technology-sydney",
+    "sources": [
+      {
+        "title": "UTS campus overview | University of Technology Sydney",
+        "url": "https://www.uts.edu.au/for-students/current-students/support/campus-life/your-campus"
+      },
+      {
+        "title": "UTS Campus Locations | University of Technology Sydney",
+        "url": "https://www.uts.edu.au/about/locations-facilities/campus/locations"
+      },
+      {
+        "title": "Student Spaces on Campus | University of Technology Sydney",
+        "url": "https://www.uts.edu.au/about/locations-facilities/campus/student-spaces-campus"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "rmit-university",
+    "sources": [
+      {
+        "title": "Our locations and facilities - RMIT University",
+        "url": "https://www.rmit.edu.au/about/our-locations-and-facilities"
+      },
+      {
+        "title": "Locations - RMIT University",
+        "url": "https://www.rmit.edu.au/about/our-locations-and-facilities/locations"
+      },
+      {
+        "title": "Find a course | Study at RMIT",
+        "url": "https://www.rmit.edu.au/study-with-us"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "deakin-university",
+    "sources": [
+      {
+        "title": "Locations",
+        "url": "https://www.deakin.edu.au/about-deakin/locations"
+      },
+      {
+        "title": "Course guides",
+        "url": "https://www.deakin.edu.au/study/find-a-course/course-guides"
+      },
+      {
+        "title": "Campuses",
+        "url": "https://www.deakin.edu.au/about-deakin/locations/campuses"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "griffith-university",
+    "sources": [
+      {
+        "title": "Campuses and facilities",
+        "url": "https://www.griffith.edu.au/about-griffith/campuses-facilities"
+      },
+      {
+        "title": "Connection",
+        "url": "https://www.griffith.edu.au/orientation/connection"
+      },
+      {
+        "title": "Study",
+        "url": "https://www.griffith.edu.au/study"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "queensland-university-of-technology",
+    "sources": [
+      {
+        "title": "QUT - Why QUT",
+        "url": "https://www.qut.edu.au/study/why-qut"
+      },
+      {
+        "title": "QUT - Our university",
+        "url": "https://www.qut.edu.au/about/our-university"
+      },
+      {
+        "title": "QUT - Undergraduate study",
+        "url": "https://www.qut.edu.au/study/undergraduate"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "curtin-university",
+    "sources": [
+      {
+        "title": "Study areas | Browse your area of interest | Curtin University",
+        "url": "https://www.curtin.edu.au/study/study-areas/"
+      },
+      {
+        "title": "About us | Curtin University",
+        "url": "https://www.curtin.edu.au/about/"
+      },
+      {
+        "title": "Study areas - Curtin University",
+        "url": "https://choose.curtin.edu.au/Study-Areas.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "macquarie-university",
+    "sources": [
+      {
+        "title": "Our campus | Macquarie University",
+        "url": "https://www.mq.edu.au/about/locations/campus"
+      },
+      {
+        "title": "Macquarie at a glance | About | Macquarie University",
+        "url": "https://www.mq.edu.au/about/about-the-university/mq-story/at-a-glance"
+      },
+      {
+        "title": "The Macquarie story | Macquarie University",
+        "url": "https://www.mq.edu.au/about/about-the-university/mq-story"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-wollongong",
+    "sources": [
+      {
+        "title": "Campuses & teaching locations - University of Wollongong – UOW",
+        "url": "https://www.uow.edu.au/about/locations/"
+      },
+      {
+        "title": "About UOW - University of Wollongong – UOW",
+        "url": "https://www.uow.edu.au/about/"
+      },
+      {
+        "title": "Wollongong campus - University of Wollongong – UOW",
+        "url": "https://www.uow.edu.au/about/locations/wollongong/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-newcastle",
+    "sources": [
+      {
+        "title": "Campuses and locations / Our Uni / The University of Newcastle, Australia",
+        "url": "https://www.newcastle.edu.au/our-uni/campuses-and-locations"
+      },
+      {
+        "title": "Explore our campuses / The University of Newcastle, Australia",
+        "url": "https://www.newcastle.edu.au/explore-our-campuses"
+      },
+      {
+        "title": "Prepare for university / New students / Study / The University of Newcastle, Australia",
+        "url": "https://www.newcastle.edu.au/study/new-students/prepare-for-university"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "la-trobe-university",
+    "sources": [
+      {
+        "title": "Campus-study-options, Campus locations, La Trobe University",
+        "url": "https://www.latrobe.edu.au/campuses/nested-campus-content/campus-study-options"
+      },
+      {
+        "title": "Campus locations, La Trobe University",
+        "url": "https://www.latrobe.edu.au/campuses"
+      },
+      {
+        "title": "At La Trobe, we make it easier to study",
+        "url": "https://www.latrobe.edu.au/__data/assets/pdf_file/0004/1656427/la-trobe-university-undergraduate-course-guide-2026_v2.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "flinders-university",
+    "sources": [
+      {
+        "title": "Study at Flinders in 2026 - Flinders University",
+        "url": "https://www.flinders.edu.au/study"
+      },
+      {
+        "title": "Fast facts | Flinders University - Flinders University",
+        "url": "https://www.flinders.edu.au/about/fast-facts"
+      },
+      {
+        "title": "Flinders City Campus - Flinders University",
+        "url": "https://www.flinders.edu.au/city-campus"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-tasmania",
+    "sources": [
+      {
+        "title": "Our campuses | University of Tasmania",
+        "url": "https://www.utas.edu.au/about/campuses"
+      },
+      {
+        "title": "What Study Area do I sit under? - Ask Us - University of Tasmania, Australia",
+        "url": "https://askus.utas.edu.au/app/answers/detail/a_id/2571/kw/prospective"
+      },
+      {
+        "title": "What Study Area do I sit under? - Ask Us - University of Tasmania, Australia",
+        "url": "https://askus.utas.edu.au/app/answers/detail/a_id/2571/kw/office%20download/related/1"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-alberta",
+    "sources": [
+      {
+        "title": "University of Alberta Campuses | University of Alberta",
+        "url": "https://www.ualberta.ca/en/campus-life/our-campuses/index.html"
+      },
+      {
+        "title": "Facts | University of Alberta",
+        "url": "https://www.ualberta.ca/en/about/facts.html"
+      },
+      {
+        "title": "University of Alberta Campuses | University of Alberta",
+        "url": "https://cloudfront.ualberta.ca/en/campus-life/our-campuses/index.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "mcmaster-university",
+    "sources": [
+      {
+        "title": "McMaster Campus: Virtual Tour and Directions",
+        "url": "https://discover.mcmaster.ca/"
+      },
+      {
+        "title": "Study - Discover McMaster",
+        "url": "https://discover.mcmaster.ca/study/"
+      },
+      {
+        "title": "Working together",
+        "url": "https://global.mcmaster.ca/app/uploads/2024/05/McMaster-Global-Engagement-Brochure-2024.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-waterloo",
+    "sources": [
+      {
+        "title": "Faculties and Academics | University of Waterloo | University of Waterloo",
+        "url": "https://uwaterloo.ca/faculties-academics-eng"
+      },
+      {
+        "title": "Institutional structure | About Waterloo | University of Waterloo",
+        "url": "https://uwaterloo.ca/about/leadership-and-governance/institutional-structure"
+      },
+      {
+        "title": "Maps and directions | About Waterloo | University of Waterloo",
+        "url": "https://uwaterloo.ca/about/maps-and-directions"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-ottawa",
+    "sources": [
+      {
+        "title": "Faculties | About us",
+        "url": "https://www.uottawa.ca/about-us/faculties"
+      },
+      {
+        "title": "Faculty and staff | About us",
+        "url": "https://www.uottawa.ca/about-us/faculty-staff"
+      },
+      {
+        "title": "Administration and services | About us",
+        "url": "https://www.uottawa.ca/about-us/administration-services"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "western-university",
+    "sources": [
+      {
+        "title": "Academics - Western University",
+        "url": "https://www.uwo.ca/academics/index.html"
+      },
+      {
+        "title": "Who We Are - Western University",
+        "url": "https://www.uwo.ca/about/whoweare/index.html"
+      },
+      {
+        "title": "Our History - Western University",
+        "url": "https://www.uwo.ca/about/whoweare/history.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-calgary",
+    "sources": [
+      {
+        "title": "Faculties and Schools | UCalgary Calendar",
+        "url": "https://calendar.ucalgary.ca/facultiesandschools"
+      },
+      {
+        "title": "University of Calgary",
+        "url": "https://www.ucalgary.ca/"
+      },
+      {
+        "title": "UCalgary Catalog",
+        "url": "https://calendar.ucalgary.ca/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "queen-s-university",
+    "sources": [
+      {
+        "title": "Top University in Canada | Queen's",
+        "url": "https://www.queensu.ca/academics"
+      },
+      {
+        "title": "Visit Queen's University in Kingston, Ontario",
+        "url": "https://www.queensu.ca/visit"
+      },
+      {
+        "title": "Experience Queen's University in Kingston, Ontario",
+        "url": "https://www.queensu.ca/experience"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "dalhousie-university",
+    "sources": [
+      {
+        "title": "About | Welcome to Dalhousie University",
+        "url": "https://www.dal.ca/about.html"
+      },
+      {
+        "title": "Campus locations | Welcome to Dalhousie University",
+        "url": "https://www.dal.ca/about/campus-locations.html"
+      },
+      {
+        "title": "Faculties | Welcome to Dalhousie University",
+        "url": "https://www.dal.ca/study/faculties.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "simon-fraser-university",
+    "sources": [
+      {
+        "title": "Faculties & Departments - Simon Fraser University",
+        "url": "https://www.sfu.ca/programs/what-can-i-study/faculties-departments.html"
+      },
+      {
+        "title": "Student Experience - Undergraduate Admission - Simon Fraser University",
+        "url": "https://www.sfu.ca/students/admission/student-experience.html"
+      },
+      {
+        "title": "About - Simon Fraser University",
+        "url": "https://www.sfu.ca/about.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-victoria",
+    "sources": [
+      {
+        "title": "Faculties, schools & services - University of Victoria",
+        "url": "https://www.uvic.ca/academics/faculties-schools-and-services/index.php"
+      },
+      {
+        "title": "Welcome to the University of Victoria",
+        "url": "https://www.uvic.ca/vpacademic/assets/docs/faculty/WelcomeAndIntroductionToTheUniversityOfVictoria-DavidTurpin.pdf"
+      },
+      {
+        "title": "About the university - University of Victoria",
+        "url": "https://www.uvic.ca/about-uvic/about-the-university/index.php"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "york-university",
+    "sources": [
+      {
+        "title": "About | York University",
+        "url": "https://www.yorku.ca/about/"
+      },
+      {
+        "title": "Our Campuses | York University",
+        "url": "https://www.yorku.ca/campuses/"
+      },
+      {
+        "title": "About | York University",
+        "url": "https://www.yorku.ca/about"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "concordia-university",
+    "sources": [
+      {
+        "title": "About - Concordia University",
+        "url": "https://www.concordia.ca/about/.html"
+      },
+      {
+        "title": "Campus life - Concordia University",
+        "url": "https://www.concordia.ca/campus-life.html"
+      },
+      {
+        "title": "Academic units - Concordia University",
+        "url": "https://www.concordia.ca/academics/units.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-manitoba",
+    "sources": [
+      {
+        "title": "Faculties, colleges and schools | University of Manitoba",
+        "url": "https://umanitoba.ca/academics/faculties-colleges-and-schools"
+      },
+      {
+        "title": "Faculties, colleges and schools | University of Manitoba",
+        "url": "https://www.umanitoba.ca/academics/faculties-colleges-and-schools"
+      },
+      {
+        "title": "Our campuses | University of Manitoba",
+        "url": "https://umanitoba.ca/about-um/our-campuses"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "sources": [
+      {
+        "title": "Colleges and Schools - University of Saskatchewan",
+        "url": "https://www.usask.ca/colleges.php"
+      },
+      {
+        "title": "About USask - University of Saskatchewan",
+        "url": "https://www.usask.ca/about/index.php"
+      },
+      {
+        "title": "Colleges and Schools - University Catalogue 2026-27 | University of Saskatchewan",
+        "url": "https://programs.usask.ca/programs/colleges-and-schools.php"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-guelph",
+    "sources": [
+      {
+        "title": "About the University of Guelph | University of Guelph",
+        "url": "https://www.uoguelph.ca/about"
+      },
+      {
+        "title": "About | University of Guelph",
+        "url": "https://www.uoguelph.ca/about.php"
+      },
+      {
+        "title": "Campus Locations Directory | University of Guelph",
+        "url": "https://www.uoguelph.ca/maps/locations/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "sources": [
+      {
+        "title": "Programs | University of New Brunswick | UNB",
+        "url": "https://www.unb.ca/academics/programs/"
+      },
+      {
+        "title": "About UNB | UNB",
+        "url": "https://www.unb.ca/aboutunb/index.html"
+      },
+      {
+        "title": "Programs | University of New Brunswick | UNB",
+        "url": "https://www.unb.ca/academics/programs/index.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "sources": [
+      {
+        "title": "Campuses | Newfoundland and Labrador's University | Memorial University of Newfoundland",
+        "url": "https://www.mun.ca/main/campuses/"
+      },
+      {
+        "title": "Faculties and Schools | People/Departments | Memorial University of Newfoundland",
+        "url": "https://www.mun.ca/people_departments/faculties-and-schools/"
+      },
+      {
+        "title": "| Official 2026-2027 University Calendar | Memorial University of Newfoundland",
+        "url": "https://www.mun.ca/previous-university-calendars/2026-2027/st-johns-campus/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-oxford",
+    "sources": [
+      {
+        "title": "The University | Oxford University",
+        "url": "https://www.ox.ac.uk/about/the-university"
+      },
+      {
+        "title": "About the University of Oxford | Oxford University",
+        "url": "https://www.ox.ac.uk/about"
+      },
+      {
+        "title": "How we are run | Oxford University",
+        "url": "https://www.ox.ac.uk/about/how-we-are-run"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-cambridge",
+    "sources": [
+      {
+        "title": "About the University | University of Cambridge",
+        "url": "https://www.cam.ac.uk/about-the-university"
+      },
+      {
+        "title": "Cambridge explained | Undergraduate Study",
+        "url": "https://www.undergraduate.study.cam.ac.uk/student-life/why-cambridge/cambridge-explained"
+      },
+      {
+        "title": "How the University and Colleges work | University of Cambridge",
+        "url": "https://www.cam.ac.uk/about-the-university/how-the-university-and-colleges-work?ucam-ref=global-header"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "imperial-college-london",
+    "sources": [
+      {
+        "title": "About | Imperial College London",
+        "url": "https://www.imperial.ac.uk/about/"
+      },
+      {
+        "title": "Faculties and departments | Imperial College London",
+        "url": "https://www.imperial.ac.uk/faculties-and-departments/"
+      },
+      {
+        "title": "Campuses and maps | Visit | Imperial College London",
+        "url": "https://www.imperial.ac.uk/visit/campuses/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-college-london",
+    "sources": [
+      {
+        "title": "UCL campuses | About UCL",
+        "url": "https://www.ucl.ac.uk/about/campuses-and-facilities/ucl-campuses"
+      },
+      {
+        "title": "Academic structure | About UCL",
+        "url": "https://www.ucl.ac.uk/about/leadership/governance-and-compliance/academic-structure"
+      },
+      {
+        "title": "Faculties and departments | About UCL",
+        "url": "https://www.ucl.ac.uk/about/who-we-are/faculties-and-departments"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "king-s-college-london",
+    "sources": [
+      {
+        "title": "About King's | King's College London",
+        "url": "https://www.kcl.ac.uk/about"
+      },
+      {
+        "title": "Visit | King's College London",
+        "url": "https://www.kcl.ac.uk/visit"
+      },
+      {
+        "title": "Thriving campuses | King's College London",
+        "url": "https://www.kcl.ac.uk/about/strategy/thriving-campuses"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "london-school-of-economics-and-political-science",
+    "sources": [
+      {
+        "title": "About",
+        "url": "https://www.lse.ac.uk/government/about"
+      },
+      {
+        "title": "About LSE | social science research and education in London - LSE",
+        "url": "https://www.lse.ac.uk/about-lse"
+      },
+      {
+        "title": "Undergraduate",
+        "url": "https://www.lse.ac.uk/study-at-lse/Undergraduate"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-bristol",
+    "sources": [
+      {
+        "title": "Schools and faculties | Schools and faculties | University of Bristol",
+        "url": "https://www.bristol.ac.uk/faculties/"
+      },
+      {
+        "title": "Organisational structure | About the University | University of Bristol",
+        "url": "https://www.bristol.ac.uk/university/governance/executive/organisational-structure/"
+      },
+      {
+        "title": "Academic management | About the University | University of Bristol",
+        "url": "https://www.bristol.ac.uk/university/governance/executive/organisational-structure/academic/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-warwick",
+    "sources": [
+      {
+        "title": "Warwick University: Directory of Departments and Services",
+        "url": "https://warwick.ac.uk/departments/"
+      },
+      {
+        "title": "Faculties at the University of Warwick",
+        "url": "https://warwick.ac.uk/fac/"
+      },
+      {
+        "title": "Academic Departments",
+        "url": "https://warwick.ac.uk/departments/academic/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-glasgow",
+    "sources": [
+      {
+        "title": "University of Glasgow - Colleges",
+        "url": "https://www.gla.ac.uk/colleges/"
+      },
+      {
+        "title": "University of Glasgow",
+        "url": "https://www.gla.ac.uk/t4/new/atoz.htm"
+      },
+      {
+        "title": "University of Glasgow - Schools",
+        "url": "https://www.gla.ac.uk/schools/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-southampton",
+    "sources": [
+      {
+        "title": "About us | University of Southampton",
+        "url": "https://www.southampton.ac.uk/about"
+      },
+      {
+        "title": "Our university campuses | University of Southampton",
+        "url": "https://www.southampton.ac.uk/student-life/campuses"
+      },
+      {
+        "title": "Ordinances | University of Southampton",
+        "url": "https://www.southampton.ac.uk/about/governance/structure/university-charter/ordinances"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-liverpool",
+    "sources": [
+      {
+        "title": "About us | University of Liverpool",
+        "url": "https://www.liverpool.ac.uk/about/"
+      },
+      {
+        "title": "Our campuses | About us | University of Liverpool",
+        "url": "https://www.liverpool.ac.uk/about/our-campus/campuses/"
+      },
+      {
+        "title": "Our structure | About us | University of Liverpool",
+        "url": "https://www.liverpool.ac.uk/about/the-university/our-structure/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-leeds",
+    "sources": [
+      {
+        "title": "About | University of Leeds",
+        "url": "https://www.leeds.ac.uk/about"
+      },
+      {
+        "title": "Changes to our faculty structure | Students | University of Leeds",
+        "url": "https://students.leeds.ac.uk/news/article/15/changes-to-our-faculty-structure"
+      },
+      {
+        "title": "Campus directory | University of Leeds",
+        "url": "https://www.leeds.ac.uk/campus-directory"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-nottingham",
+    "sources": [
+      {
+        "title": "The University of Nottingham - Undergraduate Study - Faculties and Schools",
+        "url": "https://runicdictionary.nottingham.ac.uk/ugstudy/introduction/about/faculties-and-schools.php"
+      },
+      {
+        "title": "The University of Nottingham",
+        "url": "https://www.nottingham.ac.uk/about/documents/uon-facts-and-figures.pdf"
+      },
+      {
+        "title": "University of",
+        "url": "https://www.nottingham.ac.uk/estates/documents/developments/uon-estate-development-framework-lores.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "durham-university",
+    "sources": [
+      {
+        "title": "Be extraordinary.",
+        "url": "https://www.durham.ac.uk/media/durham-university/marketing-and-communications-/prospectus/Undergraduate-Colleges-Guide---2026.pdf"
+      },
+      {
+        "title": "About Us - Durham University",
+        "url": "https://www.durham.ac.uk/about-us/governance/governance-documentation/statutes-and-regulations/general-regulations/"
+      },
+      {
+        "title": "Be extraordinary.",
+        "url": "https://www.durham.ac.uk/media/durham-university/marketing-and-communications-/prospectus/Undergraduate-Colleges-Guide---2025.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-st-andrews",
+    "sources": [
+      {
+        "title": "Academic Schools - About - University of St Andrews",
+        "url": "https://www.st-andrews.ac.uk/about/schools/"
+      },
+      {
+        "title": "Contact Academic Schools - Contact - University of St Andrews",
+        "url": "https://www.st-andrews.ac.uk/contact/schools/"
+      },
+      {
+        "title": "About - University of St Andrews",
+        "url": "https://www.st-andrews.ac.uk/about/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "queen-mary-university-of-london",
+    "sources": [
+      {
+        "title": "Faculties - Queen Mary University of London",
+        "url": "https://www.qmul.ac.uk/research/explore-our-research/explore-queen-mary/faculties/"
+      },
+      {
+        "title": "Explore our campuses - Queen Mary University of London",
+        "url": "https://www.qmul.ac.uk/study/explore-our-campuses/"
+      },
+      {
+        "title": "About Queen Mary University of London - Queen Mary University of London",
+        "url": "https://www.qmul.ac.uk/about/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "lancaster-university",
+    "sources": [
+      {
+        "title": "Faculties and departments - Lancaster University",
+        "url": "https://www.lancaster.ac.uk/about-us/faculties-and-departments/"
+      },
+      {
+        "title": "Our Colleges - Lancaster University",
+        "url": "https://www.lancaster.ac.uk/about-us/colleges/"
+      },
+      {
+        "title": "Colleges and campus life - Lancaster University",
+        "url": "https://www.lancaster.ac.uk/study/student-experience/colleges-and-campus-life/index.php"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "leipzig-university",
+    "sources": [
+      {
+        "title": "Universität Leipzig: Portrait of Leipzig University",
+        "url": "https://www.uni-leipzig.de/en/university/profile/portrait"
+      },
+      {
+        "title": "Universität Leipzig: Faculties and Institutions",
+        "url": "https://www.uni-leipzig.de/en/university/structure/faculties-and-institutions"
+      },
+      {
+        "title": "Universität Leipzig: Structure",
+        "url": "https://www.uni-leipzig.de/en/university/structure"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "technische-universitat-berlin",
+    "sources": [
+      {
+        "title": "Berlin - TU Berlin",
+        "url": "https://www.tu.berlin/ueber-die-tu-berlin/standorte/berlin"
+      },
+      {
+        "title": "Campusplan - TU Berlin",
+        "url": "https://www.tu.berlin/studieren/uni-leben/campusplan"
+      },
+      {
+        "title": "Berlin - TU Berlin",
+        "url": "https://www.tu.berlin/en/about/campuses-and-offices/berlin"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "freie-universitat-berlin",
+    "sources": [
+      {
+        "title": "Departments • Departments • Freie Universität Berlin",
+        "url": "https://www.fu-berlin.de/en/einrichtungen/fachbereiche/index.html"
+      },
+      {
+        "title": "Zu welchem Fachbereich gehört mein Studiengang • Studium • Freie Universität Berlin",
+        "url": "https://www.fu-berlin.de/studium/beratung/information_a-z/Studiengaenge-und-Fachbereiche.html"
+      },
+      {
+        "title": "Course catalog",
+        "url": "https://www.fu-berlin.de/vv/en/fb"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "humboldt-universitat-zu-berlin",
+    "sources": [
+      {
+        "title": "RESEARCH REPORT",
+        "url": "https://www.hu-berlin.de/de/pr/nachrichten/maerz-2024/hu_forschungsbericht_2021-2022_en_web.pdf/%40%40download/file/HU_Forschungsbericht_2021%E2%80%932022_EN_web.pdf"
+      },
+      {
+        "title": "Research Report Humboldt-Universität zu Berlin 2023–2024",
+        "url": "https://www.hu-berlin.de/fileadmin/Mediathek/Zentrale_Seiten/Forschung___Lehre/Forschung/Dokumente/research-report-hu-2023%E2%80%932024.pdf"
+      },
+      {
+        "title": "Locations of Humboldt-Universität",
+        "url": "https://www.hu-berlin.de/fileadmin/Mediathek/Zentrale_Seiten/Forschung___Lehre/Forschung/Dokumente/HU_Forschungsbericht_2021%E2%80%932022_EN_web.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "karlsruhe-institute-of-technology",
+    "sources": [
+      {
+        "title": "KIT - Studies - KIT Departments",
+        "url": "https://www.kit.edu/study/departments.php"
+      },
+      {
+        "title": "KIT - KIT - Profile - Data and Facts",
+        "url": "https://www.kit.edu/kit/english/data.php"
+      },
+      {
+        "title": "KIT - Das KIT - Standorte und Anfahrt",
+        "url": "https://www.kit.edu/kit/anfahrt.php"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-bonn",
+    "sources": [
+      {
+        "title": "Faculties — University of Bonn",
+        "url": "https://www.uni-bonn.de/en/university/organisation-and-institutions/faculties-research-centers-and-other-academic-units/faculties/faculties?set_language=en"
+      },
+      {
+        "title": "Faculties, Research Centers and other Academic Units — University of Bonn",
+        "url": "https://www.uni-bonn.de/en/university/organisation-and-institutions/faculties-research-centers-and-other-academic-units"
+      },
+      {
+        "title": "Locations — University of Bonn",
+        "url": "https://www.uni-bonn.de/en/university/about-the-university/locations-1/locations"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-hamburg",
+    "sources": [
+      {
+        "title": "Profile : UHH : University of Hamburg",
+        "url": "https://www.uni-hamburg.de/en/uhh/profil.html"
+      },
+      {
+        "title": "Facts and Figures: Details : UHH : University of Hamburg",
+        "url": "https://www.uni-hamburg.de/en/uhh/profil/fakten/details.html"
+      },
+      {
+        "title": "Our campus : UHH : University of Hamburg",
+        "url": "https://www.uni-hamburg.de/en/studium/campus-leben/campus.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-tubingen",
+    "sources": [
+      {
+        "title": "Profile | University of Tübingen",
+        "url": "https://uni-tuebingen.de/en/university/profile/"
+      },
+      {
+        "title": "Subject areas | University of Tübingen",
+        "url": "https://uni-tuebingen.de/en/facilities/university-library/about-us/library-holdings/subject-areas/"
+      },
+      {
+        "title": "Faculties | University of Tübingen",
+        "url": "https://uni-tuebingen.de/en/faculties/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-freiburg",
+    "sources": [
+      {
+        "title": "Faculties – University of Freiburg",
+        "url": "https://uni-freiburg.de/en/university/faculties/"
+      },
+      {
+        "title": "Fakultäten – Universität Freiburg",
+        "url": "https://uni-freiburg.de/universitaet/fakultaeten/"
+      },
+      {
+        "title": "University course catalog - Campusmanagement",
+        "url": "https://wiki.uni-freiburg.de/campusmanagement/doku.php?id=hisinone%3Astudieren%3Avvz_en"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-gottingen",
+    "sources": [
+      {
+        "title": "Faculties - Georg-August-Universität Göttingen",
+        "url": "https://uni-goettingen.de/en/2925.html"
+      },
+      {
+        "title": "Fakultäten - Georg-August-Universität Göttingen",
+        "url": "https://www.uni-goettingen.de/de/2925.html"
+      },
+      {
+        "title": "Fakultätsprogramme - Georg-August-Universität Göttingen",
+        "url": "https://www.uni-goettingen.de/de/639447.html"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "tu-dresden",
+    "sources": [
+      {
+        "title": "The Schools and Faculties of TU Dresden — TU Dresden — TU Dresden",
+        "url": "https://tu-dresden.de/tu-dresden/organisation/bereiche-fakultaeten"
+      },
+      {
+        "title": "Die Bereiche und Fakultäten der TU Dresden — TU Dresden — TU Dresden",
+        "url": "https://tu-dresden.de/tu-dresden/organisation/bereiche-fakultaeten/index/document_view?set_language=de"
+      },
+      {
+        "title": "Facts and figures at a glance — TU Dresden — TU Dresden",
+        "url": "https://tu-dresden.de/tu-dresden/profil/zahlen-und-fakten/index?set_language=en"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "friedrich-alexander-universitat-erlangen-nurnberg",
+    "sources": [
+      {
+        "title": "University’s profile | FAU",
+        "url": "https://www.fau.eu/university/universitys-profile/"
+      },
+      {
+        "title": "The Faculty - Faculty of Sciences",
+        "url": "https://www.nat.fau.eu/faculty/facultyofsciences/"
+      },
+      {
+        "title": "The Faculty of Sciences - Faculty of Sciences",
+        "url": "https://www.nat.fau.eu/faculty/about-the-faculty/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-cologne",
+    "sources": [
+      {
+        "title": "Universität zu Köln: Profile",
+        "url": "https://uni-koeln.de/en/university/at-a-glance/profile"
+      },
+      {
+        "title": "Universität zu Köln: Faculties, Departments & institutes",
+        "url": "https://uni-koeln.de/en/university/structure-governance/faculties-departments-institutes"
+      },
+      {
+        "title": "Universität zu Köln: Fakultäten, Departments & Institute",
+        "url": "https://uni-koeln.de/universitaet/struktur-leitung/fakultaeten-departments-institute"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-munster",
+    "sources": [
+      {
+        "title": "University of Münster Profile",
+        "url": "https://www.uni-muenster.de/profil/en/"
+      },
+      {
+        "title": "Faculties and departments",
+        "url": "https://www.uni-muenster.de/die-universitaet/en/fak_fb/"
+      },
+      {
+        "title": "Teaching",
+        "url": "https://www.uni-muenster.de/lehre/en/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-mannheim",
+    "sources": [
+      {
+        "title": "Profile | University of Mannheim",
+        "url": "https://www.uni-mannheim.de/en/about/profile/"
+      },
+      {
+        "title": "Einrichtungen und Fakultäten | Universität Mannheim",
+        "url": "https://www.uni-mannheim.de/universitaet/einrichtungen-und-fakultaeten/"
+      },
+      {
+        "title": "Discovering the University of Mannheim | University of Mannheim",
+        "url": "https://www.uni-mannheim.de/en/academics/before-your-studies/discovering-the-university-of-mannheim/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-stuttgart",
+    "sources": [
+      {
+        "title": "Profile | University of Stuttgart",
+        "url": "https://www.uni-stuttgart.de/en/university/profile/index.html"
+      },
+      {
+        "title": "Faculties and institutes | University of Stuttgart",
+        "url": "https://www.uni-stuttgart.de/en/university/faculties-institutes/"
+      },
+      {
+        "title": "Faculties and institutes | For students | University of Stuttgart",
+        "url": "https://www.student.uni-stuttgart.de/en/uni-a-to-z/Faculties-and-institutes-00001/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-wurzburg",
+    "sources": [
+      {
+        "title": "Faculties, Departments and Schools - Institutions",
+        "url": "https://www.uni-wuerzburg.de/en/institutions/faculties/"
+      },
+      {
+        "title": "Fakultäten - Einrichtungen",
+        "url": "https://www.uni-wuerzburg.de/einrichtungen/fakultaeten/"
+      },
+      {
+        "title": "Profile -",
+        "url": "https://www.uni-wuerzburg.de/en/teaching/profile/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "auckland-university-of-technology",
+    "sources": [
+      {
+        "title": "Course search - AUT",
+        "url": "https://www.aut.ac.nz/study/course-search"
+      },
+      {
+        "title": "Our Campuses & Locations - AUT",
+        "url": "https://www.aut.ac.nz/about/campuses-and-locations"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://www.aut.ac.nz/__data/assets/pdf_file/0003/134805/AUT-Prospectus.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "university-of-waikato",
+    "sources": [
+      {
+        "title": "Find a subject | University of Waikato",
+        "url": "https://www.waikato.ac.nz/study/subjects"
+      },
+      {
+        "title": "Our campuses | University of Waikato",
+        "url": "https://www.waikato.ac.nz/about/campus/"
+      },
+      {
+        "title": "With more than 100 subjects to choose fr",
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Prospectus/2026-Prospectus-University-of-Waikato.pdf"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "massey-university",
+    "sources": [
+      {
+        "title": "Study on campus - Massey University",
+        "url": "https://www.massey.ac.nz/study/study-on-campus/"
+      },
+      {
+        "title": "Study at Massey University - Massey University",
+        "url": "https://www.massey.ac.nz/study/"
+      },
+      {
+        "title": "Massey colleges, schools & institutes - Massey University",
+        "url": "https://www.massey.ac.nz/about/colleges-schools-and-institutes/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "victoria-university-of-wellington",
+    "sources": [
+      {
+        "title": "Our campuses—a short guide | Current students | Te Herenga Waka—Victoria University of Wellington",
+        "url": "https://www.wgtn.ac.nz/students/study/new-students/once-you-start/our-campuses"
+      },
+      {
+        "title": "Explore your campuses | International | Te Herenga Waka—Victoria University of Wellington",
+        "url": "https://www.wgtn.ac.nz/international/why-wellington/living/campuses"
+      },
+      {
+        "title": "Study in Wellington | Te Herenga Waka—Victoria University of Wellington",
+        "url": "https://www.wgtn.ac.nz/study/programmes-courses"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  },
+  {
+    "id": "lincoln-university",
+    "sources": [
+      {
+        "title": "Our campus :: Lincoln University",
+        "url": "https://www.lincoln.ac.nz/about-us/campus/"
+      },
+      {
+        "title": "Brochures and Publications :: Lincoln University",
+        "url": "https://www.lincoln.ac.nz/about-us/brochures-and-publications/"
+      },
+      {
+        "title": "About us :: Lincoln University",
+        "url": "https://www.lincoln.ac.nz/about-us/"
+      }
+    ],
+    "reviewed": "2026-10-04"
+  }
+]

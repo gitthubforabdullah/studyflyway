@@ -21,6 +21,9 @@ fs.mkdirSync(output, {recursive:true});
 const folders=['assets','countries','scholarships','guides','universities'];
 for(const folder of folders) fs.cpSync(path.join(root,folder),path.join(output,folder),{recursive:true});
 for(const file of fs.readdirSync(root)) if(file.endsWith('.html')) fs.copyFileSync(path.join(root,file),path.join(output,file));
+// Preserve the publisher declaration alongside the generated website.
+const adsFile = path.join(root, 'ads.txt');
+if (fs.existsSync(adsFile)) fs.copyFileSync(adsFile, path.join(output, 'ads.txt'));
 const htmlFiles=[];
 function collect(dir) {
   for(const ent of fs.readdirSync(dir,{withFileTypes:true})) {
