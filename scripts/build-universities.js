@@ -26,7 +26,7 @@ function document(title, description, content, prefix, directory = false) {
   return `<!doctype html>
 <html lang="en">
 <head>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="a0335429-6d7e-4faa-8a22-d8dede010ea7"></script>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="147d6584-700d-4054-a0ed-f9371a75cb59"></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9576135533715323" crossorigin="anonymous"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
