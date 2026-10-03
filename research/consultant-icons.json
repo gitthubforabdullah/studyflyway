@@ -1,0 +1,50 @@
+{
+  "times-consultant": {
+    "file": "assets/consultant-icons/times-consultant.png",
+    "website": "https://timesconsultant.com/",
+    "source": "Public website favicon for timesconsultant.com",
+    "width": 32,
+    "height": 32,
+    "checked": "2026-10-03"
+  },
+  "idp": {
+    "file": "assets/consultant-icons/idp.png",
+    "website": "https://www.idp.com/pakistan/",
+    "source": "Public website favicon for www.idp.com",
+    "width": 25,
+    "height": 25,
+    "checked": "2026-10-03"
+  },
+  "aeo-pakistan": {
+    "file": "assets/consultant-icons/aeo-pakistan.png",
+    "website": "https://aeo.com.pk/study-abroad/",
+    "source": "Public website favicon for aeo.com.pk",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-03"
+  },
+  "hr-consultants": {
+    "file": "assets/consultant-icons/hr-consultants.png",
+    "website": "https://hrpakistan.com/hri/",
+    "source": "Public website favicon for hrpakistan.com",
+    "width": 60,
+    "height": 60,
+    "checked": "2026-10-03"
+  },
+  "studyin": {
+    "file": "assets/consultant-icons/studyin.png",
+    "website": "https://gostudyin.com/pakistan/study-in-uk/",
+    "source": "Public website favicon for gostudyin.com",
+    "width": 128,
+    "height": 128,
+    "checked": "2026-10-03"
+  },
+  "p2gs": {
+    "file": "assets/consultant-icons/p2gs.png",
+    "website": "https://p2gstudy.com/",
+    "source": "Public website favicon for p2gstudy.com",
+    "width": 96,
+    "height": 96,
+    "checked": "2026-10-03"
+  }
+}
