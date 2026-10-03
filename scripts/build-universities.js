@@ -118,6 +118,7 @@ for (const university of universities) {
       <section id="introduction"><h2>Meet ${escape(u.name)}</h2><p>${escape(u.intro)}</p><p class="credit">Source: ${anchor(u.links.about, 'Official university background')}${u.links.campus ? ' · ' + anchor(u.links.campus, 'Campus information') : ''}.</p></section>
       ${expanded.studyFit(u)}
       ${expanded.rankings(u)}
+      ${expanded.notableAlumni(u)}
       <section id="key-information">
         <h2>Key information</h2>
         <dl class="university-facts">
@@ -152,6 +153,7 @@ for (const u of additional) {
   <section class="section"><div class="wrap article-layout university-layout"><article class="article university-article">
   ${expanded.studyFit(u)}
   ${expanded.rankings(u)}
+  ${expanded.notableAlumni(u)}
   <section id="academic-options"><h2>Academic options and admissions</h2><p>Start with the university's official course information and select your intended programme and study level. Requirements vary by programme. Pakistani applicants should confirm qualification recognition, subject prerequisites, English or other teaching-language requirements, documents and deadlines directly with admissions.</p>${u.links.courses?'<p>'+anchor(u.links.courses,'Browse official courses and study options')+'</p>':''}${u.links.admissions?'<p>'+anchor(u.links.admissions,'Official admissions information')+'</p>':''}<p>${anchor('../english-tests.html','IELTS and PTE guidance')} · ${anchor('../guides/application-checklist.html','Application checklist')}</p></section>
   ${expanded.applicationPlan(u)}
   <section id="tuition"><h2>Tuition and scholarships</h2><p>Compare the fee for your specific course, intake and international fee status. Ask the university about compulsory charges and scholarship eligibility before making a budget. No numerical tuition estimate or funding guarantee is given here.</p>${u.links.fees?'<p>'+anchor(u.links.fees,'Official tuition and fee information')+'</p>':''}${u.links.scholarships?'<p>'+anchor(u.links.scholarships,'Official scholarships and funding information')+'</p>':''}<p>${anchor('../scholarships.html?country='+u.country,'Explore '+country+' scholarship guides')} · ${anchor('../guides/study-budget.html','Plan your study budget')}</p></section>
@@ -166,7 +168,7 @@ function card(u) {
   const profile='universities/'+u.slug+'.html';
   return `<article class="card university-card" id="university-${u.slug}" data-university data-country="${u.country}" data-university-name="${escape(u.name)}">
     <div class="university-card-content"><span class="badge">${countries[u.country]}</span>${identity(u)}<h2>${anchor(profile,u.name)}</h2>
-    <p class="university-course-link">${anchor(u.links.courses||profile+'#academic-options',u.links.courses?'View official courses':'Explore study options')}</p>
+    <p class="university-course-link">${anchor(u.links.courses||profile+'#academic-options',u.links.courses?'View official courses':'Explore study options')} · ${anchor(profile+'#notable-alumni','Notable alumni')}</p>
     <ul class="university-card-facts"><li>${icon('location')}<span>${escape(u.city)}</span></li><li>${icon('study')}${anchor(u.links.admissions||profile+'#academic-options','International application information')}</li><li>${icon('funding')}${anchor(profile+'#tuition','Tuition and scholarship guidance')}</li></ul>
     <div class="university-card-bottom">${anchor(profile,'View details','btn secondary')}</div></div>
   </article>`;

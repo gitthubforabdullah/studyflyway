@@ -1,5 +1,11 @@
 # University editorial records
 
+## Notable alumni
+
+`university-alumni.json` contains two sourced alumni examples for each of the 88 universities (176 entries), reviewed on 4 October 2026. Each entry records the person's name, study connection, a short career summary and an institutional source. Study connections distinguish former students from confirmed graduates; historical institutional names and predecessor universities are identified where relevant. An honorary degree alone is not treated as an earned qualification. Alumni examples are not promises of student outcomes.
+
+The shared profile generator renders these records into static HTML under `#notable-alumni`, including source links. Profile sidebars and directory cards link directly to that section. Edit the JSON and rebuild instead of editing generated profile HTML. `node scripts/check-universities.js` checks all 88 sections, names, source links, navigation anchors and minimum coverage; `--dist` checks the deployment copy.
+
 The directory lists 88 universities: 20 each in Australia, Canada, the United Kingdom and Germany, plus all eight universities in New Zealand. The original 15 detailed profiles are preserved. All profiles are independent information, with no ranking or partnership claims.
 
 - `universities.json`: original summaries, verified founding dates, campus context and official source links. Last checked 2 October 2026.

@@ -3,6 +3,7 @@
 const editorial = require('../research/university-editorial-content.json');
 const sources = new Map(require('../research/university-profile-sources.json').map(record => [record.id, record]));
 const detailedFacts = new Map(require('../research/university-detailed-facts.json').map(record => [record.id, record]));
+const alumni = require('../research/university-alumni.json');
 
 // Editorial text is deliberately stored independently of the generated HTML.
 // New factual claims need an official source; planning suggestions are advice,
@@ -30,6 +31,16 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
       ${researchLinks(u)}
       <h3>What this means for your shortlist</h3><p>${escape(record.study)}</p>
       <ul>${record.checks.map(check => `<li>${escape(check)}</li>`).join('')}</ul>
+    </section>`;
+  }
+
+  function notableAlumni(u) {
+    const record = alumni[u.id];
+    if (!record?.people.length) throw Error('Missing sourced alumni: ' + u.id);
+    return `<section id="notable-alumni"><h2>Notable alumni</h2>
+      <p>Explore the people who studied at ${escape(u.name)} and the work they went on to do.</p>
+      ${record.note ? `<p class="notice">${escape(record.note)}</p>` : ''}<ul class="alumni-list">${record.people.map(person => `<li><h3>${escape(person.name)}</h3><p class="alumni-connection">${escape(person.connection)}</p><p>${escape(person.achievement)} ${anchor(person.source, 'University source')}</p></li>`).join('')}</ul>
+      <p class="credit">Connections checked ${escape(record.checked)}. Former students and predecessor institutions are identified where applicable. These examples illustrate individual careers; they do not predict graduate outcomes.</p>
     </section>`;
   }
 
@@ -84,10 +95,11 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
 
   function navigation(u, gallery = false) {
     const items = [['study-fit', 'University and study fit'], ['rankings-and-community', 'Ranking and international students'], ['academic-options', 'Academic options'], ['application-planning', 'Application planning'], ['tuition', 'Tuition and funding'], ['offer-planning', 'Compare the full offer'], ['campus-life', 'Campus and housing']];
+    items.splice(2, 0, ['notable-alumni', 'Notable alumni']);
     if (gallery) items.push(['gallery', 'Campus photographs']);
     items.push(['compare-universities', 'Other universities'], ['sources', 'Sources']);
     return `<aside class="sidebar"><h2>In this profile</h2>${items.map(([id,label]) => anchor('#' + id, label)).join('')}${anchor('../universities.html?country=' + u.country, 'Universities in ' + countries[u.country], 'btn')}</aside>`;
   }
 
-  return {studyFit, rankings, applicationPlan, budgetPlan, related, navigation, date};
+  return {studyFit, rankings, notableAlumni, applicationPlan, budgetPlan, related, navigation, date};
 };

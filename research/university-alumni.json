@@ -1,0 +1,1502 @@
+{
+  "birmingham": {
+    "people": [
+      {
+        "name": "Paul Nurse",
+        "connection": "BSc Biology, 1970",
+        "achievement": "Geneticist and Nobel laureate.",
+        "source": "https://www.birmingham.ac.uk/alumni/our-alumni"
+      },
+      {
+        "name": "Tamsin Greig",
+        "connection": "BA Drama and Theatre Arts, 1988",
+        "achievement": "Actor known for theatre and television.",
+        "source": "https://www.birmingham.ac.uk/alumni/our-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "manchester": {
+    "people": [
+      {
+        "name": "Brian Cox",
+        "connection": "Manchester graduate",
+        "achievement": "Physicist and science broadcaster.",
+        "source": "https://documents.manchester.ac.uk/display.aspx?DocID=49482"
+      },
+      {
+        "name": "Benedict Cumberbatch",
+        "connection": "Manchester graduate",
+        "achievement": "Film, television and theatre actor.",
+        "source": "https://documents.manchester.ac.uk/display.aspx?DocID=49482"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "edinburgh": {
+    "people": [
+      {
+        "name": "Arthur Conan Doyle",
+        "connection": "Former Edinburgh student",
+        "achievement": "Writer who created Sherlock Holmes.",
+        "source": "https://www.ed.ac.uk/sites/default/files/atoms/files/uofe_undergraduate_guide_2024_0.pdf"
+      },
+      {
+        "name": "Ian Rankin",
+        "connection": "Former Edinburgh student",
+        "achievement": "Crime novelist known for the Inspector Rebus books.",
+        "source": "https://www.ed.ac.uk/sites/default/files/atoms/files/uofe_undergraduate_guide_2024_0.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-cambridge": {
+    "people": [
+      {
+        "name": "Manmohan Singh",
+        "connection": "Studied at St John's College",
+        "achievement": "Economist and former prime minister of India.",
+        "source": "https://www.cam.ac.uk/news/cambridge-celebrates-long-standing-and-deep-rooted-relationship-with-india"
+      },
+      {
+        "name": "Harivansh Rai Bachchan",
+        "connection": "Studied at St Catharine's College",
+        "achievement": "Hindi poet known for Madhushala.",
+        "source": "https://www.cam.ac.uk/news/cambridge-celebrates-long-standing-and-deep-rooted-relationship-with-india"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-oxford": {
+    "people": [
+      {
+        "name": "Imran Khan",
+        "connection": "Studied at Oxford",
+        "achievement": "Former prime minister of Pakistan and international cricketer.",
+        "source": "https://www.ox.ac.uk/sites/files/oxford/field/field_document/Oxford%20and%20India%202018-19%20WEB.pdf"
+      },
+      {
+        "name": "Manmohan Singh",
+        "connection": "Studied at Oxford",
+        "achievement": "Economist and former prime minister of India.",
+        "source": "https://www.ox.ac.uk/sites/files/oxford/field/field_document/Oxford%20and%20India%202018-19%20WEB.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-college-london": {
+    "people": [
+      {
+        "name": "Jane Fallon",
+        "connection": "BA History, 1982",
+        "achievement": "Novelist and television producer.",
+        "source": "https://www.ucl.ac.uk/about/our-people/renowned-alumni"
+      },
+      {
+        "name": "Kevin Fenton",
+        "connection": "PhD Epidemiology, 2005",
+        "achievement": "Public health physician and epidemiologist.",
+        "source": "https://www.ucl.ac.uk/about/our-people/renowned-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "king-s-college-london": {
+    "people": [
+      {
+        "name": "Desmond Tutu",
+        "connection": "King's alumnus",
+        "achievement": "Archbishop and Nobel Peace Prize recipient.",
+        "source": "https://www.kcl.ac.uk/about/our-people/notable-alumni"
+      },
+      {
+        "name": "Peter Higgs",
+        "connection": "King's alumnus",
+        "achievement": "Theoretical physicist and Nobel laureate.",
+        "source": "https://www.kcl.ac.uk/about/our-people/notable-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "london-school-of-economics-and-political-science": {
+    "people": [
+      {
+        "name": "Christopher Pissarides",
+        "connection": "PhD Economics, 1973",
+        "achievement": "Economist and joint recipient of the 2010 Nobel Prize in Economic Sciences.",
+        "source": "https://www.alumni.lse.ac.uk/s/1623/images/editor_documents/17_0146_alumni_guide_v6_revised_online.compressed.pdf?cc=1"
+      },
+      {
+        "name": "Christiana Figueres",
+        "connection": "MSc Anthropology, 1981",
+        "achievement": "Former executive secretary of the UN Framework Convention on Climate Change.",
+        "source": "https://www.alumni.lse.ac.uk/s/1623/images/editor_documents/17_0146_alumni_guide_v6_revised_online.compressed.pdf?cc=1"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-bristol": {
+    "people": [
+      {
+        "name": "Angela Carter",
+        "connection": "BA, 1964",
+        "achievement": "Novelist and short-story writer.",
+        "source": "https://www.bristol.ac.uk/alumni/our-alumni/famous-alumni/"
+      },
+      {
+        "name": "Anne McClain",
+        "connection": "MSc, 2005",
+        "achievement": "NASA astronaut and US Army officer.",
+        "source": "https://www.bristol.ac.uk/alumni/our-alumni/famous-alumni/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-glasgow": {
+    "people": [
+      {
+        "name": "Nicola Sturgeon",
+        "connection": "Law graduate",
+        "achievement": "First woman to serve as first minister of Scotland.",
+        "source": "https://www.gla.ac.uk/explore/notablealumni/"
+      },
+      {
+        "name": "Steven Moffat",
+        "connection": "Former Glasgow student",
+        "achievement": "Screenwriter and producer associated with Doctor Who and Sherlock.",
+        "source": "https://www.gla.ac.uk/explore/notablealumni/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-southampton": {
+    "people": [
+      {
+        "name": "Adrian Newey",
+        "connection": "Southampton alumnus",
+        "achievement": "Formula One racing-car designer.",
+        "source": "https://www.southampton.ac.uk/assets/imported/transforms/content-block/UsefulDownloads_Download/1791C9B972DB47FA97BE1DA83FE1B592/Mark%20Spearing.pdf"
+      },
+      {
+        "name": "Caroline Wyatt",
+        "connection": "Southampton alumna",
+        "achievement": "Broadcast journalist and BBC correspondent.",
+        "source": "https://www.southampton.ac.uk/assets/imported/transforms/content-block/UsefulDownloads_Download/1791C9B972DB47FA97BE1DA83FE1B592/Mark%20Spearing.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-liverpool": {
+    "people": [
+      {
+        "name": "Stella Rimington",
+        "connection": "Liverpool graduate",
+        "achievement": "First woman to lead MI5.",
+        "source": "https://www.liverpool.ac.uk/about/the-university/our-history/"
+      },
+      {
+        "name": "Rose Heilbron",
+        "connection": "Liverpool graduate",
+        "achievement": "Pioneering barrister and the first female judge to sit at the Old Bailey.",
+        "source": "https://www.liverpool.ac.uk/about/the-university/our-history/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-leeds": {
+    "people": [
+      {
+        "name": "Anita Rani",
+        "connection": "Broadcasting, 2000",
+        "achievement": "Television and radio presenter.",
+        "source": "https://www.leeds.ac.uk/alumni-community/doc/who-studied-here"
+      },
+      {
+        "name": "Tananarive Due",
+        "connection": "MA English, 1988",
+        "achievement": "Author of the African Immortals novels.",
+        "source": "https://www.leeds.ac.uk/alumni-community/doc/who-studied-here"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-nottingham": {
+    "people": [
+      {
+        "name": "David Ross",
+        "connection": "Nottingham alumnus",
+        "achievement": "Co-founder of Carphone Warehouse.",
+        "source": "https://www.nottingham.ac.uk/about/documents/uon-facts-and-figures.pdf"
+      },
+      {
+        "name": "Tim Baillie",
+        "connection": "Nottingham alumnus",
+        "achievement": "Olympic canoe slalom gold medallist.",
+        "source": "https://www.nottingham.ac.uk/about/documents/uon-facts-and-figures.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "queen-mary-university-of-london": {
+    "people": [
+      {
+        "name": "Ching-He Huang",
+        "connection": "Economics, 1999",
+        "achievement": "Television chef and food writer.",
+        "source": "https://www.qmul.ac.uk/docs/prospectus/45481.pdf"
+      },
+      {
+        "name": "Prannoy Roy",
+        "connection": "Economics, 1973",
+        "achievement": "Broadcast journalist and founder of NDTV.",
+        "source": "https://www.qmul.ac.uk/docs/prospectus/45481.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "tum": {
+    "people": [
+      {
+        "name": "Johann Deisenhofer",
+        "connection": "TUM doctoral alumnus",
+        "achievement": "Biochemist and Nobel Prize recipient.",
+        "source": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/tum-celebrates-alumni-on-their-milestone-anniversaries"
+      },
+      {
+        "name": "Samantha Cristoforetti",
+        "connection": "Engineering diploma, 2001",
+        "achievement": "European Space Agency astronaut.",
+        "source": "https://www.community.tum.de/en/samantha-cristoforetti/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "heidelberg": {
+    "people": [
+      {
+        "name": "Hannah Arendt",
+        "connection": "Studied at Heidelberg",
+        "achievement": "Political thinker and author.",
+        "source": "https://www.uni-heidelberg.de/en/university/heidelberg-profiles"
+      },
+      {
+        "name": "Helmut Kohl",
+        "connection": "Studied at Heidelberg",
+        "achievement": "Former German federal chancellor.",
+        "source": "https://www.uni-heidelberg.de/en/university/heidelberg-profiles"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "rwth": {
+    "people": [
+      {
+        "name": "David Spencer",
+        "connection": "RWTH alumnus",
+        "achievement": "Plant biologist, science communicator and author.",
+        "source": "https://magazines.rwth-aachen.de/en/kit81/start/alumni-pers%C3%B6nlich"
+      },
+      {
+        "name": "Sigrid Zeevaert",
+        "connection": "RWTH alumna",
+        "achievement": "Children's author.",
+        "source": "https://magazines.rwth-aachen.de/en/kit81/start/alumni-pers%C3%B6nlich"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "leipzig-university": {
+    "people": [
+      {
+        "name": "Angela Merkel",
+        "connection": "Studied physics",
+        "achievement": "Former German federal chancellor.",
+        "source": "https://ual.archiv.uni-leipzig.de/absolventen.php"
+      },
+      {
+        "name": "Johann Wolfgang von Goethe",
+        "connection": "Studied law",
+        "achievement": "Poet, novelist and playwright.",
+        "source": "https://ual.archiv.uni-leipzig.de/absolventen.php"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "technische-universitat-berlin": {
+    "people": [
+      {
+        "name": "Christian Butzke",
+        "connection": "Food technology studies and doctorate, 1982–1992",
+        "achievement": "Food scientist and professor at Purdue University.",
+        "source": "https://www.tu.berlin/communication/alumni/alumni-gemeinschaft/80-jahre-technische-universitaet-berlin/verbindungen"
+      },
+      {
+        "name": "Konrad Zuse",
+        "connection": "Civil engineering graduate, Technische Hochschule Berlin, 1935",
+        "achievement": "Pioneer of programmable computers.",
+        "source": "https://www.tu.berlin/en/about/history/people-portraits/konrad-zuse"
+      }
+    ],
+    "checked": "2026-10-04",
+    "note": "Konrad Zuse studied at Technische Hochschule Berlin, a predecessor of the present university."
+  },
+  "freie-universitat-berlin": {
+    "people": [
+      {
+        "name": "Jutta Limbach",
+        "connection": "University alumna",
+        "achievement": "Jurist and former president of the German Federal Constitutional Court.",
+        "source": "https://www.fu-berlin.de/en/universitaet/geschichte/persoenlichkeiten/index.html"
+      },
+      {
+        "name": "Elke Heidenreich",
+        "connection": "Former student",
+        "achievement": "Writer and literary critic.",
+        "source": "https://www.fu-berlin.de/en/universitaet/geschichte/persoenlichkeiten/index.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "karlsruhe-institute-of-technology": {
+    "people": [
+      {
+        "name": "Alexander Gerst",
+        "connection": "Geophysics graduate, University of Karlsruhe, 2003",
+        "achievement": "European Space Agency astronaut.",
+        "source": "https://www.kit.edu/kit/english/alumni.php"
+      },
+      {
+        "name": "Mariana Bozesan",
+        "connection": "Computer science studies, University of Karlsruhe, 1979–1987",
+        "achievement": "Entrepreneur and sustainable-investment advocate.",
+        "source": "https://www.kit.edu/kit/english/alumni.php"
+      }
+    ],
+    "checked": "2026-10-04",
+    "note": "These alumni studied at the University of Karlsruhe, a predecessor of KIT."
+  },
+  "university-of-hamburg": {
+    "people": [
+      {
+        "name": "Klaus Hasselmann",
+        "connection": "Mathematics and physics studies, 1950–1955",
+        "achievement": "Climate scientist and 2021 Nobel Physics laureate.",
+        "source": "https://www.uni-hamburg.de/en/uhh/profil/auszeichnungen.html"
+      },
+      {
+        "name": "J. Hans D. Jensen",
+        "connection": "Physics doctorate, 1932",
+        "achievement": "Nuclear physicist and 1963 Nobel Physics laureate.",
+        "source": "https://www.uni-hamburg.de/en/uhh/profil/auszeichnungen.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-tubingen": {
+    "people": [
+      {
+        "name": "Johannes Kepler",
+        "connection": "Studied at the Evangelisches Stift",
+        "achievement": "Astronomer who formulated the laws of planetary motion.",
+        "source": "https://uni-tuebingen.de/en/university/profile/history-of-the-university/"
+      },
+      {
+        "name": "Georg Wilhelm Friedrich Hegel",
+        "connection": "Theology student at the Evangelisches Stift",
+        "achievement": "Philosopher associated with German idealism.",
+        "source": "https://uni-tuebingen.de/en/university/profile/history-of-the-university/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "tu-dresden": {
+    "people": [
+      {
+        "name": "Yadegar Asisi",
+        "connection": "Former TU Dresden student",
+        "achievement": "Architect and artist known for large-scale panoramas.",
+        "source": "https://tu-dresden.de/tu-dresden/newsportal/universitaetsjournal/1820/eine-wunderbare-ausnahme?set_language=en"
+      },
+      {
+        "name": "Jens Wonneberger",
+        "connection": "Former TU Dresden student",
+        "achievement": "Novelist and writer.",
+        "source": "https://tu-dresden.de/tu-dresden/newsportal/universitaetsjournal/1820/eine-wunderbare-ausnahme?set_language=en"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-cologne": {
+    "people": [
+      {
+        "name": "Marietta Slomka",
+        "connection": "University alumna",
+        "achievement": "Television journalist.",
+        "source": "https://alumni.uni-koeln.de/alumni-stories/kluge-koepfe"
+      },
+      {
+        "name": "Navid Kermani",
+        "connection": "University alumnus",
+        "achievement": "Writer and scholar of Islamic studies.",
+        "source": "https://alumni.uni-koeln.de/alumni-stories/kluge-koepfe"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-wurzburg": {
+    "people": [
+      {
+        "name": "Angelika Nußberger",
+        "connection": "Studied law",
+        "achievement": "Judge and legal scholar.",
+        "source": "https://www.uni-wuerzburg.de/alumni/menschen/alumni-im-portraet/seite-13/"
+      },
+      {
+        "name": "Urban Priol",
+        "connection": "Studied teacher education",
+        "achievement": "Cabaret performer and political satirist.",
+        "source": "https://www.uni-wuerzburg.de/alumni/menschen/alumni-im-portraet/seite-13/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "auckland": {
+    "people": [
+      {
+        "name": "Nigel Latta",
+        "connection": "BSc and postgraduate diploma in psychology",
+        "achievement": "Clinical psychologist, broadcaster and author.",
+        "source": "https://www.auckland.ac.nz/en/alumni/our-alumni/distinguished-alumni/past-winners.html"
+      },
+      {
+        "name": "Roseanne Liang",
+        "connection": "Arts and science alumna",
+        "achievement": "Filmmaker and director.",
+        "source": "https://www.auckland.ac.nz/en/alumni/our-alumni/distinguished-alumni/past-winners.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "otago": {
+    "people": [
+      {
+        "name": "Richard Hamilton",
+        "connection": "Otago alumnus",
+        "achievement": "Marine biologist.",
+        "source": "https://www.otago.ac.nz/alumni/people/otagos-people"
+      },
+      {
+        "name": "Temperance Tinker-Kays",
+        "connection": "Otago alumna",
+        "achievement": "Teacher recognised with a Milken Educator Award.",
+        "source": "https://www.otago.ac.nz/alumni/people/otagos-people"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "canterbury": {
+    "people": [
+      {
+        "name": "John Key",
+        "connection": "Canterbury graduate",
+        "achievement": "Former prime minister of New Zealand.",
+        "source": "https://www.canterbury.ac.nz/about-uc/why-uc/our-alumni/notable-alumni"
+      },
+      {
+        "name": "Lianne Dalziel",
+        "connection": "Canterbury graduate",
+        "achievement": "Former mayor of Christchurch and cabinet minister.",
+        "source": "https://www.canterbury.ac.nz/about-uc/why-uc/our-alumni/notable-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-waikato": {
+    "people": [
+      {
+        "name": "Rukumoana Schaafhausen",
+        "connection": "LLB",
+        "achievement": "Lawyer and governance leader serving Māori communities.",
+        "source": "https://www.waikato.ac.nz/alumni/distinguished-alumni-awards/"
+      },
+      {
+        "name": "Stephen Knightly",
+        "connection": "Master of Management Studies",
+        "achievement": "Games-industry leader and advocate for digital technology.",
+        "source": "https://www.waikato.ac.nz/alumni/distinguished-alumni-awards/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "victoria-university-of-wellington": {
+    "people": [
+      {
+        "name": "Alexander Gerst",
+        "connection": "MSc, 2003",
+        "achievement": "European Space Agency astronaut.",
+        "source": "https://www.wgtn.ac.nz/engage/alumni/our-alumni/distinguished-alumni-awards/previous-recipients"
+      },
+      {
+        "name": "Tusiata Avia",
+        "connection": "MA, 2003",
+        "achievement": "Poet and writer.",
+        "source": "https://www.wgtn.ac.nz/engage/alumni/our-alumni/distinguished-alumni-awards/previous-recipients"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "auckland-university-of-technology": {
+    "people": [
+      {
+        "name": "Ashlee Tulloch",
+        "connection": "AUT alumna",
+        "achievement": "Broadcast and media professional.",
+        "source": "https://www.aut.ac.nz/alumni/featured-aut-graduates"
+      },
+      {
+        "name": "Maximilian Stroomer",
+        "connection": "AUT alumnus",
+        "achievement": "Consumer-experience designer associated with Nike.",
+        "source": "https://www.aut.ac.nz/alumni/featured-aut-graduates"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "lincoln-university": {
+    "people": [
+      {
+        "name": "Andrew Macfarlane",
+        "connection": "BAgrSc, 1981",
+        "achievement": "Agricultural consultant and primary-industry leader.",
+        "source": "https://www.lincoln.ac.nz/news-and-events/lincoln-university-alumni-recognised-among-new-year-honours-recipients/"
+      },
+      {
+        "name": "Robyn Dynes",
+        "connection": "BAgrSc, 1985; PhD, 1994",
+        "achievement": "Agricultural scientist recognised for service to her field.",
+        "source": "https://www.lincoln.ac.nz/news-and-events/lincoln-university-alumni-recognised-among-new-year-honours-recipients/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "melbourne": {
+    "people": [
+      {
+        "name": "Gillian Triggs",
+        "connection": "LLB, 1967; PhD, 1982",
+        "achievement": "Human rights lawyer.",
+        "source": "https://www.unimelb.edu.au/alumni/community/notable-alumni"
+      },
+      {
+        "name": "George Megalogenis",
+        "connection": "BCom, 1984",
+        "achievement": "Journalist and author.",
+        "source": "https://www.unimelb.edu.au/alumni/community/notable-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "sydney": {
+    "people": [
+      {
+        "name": "Michael Kirby",
+        "connection": "Sydney alumnus",
+        "achievement": "Former justice of the High Court of Australia.",
+        "source": "https://www.sydney.edu.au/engage/alumni/your-impact/notable-alumni.html"
+      },
+      {
+        "name": "Charles Perkins",
+        "connection": "Sydney graduate",
+        "achievement": "Aboriginal rights campaigner.",
+        "source": "https://www.sydney.edu.au/engage/alumni/your-impact/notable-alumni.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "monash": {
+    "people": [
+      {
+        "name": "Adam Bandt",
+        "connection": "PhD, 2009",
+        "achievement": "Australian politician and former Greens leader.",
+        "source": "https://www.monash.edu/arts/alumni/our-alumni/prominent-alumni"
+      },
+      {
+        "name": "Carolyn Creswell",
+        "connection": "BA, 1995",
+        "achievement": "Founder of Carman's food business.",
+        "source": "https://www.monash.edu/arts/alumni/our-alumni/prominent-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "australian-national-university": {
+    "people": [
+      {
+        "name": "Kevin Rudd",
+        "connection": "BA Asian Studies (Honours), 1981",
+        "achievement": "Former prime minister of Australia.",
+        "source": "https://www.anu.edu.au/alumni/our-alumni/prominent-alumni"
+      },
+      {
+        "name": "Hannah Gadsby",
+        "connection": "BA, 2003",
+        "achievement": "Comedian and writer.",
+        "source": "https://www.anu.edu.au/alumni/our-alumni/prominent-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "unsw-sydney": {
+    "people": [
+      {
+        "name": "June Griffith",
+        "connection": "Bachelor of Chemistry, 1952",
+        "achievement": "Chemist and the first woman to graduate from UNSW.",
+        "source": "https://alumni.unsw.edu.au/were-number-one-trailblazing-unsw-alumni"
+      },
+      {
+        "name": "Pat O'Shane",
+        "connection": "Law alumna",
+        "achievement": "Pioneering Aboriginal lawyer and magistrate.",
+        "source": "https://stories.unsw.edu.au/unsw-alumni-awards-50-years/index.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-queensland": {
+    "people": [
+      {
+        "name": "Geoffrey Rush",
+        "connection": "BA",
+        "achievement": "Academy Award-winning actor.",
+        "source": "https://hass.uq.edu.au/notable-alumni"
+      },
+      {
+        "name": "Tim Munro",
+        "connection": "Bachelor of Music (Honours)",
+        "achievement": "Flautist and Grammy Award-winning musician.",
+        "source": "https://hass.uq.edu.au/notable-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-western-australia": {
+    "people": [
+      {
+        "name": "Shaun Tan",
+        "connection": "Bachelor of Arts alumnus",
+        "achievement": "Artist, author and Academy Award-winning filmmaker.",
+        "source": "https://www.uwa.edu.au/study/Courses/bachelor-of-arts"
+      },
+      {
+        "name": "Tim Minchin",
+        "connection": "Bachelor of Arts alumnus",
+        "achievement": "Musician, composer and comedian.",
+        "source": "https://www.uwa.edu.au/study/Courses/bachelor-of-arts"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "adelaide-university": {
+    "people": [
+      {
+        "name": "Ong Teng Cheong",
+        "connection": "BArch, University of Adelaide, 1962",
+        "achievement": "Former president of Singapore.",
+        "source": "https://www.alumni.adelaide.edu.au/s/923/images/editor_documents/recognition/daa_recipients__by_year__to_2011.pdf?cc=1"
+      },
+      {
+        "name": "Cheong Choong Kong",
+        "connection": "Mathematics honours graduate, University of Adelaide, 1963",
+        "achievement": "Business leader associated with Singapore aviation.",
+        "source": "https://www.alumni.adelaide.edu.au/s/923/images/editor_documents/recognition/daa_recipients__by_year__to_2011.pdf?cc=1"
+      }
+    ],
+    "checked": "2026-10-04",
+    "note": "Adelaide University opened in 2026. These are alumni of its predecessor, the University of Adelaide."
+  },
+  "university-of-technology-sydney": {
+    "people": [
+      {
+        "name": "Hugh Jackman",
+        "connection": "BA Communications, 1991",
+        "achievement": "Film and theatre actor.",
+        "source": "https://www.uts.edu.au/news/2018/01/photos-define-uts"
+      },
+      {
+        "name": "Maile Carnegie",
+        "connection": "Business and marketing graduate, 1992",
+        "achievement": "Business and technology executive.",
+        "source": "https://www.uts.edu.au/news/2018/01/photos-define-uts"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "rmit-university": {
+    "people": [
+      {
+        "name": "Zahava Elenberg",
+        "connection": "Architecture alumna",
+        "achievement": "Architect and co-founder of Elenberg Fraser.",
+        "source": "https://www.rmit.edu.au/content/dam/rmit/documents/about/Governance-and-management/annual-reports/2006-annual-report.pdf"
+      },
+      {
+        "name": "Daniel Almagor",
+        "connection": "Engineering and business alumnus",
+        "achievement": "Founder of Engineers Without Borders Australia.",
+        "source": "https://www.rmit.edu.au/content/dam/rmit/documents/about/Governance-and-management/annual-reports/2006-annual-report.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "deakin-university": {
+    "people": [
+      {
+        "name": "Shaun Wilson",
+        "connection": "Deakin alumnus",
+        "achievement": "Co-founder of Bondi Sands.",
+        "source": "https://www.deakin.edu.au/about-deakin/news-and-media-releases/articles/deakins-2025-alumni-awards-highlight-the-diversity-and-contribution-of-former-students"
+      },
+      {
+        "name": "Anna Seymour",
+        "connection": "Deakin alumna",
+        "achievement": "Dancer and advocate for Deaf artists.",
+        "source": "https://www.deakin.edu.au/about-deakin/news-and-media-releases/articles/deakins-2025-alumni-awards-highlight-the-diversity-and-contribution-of-former-students"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "griffith-university": {
+    "people": [
+      {
+        "name": "Katarina Carroll",
+        "connection": "Griffith alumna",
+        "achievement": "Former Queensland police commissioner.",
+        "source": "https://www.griffith.edu.au/arts-education-law/school-criminology-criminal-justice/alumni"
+      },
+      {
+        "name": "Joe Brumm",
+        "connection": "Bachelor of Animation (Honours)",
+        "achievement": "Creator and writer of the animated series Bluey.",
+        "source": "https://www.griffith.edu.au/arts-education-law/griffith-film-school/alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "queensland-university-of-technology": {
+    "people": [
+      {
+        "name": "Daniel Timms",
+        "connection": "QUT alumnus",
+        "achievement": "Inventor associated with the BiVACOR artificial heart.",
+        "source": "https://www.qut.edu.au/news?id=202419"
+      },
+      {
+        "name": "Deborah Mailman",
+        "connection": "Acting graduate",
+        "achievement": "Actor known for film, television and theatre.",
+        "source": "https://www.qut.edu.au/news?id=40657"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "curtin-university": {
+    "people": [
+      {
+        "name": "Tim Winton",
+        "connection": "Creative writing alumnus",
+        "achievement": "Novelist and multiple Miles Franklin Award winner.",
+        "source": "https://www.curtin.edu.au/news/media-release/festival-of-writing-to-celebrate-50-years-of-world-class-writers/"
+      },
+      {
+        "name": "Natasha Lester",
+        "connection": "Creative writing alumna",
+        "achievement": "Novelist.",
+        "source": "https://www.curtin.edu.au/news/media-release/festival-of-writing-to-celebrate-50-years-of-world-class-writers/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "macquarie-university": {
+    "people": [
+      {
+        "name": "Frankie J Holden",
+        "connection": "BA, 1974",
+        "achievement": "Singer, actor and television presenter.",
+        "source": "https://awc.alumni.mq.edu.au/outstandingalumni?cc=1"
+      },
+      {
+        "name": "Mark Lamprell",
+        "connection": "BA, 1981",
+        "achievement": "Screenwriter, filmmaker and author.",
+        "source": "https://awc.alumni.mq.edu.au/outstandingalumni?cc=1"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-wollongong": {
+    "people": [
+      {
+        "name": "Christopher Zanko",
+        "connection": "Visual arts alumnus",
+        "achievement": "Visual artist.",
+        "source": "https://www.uow.edu.au/the-stand/2026/careers-driven-by-creativity.php"
+      },
+      {
+        "name": "Claire Foxton",
+        "connection": "Visual arts alumna",
+        "achievement": "Graphic designer and mural artist.",
+        "source": "https://www.uow.edu.au/the-stand/2026/careers-driven-by-creativity.php"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-newcastle": {
+    "people": [
+      {
+        "name": "Jessica Buck",
+        "connection": "Newcastle alumna",
+        "achievement": "Researcher investigating childhood cancer.",
+        "source": "https://www.newcastle.edu.au/news/2025/10/university-of-newcastle-commemorates-graduate-excellence"
+      },
+      {
+        "name": "John Doyle",
+        "connection": "Newcastle alumnus",
+        "achievement": "Comedian, actor and writer.",
+        "source": "https://www.newcastle.edu.au/news/2025/10/university-of-newcastle-commemorates-graduate-excellence"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "la-trobe-university": {
+    "people": [
+      {
+        "name": "Destiny Deacon",
+        "connection": "La Trobe alumna",
+        "achievement": "Artist, educator and activist.",
+        "source": "https://www.latrobe.edu.au/alumni/archived/profiles"
+      },
+      {
+        "name": "Tony Ellwood",
+        "connection": "La Trobe alumnus",
+        "achievement": "Art museum director associated with the National Gallery of Victoria.",
+        "source": "https://www.latrobe.edu.au/alumni/archived/profiles"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "flinders-university": {
+    "people": [
+      {
+        "name": "Karen Reynolds",
+        "connection": "Graduate Certificate in Tertiary Education, 1998",
+        "achievement": "Biomedical engineer.",
+        "source": "https://www.flinders.edu.au/alumni/our-alumni/awards-and-honours/alumni-award-recipients"
+      },
+      {
+        "name": "Alan Tucker",
+        "connection": "BA (Honours), 1974; Diploma of Education, 1975",
+        "achievement": "Children's author.",
+        "source": "https://www.flinders.edu.au/alumni/our-alumni/awards-and-honours/alumni-award-recipients"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-tasmania": {
+    "people": [
+      {
+        "name": "Anthony Brown",
+        "connection": "BSc, 1971; BSc (Honours), 1972; PhD, 1986",
+        "achievement": "Museum and cultural-heritage professional.",
+        "source": "https://www.utas.edu.au/about/news-and-stories/articles/2026/2026-australia-day-honours"
+      },
+      {
+        "name": "Monte Mumford",
+        "connection": "Master of Music, 1988",
+        "achievement": "Musician, conductor and music educator.",
+        "source": "https://www.utas.edu.au/about/news-and-stories/articles/2026/2026-australia-day-honours"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "ubc": {
+    "people": [
+      {
+        "name": "Pierre Berton",
+        "connection": "UBC graduate",
+        "achievement": "Historian, author and broadcaster.",
+        "source": "https://magazine.alumni.ubc.ca/2026/most-famous-alum/answering-question-who-ubcs-most-famous-alum"
+      },
+      {
+        "name": "Rick Hansen",
+        "connection": "UBC graduate",
+        "achievement": "Paralympian and disability inclusion advocate.",
+        "source": "https://magazine.alumni.ubc.ca/2026/most-famous-alum/answering-question-who-ubcs-most-famous-alum"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "toronto": {
+    "people": [
+      {
+        "name": "Margaret Atwood",
+        "connection": "BA, Victoria College, 1961",
+        "achievement": "Novelist, poet and literary critic.",
+        "source": "https://alumni.utoronto.ca/news/featured-alumni/margaret-atwood"
+      },
+      {
+        "name": "Lester Pearson",
+        "connection": "Victoria College graduate, 1919",
+        "achievement": "Former Canadian prime minister and Nobel Peace Prize recipient.",
+        "source": "https://alumni.utoronto.ca/sites/default/files/inline-files/UofTalumni-PostageStamps.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "mcgill": {
+    "people": [
+      {
+        "name": "Aldo Bensadoun",
+        "connection": "BCom, 1964",
+        "achievement": "Founder of the Aldo Group.",
+        "source": "https://www.mcgill.ca/desautels/alumni/our-alumni/notable-alumni"
+      },
+      {
+        "name": "Louis Morissette",
+        "connection": "BCom, 1995",
+        "achievement": "Actor, screenwriter, comedian and producer.",
+        "source": "https://www.mcgill.ca/desautels/alumni/our-alumni/notable-alumni"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-alberta": {
+    "people": [
+      {
+        "name": "Beverley McLachlin",
+        "connection": "BA, 1965; LLB and MA, 1968",
+        "achievement": "First woman to serve as chief justice of Canada.",
+        "source": "https://www.ualberta.ca/en/law/about/news/2019/8/justice-for-all.html"
+      },
+      {
+        "name": "Grant Notley",
+        "connection": "BA History, 1960",
+        "achievement": "Former leader of the Alberta New Democratic Party.",
+        "source": "https://www.ualberta.ca/en/research/research-support/post-doctoral-office/awards-funding/u-of-a-fellowships/notley-postdoc-fellowship-tor1.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "mcmaster-university": {
+    "people": [
+      {
+        "name": "Donna Strickland",
+        "connection": "McMaster alumna",
+        "achievement": "Physicist and Nobel Prize recipient.",
+        "source": "https://ira.mcmaster.ca/app/uploads/2023/11/Fact-Book-2023-FinalNov3.pdf"
+      },
+      {
+        "name": "Myron Scholes",
+        "connection": "McMaster alumnus",
+        "achievement": "Economist and Nobel Prize recipient.",
+        "source": "https://ira.mcmaster.ca/app/uploads/2023/11/Fact-Book-2023-FinalNov3.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-waterloo": {
+    "people": [
+      {
+        "name": "Ryan Gariepy",
+        "connection": "Waterloo Engineering alumnus",
+        "achievement": "Co-founder of Clearpath Robotics.",
+        "source": "https://uwaterloo.ca/engineering/sites/default/files/uploads/documents/c009791_eng_facts_book_4x7_lr_final-accessible_0.pdf"
+      },
+      {
+        "name": "Alison Brooks",
+        "connection": "Waterloo Engineering alumna",
+        "achievement": "Architect and founder of Alison Brooks Architects.",
+        "source": "https://uwaterloo.ca/engineering/sites/default/files/uploads/documents/c009791_eng_facts_book_4x7_lr_final-accessible_0.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-ottawa": {
+    "people": [
+      {
+        "name": "Calin Rovinescu",
+        "connection": "LLB, 1980",
+        "achievement": "Business leader associated with Air Canada.",
+        "source": "https://www.uottawa.ca/alumni/inspiring-alumni"
+      },
+      {
+        "name": "John Jack Kitts",
+        "connection": "MD, 1980; EMBA, 2001",
+        "achievement": "Physician and former leader of The Ottawa Hospital.",
+        "source": "https://www.uottawa.ca/about-us/media/news/spotlight-exceptional-uottawa-graduates"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "western-university": {
+    "people": [
+      {
+        "name": "Simu Liu",
+        "connection": "HBA, Ivey Business School, 2011",
+        "achievement": "Actor known for Shang-Chi and the Legend of the Ten Rings.",
+        "source": "https://www.ivey.uwo.ca/media/3787656/intouch_fall-2019.pdf"
+      },
+      {
+        "name": "Stephen Poloz",
+        "connection": "Master’s in economics, 1979; PhD, 1982",
+        "achievement": "Former governor of the Bank of Canada.",
+        "source": "https://www.ivey.uwo.ca/lawrencecentre/about-us/advisory-council/stephen-poloz-chair/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-calgary": {
+    "people": [
+      {
+        "name": "Ian Brodie",
+        "connection": "Graduate, 1997",
+        "achievement": "Political scientist and former chief of staff to Stephen Harper.",
+        "source": "https://www.ucalgary.ca/sites/default/files/2021-01/University%20of%20Calgary%20-%20Economic%20Impact%20Analysis%20-%20December%202020.pdf"
+      },
+      {
+        "name": "Doug Hamilton",
+        "connection": "Graduate, 1991",
+        "achievement": "Physician and former NASA and Canadian Space Agency flight surgeon.",
+        "source": "https://www.ucalgary.ca/sites/default/files/2021-01/University%20of%20Calgary%20-%20Economic%20Impact%20Analysis%20-%20December%202020.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "queen-s-university": {
+    "people": [
+      {
+        "name": "Lorne Greene",
+        "connection": "BA, 1937",
+        "achievement": "Actor and broadcaster.",
+        "source": "https://www.queensu.ca/alumni/news/from-cfrc-to-the-olympics"
+      },
+      {
+        "name": "Shelagh Rogers",
+        "connection": "Arts and Science, 1977",
+        "achievement": "Radio broadcaster.",
+        "source": "https://www.queensu.ca/alumni/news/from-cfrc-to-the-olympics"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "dalhousie-university": {
+    "people": [
+      {
+        "name": "Carl Duivenvoorden",
+        "connection": "Agriculture graduate, 1986",
+        "achievement": "Environmental advocate and public speaker.",
+        "source": "https://www.dal.ca/alumni/news-and-spotlights/alumni-news/dal-recognizes-thirteen-new-individuals-notable-alumni.html"
+      },
+      {
+        "name": "Caroline Xavier",
+        "connection": "Executive Master of Electronic Commerce, 2002",
+        "achievement": "Cybersecurity and public-service leader.",
+        "source": "https://www.dal.ca/alumni/news-and-spotlights/alumni-news/dal-recognizes-thirteen-new-individuals-notable-alumni.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "simon-fraser-university": {
+    "people": [
+      {
+        "name": "Daniel Igali",
+        "connection": "SFU graduate",
+        "achievement": "Olympic gold-medal-winning wrestler.",
+        "source": "https://athletics.sfu.ca/sports/2015/8/21/50th_Igali.aspx?path=mtrack"
+      },
+      {
+        "name": "Carol Huynh",
+        "connection": "BA alumna",
+        "achievement": "Olympic gold-medal-winning wrestler.",
+        "source": "https://www.sfu.ca/alumni/our-alumni/outstanding-alumni/past-recipients.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-victoria": {
+    "people": [
+      {
+        "name": "Glynis Leyshon",
+        "connection": "Art history graduate",
+        "achievement": "Theatre and opera director.",
+        "source": "https://www.uvic.ca/finearts/alumni/distinguished/index.php"
+      },
+      {
+        "name": "Esi Edugyan",
+        "connection": "Fine arts alumna",
+        "achievement": "Novelist and Giller Prize winner.",
+        "source": "https://www.uvic.ca/finearts/alumni/distinguished/index.php"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "york-university": {
+    "people": [
+      {
+        "name": "Bharat Masrani",
+        "connection": "BBA, 1978; MBA, 1979",
+        "achievement": "Banking executive associated with TD.",
+        "source": "https://schulich.yorku.ca/wp-content/uploads/2018/10/MBAN_Viewbook.pdf"
+      },
+      {
+        "name": "Vincenzo Commisso",
+        "connection": "MBA, 1992",
+        "achievement": "Co-founder of 9 Story Media Group.",
+        "source": "https://schulich.yorku.ca/wp-content/uploads/2018/10/MBAN_Viewbook.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "concordia-university": {
+    "people": [
+      {
+        "name": "Louise Archambault",
+        "connection": "BFA, 1993; MFA, 2000",
+        "achievement": "Film director.",
+        "source": "https://www.concordia.ca/content/dam/concordia/aar/docs/our-publications/Fine-Arts.pdf"
+      },
+      {
+        "name": "Rawi Hage",
+        "connection": "BFA, 1998",
+        "achievement": "Novelist.",
+        "source": "https://www.concordia.ca/content/dam/concordia/aar/docs/our-publications/Fine-Arts.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-manitoba": {
+    "people": [
+      {
+        "name": "Harry Seidler",
+        "connection": "Architecture graduate",
+        "achievement": "Architect and recipient of the RIBA Royal Gold Medal.",
+        "source": "https://www.umanitoba.ca/architecture/community-and-partners"
+      },
+      {
+        "name": "Etienne Gaboury",
+        "connection": "Architecture graduate",
+        "achievement": "Canadian architect.",
+        "source": "https://www.umanitoba.ca/architecture/community-and-partners"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-saskatchewan": {
+    "people": [
+      {
+        "name": "John Diefenbaker",
+        "connection": "Saskatchewan alumnus",
+        "achievement": "Former prime minister of Canada.",
+        "source": "https://students.usask.ca/documents/registrarial/Program_web.pdf"
+      },
+      {
+        "name": "Sylvia Fedoruk",
+        "connection": "Saskatchewan alumna",
+        "achievement": "Medical physicist involved in developing cobalt-60 cancer treatment.",
+        "source": "https://students.usask.ca/documents/registrarial/Program_web.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-guelph": {
+    "people": [
+      {
+        "name": "Roberta Bondar",
+        "connection": "BSc, 1968",
+        "achievement": "Canada's first female astronaut and a neurologist.",
+        "source": "https://news.uoguelph.ca/2024/05/university-of-guelph-celebrates-60-years/"
+      },
+      {
+        "name": "Scott McGillivray",
+        "connection": "BComm, 2001",
+        "achievement": "Entrepreneur and television presenter.",
+        "source": "https://news.uoguelph.ca/2024/05/university-of-guelph-celebrates-60-years/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-new-brunswick": {
+    "people": [
+      {
+        "name": "Subramonian Shankar",
+        "connection": "MScE, 1976",
+        "achievement": "Co-founder of American Megatrends.",
+        "source": "https://blogs.unb.ca/newsroom/2026/02/ec-engineering.php"
+      },
+      {
+        "name": "Gururaj Deshpande",
+        "connection": "MScEng, 1975",
+        "achievement": "Technology entrepreneur and philanthropist.",
+        "source": "https://blogs.unb.ca/newsroom/2026/02/ec-engineering.php"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "memorial-university-of-newfoundland": {
+    "people": [
+      {
+        "name": "Proton Rahman",
+        "connection": "BMS, 1988; MD, 1990",
+        "achievement": "Physician and medical researcher.",
+        "source": "https://gazette.mun.ca/campus-and-community/proud-moment-2/"
+      },
+      {
+        "name": "Garrett Doyle",
+        "connection": "BA, 1993",
+        "achievement": "Technology entrepreneur.",
+        "source": "https://gazette.mun.ca/campus-and-community/proud-moment-2/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "imperial-college-london": {
+    "people": [
+      {
+        "name": "Brian May",
+        "connection": "BSc and PhD alumnus",
+        "achievement": "Queen guitarist and astrophysicist.",
+        "source": "https://www.imperial.ac.uk/news/37754/imperial-college-graduation/"
+      },
+      {
+        "name": "Maggie Aderin-Pocock",
+        "connection": "Physics graduate; PhD in mechanical engineering, 1994",
+        "achievement": "Space scientist and presenter of The Sky at Night.",
+        "source": "https://www.imperial.ac.uk/mechanical-engineering/people/meet-our-alumni/dr-maggie-aderin-pocock/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-warwick": {
+    "people": [
+      {
+        "name": "Stephen Merchant",
+        "connection": "Warwick alumnus",
+        "achievement": "Actor, writer and director.",
+        "source": "https://warwick.ac.uk/fac/arts/scapvc/film/prospective/ftv_ug_brochure_final.pdf"
+      },
+      {
+        "name": "Simon Mayo",
+        "connection": "Warwick alumnus",
+        "achievement": "Radio broadcaster.",
+        "source": "https://warwick.ac.uk/fac/arts/scapvc/film/prospective/ftv_ug_brochure_final.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "durham-university": {
+    "people": [
+      {
+        "name": "Gabby Logan",
+        "connection": "Durham alumna",
+        "achievement": "Sports broadcaster and television presenter.",
+        "source": "https://www.durham.ac.uk/media/durham-university/alumni-/dunelm-magazine/KitStudio_Dunelm_Online.pdf"
+      },
+      {
+        "name": "Tasha Stones",
+        "connection": "Durham alumna",
+        "achievement": "Baker and the first deaf contestant on The Great British Bake Off.",
+        "source": "https://www.durham.ac.uk/media/durham-university/alumni-/dunelm-magazine/KitStudio_Dunelm_Online.pdf"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-st-andrews": {
+    "people": [
+      {
+        "name": "Prince William",
+        "connection": "Graduate, 2005",
+        "achievement": "Member of the British royal family.",
+        "source": "https://news.st-andrews.ac.uk/archive/st-andrews-to-launch-scholarship-in-honour-of-hrh-prince-william-and-miss-catherine-middleton/"
+      },
+      {
+        "name": "Catherine Middleton",
+        "connection": "Graduate, 2005",
+        "achievement": "Member of the British royal family.",
+        "source": "https://news.st-andrews.ac.uk/archive/st-andrews-to-launch-scholarship-in-honour-of-hrh-prince-william-and-miss-catherine-middleton/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "lancaster-university": {
+    "people": [
+      {
+        "name": "Andy Serkis",
+        "connection": "Lancaster alumnus",
+        "achievement": "Actor and film director.",
+        "source": "https://www.lancaster.ac.uk/news/lancaster-university-a-real-diamond-marks-60-sparkling-years/"
+      },
+      {
+        "name": "James May",
+        "connection": "Lancaster alumnus",
+        "achievement": "Television presenter.",
+        "source": "https://www.lancaster.ac.uk/news/lancaster-university-a-real-diamond-marks-60-sparkling-years/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "humboldt-universitat-zu-berlin": {
+    "people": [
+      {
+        "name": "Heinrich Heine",
+        "connection": "Studied in Berlin, 1821–1823",
+        "achievement": "Poet and writer.",
+        "source": "https://edoc.hu-berlin.de/bitstreams/af451a13-89c9-4761-bbb8-658b35572e05/download"
+      },
+      {
+        "name": "Georg Simmel",
+        "connection": "Doctorate, Friedrich-Wilhelms-Universität Berlin, 1881",
+        "achievement": "Sociologist and philosopher.",
+        "source": "https://amor.cms.hu-berlin.de/~h0598bce/docs/HW-2010-Entwicklung-der-Soziologie-an-der-Friedrich-Wilhelm-Universitaet.pdf"
+      }
+    ],
+    "checked": "2026-10-04",
+    "note": "These alumni studied at the institution historically known as Friedrich-Wilhelms-Universität Berlin, now Humboldt-Universität."
+  },
+  "university-of-freiburg": {
+    "people": [
+      {
+        "name": "Georges Köhler",
+        "connection": "Biology graduate; doctorate, 1974",
+        "achievement": "Immunologist and 1984 Nobel Prize recipient.",
+        "source": "https://uni-freiburg.de/en/university/outstanding-achievements/research-prizes/georges-koehler/"
+      },
+      {
+        "name": "Edith Stein",
+        "connection": "Studied philosophy under Edmund Husserl",
+        "achievement": "Philosopher and Carmelite nun.",
+        "source": "https://uni-freiburg.de/en/edmund-husserl-2/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-gottingen": {
+    "people": [
+      {
+        "name": "Richard von Weizsäcker",
+        "connection": "Göttingen alumnus",
+        "achievement": "Former president of Germany.",
+        "source": "https://www.uni-goettingen.de/de/alumni-2007/32749.html"
+      },
+      {
+        "name": "Gerhard Schröder",
+        "connection": "Göttingen alumnus",
+        "achievement": "Former German federal chancellor.",
+        "source": "https://www.uni-goettingen.de/de/alumni-2007/32749.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-mannheim": {
+    "people": [
+      {
+        "name": "Hana Attia",
+        "connection": "Mannheim alumna",
+        "achievement": "Scholar of security policy and peace.",
+        "source": "https://www.uni-mannheim.de/en/academics/after-your-studies/alumni/"
+      },
+      {
+        "name": "Nicolas Eglau",
+        "connection": "Mannheim alumnus",
+        "achievement": "Media executive with experience at RTL and ProSieben.",
+        "source": "https://www.uni-mannheim.de/studium/nach-dem-studium/alumni/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-munster": {
+    "people": [
+      {
+        "name": "Sofia Ose",
+        "connection": "Münster alumna",
+        "achievement": "Independent filmmaker and Wim Wenders scholarship recipient.",
+        "source": "https://www.uni-muenster.de/Alumni/geschichten.html"
+      },
+      {
+        "name": "Carina Schmid",
+        "connection": "Münster alumna",
+        "achievement": "Host of the Easy German language-learning channel.",
+        "source": "https://www.uni-muenster.de/Alumni/geschichten.html"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "friedrich-alexander-universitat-erlangen-nurnberg": {
+    "people": [
+      {
+        "name": "Dixie Lee Bryant",
+        "connection": "Doctorate, 1904",
+        "achievement": "Geologist and the first woman to earn a doctorate at FAU.",
+        "source": "https://www.fau.eu/university/funding-and-support/alumni/well-known-alumni/historical-figures/"
+      },
+      {
+        "name": "Hans Geiger",
+        "connection": "Doctorate, 1906",
+        "achievement": "Physicist associated with the Geiger counter.",
+        "source": "https://www.fau.eu/university/funding-and-support/alumni/well-known-alumni/historical-figures/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-stuttgart": {
+    "people": [
+      {
+        "name": "Gustav Bauernfeind",
+        "connection": "Architecture studies, 1864–1869",
+        "achievement": "Architect and painter.",
+        "source": "https://www.usus.uni-stuttgart.de/en/blog/famous-people-who-studied-at-university-of-stuttgart/"
+      },
+      {
+        "name": "Achilles Papapetrou",
+        "connection": "Doctoral studies at Stuttgart",
+        "achievement": "Physicist known for work in general relativity.",
+        "source": "https://www.usus.uni-stuttgart.de/en/blog/famous-people-who-studied-at-university-of-stuttgart/"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "university-of-bonn": {
+    "people": [
+      {
+        "name": "Konrad Adenauer",
+        "connection": "Studied law",
+        "achievement": "First chancellor of the Federal Republic of Germany.",
+        "source": "https://alumni.uni-bonn.de/public/bedeutende_alumni.aspx"
+      },
+      {
+        "name": "Ernst Dieter Lueg",
+        "connection": "Studied history, philology and German studies",
+        "achievement": "Television journalist.",
+        "source": "https://alumni.uni-bonn.de/public/bedeutende_alumni.aspx"
+      }
+    ],
+    "checked": "2026-10-04"
+  },
+  "massey-university": {
+    "people": [
+      {
+        "name": "Rosemary Horne",
+        "connection": "BSc, 1976; MSc, 1979",
+        "achievement": "Researcher studying sudden infant death syndrome.",
+        "source": "https://www.massey.ac.nz/about/news/massey-recognises-top-alumni-teachers-researchers/"
+      },
+      {
+        "name": "David Wallace",
+        "connection": "Massey graduate",
+        "achievement": "Farmer and conservationist recognised with a distinguished alumni award.",
+        "source": "https://www.massey.ac.nz/about/news/massey-recognises-top-alumni-teachers-researchers/"
+      }
+    ],
+    "checked": "2026-10-04"
+  }
+}

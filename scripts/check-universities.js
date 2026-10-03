@@ -8,6 +8,8 @@ const records = JSON.parse(fs.readFileSync(path.join(root, 'research/universitie
 const additional = JSON.parse(fs.readFileSync(path.join(root, 'research/additional-universities.json'), 'utf8'));
 const listings = [...records, ...additional];
 const editorial = require('../research/university-editorial-content.json');
+const alumni = require('../research/university-alumni.json');
+assert.equal(Object.keys(alumni).length, listings.length, 'Every university has alumni records');
 const researchSources = require('../research/university-profile-sources.json');
 const detailedFacts = new Map(require('../research/university-detailed-facts.json').map(record => [record.id, record]));
 assert.equal(Object.keys(editorial).length, listings.length, 'Every university has editorial content');
@@ -21,7 +23,19 @@ for (const u of listings) {
   assert(html.includes('id="rankings-and-community"'), u.name + ': ranking and international-student section');
   assert(html.includes(facts.ranking.position), u.name + ': ranking position rendered');
   assert(html.includes(Number(facts.internationalStudents.total).toLocaleString('en-US')), u.name + ': international-student total rendered');
-  for (const id of ['study-fit', 'rankings-and-community', 'application-planning', 'offer-planning', 'compare-universities']) {
+  const graduates = alumni[u.id];
+  assert(graduates?.people.length >= 2, u.name + ': at least two notable alumni required');
+  assert.equal(new Set(graduates.people.map(person => person.name)).size, graduates.people.length, u.name + ': no duplicate alumni');
+  const alumniSection = html.match(/<section id="notable-alumni">([\s\S]*?)<\/section>/)?.[1];
+  assert(alumniSection, u.name + ': alumni section rendered');
+  const escape = value => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+  for (const person of graduates.people) {
+    assert(person.name && person.connection && person.achievement && /^https:\/\//.test(person.source), u.name + ': complete sourced alumni entry');
+    assert(alumniSection.includes(escape(person.name)), u.name + ': alumnus rendered');
+    assert(alumniSection.includes(escape(person.source)), u.name + ': alumni source rendered');
+  }
+  assert(html.includes('href="#notable-alumni"'), u.name + ': alumni navigation');
+  for (const id of ['study-fit', 'rankings-and-community', 'notable-alumni', 'application-planning', 'offer-planning', 'compare-universities']) {
     assert.equal((html.match(new RegExp('id="' + id + '"', 'g')) || []).length, 1, u.name + ': ' + id);
   }
   const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
