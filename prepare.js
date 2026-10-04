@@ -44,10 +44,10 @@ for(const file of htmlFiles) {
   // Netlify Pretty URLs removes .html; use the final URL as canonical.
   const url=base+'/'+(relative==='index.html'?'':relative.replace(/\.html$/,''));
   if(base && !noindex) {
-    const metadata=`<link rel="canonical" href="${escapeXml(url)}"><meta property="og:url" content="${escapeXml(url)}">`;
+    const metadata=(html.includes('rel="canonical"')?'':`<link rel="canonical" href="${escapeXml(url)}">`)+(html.includes('property="og:url"')?'':`<meta property="og:url" content="${escapeXml(url)}">`);
     // The homepage owns its WebSite identity, including its production URL.
     // Preserve that block for local builds and avoid duplicating it on deployment.
-    const schema=relative==='index.html'?null:{
+    const schema=['index.html','about.html'].includes(relative)?null:{
       '@context':'https://schema.org','@type':'WebPage',name:(html.match(/<title>(.*?)<\/title>/s)||[])[1],url,inLanguage:'en'};
     const structuredData=schema?'<script type="application/ld+json">'+JSON.stringify(schema).replaceAll('<','\\u003c')+'</script>':'';
     html=html.replace('</head>',metadata+structuredData+'</head>');

@@ -43,6 +43,14 @@ Country background is maintained in `research/country-background.json`. Edit its
 
 ## SEO setup after publishing
 
+### Consistent StudyFlyway branding
+
+Use **StudyFlyway — Study Abroad Information & Guides** as the profile description/tagline on official Facebook, LinkedIn, Instagram, Pinterest and other social profiles. Link each profile to **https://studyflyway.online/**. The About page is published at **https://studyflyway.online/about** using Netlify Pretty URLs.
+
+Use this longer description where space allows: StudyFlyway is an independent study abroad information platform created to help students research international education opportunities. StudyFlyway provides information about universities, scholarships, admissions, visa processes, application requirements, study costs, student life and study destinations including Australia, Canada, the United Kingdom, Germany and New Zealand.
+
+The homepage contains WebSite and Organization JSON-LD. Keep its Organization description aligned with the About page. Once official social profiles exist, add their exact public profile URLs as a `sameAs` array to the Organization object in `index.html`. No social profiles or `sameAs` links have been invented or created by this update.
+
 `prepare.js` uses Netlify's production **URL** variable for sitemap and canonical URLs. If you use a custom domain, set **SITE_URL** to its full origin (for example `https://your-real-domain.com`) and redeploy. Verify that the live `/sitemap.xml` uses your final address, then submit that URL in Google Search Console. Indexing or rankings are not guaranteed.
 
 Do not use an all-paths-to-index.html redirect; this is a real multi-page site, not a React app. Links use `.html` for local compatibility; Netlify Pretty URLs serves the corresponding clean addresses.
