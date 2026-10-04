@@ -1,6 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
+const styleVersion=require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'assets/destinations.css'))).digest('hex').slice(0,12);
 const background=require('../research/country-background.json');
 const universities=require('../research/universities.json');
 const e=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
@@ -23,6 +24,7 @@ for(const [slug,d] of Object.entries(data)){
  const description=`Explore studying in ${name} with StudyFlyway. Learn about universities, courses, tuition fees, scholarships, ${slug==='canada'?'study permits':'visas'}, living costs and student life.`;
  html=html.replace(/<title>.*?<\/title>/,`<title>${e(title)}</title>`).replace(/(<meta name="description" content=")[^"]*/, '$1'+e(description)).replace(/(<meta property="og:title" content=")[^"]*/, '$1'+e(title)).replace(/(<meta property="og:description" content=")[^"]*/, '$1'+e(description));
  if(!html.includes('assets/destinations.css'))html=html.replace('</head>','<link rel="stylesheet" href="../assets/destinations.css?v=1"></head>');
+ html=html.replace(/href="\.\.\/assets\/destinations\.css(?:\?[^" ]*)?"/g,`href="../assets/destinations.css?v=${styleVersion}"`);
  if(!html.includes('rel="canonical"'))html=html.replace('</head>',`<link rel="canonical" href="https://studyflyway.online/countries/${slug}"></head>`);
  const crumbs={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[['Home','https://studyflyway.online/'],['Destinations','https://studyflyway.online/destinations'],[name,`https://studyflyway.online/countries/${slug}`]].map(([name,item],i)=>({'@type':'ListItem',position:i+1,name,item}))};
  html=html.replace(/<script type="application\/ld\+json" data-destination-breadcrumb>[\s\S]*?<\/script>/g,'').replace('</head>',`<script type="application/ld+json" data-destination-breadcrumb>${JSON.stringify(crumbs)}</script></head>`);
