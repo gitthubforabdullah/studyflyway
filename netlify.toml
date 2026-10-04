@@ -11,3 +11,15 @@
 
 [build.processing.html]
   pretty_urls = true
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy-policy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy-policy"
+  status = 301
+  force = true

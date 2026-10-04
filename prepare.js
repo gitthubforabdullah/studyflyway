@@ -7,6 +7,7 @@ require('./scripts/update-navigation');
 require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
 require('./scripts/build-country-background');
+require('./scripts/enhance-destinations');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || process.env.URL || '');

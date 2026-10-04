@@ -30,6 +30,8 @@ If you do not want Netlify Forms, remove the form and add your own real contact 
 
 ## Included
 
+Destination layouts and study-planning additions are maintained in `scripts/enhance-destinations.js`, with styling in `assets/destinations.css`. The standard build runs this after updating university links and country background. Existing `/countries/...` URLs are preserved. Edit generated sections in the generator; existing admissions, funding, visa, costs and source sections remain in the country HTML files. Country histories and city descriptions still come from `research/country-background.json`. Check official sources before changing intake, immigration or funding information. The pages deliberately avoid fixed fees, work-hour limits and immigration guarantees.
+
 Country background is maintained in `research/country-background.json`. Edit its overview, timeline, city descriptions and source links, then run `node scripts/build-country-background.js` to update the five country pages. The normal `node prepare.js` build also runs this generator. Generated sections have HTML comment markers; edit the JSON instead of the text between those markers. Admission and scholarship sections remain separately editable.
 
 - Sky & Lilac responsive homepage with the selected visual direction.
@@ -56,6 +58,8 @@ The homepage contains WebSite and Organization JSON-LD. Keep its Organization de
 Do not use an all-paths-to-index.html redirect; this is a real multi-page site, not a React app. Links use `.html` for local compatibility; Netlify Pretty URLs serves the corresponding clean addresses.
 
 ## Update your website
+
+The privacy policy is maintained in `privacy-policy.html` with page-specific styling in `assets/privacy.css`. Its public URL is `https://studyflyway.online/privacy-policy`. Old `/privacy` and `/privacy.html` addresses redirect through `netlify.toml`; `privacy.html` is a noindex fallback for other static hosts. Keep the fallback policy text synchronized when updating the main policy. The policy was reviewed against the installed Umami, Cloudflare Web Analytics, AdSense loader and contact form on 4 October 2026. Recheck provider settings, form availability and advertising/consent configuration when those services change; the page does not establish that advertising is approved or that consent management is configured.
 
 Open this folder in VS Code:
 

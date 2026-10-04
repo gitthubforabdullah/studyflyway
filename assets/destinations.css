@@ -1,0 +1,18 @@
+.destination-page .page-top{background:radial-gradient(ellipse at 90% 0,#e1dcff,transparent 60%),linear-gradient(110deg,#edf8ff,#f4f1ff)}
+.destination-page .country-hero{grid-template-columns:1.25fr 1fr;gap:36px}.destination-page .country-hero img{height:320px}
+.destination-layout{display:grid;grid-template-columns:235px minmax(0,1fr);gap:38px;align-items:start}
+.destination-nav{position:sticky;top:105px;max-height:calc(100vh - 125px);overflow:auto;padding:22px;border:1px solid var(--line);border-radius:18px;background:#fafbff}
+.destination-nav h2{font-size:1.1rem}.destination-nav a{display:block;font-size:.84rem;margin:10px 0}
+.destination-content{min-width:0}.destination-content>section{margin-bottom:42px;scroll-margin-top:45px}
+.destination-content h2{font-size:clamp(1.6rem,2.8vw,2.1rem)}.destination-content h3{font-size:1.15rem}
+.destination-content p,.destination-content li{color:#536079}.destination-content a{overflow-wrap:anywhere}
+.destination-facts,.destination-universities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.destination-facts .fact{background:linear-gradient(120deg,#f2faff,#f4f1ff)}.destination-facts .fact strong{line-height:1.5}
+.destination-content #major-cities>div{padding:22px;border:1px solid var(--line);border-radius:16px;margin:14px 0;background:#fafbff}
+.destination-universities .card p{font-size:.9rem}.destination-universities .btn{margin-top:auto;align-self:flex-start}
+.destination-steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.destination-steps li{display:flex;gap:14px;padding:18px;border:1px solid var(--line);border-radius:14px;background:#f7f8ff}
+.destination-steps span{display:grid;place-items:center;background:#e9e6ff;border-radius:50%;width:30px;height:30px;flex-shrink:0;color:#5148b8;font-weight:700}
+@media(max-width:1000px){.destination-layout{grid-template-columns:1fr}.destination-nav{position:static;max-height:none}.destination-nav nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 20px}}
+@media(max-width:800px){.destination-page .country-hero{grid-template-columns:1fr}.destination-page .country-hero img{height:260px}}
+@media(max-width:520px){.destination-facts,.destination-universities,.destination-steps{grid-template-columns:1fr}.destination-nav nav{grid-template-columns:1fr 1fr}.destination-facts .fact{display:block}.destination-page .country-hero img{height:210px}}

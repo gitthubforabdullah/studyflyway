@@ -11,6 +11,9 @@ function update(dir) {
     if (!entry.name.endsWith('.html')) continue;
     let html = fs.readFileSync(file, 'utf8');
     const prefix = entry.name === '404.html' ? '/' : '../'.repeat(path.relative(root, dir).split(path.sep).filter(Boolean).length);
+    // A stable PNG favicon lets search engines use the existing StudyFlyway mark.
+    html = html.replace(/<link rel="icon"[^>]*>/g, `<link rel="icon" href="${prefix}assets/favicon.png" type="image/png" sizes="96x96">`);
+    if (html.includes('rel="icon"') && !html.includes('rel="apple-touch-icon"')) html = html.replace('</head>', `<link rel="apple-touch-icon" href="${prefix}assets/apple-touch-icon.png" sizes="180x180"></head>`);
     const countries = {australia:'Australia', canada:'Canada', uk:'United Kingdom', germany:'Germany', 'new-zealand':'New Zealand'};
     const dropdown = `<div class="nav-dropdown" data-destinations-menu><a href="${prefix}destinations.html" class="nav-dropdown-toggle" aria-expanded="false" aria-controls="destination-links">Destinations</a><div id="destination-links" class="nav-dropdown-panel">${Object.entries(countries).map(([slug,name])=>`<a href="${prefix}countries/${slug}.html">${name}</a>`).join('')}</div></div>`;
     html = html.replace(/<nav\b[\s\S]*?<\/nav>/, nav => {
