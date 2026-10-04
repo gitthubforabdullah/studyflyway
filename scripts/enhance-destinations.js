@@ -54,7 +54,19 @@ for(const [slug,d] of Object.entries(data)){
  blocks.push(section('faqs',`Studying in ${name}: FAQs`,faqs.map(([q,a])=>`<details><summary>${e(q)}</summary>${p(a)}</details>`).join('')));
  blocks.push(section('related-guides','Related StudyFlyway Guides',`<div class="nav-secondary">${[['../universities.html?country='+slug,'Universities'],['../scholarships.html?country='+slug,'Scholarships'],['../guides/application-checklist.html','Application guide'],['#visa','Visa information'],['../guides/study-budget.html','Cost of study'],['#student-life','Student life'],['../guides/scholarship-planning.html','Scholarship planning']].map(([u,t])=>link(u,t)).join('')}</div>`));
  blocks.push(old.sources);
- const toc=blocks.join('').matchAll(/<section id="([^"]+)"[^>]*><h2>(.*?)<\/h2>/g);
+ const toc=[
+  [null,'country-overview','Country overview'],
+  [null,'country-history','History'],
+  [null,'major-cities','Major cities'],
+  [null,'destination-planning','Choosing your city'],
+  [null,'admissions','Admission & applications'],
+  [null,'english-tests','IELTS and PTE requirements'],
+  [null,'costs','Tuition & living costs'],
+  [null,'universities','Universities'],
+  [null,'funding','Scholarships'],
+  [null,'visa','Visa resources'],
+  [null,'sources','Sources']
+ ];
  html=html.replace(/<main id="main"[^>]*>[\s\S]*?<\/main>/,`<main id="main" class="destination-page"><div class="page-top"><div class="wrap"><nav class="crumb" aria-label="Breadcrumb">${link('../index.html','Home')} / ${link('../destinations.html','Destinations')} / ${e(name)}</nav><div class="country-hero"><div><span class="eyebrow">Your destination guide</span><h1>Study in ${e(display)}</h1>${p(d.intro)}<div class="actions">${link('#universities','Explore Universities','btn')}${link('#funding','Find Scholarships','btn secondary')}${link('#admissions','Admission Guide','btn secondary')}</div></div>${heroImage}</div></div></div><div class="wrap"><p class="notice">StudyFlyway is an independent study abroad information website. We provide educational information for research purposes. University admission, scholarship and visa requirements may change. Always verify important information through official university and government sources.</p></div><div class="section"><div class="wrap destination-layout"><aside class="destination-nav"><h2>In this guide</h2><nav aria-label="Country guide sections">${[...toc].map(m=>link('#'+m[1],m[2])).join('')}</nav></aside><article class="destination-content">${blocks.join('\n')}</article></div></div><section class="section"><div class="wrap"><div class="callout"><div><h2>Start Your Study Abroad Research</h2><p>Explore universities, scholarships and study opportunities with StudyFlyway and compare the options available for your future studies.</p><div class="actions">${link('../universities.html?country='+slug,'Explore Universities','btn')}${link('../scholarships.html?country='+slug,'Find Scholarships','btn secondary')}${link('../destinations.html','Explore More Destinations','btn secondary')}</div></div></div></div></section></main>`);
  fs.writeFileSync(file,html);
 }
