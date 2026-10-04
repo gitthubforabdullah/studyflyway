@@ -1,0 +1,148 @@
+{
+  "australia": {
+    "name": "Australia",
+    "overview": "Australia stretches from tropical northern regions to temperate southern cities and a vast inland interior. Canberra is the national capital; Sydney and Melbourne are separate state capitals. Distances between cities can be substantial, so your choice of campus shapes everyday life as much as your choice of university.",
+    "historyIntro": "Australian history begins with Aboriginal and Torres Strait Islander peoples, whose distinct cultures and connections to land and sea long predate European settlement. Understanding this continuing heritage gives important context to place names, museums and university acknowledgements of Country.",
+    "timeline": [
+      ["Before European settlement", "Indigenous communities developed diverse languages, knowledge systems and trading connections across the continent and surrounding islands."],
+      ["1788", "The First Fleet established a British colony at Sydney Cove. Colonisation brought dispossession, conflict and profound disruption to Indigenous peoples."],
+      ["1901", "Six British colonies federated to form the Commonwealth of Australia. Federation created a national government while retaining state governments."],
+      ["The twentieth century", "Migration and urban growth helped shape modern Australia's culturally diverse society. Indigenous rights and recognition remain important parts of its national story."]
+    ],
+    "historySources": [
+      ["National Museum of Australia: defining moments", "https://www.nma.gov.au/defining-moments/defining-moments-timeline"],
+      ["National Museum of Australia: Federation", "https://www.nma.gov.au/defining-moments/resources/federation"]
+    ],
+    "citySources": [["Study Australia: locations", "https://www.studyaustralia.gov.au/en/life-in-australia/locations-in-australia.html"]],
+    "cities": [
+      ["Sydney", "New South Wales", "A harbour city on the east coast, known for the Opera House, its waterfront and a large metropolitan area.", "Check the actual teaching campus before choosing housing: a Sydney address can involve a substantial commute.", "university-of-sydney"],
+      ["Melbourne", "Victoria", "Victoria's capital combines historic streets, arts venues and sporting institutions with a broad university presence.", "Compare city-centre and suburban campuses separately, including how you would travel to early or evening classes.", "university-of-melbourne"],
+      ["Brisbane", "Queensland", "Queensland's capital is built around the Brisbane River in Australia's subtropical southeast.", "Consider seasonal heat and rain when planning daily travel and choosing accommodation.", "university-of-queensland"],
+      ["Perth", "Western Australia", "Perth lies on Australia's west coast beside the Swan River, far from the major eastern cities.", "Include interstate travel in your budget if you expect to visit friends or attend events elsewhere in Australia.", "university-of-western-australia"],
+      ["Adelaide", "South Australia", "South Australia's capital is known for its planned city centre, surrounding parklands and cultural festivals.", "Match accommodation to your course location, particularly if your programme uses a campus outside the city centre.", "adelaide-university"],
+      ["Canberra", "Australian Capital Territory", "The national capital houses Parliament and major national cultural institutions, offering a different setting from the coastal capitals.", "Compare public transport routes and campus facilities when deciding between university housing and private rentals.", "australian-national-university"],
+      ["Hobart", "Tasmania", "Tasmania's capital sits beside the River Derwent, with a historic waterfront and nearby mountain landscapes.", "Look at the course's campus and timetable before planning where to live or how often to travel to mainland Australia.", "university-of-tasmania"]
+    ],
+    "planning": "For students arriving from Pakistan, plan around Southern Hemisphere seasons and the specific city rather than a single idea of Australian weather. Ask your university about orientation, student associations, prayer facilities and nearby food options. These services should be checked at campus level.",
+    "checked": "2026-10-04"
+  },
+  "canada": {
+    "name": "Canada",
+    "overview": "Canada spans North America from the Atlantic to the Pacific and north into the Arctic. Ottawa is the national capital. Its provinces and territories have distinct landscapes, communities and education systems. English and French are central to public life, but the language of a particular degree must be checked with its institution.",
+    "historyIntro": "First Nations, Inuit and Métis histories are essential to understanding Canada. Indigenous societies existed long before French and British colonial expansion. The country's development includes both migration and nation-building, and the lasting harms of colonial policies toward Indigenous peoples.",
+    "timeline": [
+      ["Before Confederation", "Indigenous nations developed diverse societies across the continent. European settlement later brought French and British colonies, trade, conflict and changing political boundaries."],
+      ["1867", "Confederation united Ontario, Quebec, Nova Scotia and New Brunswick in the new Dominion of Canada. Other provinces and territories joined or were created over time."],
+      ["1949", "Newfoundland joined Confederation, becoming the tenth province."],
+      ["1982", "The Constitution was patriated and the Canadian Charter of Rights and Freedoms became part of Canada's constitutional framework."]
+    ],
+    "historySources": [
+      ["Government of Canada: history", "https://www.canada.ca/en/canadian-heritage/services/history-canada.html"],
+      ["Government of Canada: historical boundaries", "https://www.canada.ca/en/canadian-heritage/services/historical-boundaries-canada.html"],
+      ["Constitution Acts, 1867 to 1982", "https://laws-lois.justice.gc.ca/eng/Const/page-1.html"]
+    ],
+    "citySources": [
+      ["EduCanada: provinces and territories", "https://www.educanada.ca/live-work-vivre-travailler/province/index.aspx?lang=eng"],
+      ["Government of Canada: choosing a city", "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/choose-city.html"]
+    ],
+    "cities": [
+      ["Toronto", "Ontario", "A major city on Lake Ontario, Toronto combines a large business district with culturally diverse neighbourhoods.", "Check whether your degree is taught downtown or at another campus before comparing rental locations.", "university-of-toronto"],
+      ["Vancouver", "British Columbia", "This Pacific-coast city is known for its harbour and its setting near mountains and the ocean.", "Compare the exact campus and transport connections across the wider metropolitan area.", "university-of-british-columbia"],
+      ["Montreal", "Quebec", "Montreal has a strong French-speaking identity alongside English-language institutions, with a historic centre and lively cultural scene.", "Confirm the degree's teaching language and consider how French may help with everyday activities.", "mcgill-university"],
+      ["Ottawa", "Ontario", "Canada's capital is home to federal institutions and national museums, across the river from Gatineau in Quebec.", "Compare English- and French-language study options and the transport route to your faculty.", "university-of-ottawa"],
+      ["Calgary", "Alberta", "Calgary is an inland western city associated with the energy sector and access to the Rocky Mountain region.", "Check distances within the city and plan for winter commuting as well as tuition.", "university-of-calgary"],
+      ["Edmonton", "Alberta", "Alberta's capital lies along the North Saskatchewan River and is a major education and government centre.", "Include winter clothing and reliable transport in your arrival plan.", "university-of-alberta"],
+      ["Halifax", "Nova Scotia", "Halifax is an Atlantic port city whose waterfront and maritime history give it a distinct coastal character.", "Compare campus neighbourhoods and housing contracts, including whether accommodation covers the summer break.", "dalhousie-university"]
+    ],
+    "planning": "Avoid treating Canada as one climate or housing market. Compare the seasons, neighbourhood and transport route for your actual campus. Students arriving from Pakistan should ask the international office about winter preparation, orientation and local community connections before departure.",
+    "checked": "2026-10-04"
+  },
+  "uk": {
+    "name": "the United Kingdom",
+    "overview": "The United Kingdom comprises England, Scotland, Wales and Northern Ireland. London is the UK capital, while Edinburgh, Cardiff and Belfast are the capitals of Scotland, Wales and Northern Ireland. Great Britain refers to the island containing England, Scotland and Wales; it is not another name for the entire UK.",
+    "historyIntro": "The UK's history reflects several nations with distinct languages, institutions and traditions. Medieval kingdoms, parliamentary government, industrialisation, empire and migration all helped shape its cities. Studying in one part of the UK can therefore offer a different cultural and academic setting from studying in another.",
+    "timeline": [
+      ["1707", "The union of England and Scotland created the Kingdom of Great Britain and a single Parliament at Westminster."],
+      ["1801", "Union with Ireland created the United Kingdom of Great Britain and Ireland."],
+      ["The industrial era", "Manufacturing and trade transformed cities such as Manchester, Birmingham and Glasgow. Industrial heritage remains visible in museums, canals and former factory districts."],
+      ["The twentieth century", "Most of Ireland left the UK in 1922. The name United Kingdom of Great Britain and Northern Ireland was adopted in 1927. Decolonisation and migration subsequently reshaped society."]
+    ],
+    "historySources": [
+      ["UK Parliament: the United Kingdom and independence", "https://commonslibrary.parliament.uk/research-briefings/cbp-10649/"],
+      ["British Council: the UK's nations", "https://study-uk.britishcouncil.org/why-study/about-uk/uk-nations"]
+    ],
+    "citySources": [
+      ["British Council: the UK's nations and study settings", "https://study-uk.britishcouncil.org/why-study/about-uk/uk-nations"],
+      ["VisitBritain: cities and destinations", "https://www.visitbritain.com/en/destinations"]
+    ],
+    "cities": [
+      ["London", "England", "The UK capital brings together government, museums, theatres and universities across a large metropolitan area.", "Compare the campus postcode, transport zones and accommodation cost rather than treating all London locations as equivalent.", "university-college-london"],
+      ["Manchester", "England", "A former industrial centre with a strong music, sport and cultural identity.", "Check which university buildings you will use and compare housing by the journey to those buildings.", "university-of-manchester"],
+      ["Birmingham", "England", "A major Midlands city whose manufacturing heritage sits alongside modern commercial and cultural districts.", "Compare campus-based living with accommodation elsewhere in the city.", "university-of-birmingham"],
+      ["Edinburgh", "Scotland", "Scotland's capital is known for its historic Old and New Towns and its festivals.", "Check which campus serves your subject; university facilities extend beyond the historic centre.", "university-of-edinburgh"],
+      ["Glasgow", "Scotland", "Glasgow's industrial and shipbuilding history is complemented by a prominent music, design and arts scene.", "Investigate the neighbourhood around your teaching campus and local transport connections.", "university-of-glasgow"],
+      ["Cardiff", "Wales", "The Welsh capital combines a civic centre, a castle and a redeveloped waterfront.", "Explore Welsh cultural institutions and compare the location of your course with available housing.", null],
+      ["Belfast", "Northern Ireland", "Northern Ireland's capital has a maritime and industrial heritage, including its connection with Titanic.", "Read local history alongside your course research and confirm campus accommodation arrangements.", null]
+    ],
+    "planning": "Degree structures and education systems can differ across the UK's nations, so compare the precise qualification and duration. For Pakistani students, a useful shortlist also records travel connections, accommodation contracts, student societies and access to familiar food and religious facilities.",
+    "checked": "2026-10-04"
+  },
+  "germany": {
+    "name": "Germany",
+    "overview": "Germany lies in central Europe and has a federal system of 16 states. Berlin is the capital. Large metropolitan areas sit alongside smaller university towns, so a well-matched course may be outside the best-known cities. German is important in everyday life even when a degree is taught in English.",
+    "historyIntro": "Modern Germany grew from a much older landscape of kingdoms, principalities and trading cities. Its history includes scientific and cultural achievement as well as dictatorship, war and the Holocaust. Historic sites and memorials are important places to understand how the country remembers its past.",
+    "timeline": [
+      ["1871", "The German Empire was established, unifying many German states under a national government."],
+      ["1919", "After the First World War and the end of the monarchy, the Weimar Republic established a parliamentary democracy."],
+      ["1933–1945", "Nazi dictatorship destroyed democratic institutions, carried out the Holocaust and waged war across Europe. Its defeat in 1945 marked a fundamental rupture."],
+      ["1949", "Separate West German and East German states emerged from the post-war division."],
+      ["1989–1990", "The Berlin Wall opened in November 1989. German reunification followed on 3 October 1990."]
+    ],
+    "historySources": [
+      ["Deutschlandmuseum: German history timeline", "https://www.deutschlandmuseum.de/en/history/"],
+      ["Federal Government: the path to reunification", "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/chronik-der-ereignisse-1989-1990"]
+    ],
+    "citySources": [["German National Tourist Board: cities and culture", "https://www.germany.travel/en/cities-culture/magic-cities.html"]],
+    "cities": [
+      ["Berlin", "Berlin", "The capital combines national government, museums and creative districts with sites connected to Germany's division and reunification.", "Compare campus addresses and housing across the city instead of relying on distance from the tourist centre.", "humboldt-universitat-zu-berlin"],
+      ["Munich", "Bavaria", "Bavaria's capital is known for its museums, historic centre and proximity to the Alpine region.", "Check whether classes take place in central Munich or at a separate campus such as Garching.", "technical-university-of-munich"],
+      ["Hamburg", "Hamburg", "A northern port city whose harbour and trading history remain central to its identity.", "Look at local transport connections and the location of your department when planning accommodation.", "university-of-hamburg"],
+      ["Frankfurt am Main", "Hesse", "Frankfurt is associated with banking, an international airport and a distinctive high-rise skyline.", "Distinguish Frankfurt am Main from Frankfurt an der Oder when researching institutions and travel.", null],
+      ["Cologne", "North Rhine-Westphalia", "This Rhine city is known for its cathedral, Roman roots and cultural life.", "Compare the daily campus journey as well as regional rail connections to surrounding cities.", "university-of-cologne"],
+      ["Stuttgart", "Baden-Württemberg", "Stuttgart is associated with automobile manufacturing and a landscape of hills and valleys.", "Check whether your course uses the city-centre or Vaihingen campus before arranging housing.", "university-of-stuttgart"],
+      ["Dresden", "Saxony", "Dresden sits on the Elbe and is known for art collections and reconstructed historic architecture.", "Combine academic research with a check of neighbourhoods, transport and student housing applications.", "tu-dresden"]
+    ],
+    "planning": "A famous city is not automatically the best fit for your subject. Compare smaller university towns too. Pakistani applicants should keep academic recognition and language preparation on their checklist, while using campus-level information for housing, orientation and student support.",
+    "checked": "2026-10-04"
+  },
+  "new-zealand": {
+    "name": "New Zealand",
+    "overview": "New Zealand, also known as Aotearoa, is in the southwest Pacific. Its two main islands are the North Island and South Island, alongside many smaller islands. Wellington is the capital and Auckland is the largest city. Coastal settings, mountains and regional differences shape the experience of living and studying here.",
+    "historyIntro": "Māori are the Indigenous people of Aotearoa, descended from Polynesian voyagers who settled the islands before European arrival. Māori language, iwi identities and relationships with land are central to the country's history and contemporary culture.",
+    "timeline": [
+      ["Polynesian settlement", "Voyagers established communities that developed the distinct cultures and traditions of Māori society."],
+      ["1840", "Māori rangatira and representatives of the British Crown began signing Te Tiriti o Waitangi / the Treaty of Waitangi. Differences between the Māori and English texts are important to understanding its history."],
+      ["The nineteenth century", "European settlement expanded. Conflict over authority and land, including the New Zealand Wars and land confiscation, had lasting effects on Māori communities."],
+      ["1893", "New Zealand became the first self-governing country where women won the right to vote in parliamentary elections."]
+    ],
+    "historySources": [
+      ["NZ History: the Treaty in brief", "https://nzhistory.govt.nz/politics/treaty/the-treaty-in-brief"],
+      ["NZ History: New Zealand, 1769–1914", "https://nzhistory.govt.nz/page/history-new-zealand-1769-1914"],
+      ["New Zealand government: a brief history", "https://www.live-work.immigration.govt.nz/live-in-new-zealand/history-government/a-brief-history"]
+    ],
+    "citySources": [
+      ["Education New Zealand: cities and regions", "https://www.studywithnewzealand.govt.nz/en/why-new-zealand/living-in-new-zealand/cities-and-regions"],
+      ["Education New Zealand: university locations", "https://blog.studywithnewzealand.govt.nz/category/study/where-in-new-zealand-can-you-study/"]
+    ],
+    "cities": [
+      ["Auckland", "North Island", "New Zealand's largest city has a harbour setting and a diverse metropolitan population.", "Compare campuses and commuting routes carefully; the wider Auckland area covers many neighbourhoods.", "university-of-auckland"],
+      ["Wellington", "North Island", "The national capital is a centre for government, cultural institutions and creative activity.", "Check whether your course is based at Kelburn, Pipitea or another location before choosing housing.", "victoria-university-of-wellington"],
+      ["Christchurch", "South Island", "Canterbury's main city combines established neighbourhoods with a city centre reshaped by earthquake recovery.", "Compare suburban campus locations with city-centre accommodation and allow for daily travel.", "university-of-canterbury"],
+      ["Hamilton", "North Island", "Hamilton is an inland city on the Waikato River, within the Waikato region.", "Research campus life and transport options rather than assuming an Auckland-based daily commute.", "university-of-waikato"],
+      ["Dunedin", "South Island", "Dunedin has a strong university identity and historic architecture in the Otago region.", "Investigate accommodation near your faculty, its heating arrangements and the academic-year contract.", "university-of-otago"],
+      ["Palmerston North", "North Island", "A regional centre in Manawatū with an established education and research presence.", "Confirm that your Massey programme is taught here, since the university also has other campuses and study modes.", "massey-university"]
+    ],
+    "planning": "Remember that New Zealand's seasons run opposite to Pakistan's. Compare the local climate and campus rather than assuming every city offers the same experience. University orientation and Māori cultural learning opportunities can help you understand place names, welcomes and community life.",
+    "checked": "2026-10-04"
+  }
+}

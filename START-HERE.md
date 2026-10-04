@@ -30,8 +30,10 @@ If you do not want Netlify Forms, remove the form and add your own real contact 
 
 ## Included
 
+Country background is maintained in `research/country-background.json`. Edit its overview, timeline, city descriptions and source links, then run `node scripts/build-country-background.js` to update the five country pages. The normal `node prepare.js` build also runs this generator. Generated sections have HTML comment markers; edit the JSON instead of the text between those markers. Admission and scholarship sections remain separately editable.
+
 - Sky & Lilac responsive homepage with the selected visual direction.
-- Five country pages with admissions, costs guidance, university links, scholarships and official resources.
+- Five country pages with country overviews, historical timelines, 34 city guides, student planning notes, admissions, costs, university links and official sources.
 - Ten scholarship detail pages and a searchable directory with destination, degree, funding and status filters.
 - Six application guides, including an interactive document checklist.
 - Three external consultant links (informational listings, not endorsements).

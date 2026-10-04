@@ -6,6 +6,7 @@ const root = __dirname;
 require('./scripts/update-navigation');
 require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
+require('./scripts/build-country-background');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || process.env.URL || '');
@@ -44,10 +45,12 @@ for(const file of htmlFiles) {
   const url=base+'/'+(relative==='index.html'?'':relative.replace(/\.html$/,''));
   if(base && !noindex) {
     const metadata=`<link rel="canonical" href="${escapeXml(url)}"><meta property="og:url" content="${escapeXml(url)}">`;
-    const schema=relative==='index.html'?{
-      '@context':'https://schema.org','@type':'WebSite',name:'StudyFlyway',url:base+'/',inLanguage:'en',description:'Independent study abroad and scholarship information for Pakistani students.'
-    }:{'@context':'https://schema.org','@type':'WebPage',name:(html.match(/<title>(.*?)<\/title>/s)||[])[1],url,inLanguage:'en'};
-    html=html.replace('</head>',metadata+'<script type="application/ld+json">'+JSON.stringify(schema).replaceAll('<','\\u003c')+'</script></head>');
+    // The homepage owns its WebSite identity, including its production URL.
+    // Preserve that block for local builds and avoid duplicating it on deployment.
+    const schema=relative==='index.html'?null:{
+      '@context':'https://schema.org','@type':'WebPage',name:(html.match(/<title>(.*?)<\/title>/s)||[])[1],url,inLanguage:'en'};
+    const structuredData=schema?'<script type="application/ld+json">'+JSON.stringify(schema).replaceAll('<','\\u003c')+'</script>':'';
+    html=html.replace('</head>',metadata+structuredData+'</head>');
     links.push(url);
   }
   fs.writeFileSync(file,html);
