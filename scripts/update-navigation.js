@@ -16,6 +16,7 @@ function update(dir) {
     html = html.replace(/<nav\b[\s\S]*?<\/nav>/, nav => {
       nav = nav.replace(/<div class="nav-dropdown" data-destinations-menu>[\s\S]*?<\/div>\s*<\/div>|<a\b[^>]*>Destinations<\/a>/, dropdown);
       if (!nav.includes('english-tests.html')) nav = nav.replace(/<a\b[^>]*>Guides<\/a>/, link => link + `<a href="${prefix}english-tests.html"${entry.name==='english-tests.html'?' aria-current="page"':''}>English Tests</a>`);
+      if (!nav.includes('about.html')) nav = nav.replace(/<a\b[^>]*class="navcta"/, link => `<a href="${prefix}about.html"${entry.name==='about.html'?' aria-current="page"':''}>About Us</a>` + link);
       return nav;
     });
     html = html.replace(/<footer\b[\s\S]*?<\/footer>/, footer => footer.includes('english-tests.html') ? footer : footer.replace(/<a\b[^>]*>Application guides<\/a>/, link => link + `<a href="${prefix}english-tests.html">English Tests</a>`));
