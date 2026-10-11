@@ -23,6 +23,11 @@ function update(dir) {
       return nav;
     });
     html = html.replace(/<footer\b[\s\S]*?<\/footer>/, footer => footer.includes('english-tests.html') ? footer : footer.replace(/<a\b[^>]*>Application guides<\/a>/, link => link + `<a href="${prefix}english-tests.html">English Tests</a>`));
+    const contactLinks = '<a href="mailto:studyflyway@gmail.com">studyflyway@gmail.com</a><a href="https://www.instagram.com/studyflyway/" target="_blank" rel="noopener noreferrer">Instagram: @studyflyway<span class="sr-only"> (opens in a new tab)</span></a>';
+    html = html.replace(/<footer\b[\s\S]*?<\/footer>/, footer => footer.includes('mailto:studyflyway@gmail.com') ? footer : footer.replace(/<a\b[^>]*>Contact &(?:amp;)? corrections<\/a>/, link => link + contactLinks));
+    if (entry.name === 'contact.html' && !html.includes('<h2>Contact StudyFlyway</h2>')) {
+      html = html.replace('<aside class="sidebar">', '<aside class="sidebar"><h2>Contact StudyFlyway</h2><p>Email us or connect with us on Instagram.</p>' + contactLinks);
+    }
     if (html !== fs.readFileSync(file, 'utf8')) fs.writeFileSync(file, html);
   }
 }
