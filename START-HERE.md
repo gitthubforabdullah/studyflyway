@@ -31,7 +31,7 @@ The contact form uses FormSubmit to deliver the visitor?s name, email, topic and
 3. Open **studyflyway@gmail.com**, check the inbox and Spam folder for the FormSubmit activation email, and click its confirmation link.
 4. Submit another test and verify the message arrives. Replying to that email uses the visitor?s supplied email address.
 
-Successful submissions return to `https://studyflyway.online/thank-you.html`. Update the hidden `_next` URL in `contact.html` if your domain changes. To test locally, serve the site over HTTP; opening the HTML directly with `file://` is blocked.
+Successful submissions return to `https://studyflyway.online/thank-you`. Update the hidden `_next` URL in `contact.html` if your domain changes. To test locally, serve the site over HTTP; opening the HTML directly with `file://` is blocked.
 
 ## Included
 
@@ -60,7 +60,7 @@ The homepage contains WebSite and Organization JSON-LD. Keep its Organization de
 
 `prepare.js` uses Netlify's production **URL** variable for sitemap and canonical URLs. If you use a custom domain, set **SITE_URL** to its full origin (for example `https://your-real-domain.com`) and redeploy. Verify that the live `/sitemap.xml` uses your final address, then submit that URL in Google Search Console. Indexing or rankings are not guaranteed.
 
-Do not use an all-paths-to-index.html redirect; this is a real multi-page site, not a React app. Links use `.html` for local compatibility; Netlify Pretty URLs serves the corresponding clean addresses.
+Do not use an all-paths-to-index.html redirect; this is a real multi-page site, not a React app. Links use extensionless paths. The build generates permanent redirects from old `.html` URLs and rewrites for clean addresses. Preview using Netlify routing; opening files directly does not support clean links.
 
 ## Update your website
 

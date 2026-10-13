@@ -20,7 +20,7 @@ const template = fs.readFileSync(path.join(root, 'about.html'), 'utf8');
 const header = template.match(/<header[\s\S]*?<\/header>/)[0];
 const footer = template.match(/<footer[\s\S]*?<\/footer>/)[0];
 function chrome(part, prefix) {
-  return part.replace(/href="(?!https?:|#|\/)([^"]+)"/g, `href="${prefix}$1"`).replace(/src="assets\//g, `src="${prefix}assets/`).replace(/ aria-current="page"/g, '').replace(/(<a href="[^" ]*universities.html")/, '$1 aria-current="page"');
+  return part.replace(/href="(?![a-zA-Z][a-zA-Z0-9+.-]*:|#|\/)([^"]+)"/g, `href="${prefix}$1"`).replace(/src="assets\//g, `src="${prefix}assets/`).replace(/ aria-current="page"/g, '').replace(/(<a href="[^" ]*universities(?:\.html)?")/, '$1 aria-current="page"');
 }
 function document(title, description, content, prefix, directory = false) {
   return `<!doctype html>

@@ -8,6 +8,7 @@ require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
 require('./scripts/build-country-background');
 require('./scripts/enhance-destinations');
+require('./scripts/clean-site-links');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || process.env.URL || '');
@@ -34,6 +35,20 @@ function collect(dir) {
   }
 }
 collect(output);
+// Explicit legacy redirects preserve bookmarks; rewrites serve clean page URLs.
+const routes = [];
+for (const file of htmlFiles) {
+  const relative = path.relative(output, file).split(path.sep).join('/');
+  if (/^google[a-f0-9]+\.html$/.test(relative) || relative === '404.html') continue;
+  const clean = relative === 'index.html' ? '/' : relative === 'privacy.html' ? '/privacy-policy' : '/' + relative.slice(0, -5);
+  routes.push(`/${relative} ${clean} 301!`);
+}
+for (const file of htmlFiles) {
+  const relative = path.relative(output, file).split(path.sep).join('/');
+  if (/^google[a-f0-9]+\.html$/.test(relative) || ['404.html', 'index.html'].includes(relative)) continue;
+  routes.push(relative === 'privacy.html' ? '/privacy /privacy-policy 301!' : `/${relative.slice(0, -5)} /${relative} 200!`);
+}
+fs.writeFileSync(path.join(output, '_redirects'), routes.join('\n') + '\n');
 const links=[];
 function escapeXml(value) {return value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');}
 for(const file of htmlFiles) {
