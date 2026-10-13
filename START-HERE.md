@@ -24,9 +24,14 @@ There are no package dependencies to install. Node is only used by Netlify to co
 
 ### Contact form setup
 
-In Netlify, enable form detection/Netlify Forms for this site, then redeploy. The detected form is named **studyflyway-contact**. Test a submission on the live site and check that it appears in Netlify's form submissions. Configure email notifications there if desired. The form cannot receive messages on a generic static host without a compatible form service. No email address has been invented for you.
+The contact form uses FormSubmit to deliver the visitor?s name, email, topic and message to **studyflyway@gmail.com**. No Gmail password or API key is needed. Spam protection uses FormSubmit?s default reCAPTCHA and a hidden honeypot field.
 
-If you do not want Netlify Forms, remove the form and add your own real contact method before publishing. Review the included privacy page to ensure it matches your actual operation.
+1. Publish the updated website.
+2. Send a test message from the live contact page.
+3. Open **studyflyway@gmail.com**, check the inbox and Spam folder for the FormSubmit activation email, and click its confirmation link.
+4. Submit another test and verify the message arrives. Replying to that email uses the visitor?s supplied email address.
+
+Successful submissions return to `https://studyflyway.online/thank-you.html`. Update the hidden `_next` URL in `contact.html` if your domain changes. To test locally, serve the site over HTTP; opening the HTML directly with `file://` is blocked.
 
 ## Included
 

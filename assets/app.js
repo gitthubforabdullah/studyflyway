@@ -118,10 +118,10 @@ document.querySelectorAll('img[data-campus-image]').forEach(img => {
   if (img.complete && img.naturalWidth === 0) showImageStatus();
 });
 if(contact) contact.addEventListener('submit', event => {
-  if(location.protocol === 'file:' || ['localhost','127.0.0.1','terminal.local'].includes(location.hostname)) {
+  if(location.protocol === 'file:') {
     event.preventDefault();
     const message = document.querySelector('[data-form-message]');
-    message.textContent = 'This preview cannot send messages. The form becomes available after Netlify Forms is enabled and the website is deployed.';
+    message.textContent = 'Open this page through a local web server or the published website to send a message. You can also email studyflyway@gmail.com directly.';
     message.focus();
   }
 });
