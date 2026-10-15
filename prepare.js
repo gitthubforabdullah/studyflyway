@@ -3,6 +3,12 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
+// Validate before generating files so a deployment cannot silently omit ads.txt.
+const adsFile = path.join(root, 'ads.txt');
+const adsContent = fs.readFileSync(adsFile, 'utf8').replace(/^\uFEFF/, '').trim();
+if (!adsContent.split(/\r?\n/).some(line => /^google\.com,\s*pub-9576135533715323,\s*DIRECT,\s*f08c47fec0942fa0\s*$/.test(line))) {
+  throw Error('ads.txt must contain the StudyFlyway AdSense publisher declaration.');
+}
 require('./scripts/update-navigation');
 require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
@@ -25,8 +31,7 @@ const folders=['assets','countries','scholarships','guides','universities'];
 for(const folder of folders) fs.cpSync(path.join(root,folder),path.join(output,folder),{recursive:true});
 for(const file of fs.readdirSync(root)) if(file.endsWith('.html')) fs.copyFileSync(path.join(root,file),path.join(output,file));
 // Preserve the publisher declaration alongside the generated website.
-const adsFile = path.join(root, 'ads.txt');
-if (fs.existsSync(adsFile)) fs.copyFileSync(adsFile, path.join(output, 'ads.txt'));
+fs.writeFileSync(path.join(output, 'ads.txt'), adsContent + '\n', 'utf8');
 const htmlFiles=[];
 function collect(dir) {
   for(const ent of fs.readdirSync(dir,{withFileTypes:true})) {

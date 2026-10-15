@@ -5,6 +5,12 @@
 [build.environment]
   NODE_VERSION = "22"
 
+[[headers]]
+  for = "/ads.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=300"
+
 # This is a multi-page website. Do not add a /* /index.html SPA rewrite.
 [build.processing]
   skip_processing = false
