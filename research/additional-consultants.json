@@ -1,0 +1,55 @@
+{
+  "checked": "2026-10-18",
+  "consultants": [
+    {
+      "id": "abn-overseas", "name": "ABN Overseas Education", "mark": "ABN",
+      "website": "https://www.abneducation.com/",
+      "summary": "Pakistan-based education consultancy offering in-person and virtual counselling.",
+      "destinations": "UK, USA, Australia, Canada, Germany, New Zealand, Malaysia and other destinations listed on its website.",
+      "services": "Course and university selection, admission assessment, application and scholarship guidance, student visa guidance, and IELTS preparation.",
+      "office": "Head office: Plaza 150 CCA, adjacent to KFC, Phase 5, DHA, Lahore. Other offices include Karachi, Islamabad, Rawalpindi, Faisalabad, Gujranwala, Multan, Hyderabad, Peshawar and Mardan.",
+      "phone": "+92 309 3333800", "email": "info@abneducation.com",
+      "contact": "https://www.abneducation.com/contact-us/"
+    },
+    {
+      "id": "fes-consultants", "name": "FES Higher Education Consultants", "mark": "FES",
+      "website": "https://www.fespak.com/",
+      "summary": "Overseas education consultancy with a branch network across Pakistan.",
+      "destinations": "UK, Australia, USA, Canada, Ireland and Indonesia, among other destinations listed on its website.",
+      "services": "Profile review, course and university selection, applications, English-test preparation, visa-document and interview guidance, and pre-departure planning.",
+      "office": "Lahore contact office: Office 31/2, Upper Ground, Mall of Lahore, 172 Tufail Road, Cantt. Branches also listed in Islamabad, Rawalpindi, Peshawar, Gujranwala, Wah Cantonment, Attock, Abbottabad and Mardan.",
+      "phone": "+92 345 8454769", "email": "info@fespak.com",
+      "contact": "https://www.fespak.com/branches/pakistan"
+    },
+    {
+      "id": "edwise-education", "name": "Edwise Education", "mark": "EW",
+      "website": "https://edwise.pk/",
+      "summary": "Karachi-based consultancy providing overseas study and application support.",
+      "destinations": "USA, UK, Canada, Australia, New Zealand, Malaysia, Turkey, UAE and European destinations.",
+      "services": "Student profile assessment, university and course selection, admissions and scholarship guidance, IELTS/PTE preparation, visa-file guidance, mock interviews and pre-departure advice.",
+      "office": "Office 302, 3rd Floor, Plot 1C, Stadium Lane 2, 17 Khayaban-e-Shamsheer, Khadda Market, DHA Phase V, Karachi 75500.",
+      "phone": "+92 300 8255797", "email": "info@edwise.pk",
+      "contact": "https://edwise.pk/contact/"
+    },
+    {
+      "id": "dignosco", "name": "Dignosco", "mark": "D",
+      "website": "https://dignosco.org/",
+      "summary": "College counselling provider serving students, professionals and parents, with online and in-person consultations.",
+      "destinations": "USA and UK, with undergraduate, graduate and MBA application counselling.",
+      "services": "College shortlisting, degree and career planning, essay and personal-statement guidance, activity-list planning, and advice on resumes and recommendations.",
+      "office": "Lahore: 10/C-II, 8th Floor, Liberty Gate, M.M. Alam Road, Gulberg; also 255 CCA, FF Block, DHA Phase IV. Karachi: 41-C Main Khayaban-e-Bukhari, DHA Phase 6. Islamabad: 2nd Floor East, Sama Plaza, 68-W Jinnah Avenue, Blue Area.",
+      "phone": "+92 42 111 111 344", "email": "info@dignosco.org",
+      "contact": "https://dignosco.org/contact-us/"
+    },
+    {
+      "id": "iec-consultancy", "name": "IEC Consultancy", "mark": "IEC",
+      "website": "https://iecconsultancy.com/",
+      "summary": "Education consultancy with contact offices in Karachi and London.",
+      "destinations": "UK study information is published on its website; confirm availability for other destinations directly.",
+      "services": "Website sections cover admissions, personal statements, scholarships, IELTS, UK visa requirements and student accommodation, with undergraduate and postgraduate study information.",
+      "office": "Pakistan: Office 204, Silver Trade Tower, Block 13-A, Main University Road, Gulshan-e-Iqbal, Karachi 75300. UK: 603 Guest House, 28 St. Pauls Way, London, E3 4AL.",
+      "phone": "+92 331 2061665", "otherPhone": "+92 300 2511021", "email": "info@iecconsultancy.com",
+      "contact": "https://iecconsultancy.com/contact-us/"
+    }
+  ]
+}
