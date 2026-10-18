@@ -12,6 +12,7 @@ if (!adsContent.split(/\r?\n/).some(line => /^google\.com,\s*pub-957613553371532
 require('./scripts/update-navigation');
 require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
+require('./scripts/build-consultants');
 require('./scripts/build-country-background');
 require('./scripts/enhance-destinations');
 require('./scripts/clean-site-links');
@@ -27,7 +28,7 @@ if(origin) {
 if(!base) console.warn('Local build: no public URL set. Canonical URLs and sitemap will be added on Netlify using its URL environment variable.');
 fs.rmSync(output, {recursive:true, force:true});
 fs.mkdirSync(output, {recursive:true});
-const folders=['assets','countries','scholarships','guides','universities'];
+const folders=['assets','countries','scholarships','guides','universities','consultants'];
 for(const folder of folders) fs.cpSync(path.join(root,folder),path.join(output,folder),{recursive:true});
 for(const file of fs.readdirSync(root)) if(file.endsWith('.html')) fs.copyFileSync(path.join(root,file),path.join(output,file));
 // Preserve the publisher declaration alongside the generated website.
@@ -79,4 +80,6 @@ for(const file of htmlFiles) {
 if(base) fs.writeFileSync(path.join(output,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+links.map(url=>`  <url><loc>${escapeXml(url)}</loc></url>`).join('\n')+'\n</urlset>\n');
 fs.writeFileSync(path.join(output,'robots.txt'),'User-agent: *\nAllow: /\n'+(base?'\nSitemap: '+base+'/sitemap.xml\n':''));
 fs.writeFileSync(path.join(output,'_headers'),'/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n/assets/*\n  Cache-Control: public, max-age=3600\n');
+// Fail deployment if a consultant profile, local logo, or clean route is missing.
+require('node:child_process').execFileSync(process.execPath, [path.join(root, 'scripts/check-consultants.js'), '--dist'], {stdio: 'inherit'});
 console.log(`Built ${htmlFiles.length} HTML pages in dist. ${base?'Sitemap and canonical URLs configured for '+base: 'Local preview ready.'}`);

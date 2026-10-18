@@ -46,5 +46,40 @@
     "width": 96,
     "height": 96,
     "checked": "2026-10-03"
+  },
+  "abn-overseas": {
+    "file": "assets/consultant-icons/abn-overseas.jpg",
+    "website": "https://www.abneducation.com/",
+    "source": "https://www.abneducation.com/wp-content/uploads/2023/02/cropped-cropped-ABN-LOGO-2022-02.jpg",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "fes-consultants": {
+    "file": "assets/consultant-icons/fes-consultants.png",
+    "website": "https://www.fespak.com/",
+    "source": "https://www.fespak.com/images/logo/FES.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "edwise-education": {
+    "file": "assets/consultant-icons/edwise-education.png",
+    "website": "https://edwise.pk/",
+    "source": "https://edwise.pk/wp-content/uploads/2025/01/1-Education-Consultants-in-Karachi-2-1.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "dignosco": {
+    "file": "assets/consultant-icons/dignosco.png",
+    "website": "https://dignosco.org/",
+    "source": "https://dignosco.org/wp-content/uploads/2017/03/logodignosco.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "iec-consultancy": {
+    "file": "assets/consultant-icons/iec-consultancy.jpg",
+    "website": "https://iecconsultancy.com/",
+    "source": "https://iecconsultancy.com/wp-content/uploads/2021/01/e224ddb9-b62b-4ac2-ad01-c8623ae657ba.jpg",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
   }
 }

@@ -1,0 +1,71 @@
+{
+  "checked": "2026-10-18",
+  "consultants": [
+    {
+      "id": "idp", "name": "IDP Education Pakistan", "website": "https://www.idp.com/pakistan/",
+      "summary": "International education counselling provider offering Pakistan office appointments and virtual consultations.",
+      "destinations": "Australia, Canada, UK, USA, Ireland and New Zealand. Confirm available institutions and courses with a counsellor.",
+      "services": "Course and university selection, application guidance, student visa process guidance, and online counselling. IELTS information and booking are available through IDP IELTS.",
+      "office": "Pakistan office network includes Karachi, Lahore and Islamabad, with additional city-specific virtual counselling links. Use the official office directory to choose a location and confirm its current address before visiting.",
+      "phone": "+92 300 7887711", "phoneNote": "WhatsApp assistance for virtual counselling.",
+      "contact": "https://www.idp.com/pakistan/virtual-counselling/",
+      "sources": ["https://www.idp.com/pakistan/", "https://www.idp.com/pakistan/virtual-counselling/"],
+      "location": "Pakistan offices & online"
+    },
+    {
+      "id": "studyin", "name": "StudyIn Pakistan", "website": "https://gostudyin.com/pakistan/study-in-uk/",
+      "summary": "Overseas education consultancy, formerly SI-UK, with Pakistan offices and UK study guidance.",
+      "destinations": "UK study is covered by the Pakistan website. Ask the local team which other destination services are currently available.",
+      "services": "University and course guidance, application support and study-abroad counselling. Confirm the scope of visa and scholarship support for your chosen programme with the Pakistan team.",
+      "office": "Lahore head office: Ehsan Plaza, 25 Block F-1, Second Floor, Khayaban-e-Firdousi, Johar Town, Lahore 54782. Its office directory also lists Lahore Faisal Town, Multan, Burewala and Gujar Khan.",
+      "phone": "+92 311 1141151", "email": "lahore@gostudyin.com",
+      "contact": "https://gostudyin.com/offices/",
+      "sources": ["https://gostudyin.com/pakistan/study-in-uk/", "https://gostudyin.com/offices/"],
+      "location": "Lahore & other Pakistan offices"
+    },
+    {
+      "id": "times-consultant", "name": "Times Consultant", "website": "https://timesconsultant.com/",
+      "summary": "Pakistan-based study-abroad consultancy with a nationwide office directory and international branches.",
+      "destinations": "UK, Australia, Canada, USA, Germany, Ireland and other European and Asian destinations listed on its website.",
+      "services": "Course selection, university applications, offer-condition guidance, student visa support, accommodation guidance and language services.",
+      "office": "Karachi: 3/C, 2nd Floor, Khayaban-e-Sehar, DHA Phase 6. Lahore: 1st Floor, 68 Commercial, above Cakes & Bakes, Cavalry Ground. Islamabad: 3rd Floor, Malik Complex, Office 11, Jinnah Avenue, Blue Area. See the official directory for other branches.",
+      "phone": "+92 345 2066100", "email": "study@timesconsultant.com",
+      "contact": "https://timesconsultant.com/contact-us/",
+      "sources": ["https://timesconsultant.com/", "https://timesconsultant.com/contact-us/", "https://timesconsultant.com/home-old/"],
+      "location": "Nationwide Pakistan offices"
+    },
+    {
+      "id": "hr-consultants", "name": "HR Consultants Pakistan", "website": "https://hrpakistan.com/hri/",
+      "summary": "Overseas education consultancy with offices across Pakistan and guidance for several study levels.",
+      "destinations": "UK, USA, Australia, Canada, Germany, New Zealand, Malaysia and UAE, with other destinations listed on its website.",
+      "services": "University and course advice, document verification, admission support, visa assistance, interview preparation, pre-departure support and English-test preparation information.",
+      "office": "Offices are listed in Islamabad, Rawalpindi, Lahore, Karachi, Peshawar, Faisalabad and Multan. Select the relevant branch on the official office page for its current address and appointment arrangements.",
+      "phone": "+92 322 4747038",
+      "contact": "https://hrpakistan.com/hri/offices/",
+      "sources": ["https://hrpakistan.com/hri/", "https://hrpakistan.com/hri/offices/"],
+      "location": "Major cities across Pakistan"
+    },
+    {
+      "id": "aeo-pakistan", "name": "AEO Pakistan", "website": "https://aeo.com.pk/study-abroad/",
+      "summary": "Study-abroad counselling provider that also publishes IELTS booking and preparation resources.",
+      "destinations": "Australia, UK, USA, Canada, New Zealand, Malaysia and Dubai (UAE).",
+      "services": "Destination and university selection, admission and visa guidance, scholarship assistance, accommodation and post-arrival support information, plus IELTS testing and preparation.",
+      "office": "Islamabad DHA: Plaza 26, Main Iqbal Boulevard, Sector A Commercial, DHA Phase 2. Lahore Gulberg: House 50-C-III, Gulberg III. Karachi Clifton: Office 601, 6th Floor, Razi Tower, BC-13, Block 9. More branches are listed on its contact page.",
+      "phone": "+92 320 8567776", "phoneNote": "Islamabad DHA admissions and visa information.", "email": "lhr@aeo.com.pk", "emailNote": "Lahore Gulberg office.",
+      "contact": "https://aeo.com.pk/contact-us/",
+      "sources": ["https://aeo.com.pk/study-abroad/", "https://aeo.com.pk/contact-us/"],
+      "location": "Islamabad, Lahore, Karachi & more"
+    },
+    {
+      "id": "p2gs", "name": "P2GS — Pakistan to Germany Study", "website": "https://p2gstudy.com/",
+      "summary": "Education consultancy focused on German study pathways and German-language preparation.",
+      "destinations": "Germany is the main focus; its website also lists selected programmes in Hungary, Switzerland, Türkiye, Kazakhstan and Kyrgyzstan.",
+      "services": "Bachelor’s and master’s pathway information, university application and visa support, German-language preparation from A1 to B2, and information on nursing, medical and other study routes.",
+      "office": "Islamabad head office: Venture Universal Trade Plaza, 20 Street 26A, Sector H, DHA Phase II, Lavender Road, Islamabad 44000. Lahore: House 24A, Street 4, Amir Town, Harbanspura. Karachi: Ocean Towers, Block 9, Clifton 75600.",
+      "phone": "+92 51 5418323", "otherPhone": "+92 335 8597948",
+      "contact": "https://p2gstudy.com/contact/",
+      "sources": ["https://p2gstudy.com/", "https://p2gstudy.com/contact/"],
+      "location": "Islamabad, Lahore & Karachi"
+    }
+  ]
+}

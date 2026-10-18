@@ -1,5 +1,13 @@
 # University editorial records
 
+## Consultant directory
+
+`consultants.json` records the original six providers with expanded services, destinations, offices and contact details reviewed on 18 October 2026. `additional-consultants.json` records the five additions. Official source links appear on every profile; unverified email addresses and prices are omitted. Update these records and run `node scripts/build-consultants.js`; the normal `node prepare.js` build also regenerates the directory and all 11 profiles, copies their assets and adds clean routes.
+
+`consultant-icons.json` records locally cached provider marks. The five new header logos were retrieved from official websites by `python scripts/cache-consultant-logos.py`; this network utility is manual and never runs during deployment. Marks remain owned by their respective organisations and do not imply affiliation.
+
+Run `node scripts/check-consultants.js` and `node scripts/check-consultants.js --dist` to verify profile coverage, local resources and deployment routes.
+
 ## Notable alumni
 
 `university-alumni.json` contains two sourced alumni examples for each of the 88 universities (176 entries), reviewed on 4 October 2026. Each entry records the person's name, study connection, a short career summary and an institutional source. Study connections distinguish former students from confirmed graduates; historical institutional names and predecessor universities are identified where relevant. An honorary degree alone is not treated as an earned qualification. Alumni examples are not promises of student outcomes.
