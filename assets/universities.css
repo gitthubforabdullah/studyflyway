@@ -86,6 +86,21 @@
 .university-card-facts a:hover{color:var(--primary);text-decoration:underline}
 .university-card-bottom .btn{border-radius:100px;border-color:#8d95ae;background:white;color:var(--ink);box-shadow:none;min-height:44px}
 .university-card-bottom .btn:hover{border-color:var(--primary);background:var(--lilac);color:var(--primary)}
+/* Match the consultant directory's compact sizing without altering card content. */
+#university-results{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+#university-results .university-card-content{padding:18px}
+#university-results .badge{font-size:.65rem;margin-bottom:4px}
+#university-results .university-identity{width:80px;height:64px;padding:8px;margin:8px 0;border-radius:8px}
+#university-results .university-card-content h2{font-size:1rem;line-height:1.35;min-height:0;margin:8px 0}
+#university-results .university-course-link{font-size:.82rem!important;line-height:1.55;margin:0 0 12px!important}
+#university-results .university-card-facts{padding:10px 0 0;margin:0 0 12px}
+#university-results .university-card-facts li{font-size:.75rem;line-height:1.55;gap:8px;margin-bottom:8px}
+#university-results .university-fact-icon{width:18px;height:18px;flex-shrink:0}
+#university-results .university-card-bottom{padding-top:0}
+#university-results .university-card-bottom .btn{font-size:.8rem;min-height:38px;padding:8px 12px}
+@media(max-width:1100px){#university-results{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:800px){#university-results{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){#university-results{grid-template-columns:1fr}}
 .university-profile-top{padding-bottom:42px}
 .university-profile-hero{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:end;gap:40px;margin-top:26px}
 .university-title-row{display:flex;align-items:center;gap:18px;margin:20px 0}
