@@ -6,6 +6,8 @@
 
 `consultant-icons.json` records locally cached provider marks. The five new header logos were retrieved from official websites by `python scripts/cache-consultant-logos.py`; this network utility is manual and never runs during deployment. Marks remain owned by their respective organisations and do not imply affiliation.
 
+`specialist-consultants.json` adds AusPak International, Edify Group, HS Consultants, ISAS Consultants and Conzept Connection, reviewed on 18 October 2026. These additions collectively cover Australia, Canada, the UK, New Zealand and Germany; each profile lists only the destinations supported by its official information. All 16 providers use the same compact cards and profile sections. Conzept's phone comes from its official WhatsApp link; its branch street addresses are omitted pending confirmation. ISAS uses its public website icon, retrieved through the favicon cache, rather than a recreated logo.
+
 Run `node scripts/check-consultants.js` and `node scripts/check-consultants.js --dist` to verify profile coverage, local resources and deployment routes.
 
 ## Notable alumni

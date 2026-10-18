@@ -81,5 +81,40 @@
     "source": "https://iecconsultancy.com/wp-content/uploads/2021/01/e224ddb9-b62b-4ac2-ad01-c8623ae657ba.jpg",
     "checked": "2026-10-18",
     "kind": "Official website header logo"
+  },
+  "auspak-international": {
+    "file": "assets/consultant-icons/auspak-international.png",
+    "website": "https://auspak.edu.pk/",
+    "source": "https://auspak.edu.pk/wp-content/uploads/2022/12/cropped-Ap-Logo-e1669874682439.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "edify-group": {
+    "file": "assets/consultant-icons/edify-group.svg",
+    "website": "https://edify.pk/",
+    "source": "https://edify.pk/images/logo.svg",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "hs-consultants": {
+    "file": "assets/consultant-icons/hs-consultants.png",
+    "website": "https://hsconsultants.net/",
+    "source": "https://hsconsultants.net/assets/images/hs-logo.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
+  },
+  "isas-consultants": {
+    "file": "assets/consultant-icons/isas-consultants.png",
+    "website": "https://www.isas.com.pk/",
+    "source": "https://www.google.com/s2/favicons?domain=isas.com.pk&sz=128",
+    "checked": "2026-10-18",
+    "kind": "Public website icon"
+  },
+  "conzept-connection": {
+    "file": "assets/consultant-icons/conzept-connection.png",
+    "website": "https://www.conzeptconnect.com/",
+    "source": "https://www.conzeptconnect.com/images/logo.png",
+    "checked": "2026-10-18",
+    "kind": "Official website header logo"
   }
 }

@@ -5,6 +5,11 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
 LOGOS = {
+    'auspak-international': ('https://auspak.edu.pk/', 'https://auspak.edu.pk/wp-content/uploads/2022/12/cropped-Ap-Logo-e1669874682439.png'),
+    'edify-group': ('https://edify.pk/', 'https://edify.pk/images/logo.svg'),
+    'hs-consultants': ('https://hsconsultants.net/', 'https://hsconsultants.net/assets/images/hs-logo.png'),
+    'isas-consultants': ('https://www.isas.com.pk/', 'https://www.google.com/s2/favicons?domain=isas.com.pk&sz=128'),
+    'conzept-connection': ('https://www.conzeptconnect.com/', 'https://www.conzeptconnect.com/images/logo.png'),
     'abn-overseas': ('https://www.abneducation.com/', 'https://www.abneducation.com/wp-content/uploads/2023/02/cropped-cropped-ABN-LOGO-2022-02.jpg'),
     'fes-consultants': ('https://www.fespak.com/', 'https://www.fespak.com/images/logo/FES.png'),
     'edwise-education': ('https://edwise.pk/', 'https://edwise.pk/wp-content/uploads/2025/01/1-Education-Consultants-in-Karachi-2-1.png'),
@@ -21,11 +26,13 @@ for slug, (website, source) in LOGOS.items():
         extension = '.png'
     elif data.startswith(b'\xff\xd8'):
         extension = '.jpg'
+    elif b'<svg' in data and b'<script' not in data:
+        extension = '.svg'
     else:
         raise ValueError(f'Unexpected logo format: {slug}')
     file = f'assets/consultant-icons/{slug}{extension}'
     (ROOT / file).write_bytes(data)
     manifest[slug] = dict(file=file, website=website, source=source,
-                          checked='2026-10-18', kind='Official website header logo')
+                          checked='2026-10-18', kind='Public website icon' if slug == 'isas-consultants' else 'Official website header logo')
     manifest_path.write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
     print(f'Cached {slug}: {len(data)} bytes', flush=True)

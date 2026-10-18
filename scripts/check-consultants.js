@@ -4,10 +4,11 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const base = process.argv.includes('--dist') ? path.join(root, 'dist') : root;
-const records = [...require('../research/consultants.json').consultants, ...require('../research/additional-consultants.json').consultants];
+const records = [...require('../research/consultants.json').consultants, ...require('../research/additional-consultants.json').consultants, ...require('../research/specialist-consultants.json').consultants];
 const icons = require('../research/consultant-icons.json');
 const directory = fs.readFileSync(path.join(base, 'consultants.html'), 'utf8');
-assert.equal((directory.match(/data-consultant data-search=/g) || []).length, 11);
+assert.equal((directory.match(/data-consultant data-search=/g) || []).length, records.length);
+assert.equal(new Set(records.map(c => c.id)).size, records.length, 'Unique profile IDs');
 for (const c of records) {
   const route = '/consultants/' + c.id;
   assert(directory.includes(`href="${route}"`), `Profile link: ${c.id}`);
@@ -30,4 +31,4 @@ for (const c of records) {
     assert(redirects.includes(`${route} ${route}.html 200!`), `Clean URL: ${c.id}`);
   }
 }
-console.log('Passed: all 11 profiles, directory links, sections, contacts, logo files, local resources and deployment routes.');
+console.log(`Passed: all ${records.length} profiles, directory links, sections, contacts, logo files, local resources and deployment routes.`);

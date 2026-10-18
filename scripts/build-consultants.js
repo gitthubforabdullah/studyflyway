@@ -7,7 +7,8 @@ const root = path.resolve(__dirname, '..');
 const original = require('../research/consultants.json');
 const additional = require('../research/additional-consultants.json');
 const icons = require('../research/consultant-icons.json');
-const records = [...original.consultants, ...additional.consultants];
+const specialist = require('../research/specialist-consultants.json');
+const records = [...original.consultants, ...additional.consultants, ...specialist.consultants];
 const template = fs.readFileSync(path.join(root, 'about.html'), 'utf8');
 const sharedVersion = require('./sync-university-styles');
 const version = crypto.createHash('sha256').update(fs.readFileSync(path.join(root, 'assets/consultants.css'))).digest('hex').slice(0,12);
@@ -56,10 +57,10 @@ const directory = `<div class="page-top"><div class="wrap"><div class="crumb">${
 <div id="consultant-results" class="university-directory-grid consultant-directory-grid">${records.map(card).join('\n')}</div>
 <div class="empty" data-consultant-empty hidden><h2>No consultants match</h2><p>Try a different name, destination or city.</p><button class="btn" type="button" data-consultant-reset>Reset search</button></div>
 <div class="callout list-space"><div><h2>Make an informed choice.</h2><p>Compare written fees, refund terms and university relationships before choosing support.</p></div>${link('/guides/choosing-a-consultant', 'Read our checklist', 'btn')}</div></div></section>`;
-fs.writeFileSync(path.join(root, 'consultants.html'), document('Study Abroad Consultant Directory', 'Compare 11 study abroad consultants serving Pakistani students, with individual profiles, services, destinations, office details and official contacts.', directory, true));
+fs.writeFileSync(path.join(root, 'consultants.html'), document('Study Abroad Consultant Directory', `Compare ${records.length} study abroad consultants serving Pakistani students, with individual profiles, services, destinations, office details and official contacts.`, directory, true));
 fs.mkdirSync(path.join(root, 'consultants'), {recursive:true});
 for (const c of records) {
-  const checked = c.checked || (original.consultants.includes(c) ? original.checked : additional.checked);
+  const checked = c.checked || (original.consultants.includes(c) ? original.checked : specialist.consultants.includes(c) ? specialist.checked : additional.checked);
   const sources = [...new Set(c.sources || [c.website, c.contact])];
   const content = `<div class="page-top"><div class="wrap"><div class="crumb">${link('/', 'Home')} / ${link('/consultants', 'Consultants')} / ${escape(c.name)}</div><span class="eyebrow">External consultant profile</span><div class="consultant-title">${logo(c)}<h1>${escape(c.name)}</h1></div><p>${escape(c.summary)}</p><div class="actions">${link(c.website, 'Visit official website', 'btn')}${link('#contact', 'Contact details', 'btn secondary')}</div><p class="university-reviewed">Details checked <time datetime="${checked}">18 October 2026</time></p></div></div>
 <section class="section"><div class="wrap">${notice}<div class="article-layout list-space"><article class="article">

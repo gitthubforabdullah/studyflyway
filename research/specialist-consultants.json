@@ -1,0 +1,65 @@
+{
+  "checked": "2026-10-18",
+  "consultants": [
+    {
+      "id": "auspak-international", "name": "AusPak International",
+      "website": "https://auspak.edu.pk/",
+      "summary": "Education consultancy with an Australian study focus and a Pakistan office network supporting several overseas destinations.",
+      "destinations": "Australia, Canada, UK, New Zealand and Germany, alongside other destinations published on its website.",
+      "services": "Study counselling, course selection, application guidance, visa-process support and arrival support through its Australian office. Ask which services apply to your chosen destination.",
+      "office": "Head office: 12/A, New Muslim Town, Lahore. Karachi: 1st Floor, 86-C, 11th Commercial Street, DHA Phase 2 Extension, Khayaban-e-Ittehad. Islamabad: Office 10, 1st Floor, Omnia Heights, Paradise Commercial, Bahria Town Phase 4. Other Pakistan branches and a Melbourne office are listed on its contact page.",
+      "location": "Pakistan offices & Melbourne",
+      "phone": "+92 336 4802342", "email": "info@auspak.edu.pk",
+      "contact": "https://auspak.edu.pk/contact/",
+      "sources": ["https://auspak.edu.pk/", "https://auspak.edu.pk/contact/"]
+    },
+    {
+      "id": "edify-group", "name": "Edify Group",
+      "website": "https://edify.pk/",
+      "summary": "Pakistan-based overseas education consultancy offering university selection, application support and English-test preparation.",
+      "destinations": "Canada, Australia and UK study support is described in its destination and branch information. Its Islamabad branch also publishes guidance for the USA and Europe; confirm the specific country and programme before booking.",
+      "services": "Academic profile assessment, university and course selection, applications, visa-document and interview guidance, pre-departure orientation, and English-test preparation including IELTS and PTE.",
+      "office": "Faisalabad head branch: Edify Building, 3rd Floor, S1/S2, Susan Road, Madina Town. Lahore DHA: 1st Floor, Plaza Y-213, Phase 3, near ChenOne. Islamabad: Office F1, 1st Floor, Interlace Plaza, I-8 Markaz. Further branches include Lahore Johar Town, Multan, Peshawar and Sargodha.",
+      "location": "Faisalabad, Lahore, Islamabad & more",
+      "phone": "+92 304 1111444", "email": "info@edify.pk",
+      "contact": "https://edify.pk/contact-us",
+      "sources": ["https://edify.pk/", "https://edify.pk/contact-us", "https://edify.pk/destination/study-in-canada", "https://edify.pk/branches/best-study-abroad-consultant-in-islamabad"]
+    },
+    {
+      "id": "hs-consultants", "name": "HS Consultants",
+      "website": "https://hsconsultants.net/",
+      "summary": "International education consultancy with Karachi, Lahore and Islamabad offices and published study support for Australia, Canada, the UK and Germany.",
+      "destinations": "Australia, Canada, UK and Germany, alongside USA, Ireland, Malaysia and UAE. Ask directly about available institutions and programme levels.",
+      "services": "Study-abroad counselling, university and scholarship guidance, personal-statement assistance, student visa facilitation, mock interviews, and pre- and post-departure guidance.",
+      "office": "Karachi head office: Plot 92-C, Mezzanine Floor, DHA Phase II Extension, Main Khayaban-e-Ittehad, Karachi 75500. Also listed: Gulshan-e-Iqbal, Karachi; Office 1, Lower Ground, Ali Tower, M.M. Alam Road, Gulberg, Lahore; and Offices 7–9, 6th Floor, Amazon Mall, DHA Phase II, G.T. Road, Islamabad.",
+      "location": "Karachi, Lahore & Islamabad",
+      "phone": "+92 300 0342998", "otherPhone": "+92 21 35317836", "email": "karachi@hsconsultants.net",
+      "contact": "https://hsconsultants.net/contact",
+      "sources": ["https://hsconsultants.net/", "https://hsconsultants.net/contact"]
+    },
+    {
+      "id": "isas-consultants", "name": "ISAS Consultants",
+      "website": "https://www.isas.com.pk/",
+      "summary": "Study-abroad and immigration consultancy with a stated New Zealand specialism, including doctoral study guidance.",
+      "destinations": "New Zealand, Australia, Canada, UK and Germany, plus USA. Its published information distinguishes student routes from other immigration services.",
+      "services": "Student eligibility assessment, university admissions guidance, student visa application support and scholarship advice. New Zealand PhD pathway information is also offered. Confirm the scope of study services separately from migration advice.",
+      "office": "D-2 Provincial Trade Centre, SB-39, Block 13-B, University Road, Gulshan-e-Iqbal, Karachi, Pakistan. Confirm current appointment arrangements directly.",
+      "location": "Karachi · New Zealand specialism",
+      "phone": "+92 21 34987124", "otherPhone": "+92 21 34980174", "email": "info@isas.com.pk",
+      "contact": "https://www.isas.com.pk/assessment",
+      "sources": ["https://www.isas.com.pk/", "https://www.isas.com.pk/assessment", "https://www.isas.com.pk/immigration-services/germany/"]
+    },
+    {
+      "id": "conzept-connection", "name": "Conzept Connection",
+      "website": "https://www.conzeptconnect.com/",
+      "summary": "International education and career counselling provider with German study guidance and German-language preparation.",
+      "destinations": "Germany, Australia, Canada and UK, alongside Belgium, Netherlands, Finland, USA, Malaysia and other destinations published on its website.",
+      "services": "Bachelor’s and master’s study guidance, career counselling, application documentation support, German-language courses, and English-test preparation including IELTS, PTE, Duolingo and TOEFL.",
+      "office": "Its official website lists offices in Karachi, Islamabad and Lahore. Request the current branch address and an appointment through its enquiry page before visiting.",
+      "location": "Karachi, Islamabad & Lahore",
+      "phone": "+92 300 2274746", "phoneNote": "WhatsApp number linked on the official website.", "email": "info@conzeptconnect.com",
+      "contact": "https://www.conzeptconnect.com/contact",
+      "sources": ["https://www.conzeptconnect.com/", "https://www.conzeptconnect.com/contact", "https://www.conzeptconnect.com/study-in-germany"]
+    }
+  ]
+}
