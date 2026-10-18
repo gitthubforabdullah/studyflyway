@@ -14,7 +14,7 @@
       "life": "https://www.anu.edu.au/students/student-life",
       "courses": "https://programsandcourses.anu.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.anu.edu.au/students/student-life",
@@ -138,7 +138,7 @@
       "scholarships": "https://www.unsw.edu.au/study/how-to-apply/scholarships",
       "accommodation": "https://www.unsw.edu.au/accommodation"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.unsw.edu.au/study/professional-development/short-courses?Categories=Short%20Courses,Micro%20Credentials&sort=title",
@@ -232,7 +232,7 @@
       "scholarships": "https://scholarships.uq.edu.au/",
       "courses": "https://programs-courses.uq.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://study.uq.edu.au/study-options/programs",
@@ -304,7 +304,7 @@
       "scholarships": "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships",
       "accommodation": "https://www.uwa.edu.au/study/discover-uwa/accommodation"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uwa.edu.au/study/how-to-apply/pathways-and-eligibility",
@@ -428,7 +428,7 @@
       "accommodation": "https://adelaide.edu.au/life-at-adelaide/accommodation/",
       "life": "https://adelaide.edu.au/life-at-adelaide/student-life/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://adelaide.edu.au/study/scholarships/",
@@ -503,7 +503,7 @@
       "admissions": "https://www.uts.edu.au/for-students/international",
       "accommodation": "https://www.uts.edu.au/for-students/current-students/support/uts-housing-service"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uts.edu.au/courses",
@@ -563,7 +563,7 @@
       "scholarships": "https://www.rmit.edu.au/scholarships",
       "life": "https://www.rmit.edu.au/life-at-rmit/student-life"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.rmit.edu.au/study-with-us/levels-of-study",
@@ -787,7 +787,7 @@
     "links": {
       "website": "https://www.deakin.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Deakin University offers a starting point for exploring university study in Australia. Check course availability and teaching locations when comparing its campuses in Melbourne and Geelong."
   },
@@ -800,7 +800,7 @@
     "links": {
       "website": "https://www.griffith.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Griffith University offers a starting point for exploring university study in Australia. Check course availability and teaching locations when comparing its campuses in Brisbane and Gold Coast."
   },
@@ -813,7 +813,7 @@
     "links": {
       "website": "https://www.qut.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Queensland University of Technology is a university in Australia, with a study location in Brisbane. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -828,7 +828,7 @@
       "courses": "https://search.curtin.edu.au/results/courses?q=",
       "scholarships": "https://www.curtin.edu.au/study/scholarships/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.curtin.edu.au/study/scholarships/",
@@ -908,7 +908,7 @@
     "links": {
       "website": "https://www.mq.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Macquarie University is a university in Australia, with a study location in Sydney. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -924,7 +924,7 @@
       "admissions": "https://www.uow.edu.au/study/international/",
       "accommodation": "https://www.uow.edu.au/study/accommodation/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uow.edu.au/study/courses/",
@@ -964,7 +964,7 @@
     "links": {
       "website": "https://www.newcastle.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "University of Newcastle is a university in Australia, with a study location in Newcastle. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -977,7 +977,7 @@
     "links": {
       "website": "https://www.latrobe.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "La Trobe University is a university in Australia, with a study location in Melbourne. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -991,7 +991,7 @@
       "website": "https://www.flinders.edu.au/",
       "courses": "https://www.flinders.edu.au/study/courses"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.flinders.edu.au/study/international-relations-political-science",
@@ -1039,7 +1039,7 @@
     "links": {
       "website": "https://www.utas.edu.au/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "University of Tasmania offers a starting point for exploring university study in Australia. Check course availability and teaching locations when comparing its campuses in Hobart and Launceston."
   },
@@ -1052,7 +1052,7 @@
     "links": {
       "website": "https://www.ualberta.ca/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "University of Alberta is a university in Canada, with a study location in Edmonton. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -1066,7 +1066,7 @@
       "website": "https://www.mcmaster.ca/",
       "admissions": "https://future.mcmaster.ca/info-hub/international/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "http://future.mcmaster.ca/admission/",
@@ -1095,7 +1095,7 @@
       "website": "https://uwaterloo.ca/",
       "admissions": "https://uwaterloo.ca/admissions/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://uwaterloo.ca/admissions/",
@@ -1120,7 +1120,7 @@
       "website": "https://www.uottawa.ca/en",
       "admissions": "https://www.uottawa.ca/study/applying-uottawa"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uottawa.ca/study/applying-uottawa",
@@ -1146,7 +1146,7 @@
       "courses": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
       "admissions": "https://international.uwo.ca/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://international.uwo.ca/",
@@ -1293,7 +1293,7 @@
       "life": "https://www.ucalgary.ca/future-students/graduate/student-life",
       "courses": "https://www.ucalgary.ca/future-students/undergraduate/programs"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.ucalgary.ca/future-students/undergraduate/programs",
@@ -1383,7 +1383,7 @@
       "courses": "https://www.queensu.ca/academics/programs",
       "admissions": "https://www.queensu.ca/admission/international/students"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.queensu.ca/admission/",
@@ -1440,7 +1440,7 @@
       "accommodation": "https://www.dal.ca/life-at-dal/housing.html",
       "courses": "https://www.dal.ca/study/programs.html"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.dal.ca/international-students.html",
@@ -1569,7 +1569,7 @@
       "website": "https://www.sfu.ca/",
       "courses": "https://www.sfu.ca/main/programs.html"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.sfu.ca/main/admission.html",
@@ -1692,7 +1692,7 @@
       "admissions": "https://www.uvic.ca/info-for/international/index.php",
       "accommodation": "https://www.uvic.ca/residence/index.php"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uvic.ca/residence/index.php",
@@ -1734,7 +1734,7 @@
       "courses": "https://futurestudents.yorku.ca/",
       "admissions": "https://yorkinternational.yorku.ca/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://yorkinternational.yorku.ca/",
@@ -1820,7 +1820,7 @@
       "courses": "https://www.concordia.ca/admissions/undergraduate/programs.html",
       "admissions": "https://www.concordia.ca/admissions/undergraduate.html"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.concordia.ca/students/international.html",
@@ -1943,7 +1943,7 @@
       "admissions": "https://www.umanitoba.ca/admissions",
       "fees": "https://umanitoba.ca/explore/student-experience/tuition-and-financial-supports"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.umanitoba.ca/admissions",
@@ -2018,7 +2018,7 @@
       "admissions": "https://www.usask.ca/admission/index.php",
       "life": "https://students.usask.ca/essentials/community.php"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.usask.ca/admission/",
@@ -2084,7 +2084,7 @@
       "courses": "https://admission.uoguelph.ca/programs",
       "admissions": "https://www.uoguelph.ca/international/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://admission.uoguelph.ca/programs",
@@ -2116,7 +2116,7 @@
       "scholarships": "https://www.unb.ca/scholarships/index.html",
       "life": "https://www.unb.ca/studentlife"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.unb.ca/international/",
@@ -2243,7 +2243,7 @@
       "admissions": "https://www.mun.ca/main/become-a-student/",
       "fees": "https://www.mun.ca/finance/fees/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.mun.ca/main/become-a-student/",
@@ -2319,7 +2319,7 @@
     "links": {
       "website": "https://www.ox.ac.uk/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "University of Oxford is a university in the United Kingdom, with a study location in Oxford. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -2333,7 +2333,7 @@
       "website": "https://www.cam.ac.uk/",
       "courses": "https://www.undergraduate.study.cam.ac.uk/courses?ucam-ref=homepage-signpost"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.undergraduate.study.cam.ac.uk/courses?ucam-ref=homepage-signpost",
@@ -2377,7 +2377,7 @@
       "fees": "https://www.imperial.ac.uk/study/fees-and-funding/",
       "life": "https://www.imperial.ac.uk/study/student-life/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.imperial.ac.uk/study/courses/",
@@ -2417,7 +2417,7 @@
     "links": {
       "website": "https://www.ucl.ac.uk/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "University College London is a university in the United Kingdom, with a study location in London. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -2433,7 +2433,7 @@
       "accommodation": "https://www.kcl.ac.uk/accommodation/index.aspx",
       "courses": "https://www.kcl.ac.uk/study/undergraduate"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.kcl.ac.uk/study/international",
@@ -2484,7 +2484,7 @@
       "life": "https://www.lse.ac.uk/student-life",
       "courses": "https://www.lse.ac.uk/programmes/search-courses"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.lse.ac.uk/study-at-lse/executive-education/online-learning",
@@ -2607,7 +2607,7 @@
       "accommodation": "https://www.bristol.ac.uk/accommodation/",
       "courses": "https://www.bristol.ac.uk/study/undergraduate/search/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.bristol.ac.uk/study/undergraduate/search/",
@@ -2657,7 +2657,7 @@
       "admissions": "https://warwick.ac.uk/study/international?location=more_links",
       "accommodation": "https://warwick.ac.uk/accommodation?location=more_links"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://warwick.ac.uk/study/postgraduate/courses/",
@@ -2688,7 +2688,7 @@
       "scholarships": "https://www.gla.ac.uk/scholarships/",
       "life": "https://www.gla.ac.uk/study/studentlife/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.gla.ac.uk/international/",
@@ -2761,7 +2761,7 @@
       "life": "https://www.southampton.ac.uk/student-life",
       "courses": "https://www.southampton.ac.uk/courses"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.southampton.ac.uk/student-life",
@@ -3023,7 +3023,7 @@
       "life": "https://www.liverpool.ac.uk/student-life/",
       "courses": "https://www.liverpool.ac.uk/courses/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.liverpool.ac.uk/accommodation/",
@@ -3113,7 +3113,7 @@
       "courses": "https://courses.leeds.ac.uk/",
       "admissions": "https://www.leeds.ac.uk/international-students"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.leeds.ac.uk/international-students",
@@ -3164,7 +3164,7 @@
       "fees": "https://www.nottingham.ac.uk/studywithus/what-next/fees-and-funding.aspx",
       "accommodation": "https://www.nottingham.ac.uk/student-living/accommodation/index.aspx"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
@@ -3192,7 +3192,7 @@
     "links": {
       "website": "https://www.durham.ac.uk/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Durham University is a university in the United Kingdom, with a study location in Durham. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -3208,7 +3208,7 @@
       "scholarships": "https://www.st-andrews.ac.uk/study/scholarships/",
       "accommodation": "https://www.st-andrews.ac.uk/accommodation/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.st-andrews.ac.uk/study/online/short-courses/",
@@ -3240,7 +3240,7 @@
     "links": {
       "website": "https://www.qmul.ac.uk/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Queen Mary University of London is a university in the United Kingdom, with a study location in London. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -3258,7 +3258,7 @@
       "accommodation": "https://www.lancaster.ac.uk/accommodation/",
       "courses": "https://www.lancaster.ac.uk/study/undergraduate/courses/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.lancaster.ac.uk/accommodation-guide/",
@@ -3364,7 +3364,7 @@
       "courses": "https://www.uni-leipzig.de/en/studying/prospective-students/courses-of-study",
       "admissions": "https://www.uni-leipzig.de/en/international"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.jura.uni-leipzig.de/institut-fuer-internationales-recht",
@@ -3410,7 +3410,7 @@
       "accommodation": "https://www.tu.berlin/en/studying/university-life/accommodation",
       "courses": "https://www.tu.berlin/en/studying/study-programs"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.tu.berlin/en/studying/study-programs",
@@ -3479,7 +3479,7 @@
       "website": "https://www.fu-berlin.de/en/",
       "courses": "https://www.fu-berlin.de/en/studium/studienangebot/index.html"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_103-sustainability-higher-education/index.html",
@@ -3511,7 +3511,7 @@
     "links": {
       "website": "https://www.hu-berlin.de/en"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [],
     "sourceTitle": "Making sure you're not a bot!",
     "fetchStatus": "Official homepage retrieved",
@@ -3528,7 +3528,7 @@
       "admissions": "https://www.intl.kit.edu/english/14011.php",
       "courses": "https://www.sle.kit.edu/english/vorstudium/study-programs.php"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.kit.edu/research/helmholtz_programs.php",
@@ -3581,7 +3581,7 @@
       "website": "https://www.uni-bonn.de/en",
       "admissions": "https://www.uni-bonn.de/en/international"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-bonn.de/en/international",
@@ -3611,7 +3611,7 @@
       "admissions": "https://www.uni-hamburg.de/en/internationales.html",
       "courses": "https://www.uni-hamburg.de/en/campuscenter/studienangebot.html"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-hamburg.de/en/campuscenter/bewerbung/international.html",
@@ -3635,7 +3635,7 @@
       },
       {
         "url": "https://www.uni-hamburg.de/en/newsroom/exzellenzstrategie/2026/1002-globalminds.html",
-        "label": "Photo: University of Hamburg/Göttling 2 October 2026 | Excellence Strategy International Impact: German Research Foundation Approves Four Global Minds Professorships All four Global Minds professorships applied for by the Clusters of Excellence and Collaborative Research Centers at the University of Hamburg and the University Medical Center Hamburg-Eppendorf have been approved. This means that more than a quarter of the 15 professorships funded nationwide in this call for proposals are..."
+        "label": "Photo: University of Hamburg/Göttling 18 October 2026 | Excellence Strategy International Impact: German Research Foundation Approves Four Global Minds Professorships All four Global Minds professorships applied for by the Clusters of Excellence and Collaborative Research Centers at the University of Hamburg and the University Medical Center Hamburg-Eppendorf have been approved. This means that more than a quarter of the 15 professorships funded nationwide in this call for proposals are..."
       }
     ],
     "sourceTitle": "UHH : University of Hamburg",
@@ -3655,7 +3655,7 @@
       "life": "https://uni-tuebingen.de/en/study/student-life/",
       "courses": "https://uni-tuebingen.de/en/study/finding-a-course/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://uni-tuebingen.de/en/university/equity/support-programs-equity/",
@@ -3912,7 +3912,7 @@
       "website": "https://uni-freiburg.de/en/",
       "courses": "https://uni-freiburg.de/en/studies/orientation/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://uni-freiburg.de/en/studies/orientation/",
@@ -3936,7 +3936,7 @@
     "links": {
       "website": "https://www.uni-goettingen.de/en/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "Protocol \"http:\" not supported. Expected \"https:\"",
     "intro": "University of Göttingen is a university in Germany, with a study location in Göttingen. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -3950,7 +3950,7 @@
       "website": "https://tu-dresden.de/?set_language=en",
       "courses": "https://tu-dresden.de/sins"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://tu-dresden.de/tu-dresden/exzellenz",
@@ -3975,7 +3975,7 @@
       "website": "https://www.fau.eu/",
       "courses": "https://www.fau.eu/studying/degree-programs/all-degree-programs/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/",
@@ -4189,7 +4189,7 @@
       "courses": "https://studienorientierung.uni-koeln.de/range_of_courses/index_eng.html",
       "admissions": "https://uni-koeln.de/en/university/at-a-glance/international"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://uni-koeln.de/en/university/at-a-glance/international",
@@ -4270,7 +4270,7 @@
       "website": "https://www.uni-muenster.de/en/",
       "admissions": "https://www.uni-muenster.de/international/en/index.shtml"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-muenster.de/international/en/index.shtml",
@@ -4333,7 +4333,7 @@
       "admissions": "https://www.uni-mannheim.de/en/about/international/",
       "fees": "https://www.uni-mannheim.de/en/academics/during-your-studies/organizing-your-studies/fees/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-mannheim.de/en/academics/before-your-studies/programs/",
@@ -4592,7 +4592,7 @@
       "accommodation": "https://www.uni-stuttgart.de/en/study/new-in-stuttgart/housing/",
       "courses": "https://www.uni-stuttgart.de/en/study/study-programs/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-stuttgart.de/en/research/alliances-and-projects/eu-programs/",
@@ -4787,7 +4787,7 @@
       "admissions": "https://www.uni-wuerzburg.de/en/international/",
       "scholarships": "https://www.uni-wuerzburg.de/en/scholarships/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.uni-wuerzburg.de/en/studying-at-jmu/studienangelegenheiten/application-and-enrolment/",
@@ -4927,7 +4927,7 @@
     "links": {
       "website": "https://www.aut.ac.nz/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Auckland University of Technology is a university in New Zealand, with a study location in Auckland. Explore its official study information to compare programmes and application routes for your intended intake."
   },
@@ -4944,7 +4944,7 @@
       "accommodation": "https://www.waikato.ac.nz/students/accommodation/",
       "life": "https://www.waikato.ac.nz/students/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://my.waikato.ac.nz/",
@@ -5079,7 +5079,7 @@
       "accommodation": "https://www.massey.ac.nz/student-life/accommodation/",
       "courses": "https://www.massey.ac.nz/study/find-a-subject-course-or-qualification/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.massey.ac.nz/student-life/",
@@ -5149,7 +5149,7 @@
       "fees": "https://www.wgtn.ac.nz/international/scholarships-fees",
       "life": "https://www.wgtn.ac.nz/students/student-life"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "reviewCandidates": [
       {
         "url": "https://www.wgtn.ac.nz/international",
@@ -5225,7 +5225,7 @@
     "links": {
       "website": "https://www.lincoln.ac.nz/"
     },
-    "checked": "2026-10-02",
+    "checked": "2026-10-18",
     "fetchStatus": "HTTP 403",
     "intro": "Lincoln University is a university in New Zealand, with a study location in Lincoln. Explore its official study information to compare programmes and application routes for your intended intake."
   }

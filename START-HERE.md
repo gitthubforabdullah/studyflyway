@@ -89,7 +89,7 @@ Because this is plain HTML, shared navigation/footer edits must be repeated acro
 
 ## Content and images
 
-Initial information was researched on **2 October 2026**. Deadlines, prices, eligibility and policy can change. Fees are presented as cost-planning guidance with official resources, not invented live prices. Review provider sources before launch, particularly time-sensitive scholarship windows. The site is a curated starting point, not an exhaustive university or scholarship database.
+Initial information was researched on **18 October 2026**. Deadlines, prices, eligibility and policy can change. Fees are presented as cost-planning guidance with official resources, not invented live prices. Review provider sources before launch, particularly time-sensitive scholarship windows. The site is a curated starting point, not an exhaustive university or scholarship database.
 
 All university, scholarship and consultant names belong to their respective organisations. No partner relationships, awards, rankings, student testimonials, or success rates have been fabricated. The campus hero is an AI-generated illustrative image, not a real student endorsement. Destination-photo credits and licenses are linked on `credits.html`.
 

@@ -28,7 +28,7 @@ const webp=data.toString('ascii',0,4)==='RIFF'&&data.toString('ascii',8,12)==='W
 if(!png&&!ico&&!gif&&!svg&&!jpg&&!webp)throw Error('Unrecognised image format');
 if(generic && crypto.createHash('sha256').update(data).digest('hex')===crypto.createHash('sha256').update(generic).digest('hex'))throw Error('Generic icon');
 const file='assets/university-icons/'+u.slug+(png?'.png':ico?'.ico':gif?'.gif':jpg?'.jpg':webp?'.webp':'.svg');fs.writeFileSync(path.join(root,file),data);
-manifest[u.id]={file,website:u.links.website,source:'Public website favicon for '+domain,width:png?data.readUInt32BE(16):64,height:png?data.readUInt32BE(20):64,checked:'2026-10-02'};
+manifest[u.id]={file,website:u.links.website,source:'Public website favicon for '+domain,width:png?data.readUInt32BE(16):64,height:png?data.readUInt32BE(20):64,checked:'2026-10-18'};
 }catch(error){console.log(u.name+': '+error.message);}}}));
 fs.writeFileSync(path.join(root,'research/university-icons.json'),JSON.stringify(manifest,null,2)+'\n');console.log('Cached '+Object.keys(manifest).length+' institutional website icons.');
 }
