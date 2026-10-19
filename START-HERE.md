@@ -10,17 +10,13 @@ A complete plain HTML, CSS and JavaScript information website for Pakistani stud
 
 The homepage student image is included locally. Destination photos use Unsplash and fonts use Google Fonts, so those need an internet connection. If these services are unavailable, the site keeps its country labels, navigation, and system-font fallback. The contact form deliberately does not send messages in a local preview.
 
-## Publish with Netlify and GitHub
+## Deploy from GitHub
 
-Use a new repository for StudyFlyway so your existing HealthTrack website stays separate.
+Keep using your existing GitHub deployment connection. Commit and push website updates to your repository as usual.
 
-1. Put the contents of this folder into your new GitHub repository. `index.html` and `netlify.toml` should be at the repository root.
-2. Import that repository into Netlify.
-3. Base directory: leave blank. Build command: **node prepare.js**. Publish directory: **dist**. Netlify also reads these values from `netlify.toml`.
-4. Deploy. Choose an available site address in Netlify; this project does not claim `studyflyway.netlify.app` for you.
-5. On later updates, commit and push your changes to the connected branch. Netlify builds the new version automatically when automatic publishing is enabled.
+If your deployment runs a build, use **node prepare.js** and publish **dist**. The build generates static pages, clean URL directory indexes, SEO metadata, a sitemap, robots.txt, ads.txt, and copies the custom-domain CNAME. It needs no packages. The public origin defaults to the domain in CNAME; override it with SITE_URL or --url when needed.
 
-There are no package dependencies to install. Node is only used by Netlify to copy the static files and prepare SEO metadata. Visitors receive HTML, CSS, JavaScript and images.
+If your current deployment publishes the repository directly, retain that setup. The generated dist output is only used when your deployment is configured to build and publish it. Do not upload API credentials or environment files.
 
 ### Contact form setup
 
@@ -52,19 +48,19 @@ Country background is maintained in `research/country-background.json`. Edit its
 
 ### Consistent StudyFlyway branding
 
-Use **StudyFlyway — Study Abroad Information & Guides** as the profile description/tagline on official Facebook, LinkedIn, Instagram, Pinterest and other social profiles. Link each profile to **https://studyflyway.online/**. The About page is published at **https://studyflyway.online/about** using Netlify Pretty URLs.
+Use **StudyFlyway — Study Abroad Information & Guides** as the profile description/tagline on official Facebook, LinkedIn, Instagram, Pinterest and other social profiles. Link each profile to **https://studyflyway.online/**. The About page is published at **https://studyflyway.online/about** using a clean page URL.
 
 Use this longer description where space allows: StudyFlyway is an independent study abroad information platform created to help students research international education opportunities. StudyFlyway provides information about universities, scholarships, admissions, visa processes, application requirements, study costs, student life and study destinations including Australia, Canada, the United Kingdom, Germany and New Zealand.
 
 The homepage contains WebSite and Organization JSON-LD. Keep its Organization description aligned with the About page. Once official social profiles exist, add their exact public profile URLs as a `sameAs` array to the Organization object in `index.html`. No social profiles or `sameAs` links have been invented or created by this update.
 
-`prepare.js` uses Netlify's production **URL** variable for sitemap and canonical URLs. If you use a custom domain, set **SITE_URL** to its full origin (for example `https://your-real-domain.com`) and redeploy. Verify that the live `/sitemap.xml` uses your final address, then submit that URL in Google Search Console. Indexing or rankings are not guaranteed.
+`prepare.js` uses the custom domain in `CNAME` for sitemap and canonical URLs. Set **SITE_URL** or pass **--url=https://your-domain** to override it. Verify `/sitemap.xml` after deploying the build output, then submit it in Google Search Console. Indexing or rankings are not guaranteed.
 
-Do not use an all-paths-to-index.html redirect; this is a real multi-page site, not a React app. Links use extensionless paths. The build generates permanent redirects from old `.html` URLs and rewrites for clean addresses. Preview using Netlify routing; opening files directly does not support clean links.
+This is a multi-page website. Keep each page accessible individually. The build preserves `.html` files and creates directory index copies for extensionless links. Preview the built `dist` folder with a static HTTP server; opening files directly does not support clean links.
 
 ## Update your website
 
-The privacy policy is maintained in `privacy-policy.html` with page-specific styling in `assets/privacy.css`. Its public URL is `https://studyflyway.online/privacy-policy`. Old `/privacy` and `/privacy.html` addresses redirect through `netlify.toml`; `privacy.html` is a noindex fallback for other static hosts. Keep the fallback policy text synchronized when updating the main policy. The policy was reviewed against the installed Umami, Cloudflare Web Analytics, AdSense loader and contact form on 4 October 2026. Recheck provider settings, form availability and advertising/consent configuration when those services change; the page does not establish that advertising is approved or that consent management is configured.
+The privacy policy is maintained in `privacy-policy.html` with page-specific styling in `assets/privacy.css`. Its public URL is `https://studyflyway.online/privacy-policy`. `privacy.html` is a noindex fallback that directs visitors to the main policy. The static build also provides a `/privacy/` directory page. Keep the fallback policy text synchronized when updating the main policy. The policy was reviewed against the installed Umami, Cloudflare Web Analytics, AdSense loader and contact form on 4 October 2026. Recheck provider settings, form availability and advertising/consent configuration when those services change; the page does not establish that advertising is approved or that consent management is configured.
 
 Open this folder in VS Code:
 
@@ -81,7 +77,7 @@ Open this folder in VS Code:
 - Campus photo sources, creators and licences: `research/campus-photos.json`
 - University-specific layout and filters: `assets/universities.css` and `assets/universities.js`
 
-After editing university records, run **node scripts/build-universities.js** to regenerate the static pages. The Netlify build does this automatically. All university profiles and directory cards are readable without JavaScript; search and country filters use JavaScript. Campus photographs load from Wikimedia Commons and need an internet connection. Each photo has its own linked credit and reuse licence; some photographs are historical. See `research/README.md` for the editorial workflow. Run **node scripts/check-universities.js** to check internal links, or **node scripts/check-universities-browser.js** for search and responsive checks in an installed Chrome or Edge browser.
+After editing university records, run **node scripts/build-universities.js** to regenerate the static pages. The normal static build does this automatically. All university profiles and directory cards are readable without JavaScript; search and country filters use JavaScript. Campus photographs load from Wikimedia Commons and need an internet connection. Each photo has its own linked credit and reuse licence; some photographs are historical. See `research/README.md` for the editorial workflow. Run **node scripts/check-universities.js** to check internal links, or **node scripts/check-universities-browser.js** for search and responsive checks in an installed Chrome or Edge browser.
 
 Because this is plain HTML, shared navigation/footer edits must be repeated across pages. When adding or changing a scholarship, update its card in `scholarships.html`, its detail page, and any related country/homepage links. Cards use `data-country`, `data-level`, `data-funding`, and `data-status` for filtering. Match the existing values exactly.
 
@@ -99,4 +95,4 @@ The university lists are starter links, not rankings. Source summaries do not es
 
 If Node.js is installed, run `node prepare.js`. Open `dist/index.html` to inspect the generated copy. To test final metadata, run `node prepare.js --url=https://your-real-domain.com`. Do not publish a test hostname.
 
-This ZIP is ready to upload; it has not been deployed or connected to your Netlify account yet.
+Deployment is managed from your GitHub repository.

@@ -126,4 +126,4 @@ if (output !== root && fs.existsSync(sitemapPath)) {
   }
 }
 assert.deepEqual(errors, [], errors.join('\n'));
-console.log(`Verified ${files.length} HTML pages, internal links and anchors, 88 profiles, country totals, a continuous directory grid and 45 credited gallery photos${output !== root ? ', and Netlify output' : ''}.`);
+console.log(`Verified ${files.length} HTML pages, internal links and anchors, 88 profiles, country totals, a continuous directory grid and 45 credited gallery photos${output !== root ? ', and static build output' : ''}.`);

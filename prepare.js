@@ -1,4 +1,4 @@
-/* Netlify build: plain HTML/CSS/JS, no packages or framework required. */
+/* Static build: plain HTML/CSS/JS, no packages or framework required. */
 'use strict';
 const fs = require('node:fs');
 const path = require('node:path');
@@ -18,14 +18,14 @@ require('./scripts/enhance-destinations');
 require('./scripts/clean-site-links');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
-const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || process.env.URL || '');
+const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || 'https://' + fs.readFileSync(path.join(root, 'CNAME'), 'utf8').trim());
 let base = '';
 if(origin) {
   const parsed = new URL(origin);
   if(!['https:','http:'].includes(parsed.protocol)) throw Error('Use a valid https:// website address.');
   base = parsed.origin;
 }
-if(!base) console.warn('Local build: no public URL set. Canonical URLs and sitemap will be added on Netlify using its URL environment variable.');
+if(!base) console.warn('Set SITE_URL or pass --url=https://your-domain to generate canonical URLs and a sitemap.');
 fs.rmSync(output, {recursive:true, force:true});
 fs.mkdirSync(output, {recursive:true});
 const folders=['assets','countries','scholarships','guides','universities','consultants'];
@@ -33,6 +33,8 @@ for(const folder of folders) fs.cpSync(path.join(root,folder),path.join(output,f
 for(const file of fs.readdirSync(root)) if(file.endsWith('.html')) fs.copyFileSync(path.join(root,file),path.join(output,file));
 // Preserve the publisher declaration alongside the generated website.
 fs.writeFileSync(path.join(output, 'ads.txt'), adsContent + '\n', 'utf8');
+fs.copyFileSync(path.join(root, 'CNAME'), path.join(output, 'CNAME'));
+fs.writeFileSync(path.join(output, '.nojekyll'), '');
 const htmlFiles=[];
 function collect(dir) {
   for(const ent of fs.readdirSync(dir,{withFileTypes:true})) {
@@ -41,20 +43,6 @@ function collect(dir) {
   }
 }
 collect(output);
-// Explicit legacy redirects preserve bookmarks; rewrites serve clean page URLs.
-const routes = [];
-for (const file of htmlFiles) {
-  const relative = path.relative(output, file).split(path.sep).join('/');
-  if (/^google[a-f0-9]+\.html$/.test(relative) || relative === '404.html') continue;
-  const clean = relative === 'index.html' ? '/' : relative === 'privacy.html' ? '/privacy-policy' : '/' + relative.slice(0, -5);
-  routes.push(`/${relative} ${clean} 301!`);
-}
-for (const file of htmlFiles) {
-  const relative = path.relative(output, file).split(path.sep).join('/');
-  if (/^google[a-f0-9]+\.html$/.test(relative) || ['404.html', 'index.html'].includes(relative)) continue;
-  routes.push(relative === 'privacy.html' ? '/privacy /privacy-policy 301!' : `/${relative.slice(0, -5)} /${relative} 200!`);
-}
-fs.writeFileSync(path.join(output, '_redirects'), routes.join('\n') + '\n');
 const links=[];
 function escapeXml(value) {return value.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');}
 for(const file of htmlFiles) {
@@ -63,7 +51,7 @@ for(const file of htmlFiles) {
   // Google verification files must retain their supplied content and stay out of the sitemap.
   if (/^google[a-f0-9]+\.html$/.test(relative)) continue;
   const noindex=html.includes('name="robots" content="noindex');
-  // Netlify Pretty URLs removes .html; use the final URL as canonical.
+  // Extensionless addresses also have directory index files for static hosting.
   const url=base+'/'+(relative==='index.html'?'':relative.replace(/\.html$/,''));
   if(base && !noindex) {
     const metadata=(html.includes('rel="canonical"')?'':`<link rel="canonical" href="${escapeXml(url)}">`)+(html.includes('property="og:url"')?'':`<meta property="og:url" content="${escapeXml(url)}">`);
@@ -76,10 +64,17 @@ for(const file of htmlFiles) {
     links.push(url);
   }
   fs.writeFileSync(file,html);
+  if (!['index.html', '404.html'].includes(relative)) {
+    const directory = path.join(output, relative.slice(0, -5));
+    fs.mkdirSync(directory, {recursive: true});
+    // Preserve relative asset resolution when serving a page from its new directory.
+    const parent = path.posix.dirname('/' + relative);
+    const alias = html.replace('<head>', '<head><base href="' + (parent === '/' ? '/' : parent + '/') + '">');
+    fs.writeFileSync(path.join(directory, 'index.html'), alias);
+  }
 }
 if(base) fs.writeFileSync(path.join(output,'sitemap.xml'),'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+links.map(url=>`  <url><loc>${escapeXml(url)}</loc></url>`).join('\n')+'\n</urlset>\n');
 fs.writeFileSync(path.join(output,'robots.txt'),'User-agent: *\nAllow: /\n'+(base?'\nSitemap: '+base+'/sitemap.xml\n':''));
-fs.writeFileSync(path.join(output,'_headers'),'/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n/assets/*\n  Cache-Control: public, max-age=3600\n');
 // Fail deployment if a consultant profile, local logo, or clean route is missing.
 require('node:child_process').execFileSync(process.execPath, [path.join(root, 'scripts/check-consultants.js'), '--dist'], {stdio: 'inherit'});
 console.log(`Built ${htmlFiles.length} HTML pages in dist. ${base?'Sitemap and canonical URLs configured for '+base: 'Local preview ready.'}`);

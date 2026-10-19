@@ -27,8 +27,7 @@ for (const c of records) {
     assert(fs.existsSync(target) || fs.existsSync(target + '.html'), `Broken local resource: ${match[1]}`);
   }
   if (base !== root) {
-    const redirects = fs.readFileSync(path.join(base, '_redirects'), 'utf8');
-    assert(redirects.includes(`${route} ${route}.html 200!`), `Clean URL: ${c.id}`);
+    assert(fs.existsSync(path.join(base, route, 'index.html')), `Clean URL: ${c.id}`);
   }
 }
 console.log(`Passed: all ${records.length} profiles, directory links, sections, contacts, logo files, local resources and deployment routes.`);
