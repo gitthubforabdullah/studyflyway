@@ -2,6 +2,29 @@
 document.documentElement.classList.add('js');
 const menu = document.querySelector('[data-menu]');
 const nav = document.querySelector('[data-nav]');
+// Keep navigation within the introductory area on every page.
+const siteHeader = document.querySelector('.site-header');
+const pageIntro = document.querySelector('main > .hero, main > .page-top');
+if (siteHeader && pageIntro) {
+  let headerFramePending = false;
+  const updateHeaderVisibility = () => {
+    headerFramePending = false;
+    const pastIntro = pageIntro.getBoundingClientRect().bottom <= 0;
+    siteHeader.classList.toggle('is-past-intro', pastIntro);
+    siteHeader.inert = pastIntro;
+  };
+  const requestHeaderUpdate = () => {
+    if (!headerFramePending) {
+      headerFramePending = true;
+      requestAnimationFrame(updateHeaderVisibility);
+    }
+  };
+  window.addEventListener('scroll', requestHeaderUpdate, {passive: true});
+  window.addEventListener('resize', requestHeaderUpdate, {passive: true});
+  window.addEventListener('pageshow', requestHeaderUpdate);
+  if ('ResizeObserver' in window) new ResizeObserver(requestHeaderUpdate).observe(pageIntro);
+  updateHeaderVisibility();
+}
 if (menu && nav) {
   menu.addEventListener('click', () => {
     const expanded = menu.getAttribute('aria-expanded') === 'true';

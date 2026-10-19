@@ -26,11 +26,13 @@
 @media(max-width:1200px){.navlinks.expanded .nav-dropdown-panel{display:block;position:static;margin-top:5px}}
 
 /* Rounded inset navigation, shared across all pages. */
-.home-page{background:linear-gradient(90deg,#dff4ff,#eeeaff)}
-.home-page main{background:#fff}
-.home-page .hero{background:linear-gradient(90deg,#dff4ff,#eeeaff)}
+body{--intro-background:linear-gradient(90deg,#dff4ff,#eeeaff);background:var(--intro-background)}
+body main{background:#fff}
+.site-header~main>.hero,.site-header~main>.page-top{background:var(--intro-background)}
 .site-header{top:12px;width:calc(100% - 32px);max-width:1760px;margin:12px auto;border:1px solid #e7e4f3;border-radius:22px;background:#fffefa;box-shadow:0 10px 36px #34377612;backdrop-filter:blur(16px)}
 .site-header .navrow{width:calc(100% - 44px);min-height:76px;gap:18px}
+.site-header{transition:transform .2s ease,opacity .2s ease,visibility .2s;will-change:transform}
+.site-header.is-past-intro{transform:translateY(calc(-100% - 24px));opacity:0;visibility:hidden;pointer-events:none}
 .site-header .brand{font-size:1.25rem;gap:10px}
 .site-header .brand img{width:36px;height:36px}
 .site-header .brand small{font-size:.65rem}
@@ -47,7 +49,7 @@
 @media(min-width:1201px) and (max-width:1420px){.site-header .navrow{width:calc(100% - 40px);gap:16px}.site-header .brand{font-size:1.2rem}.site-header .brand img{width:38px;height:38px}.site-header .brand small{font-size:.57rem}.site-header .navlinks>a,.site-header .nav-dropdown-toggle{font-size:.8rem;padding:10px}.site-header .navlinks .navcta{min-width:140px;margin-left:6px;padding:12px 16px}}
 @media(max-width:1200px){.site-header{top:12px;margin:12px auto;border-radius:20px}.site-header .navrow{min-height:66px;padding:10px 0;flex-wrap:wrap;gap:12px}.site-header .menu{display:block;margin-left:auto}.site-header .navlinks{width:100%;margin:0;padding:14px 0 4px;border-top:1px solid #e8e4f4;gap:8px;flex-wrap:wrap}.site-header .navlinks>a,.site-header .nav-dropdown-toggle{font-size:.92rem}.site-header .navlinks .navcta{margin-left:0}.site-header .nav-dropdown-panel{position:static;box-shadow:none;background:#f6f3ff;margin-top:6px;max-width:100%;min-width:0}.site-header .nav-dropdown{max-width:100%}}
 @media(max-width:600px){.site-header{width:calc(100% - 24px);top:8px;margin:8px auto;border-radius:18px}.site-header .navrow{width:calc(100% - 28px);min-height:64px}.site-header .brand{font-size:1.17rem;gap:9px}.site-header .brand img{width:34px;height:34px}.site-header .brand small{font-size:.55rem}.site-header .menu{padding:8px 14px;font-size:.85rem}.site-header .navlinks{flex-direction:column;flex-wrap:nowrap;align-items:stretch;gap:6px;max-height:calc(100dvh - 110px);overflow-y:auto}.site-header .navlinks>a,.site-header .nav-dropdown-toggle{flex-shrink:0;justify-content:flex-start;width:100%;padding:12px 16px}.site-header .nav-dropdown{width:100%}.site-header .navlinks .navcta{justify-content:center;margin-top:6px}.site-header .nav-dropdown-panel{margin:6px 0 6px 12px;width:calc(100% - 12px)}}
-@media(prefers-reduced-motion:reduce){.site-header .navlinks>a,.site-header .nav-dropdown-toggle{transition:none}}
+@media(prefers-reduced-motion:reduce){.site-header,.site-header .navlinks>a,.site-header .nav-dropdown-toggle{transition:none}}
 
 /* Shared university styles: generated from universities.css. */
 /* University directory and profiles: shared colours and fonts come from style.css. */
