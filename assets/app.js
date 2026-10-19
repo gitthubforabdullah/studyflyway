@@ -26,11 +26,17 @@ if (siteHeader && pageIntro) {
   updateHeaderVisibility();
 }
 if (menu && nav) {
+  menu.setAttribute('aria-label', 'Open navigation menu');
   menu.addEventListener('click', () => {
     const expanded = menu.getAttribute('aria-expanded') === 'true';
     menu.setAttribute('aria-expanded', String(!expanded));
     menu.textContent = expanded ? 'Menu' : 'Close';
+    menu.setAttribute('aria-label', expanded ? 'Open navigation menu' : 'Close navigation menu');
+    document.body.classList.toggle('mobile-menu-open', !expanded);
     nav.classList.toggle('expanded', !expanded);
+  });
+  nav.addEventListener('click', event => {
+    if (window.matchMedia('(max-width:800px)').matches && event.target.closest('a') && menu.getAttribute('aria-expanded') === 'true') menu.click();
   });
   document.addEventListener('keydown', event => {
     if(event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
