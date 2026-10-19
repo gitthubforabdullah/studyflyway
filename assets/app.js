@@ -49,17 +49,30 @@ if (menu && nav) {
 const now = Date.now();
 document.querySelectorAll('[data-destinations-menu]').forEach(dropdown => {
   const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+  const mobileView = window.matchMedia('(max-width:800px)');
+  const arrow = document.createElement('button');
+  arrow.type = 'button';
+  arrow.className = 'destination-expand';
+  arrow.setAttribute('aria-label', 'Show study destinations');
+  arrow.setAttribute('aria-controls', 'destination-links');
+  arrow.setAttribute('aria-expanded', 'false');
+  arrow.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+  toggle.after(arrow);
   const setOpen = open => {
     dropdown.classList.toggle('is-open', open);
     toggle.setAttribute('aria-expanded', String(open));
+    arrow.setAttribute('aria-expanded', String(open));
+    arrow.setAttribute('aria-label', open ? 'Hide study destinations' : 'Show study destinations');
   };
+  arrow.addEventListener('click', () => setOpen(!dropdown.classList.contains('is-open')));
+  mobileView.addEventListener('change', () => setOpen(false));
   dropdown.addEventListener('pointerenter', event => {
-    if (event.pointerType === 'mouse') setOpen(true);
+    if (!mobileView.matches && event.pointerType === 'mouse') setOpen(true);
   });
   dropdown.addEventListener('pointerleave', event => {
     if (event.pointerType === 'mouse' && !dropdown.contains(document.activeElement)) setOpen(false);
   });
-  toggle.addEventListener('focus', () => setOpen(true));
+  toggle.addEventListener('focus', () => { if (!mobileView.matches) setOpen(true); });
   dropdown.addEventListener('focusout', event => {
     if (!dropdown.contains(event.relatedTarget)) setOpen(false);
   });
@@ -67,7 +80,7 @@ document.querySelectorAll('[data-destinations-menu]').forEach(dropdown => {
     if (event.key === 'Escape') {
       event.preventDefault();
       event.stopPropagation();
-      toggle.focus();
+      (mobileView.matches ? arrow : toggle).focus();
       setOpen(false);
     }
     if (event.key === 'ArrowDown' && event.target === toggle) {
