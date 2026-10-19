@@ -18,6 +18,7 @@ function chrome(tag) {
   return template.match(new RegExp(`<${tag}[\\s\\S]*?</${tag}>`))[0]
     .replace(/ aria-current="page"/g, '')
     .replace(/(<a href="\/consultants")/g, '$1 aria-current="page"')
+    .replace(/href="(?![a-zA-Z][a-zA-Z0-9+.-]*:|#|\/)([^"]+)"/g, 'href="/$1"')
     .replace(/(src|href)="assets\//g, '$1="/assets/');
 }
 function document(title, description, content, directory = false) {

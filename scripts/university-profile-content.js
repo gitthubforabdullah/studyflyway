@@ -4,6 +4,7 @@ const editorial = require('../research/university-editorial-content.json');
 const sources = new Map(require('../research/university-profile-sources.json').map(record => [record.id, record]));
 const detailedFacts = new Map(require('../research/university-detailed-facts.json').map(record => [record.id, record]));
 const alumni = require('../research/university-alumni.json');
+const updates = require('../research/university-updates.json');
 
 // Editorial text is deliberately stored independently of the generated HTML.
 // New factual claims need an official source; planning suggestions are advice,
@@ -20,6 +21,7 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
 
   function researchLinks(u) {
     const record = sources.get(u.id);
+    const date = `<time datetime="${escape(record?.reviewed || '2026-10-04')}">${escape(record?.reviewed || '2026-10-04')}</time>`;
     if (!editorial[u.id] || !record?.sources.length) throw Error('Missing editorial content or research sources: ' + u.id);
     return `<p class="credit">University background and academic context reviewed ${date}: ${record.sources.map(source => anchor(source.url, source.title)).join(' · ')}. The comparison questions below are StudyFlyway planning suggestions.</p>`;
   }
@@ -27,7 +29,7 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
   function studyFit(u) {
     const record = editorial[u.id];
     return `<section id="study-fit"><h2>Understanding ${escape(u.name)}</h2>
-      <p>${escape(record.overview)}</p>
+      <p>${escape(record.overview)}</p>${updates[u.id] ? `<div class="notice"><strong>Application update · ${escape(updates[u.id].checked)}</strong><p>${escape(updates[u.id].text)}</p>${anchor(updates[u.id].source, 'Official guidance')}</div>` : ''}
       ${researchLinks(u)}
       <h3>What this means for your shortlist</h3><p>${escape(record.study)}</p>
       <ul>${record.checks.map(check => `<li>${escape(check)}</li>`).join('')}</ul>
@@ -53,7 +55,7 @@ module.exports = function profileContent({escape, anchor, listings, countries}) 
         <div><dt>${escape(facts.ranking.publisher)}${edition}</dt><dd>${escape(facts.ranking.position)}</dd></div>
         <div><dt>International students</dt><dd>${Number(facts.internationalStudents.total).toLocaleString('en-US')}</dd></div>
       </dl>
-      <p class="credit">Ranking and student total: ${anchor(facts.ranking.source, 'QS institutional profile')}. ${escape(facts.internationalStudents.basis)}. Figures were checked ${escape(facts.checked)}; rankings and enrolment totals can change between editions.</p>
+      <p class="credit">Ranking and student total: ${anchor(facts.ranking.source, 'QS institutional profile')}. ${escape(facts.internationalStudents.basis)}. Ranking checked ${escape(facts.rankingChecked || facts.checked)}; student total checked ${escape(facts.studentsChecked || facts.checked)}. Rankings and enrolment totals can change between editions.${facts.reviewNote ? ' ' + escape(facts.reviewNote) : ''}</p>
     </section>`;
   }
 

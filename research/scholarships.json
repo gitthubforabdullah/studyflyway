@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "chevening", "status": "Closed", "closes": "2026-10-06T11:00:00Z", "checked": "2026-10-19",
+    "eligibility": "For eligible Pakistani applicants to a one-year taught master’s. Chevening requires at least 2,800 hours of work experience gained after completing an undergraduate degree, over a minimum of two years. Applicants must also meet its academic, leadership and return-home conditions.",
+    "coverage": "Funding is subject to the award terms, including any course-specific tuition limits and allowances.",
+    "dates": "The Pakistan provider page confirms that applications for 2027–28 are closed. No next-round opening date is confirmed here.",
+    "steps": ["Read the Pakistan page and the current eligibility and post-graduation work-experience rules.", "Prepare eligible course choices and evidence for a future round.", "Wait for the provider’s next application announcement before applying."],
+    "sources": [{"label":"Chevening Pakistan", "url":"https://www.chevening.org/scholarship/pakistan/"}, {"label":"Chevening work-experience requirements", "url":"https://www.chevening.org/scholarships/who-can-apply/work-experience/"}]
+  },
+  {
+    "slug": "australia-awards", "status": "Closed", "closes": "2026-04-30T04:00:00Z", "checked": "2026-10-19",
+    "eligibility": "For the 2027 intake, Pakistan’s conditions include residence in Pakistan, 16 years of education, five years of relevant work experience in Pakistan, and age no greater than 45 when applying. Recipients must return to Pakistan for at least two years. The DFAT country sheet sets the complete conditions and priority fields.",
+    "coverage": "The country sheet lists tuition, return airfare, an establishment allowance, a contribution to living expenses, health cover and specified academic support. Award conditions and exclusions apply.",
+    "dates": "The application round for study commencing in 2027 closed on 30 April 2026 at 14:00 AEST (09:00 Pakistan time). Do not assume the next round has opened.",
+    "steps": ["Read DFAT’s Pakistan intake sheet and scholarship policy handbook.", "Check your qualification, work experience and development-impact plan against the country conditions.", "Use the official OASIS process when a new application round is announced."],
+    "sources": [{"label":"DFAT Pakistan intake information", "url":"https://www.dfat.gov.au/people-to-people/australia-awards/participating-countries/pakistan-information-for-intake"}, {"label":"Pakistan 2027 intake conditions (PDF)", "url":"https://www.dfat.gov.au/sites/default/files/australia-awards-pakistan-information-for-intake.pdf"}]
+  },
+  {
+    "slug":"commonwealth-masters", "status":"Open", "closes":"2026-10-20T11:00:00Z", "checked":"2026-10-19",
+    "eligibility":"Pakistani applicants must meet both HEC nomination requirements and CSC eligibility. HEC’s 2027–28 announcement specifies a first-division 16-year bachelor’s qualification for master’s applicants, no second/third division in the latest degree, and its HAT requirements. Read the current announcement for result-awaiting applicants and test-score arrangements.",
+    "coverage":"The award supports approved full-time taught master’s study under CSC’s funding and award conditions; nomination does not guarantee selection.",
+    "dates":"For September/October 2027 study, HEC closes on 20 October 2026 at 16:00 Pakistan time. CSC closes separately that day at 16:00 BST (20:00 Pakistan time). Submit to BOTH portals by their respective cutoffs. The listing closes at the earlier HEC deadline for Pakistani applicants.",
+    "steps":["Read the current HEC 2027–28 announcement alongside CSC’s master’s guidance.","Complete and submit both the HEC scholarship application and CSC Central application.","Check the required evidence and HAT arrangements before each portal closes."],
+    "sources":[{"label":"CSC Commonwealth Master’s Scholarships", "url":"https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"},{"label":"HEC 2027–28 announcement and Pakistan deadlines", "url":"https://www.hec.gov.pk/english/HECAnnouncements/Pages/CW-Scholarship.aspx"}]
+  },
+  {
+    "slug":"commonwealth-shared", "status":"Closed", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible applicants, including Pakistani nationals, to an approved master’s course at a participating UK university. Financial need, academic criteria, previous study/work in high-income countries and return-home conditions apply.",
+    "coverage":"CSC and participating universities jointly fund approved tuition, fares and maintenance under the award rules. Check the current handbook for allowances and exclusions.",
+    "dates":"The official page says the 2026–27 round is closed. It does not establish an open 2027–28 round. Check the next announcement and the participating university’s separate admission timetable.",
+    "steps":["Wait for the next confirmed round and approved course list.","Apply for admission to an eligible course as well as the scholarship.","Follow the university’s selection process and CSC’s submission instructions."],
+    "sources":[{"label":"CSC Shared Scholarships application guidance", "url":"https://cscuk.fcdo.gov.uk/scholarships/commonwealth-shared-scholarships-applications/"}]
+  },
+  {
+    "slug":"daad-epos", "status":"Check dates", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible graduates applying to a listed development-related postgraduate course. DAAD normally requires a relevant degree and at least two years of related professional experience after the first degree. Degree age, residence history and course-specific language requirements also apply.",
+    "coverage":"Funding can include a stipend, insurance contributions and travel support under DAAD’s terms. Course duration and any additional benefits vary; do not assume every German degree is covered.",
+    "dates":"The official list covers 2027–28, but there is no single EPOS deadline. Check your chosen course’s scholarship deadline separately from its self-funded admission deadline; some courses have biennial intakes.",
+    "steps":["Choose an eligible course from DAAD’s current EPOS list.","Check the course’s scholarship deadline, language evidence and required work experience.","Apply directly to the course using its instructions; applications sent to DAAD are not forwarded."],
+    "sources":[{"label":"DAAD EPOS eligibility and application procedure", "url":"https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777"},{"label":"DAAD 2027–28 course and deadline list (PDF)", "url":"https://static.daad.de/media/daad_de/pdfs_nicht_barrierefrei/in-deutschland-studieren-forschen-lehren/daad_epos_deadlines.pdf"}]
+  },
+  {
+    "slug":"melbourne-research", "status":"Open", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible domestic and international graduate research applicants. Stipend awards are competitive and consider academic results and research potential; an international admission offer does not automatically guarantee a stipend.",
+    "coverage":"Awards may provide a fee offset alone or a stipend plus fee offset. Fee support can extend to two years for a research master’s or four years for a doctorate; stipend durations differ. Check the award terms for health cover and relocation support.",
+    "dates":"The provider lists automatic consideration as open. New applicants must submit their graduate research course application by that course’s closing date. There is no single university-wide deadline on this award page; current and deferred students should check their faculty’s process.",
+    "steps":["Check the research course, supervisor requirements and faculty deadline.","Apply for the course on time for automatic scholarship consideration as a new applicant.","Read any scholarship offer separately to confirm the funding components and duration."],
+    "sources":[{"label":"Melbourne Graduate Research Scholarships", "url":"https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships"}]
+  },
+  {
+    "slug":"otago-doctoral", "status":"Check dates", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible domestic and international doctoral applicants, normally seeking their first doctorate. Selection considers academic merit and research potential, and quarterly allocations include divisional recommendations. Otago is reviewing the scholarship scheme.",
+    "coverage":"The published award includes a stipend and domestic-rate tuition support for up to 36 months. Student services fees and insurance are excluded; professional-doctorate tuition support is capped at the domestic rate.",
+    "dates":"Applications can be submitted throughout the year, but assessment is in March, June, September and November rounds. The eVision application and departmental assessment must be complete by the first day of the round month. Confirm the next round and current funding settings with Otago before relying on an award.",
+    "steps":["Read the current doctoral funding announcement and award regulations.","Arrange supervision and allow time for departmental assessment before the relevant round.","Submit through eVision using the current scholarship process."],
+    "sources":[{"label":"Otago Doctoral Scholarship", "url":"https://www.otago.ac.nz/courses/scholarships/university-of-otago-doctoral-scholarship"},{"label":"Otago doctoral funding review announcement", "url":"https://www.otago.ac.nz/courses/scholarships/phd/important-funding-announcement"}]
+  },
+  {
+    "slug":"pearson", "status":"Check dates", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible international first-entry undergraduate applicants beginning in September 2027, with school nomination. The current eligibility window covers final-year secondary students in 2026–27 or graduates no earlier than June 2026. Existing post-secondary students are excluded.",
+    "coverage":"Pearson covers tuition, books, incidental fees and full residence support for four years at the University of Toronto, subject to the award conditions.",
+    "dates":"For 2027 entry, school nominations closed on 9 October 2026 and the admission application deadline was 16 October 2026. The scholarship application and documents are due 6 November 2026 for eligible applicants who completed those earlier steps. The page also retains older FAQ dates: use its current-cycle deadline list and confirm discrepancies with Toronto.",
+    "steps":["Confirm that your school nomination and university application met the earlier deadlines.","Complete the scholarship application and evidence by the current-cycle deadline if eligible.","Follow Toronto’s academic-integrity rules: generative AI must not create undergraduate award application content."],
+    "sources":[{"label":"Toronto Pearson current-cycle eligibility and deadlines", "url":"https://future.utoronto.ca/pearson-scholarships"}]
+  },
+  {
+    "slug":"ubc-international", "status":"Open", "closes":"", "checked":"2026-10-19",
+    "eligibility":"For eligible international applicants entering a first undergraduate degree directly from secondary school. Strong academics, leadership and significant documented financial need are required. Degree exclusions and high-school graduation-date rules apply; applicants to this need-based programme are not considered for UBC’s merit-based awards.",
+    "coverage":"UBC assesses financial need using family resources and education costs. Funding depends on selection and the individual assessment; it is not an automatic full scholarship for every applicant.",
+    "dates":"Applications for September 2027 are open. The award application is due 15 November 2026; the university does not specify a cutoff timezone on this page. Complete admission first and arrange nomination and referee forms several days before the award deadline. Required documents and the English Language Admission Standard are due 31 January 2027.",
+    "steps":["Check programme eligibility, financial-need evidence and your intended campus.","Submit the UBC admission application before starting the award application.","Arrange a nominator and a separate teacher referee, then complete the award application before the published date."],
+    "sources":[{"label":"UBC International Scholars current application guidance", "url":"https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-scholars/"}]
+  },
+  {
+    "slug":"auckland-excellence", "status":"Upcoming", "opens":"", "closes":"", "reviewExpires":"2026-10-20T11:00:00Z", "checked":"2026-10-19",
+    "eligibility":"Eligible new international master’s students must have a conditional or unconditional programme offer for Semester One or Quarter Two 2027 by 20 October 2026. Selection follows the university’s invitation process and award regulations.",
+    "coverage":"The current award is worth 25% of one year’s tuition fees. It supports tuition for one year and is not a full living-cost scholarship.",
+    "dates":"Eligible offer-holders are scheduled to receive invitations on 21 October 2026. The supplementary online form is due 4 November 2026; confirm the exact cutoff with Auckland. Although the page labels the award as requiring no application, its current-cycle instructions require invited students to complete that supplementary form.",
+    "steps":["Check your master’s offer and intake against the 20 October eligibility date.","Watch for the university’s invitation and read the regulations.","If invited, complete the supplementary form by 4 November 2026."],
+    "sources":[{"label":"Auckland International Student Excellence current award", "url":"https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html"}]
+  }
+]

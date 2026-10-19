@@ -2241,7 +2241,8 @@
       "website": "https://www.mun.ca/",
       "courses": "https://www.mun.ca/main/programs.php",
       "admissions": "https://www.mun.ca/main/become-a-student/",
-      "fees": "https://www.mun.ca/finance/fees/"
+      "fees": "https://www.mun.ca/finance/fees/",
+      "scholarships": "https://www.mun.ca/scholarships/entrance-scholarships/international-students/"
     },
     "checked": "2026-10-18",
     "reviewCandidates": [
@@ -2288,10 +2289,6 @@
       {
         "url": "https://www.mun.ca/finance/fees/",
         "label": "Fees"
-      },
-      {
-        "url": "https://www.mun.ca/scholarships/scholarships/current/",
-        "label": "Scholarships (undergraduate)"
       },
       {
         "url": "https://www.mun.ca/sgs/current/scholarships/",
@@ -3973,7 +3970,9 @@
     "city": "Erlangen and Nuremberg",
     "links": {
       "website": "https://www.fau.eu/",
-      "courses": "https://www.fau.eu/studying/degree-programs/all-degree-programs/"
+      "courses": "https://www.fau.eu/studying/degree-programs/all-degree-programs/",
+      "admissions": "https://www.fau.eu/studying/applications-and-admissions/",
+      "fees": "https://www.fau.eu/studying/international-students/application-and-enrollment-for-international-applicants/tuition-fees-for-students-from-non-eu-states/"
     },
     "checked": "2026-10-18",
     "reviewCandidates": [
@@ -4008,10 +4007,6 @@
       {
         "url": "https://www.fau.eu/studying/degree-programs/module-programs/",
         "label": "Module programs"
-      },
-      {
-        "url": "https://www.fau.eu/studying/degree-programs/degree-programs-for-working-professionals/",
-        "label": "Degree programs for working professionals"
       },
       {
         "url": "https://www.fau.eu/studying/degree-programs/special-ways-to-study/cooperative-degree-programs-at-fau/",
@@ -4268,7 +4263,8 @@
     "city": "Münster",
     "links": {
       "website": "https://www.uni-muenster.de/en/",
-      "admissions": "https://www.uni-muenster.de/international/en/index.shtml"
+      "admissions": "https://www.uni-muenster.de/international/en/index.shtml",
+      "support": "https://www.uni-muenster.de/InternationalOffice/en/studiereninms/beratung.html"
     },
     "checked": "2026-10-18",
     "reviewCandidates": [
@@ -4299,10 +4295,6 @@
       {
         "url": "https://www.uni-muenster.de/forschung/en/profil/koordinierteprogramme/index.shtml",
         "label": "Coordinated research programmes"
-      },
-      {
-        "url": "https://www.uni-muenster.de/forschung/en/wissenschaftler/beratung/index.html",
-        "label": "Welcome Centre for international researchers"
       },
       {
         "url": "https://www.uni-muenster.de/studium/en/studierendensekretariat.html",

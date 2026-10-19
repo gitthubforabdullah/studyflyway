@@ -54,6 +54,7 @@ document.querySelectorAll('[data-scholarship]').forEach(card => {
   let status = card.dataset.status;
   if (card.dataset.closes && now > Date.parse(card.dataset.closes)) status = 'Closed';
   if (card.dataset.opens && status === 'Upcoming' && now >= Date.parse(card.dataset.opens)) status = 'Check dates';
+  if (card.dataset.reviewExpires && ['Open', 'Upcoming'].includes(status) && now >= Date.parse(card.dataset.reviewExpires)) status = 'Check dates';
   card.dataset.status = status;
   const badge = card.querySelector('[data-status-label]');
   if(badge) { badge.textContent = status; badge.className = 'badge ' + status.toLowerCase().replaceAll(' ', '-'); }

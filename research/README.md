@@ -1,5 +1,9 @@
 # University editorial records
 
+The 19 October 2026 update rechecked all 88 ranking positions and 87 international-student totals, reviewed all ten scholarship listings, and added selected current application notices. See `../CONTENT-REVIEW.md` for the precise scope, source audit and remaining verification work. Older dates below describe earlier reviews and have not been advanced without a new factual check.
+
+Scholarship content now lives in `scholarships.json`; `node scripts/build-scholarships.js` updates detail pages and listing cards. The normal static build includes this generator. `university-updates.json` and `destination-updates.json` hold dated application notices independently of historical background. `node scripts/audit-sources.js` checks source availability and changes without publishing factual edits.
+
 ## Consultant directory
 
 `consultants.json` records the original six providers with expanded services, destinations, offices and contact details reviewed on 18 October 2026. `additional-consultants.json` records the five additions. Official source links appear on every profile; unverified email addresses and prices are omitted. Update these records and run `node scripts/build-consultants.js`; the normal `node prepare.js` build also regenerates the directory and all 11 profiles, copies their assets and adds clean routes.

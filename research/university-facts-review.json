@@ -1,0 +1,706 @@
+[
+  {
+    "id": "melbourne",
+    "source": "https://www.topuniversities.com/universities/university-melbourne",
+    "checked": "2026-10-19",
+    "position": "=22",
+    "edition": "2027",
+    "internationalStudents": 27427
+  },
+  {
+    "id": "sydney",
+    "source": "https://www.topuniversities.com/universities/university-sydney",
+    "checked": "2026-10-19",
+    "position": "28",
+    "edition": "2027",
+    "internationalStudents": 32920
+  },
+  {
+    "id": "monash",
+    "source": "https://www.topuniversities.com/universities/monash-university",
+    "checked": "2026-10-19",
+    "position": "31",
+    "edition": "2027",
+    "internationalStudents": 36026
+  },
+  {
+    "id": "ubc",
+    "source": "https://www.topuniversities.com/universities/university-british-columbia",
+    "checked": "2026-10-19",
+    "position": "45",
+    "edition": "2027",
+    "internationalStudents": 15364
+  },
+  {
+    "id": "toronto",
+    "source": "https://www.topuniversities.com/universities/university-toronto",
+    "checked": "2026-10-19",
+    "position": "32",
+    "edition": "2027",
+    "internationalStudents": 33467
+  },
+  {
+    "id": "mcgill",
+    "source": "https://www.topuniversities.com/universities/mcgill-university",
+    "checked": "2026-10-19",
+    "position": "30",
+    "edition": "2027",
+    "internationalStudents": 10131
+  },
+  {
+    "id": "manchester",
+    "source": "https://www.topuniversities.com/universities/university-manchester",
+    "checked": "2026-10-19",
+    "position": "=40",
+    "edition": "2027",
+    "internationalStudents": 19593
+  },
+  {
+    "id": "edinburgh",
+    "source": "https://www.topuniversities.com/universities/university-edinburgh",
+    "checked": "2026-10-19",
+    "position": "35",
+    "edition": "2027",
+    "internationalStudents": 16725
+  },
+  {
+    "id": "birmingham",
+    "source": "https://www.topuniversities.com/universities/university-birmingham",
+    "checked": "2026-10-19",
+    "position": "=68",
+    "edition": "2027",
+    "internationalStudents": 12562
+  },
+  {
+    "id": "tum",
+    "source": "https://www.topuniversities.com/universities/technical-university-munich",
+    "checked": "2026-10-19",
+    "position": "25",
+    "edition": "2027",
+    "internationalStudents": 13816
+  },
+  {
+    "id": "heidelberg",
+    "source": "https://www.topuniversities.com/universities/universitat-heidelberg",
+    "checked": "2026-10-19",
+    "position": "86",
+    "edition": "2027",
+    "internationalStudents": 5044
+  },
+  {
+    "id": "rwth",
+    "source": "https://www.topuniversities.com/universities/rwth-aachen-university",
+    "checked": "2026-10-19",
+    "position": "104",
+    "edition": "2027",
+    "internationalStudents": 10304
+  },
+  {
+    "id": "auckland",
+    "source": "https://www.topuniversities.com/universities/university-auckland",
+    "checked": "2026-10-19",
+    "position": "67",
+    "edition": "2027",
+    "internationalStudents": 12699
+  },
+  {
+    "id": "otago",
+    "source": "https://www.topuniversities.com/universities/university-otago",
+    "checked": "2026-10-19",
+    "position": "198",
+    "edition": "2027",
+    "internationalStudents": 3168
+  },
+  {
+    "id": "canterbury",
+    "source": "https://www.topuniversities.com/universities/university-canterbury-te-whare-wananga-o-waitaha",
+    "checked": "2026-10-19",
+    "position": "257",
+    "edition": "2027",
+    "internationalStudents": 2837
+  },
+  {
+    "id": "australian-national-university",
+    "source": "https://www.topuniversities.com/universities/australian-national-university-anu",
+    "checked": "2026-10-19",
+    "position": "29",
+    "edition": "2027",
+    "internationalStudents": 7332
+  },
+  {
+    "id": "unsw-sydney",
+    "source": "https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney",
+    "checked": "2026-10-19",
+    "position": "19",
+    "edition": "2027",
+    "internationalStudents": 22804
+  },
+  {
+    "id": "university-of-queensland",
+    "source": "https://www.topuniversities.com/universities/university-queensland",
+    "checked": "2026-10-19",
+    "position": "=40",
+    "edition": "2027",
+    "internationalStudents": 24334
+  },
+  {
+    "id": "university-of-western-australia",
+    "source": "https://www.topuniversities.com/universities/university-western-australia",
+    "checked": "2026-10-19",
+    "position": "=77",
+    "edition": "2027",
+    "internationalStudents": 12230
+  },
+  {
+    "id": "adelaide-university",
+    "source": "https://www.topuniversities.com/universities/adelaide-university",
+    "checked": "2026-10-19",
+    "position": "79",
+    "edition": "2027",
+    "internationalStudents": 16376
+  },
+  {
+    "id": "university-of-technology-sydney",
+    "source": "https://www.topuniversities.com/universities/university-technology-sydney-uts",
+    "checked": "2026-10-19",
+    "position": "=87",
+    "edition": "2027",
+    "internationalStudents": 9871
+  },
+  {
+    "id": "rmit-university",
+    "source": "https://www.topuniversities.com/universities/rmit-university",
+    "checked": "2026-10-19",
+    "position": "=119",
+    "edition": "2027",
+    "internationalStudents": 12148
+  },
+  {
+    "id": "deakin-university",
+    "source": "https://www.topuniversities.com/universities/deakin-university",
+    "checked": "2026-10-19",
+    "position": "227",
+    "edition": "2027",
+    "internationalStudents": 12197
+  },
+  {
+    "id": "griffith-university",
+    "source": "https://www.topuniversities.com/universities/griffith-university",
+    "checked": "2026-10-19",
+    "position": "=230",
+    "edition": "2027",
+    "internationalStudents": 11182
+  },
+  {
+    "id": "queensland-university-of-technology",
+    "source": "https://www.topuniversities.com/universities/queensland-university-technology-qut",
+    "checked": "2026-10-19",
+    "position": "240",
+    "edition": "2027",
+    "internationalStudents": 6441
+  },
+  {
+    "id": "curtin-university",
+    "source": "https://www.topuniversities.com/universities/curtin-university",
+    "checked": "2026-10-19",
+    "position": "189",
+    "edition": "2027",
+    "internationalStudents": 7105
+  },
+  {
+    "id": "macquarie-university",
+    "source": "https://www.topuniversities.com/universities/macquarie-university-sydney-australia",
+    "checked": "2026-10-19",
+    "position": "=126",
+    "edition": "2027",
+    "internationalStudents": 10611
+  },
+  {
+    "id": "university-of-wollongong",
+    "source": "https://www.topuniversities.com/universities/university-wollongong",
+    "checked": "2026-10-19",
+    "position": "195",
+    "edition": "2027",
+    "internationalStudents": 5181
+  },
+  {
+    "id": "university-of-newcastle",
+    "source": "https://www.topuniversities.com/universities/university-newcastle-australia-uon",
+    "checked": "2026-10-19",
+    "position": "244",
+    "edition": "2027",
+    "internationalStudents": 2590
+  },
+  {
+    "id": "la-trobe-university",
+    "source": "https://www.topuniversities.com/universities/la-trobe-university",
+    "checked": "2026-10-19",
+    "position": "=241",
+    "edition": "2027",
+    "internationalStudents": 5481
+  },
+  {
+    "id": "flinders-university",
+    "source": "https://www.topuniversities.com/universities/flinders-university",
+    "checked": "2026-10-19",
+    "position": "=374",
+    "edition": "2027",
+    "internationalStudents": 6160
+  },
+  {
+    "id": "university-of-tasmania",
+    "source": "https://www.topuniversities.com/universities/university-tasmania",
+    "checked": "2026-10-19",
+    "position": "311",
+    "edition": "2027",
+    "internationalStudents": 3046
+  },
+  {
+    "id": "university-of-alberta",
+    "source": "https://www.topuniversities.com/universities/university-alberta",
+    "checked": "2026-10-19",
+    "position": "96",
+    "edition": "2027",
+    "internationalStudents": 8392
+  },
+  {
+    "id": "mcmaster-university",
+    "source": "https://www.topuniversities.com/universities/mcmaster-university",
+    "checked": "2026-10-19",
+    "position": "=174",
+    "edition": "2027",
+    "internationalStudents": 5631
+  },
+  {
+    "id": "university-of-waterloo",
+    "source": "https://www.topuniversities.com/universities/university-waterloo",
+    "checked": "2026-10-19",
+    "position": "=113",
+    "edition": "2027",
+    "internationalStudents": 9465
+  },
+  {
+    "id": "university-of-ottawa",
+    "source": "https://www.topuniversities.com/universities/university-ottawa",
+    "checked": "2026-10-19",
+    "position": "=228",
+    "edition": "2027",
+    "internationalStudents": 11287
+  },
+  {
+    "id": "western-university",
+    "source": "https://www.topuniversities.com/universities/western-university",
+    "checked": "2026-10-19",
+    "position": "=142",
+    "edition": "2027",
+    "internationalStudents": 6682
+  },
+  {
+    "id": "university-of-calgary",
+    "source": "https://www.topuniversities.com/universities/university-calgary",
+    "checked": "2026-10-19",
+    "position": "249",
+    "edition": "2027",
+    "internationalStudents": 8426
+  },
+  {
+    "id": "queen-s-university",
+    "source": "https://www.topuniversities.com/universities/queens-university-kingston",
+    "checked": "2026-10-19",
+    "position": "=179",
+    "edition": "2027",
+    "internationalStudents": 3676
+  },
+  {
+    "id": "dalhousie-university",
+    "source": "https://www.topuniversities.com/universities/dalhousie-university",
+    "checked": "2026-10-19",
+    "position": "298",
+    "edition": "2027",
+    "internationalStudents": 4205
+  },
+  {
+    "id": "simon-fraser-university",
+    "source": "https://www.topuniversities.com/universities/simon-fraser-university",
+    "checked": "2026-10-19",
+    "position": "312",
+    "edition": "2027",
+    "internationalStudents": 6929
+  },
+  {
+    "id": "university-of-victoria",
+    "source": "https://www.topuniversities.com/universities/university-victoria-uvic",
+    "checked": "2026-10-19",
+    "position": "=370",
+    "edition": "2027",
+    "internationalStudents": 2642
+  },
+  {
+    "id": "york-university",
+    "source": "https://www.topuniversities.com/universities/york-university",
+    "checked": "2026-10-19",
+    "position": "=322",
+    "edition": "2027",
+    "internationalStudents": 8841
+  },
+  {
+    "id": "concordia-university",
+    "source": "https://www.topuniversities.com/universities/concordia-university",
+    "checked": "2026-10-19",
+    "position": "=497",
+    "edition": "2027",
+    "internationalStudents": 10661
+  },
+  {
+    "id": "university-of-manitoba",
+    "source": "https://www.topuniversities.com/universities/university-manitoba",
+    "checked": "2026-10-19",
+    "position": "=560",
+    "edition": "2027",
+    "internationalStudents": 6429
+  },
+  {
+    "id": "university-of-saskatchewan",
+    "source": "https://www.topuniversities.com/universities/university-saskatchewan",
+    "checked": "2026-10-19",
+    "position": "=411",
+    "edition": "2027",
+    "internationalStudents": 3759
+  },
+  {
+    "id": "university-of-guelph",
+    "source": "https://www.topuniversities.com/universities/university-guelph",
+    "checked": "2026-10-19",
+    "position": "=546",
+    "edition": "2027",
+    "internationalStudents": 2557
+  },
+  {
+    "id": "university-of-new-brunswick",
+    "source": "https://www.topuniversities.com/universities/university-new-brunswick",
+    "checked": "2026-10-19",
+    "position": "=677",
+    "edition": "2027",
+    "internationalStudents": 2044
+  },
+  {
+    "id": "memorial-university-of-newfoundland",
+    "source": "https://www.topuniversities.com/universities/memorial-university-newfoundland",
+    "checked": "2026-10-19",
+    "position": "721-730",
+    "edition": "2027",
+    "internationalStudents": 3132
+  },
+  {
+    "id": "university-of-oxford",
+    "source": "https://www.topuniversities.com/universities/university-oxford",
+    "checked": "2026-10-19",
+    "position": "4",
+    "edition": "2027",
+    "internationalStudents": 9087
+  },
+  {
+    "id": "university-of-cambridge",
+    "source": "https://www.topuniversities.com/universities/university-cambridge",
+    "checked": "2026-10-19",
+    "position": "6",
+    "edition": "2027",
+    "internationalStudents": 7973
+  },
+  {
+    "id": "imperial-college-london",
+    "source": "https://www.topuniversities.com/universities/imperial-college-london",
+    "checked": "2026-10-19",
+    "position": "=2",
+    "edition": "2027",
+    "internationalStudents": 10802
+  },
+  {
+    "id": "university-college-london",
+    "source": "https://www.topuniversities.com/universities/ucl-university-college-london",
+    "checked": "2026-10-19",
+    "position": "=8",
+    "edition": "2027",
+    "internationalStudents": 29881
+  },
+  {
+    "id": "king-s-college-london",
+    "source": "https://www.topuniversities.com/universities/kings-college-london",
+    "checked": "2026-10-19",
+    "position": "37",
+    "edition": "2027",
+    "internationalStudents": 15316
+  },
+  {
+    "id": "london-school-of-economics-and-political-science",
+    "source": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse",
+    "checked": "2026-10-19",
+    "position": "62",
+    "edition": "2027",
+    "internationalStudents": 9015
+  },
+  {
+    "id": "university-of-bristol",
+    "source": "https://www.topuniversities.com/universities/university-bristol",
+    "checked": "2026-10-19",
+    "position": "57",
+    "edition": "2027",
+    "internationalStudents": 9889
+  },
+  {
+    "id": "university-of-warwick",
+    "source": "https://www.topuniversities.com/universities/university-warwick",
+    "checked": "2026-10-19",
+    "position": "=68",
+    "edition": "2027",
+    "internationalStudents": 10139
+  },
+  {
+    "id": "university-of-glasgow",
+    "source": "https://www.topuniversities.com/universities/university-glasgow",
+    "checked": "2026-10-19",
+    "position": "80",
+    "edition": "2027",
+    "internationalStudents": 13191
+  },
+  {
+    "id": "university-of-southampton",
+    "source": "https://www.topuniversities.com/universities/university-southampton",
+    "checked": "2026-10-19",
+    "position": "=111",
+    "edition": "2027",
+    "internationalStudents": 8855
+  },
+  {
+    "id": "university-of-liverpool",
+    "source": "https://www.topuniversities.com/universities/university-liverpool",
+    "checked": "2026-10-19",
+    "position": "139",
+    "edition": "2027",
+    "internationalStudents": 8578
+  },
+  {
+    "id": "university-of-leeds",
+    "source": "https://www.topuniversities.com/universities/university-leeds",
+    "checked": "2026-10-19",
+    "position": "=77",
+    "edition": "2027",
+    "internationalStudents": 9974
+  },
+  {
+    "id": "university-of-nottingham",
+    "source": "https://www.topuniversities.com/universities/university-nottingham",
+    "checked": "2026-10-19",
+    "position": "97",
+    "edition": "2027",
+    "internationalStudents": 8705
+  },
+  {
+    "id": "durham-university",
+    "source": "https://www.topuniversities.com/universities/durham-university",
+    "checked": "2026-10-19",
+    "position": "85",
+    "edition": "2027",
+    "internationalStudents": 7246
+  },
+  {
+    "id": "university-of-st-andrews",
+    "source": "https://www.topuniversities.com/universities/university-st-andrews",
+    "checked": "2026-10-19",
+    "position": "=115",
+    "edition": "2027",
+    "internationalStudents": 5270
+  },
+  {
+    "id": "queen-mary-university-of-london",
+    "source": "https://www.topuniversities.com/universities/queen-mary-university-london",
+    "checked": "2026-10-19",
+    "position": "103",
+    "edition": "2027",
+    "internationalStudents": 12331
+  },
+  {
+    "id": "lancaster-university",
+    "source": "https://www.topuniversities.com/universities/lancaster-university",
+    "checked": "2026-10-19",
+    "position": "164",
+    "edition": "2027",
+    "internationalStudents": 4492
+  },
+  {
+    "id": "leipzig-university",
+    "source": "https://www.topuniversities.com/universities/universitat-leipzig",
+    "checked": "2026-10-19",
+    "position": "=540",
+    "edition": "2027",
+    "internationalStudents": 3382
+  },
+  {
+    "id": "technische-universitat-berlin",
+    "source": "https://www.topuniversities.com/universities/technische-universitat-berlin-tu-berlin",
+    "checked": "2026-10-19",
+    "position": "=158",
+    "edition": "2027",
+    "internationalStudents": 5912
+  },
+  {
+    "id": "freie-universitat-berlin",
+    "source": "https://www.topuniversities.com/universities/freie-universitaet-berlin",
+    "checked": "2026-10-19",
+    "position": "=98",
+    "edition": "2027",
+    "internationalStudents": 4948
+  },
+  {
+    "id": "humboldt-universitat-zu-berlin",
+    "source": "https://www.topuniversities.com/universities/humboldt-universitat-zu-berlin",
+    "checked": "2026-10-19",
+    "position": "=140",
+    "edition": "2027",
+    "internationalStudents": 6005
+  },
+  {
+    "id": "karlsruhe-institute-of-technology",
+    "source": "https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology",
+    "checked": "2026-10-19",
+    "position": "110",
+    "edition": "2027",
+    "internationalStudents": 3984
+  },
+  {
+    "id": "university-of-bonn",
+    "source": "https://www.topuniversities.com/universities/rheinische-friedrich-wilhelms-universitat-bonn",
+    "checked": "2026-10-19",
+    "position": "=209",
+    "edition": "2027",
+    "internationalStudents": 5441
+  },
+  {
+    "id": "university-of-hamburg",
+    "source": "https://www.topuniversities.com/universities/universitat-hamburg",
+    "checked": "2026-10-19",
+    "position": "=209",
+    "edition": "2027",
+    "note": "Ranking confirmed in the publisher search listing; student total could not be rechecked because the source timed out."
+  },
+  {
+    "id": "university-of-tubingen",
+    "source": "https://www.topuniversities.com/universities/eberhard-karls-universitat-tubingen",
+    "checked": "2026-10-19",
+    "position": "=230",
+    "edition": "2027",
+    "internationalStudents": 3682
+  },
+  {
+    "id": "university-of-freiburg",
+    "source": "https://www.topuniversities.com/universities/albert-ludwigs-universitaet-freiburg",
+    "checked": "2026-10-19",
+    "position": "245",
+    "edition": "2027",
+    "internationalStudents": 3651
+  },
+  {
+    "id": "university-of-gottingen",
+    "source": "https://www.topuniversities.com/universities/university-gottingen",
+    "checked": "2026-10-19",
+    "position": "=261",
+    "edition": "2027",
+    "internationalStudents": 3317
+  },
+  {
+    "id": "tu-dresden",
+    "source": "https://www.topuniversities.com/universities/technische-universitat-dresden",
+    "checked": "2026-10-19",
+    "position": "=185",
+    "edition": "2027",
+    "internationalStudents": 3590
+  },
+  {
+    "id": "friedrich-alexander-universitat-erlangen-nurnberg",
+    "source": "https://www.topuniversities.com/universities/friedrich-alexander-universitat-erlangen-nurnberg",
+    "checked": "2026-10-19",
+    "position": "=218",
+    "edition": "2027",
+    "internationalStudents": 5492
+  },
+  {
+    "id": "university-of-cologne",
+    "source": "https://www.topuniversities.com/universities/university-cologne",
+    "checked": "2026-10-19",
+    "position": "269",
+    "edition": "2027",
+    "internationalStudents": 4382
+  },
+  {
+    "id": "university-of-munster",
+    "source": "https://www.topuniversities.com/universities/university-munster",
+    "checked": "2026-10-19",
+    "position": "=370",
+    "edition": "2027",
+    "internationalStudents": 1428
+  },
+  {
+    "id": "university-of-mannheim",
+    "source": "https://www.topuniversities.com/universities/universitat-mannheim",
+    "checked": "2026-10-19",
+    "position": "=425",
+    "edition": "2027",
+    "internationalStudents": 1457
+  },
+  {
+    "id": "university-of-stuttgart",
+    "source": "https://www.topuniversities.com/universities/universitat-stuttgart",
+    "checked": "2026-10-19",
+    "position": "=318",
+    "edition": "2027",
+    "internationalStudents": 3009
+  },
+  {
+    "id": "university-of-wurzburg",
+    "source": "https://www.topuniversities.com/universities/julius-maximilians-universitat-wurzburg",
+    "checked": "2026-10-19",
+    "position": "430",
+    "edition": "2027",
+    "internationalStudents": 2271
+  },
+  {
+    "id": "auckland-university-of-technology",
+    "source": "https://www.topuniversities.com/universities/auckland-university-technology-aut",
+    "checked": "2026-10-19",
+    "position": "431",
+    "edition": "2027",
+    "internationalStudents": 8704
+  },
+  {
+    "id": "university-of-waikato",
+    "source": "https://www.topuniversities.com/universities/university-waikato",
+    "checked": "2026-10-19",
+    "position": "=293",
+    "edition": "2027",
+    "internationalStudents": 2830
+  },
+  {
+    "id": "massey-university",
+    "source": "https://www.topuniversities.com/universities/massey-university",
+    "checked": "2026-10-19",
+    "position": "215",
+    "edition": "2027",
+    "internationalStudents": 3531
+  },
+  {
+    "id": "victoria-university-of-wellington",
+    "source": "https://www.topuniversities.com/universities/victoria-university-wellington",
+    "checked": "2026-10-19",
+    "position": "=241",
+    "edition": "2027",
+    "internationalStudents": 3508
+  },
+  {
+    "id": "lincoln-university",
+    "source": "https://www.topuniversities.com/universities/lincoln-university",
+    "checked": "2026-10-19",
+    "position": "=419",
+    "edition": "2027",
+    "internationalStudents": 1335
+  }
+]

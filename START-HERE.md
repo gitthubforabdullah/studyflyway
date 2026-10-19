@@ -60,6 +60,8 @@ This is a multi-page website. Keep each page accessible individually. The build 
 
 ## Update your website
 
+See [CONTENT-REVIEW.md](CONTENT-REVIEW.md) for the 19 October 2026 information refresh and its verification limits. Scholarship eligibility, dates and status are maintained in `research/scholarships.json`; run `node prepare.js` after updates. A weekly GitHub Actions source report is included to help identify changes requiring editorial review. It does not automatically rewrite or publish information.
+
 The privacy policy is maintained in `privacy-policy.html` with page-specific styling in `assets/privacy.css`. Its public URL is `https://studyflyway.online/privacy-policy`. `privacy.html` is a noindex fallback that directs visitors to the main policy. The static build also provides a `/privacy/` directory page. Keep the fallback policy text synchronized when updating the main policy. The policy was reviewed against the installed Umami, Cloudflare Web Analytics, AdSense loader and contact form on 4 October 2026. Recheck provider settings, form availability and advertising/consent configuration when those services change; the page does not establish that advertising is approved or that consent management is configured.
 
 Open this folder in VS Code:

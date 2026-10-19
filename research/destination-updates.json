@@ -1,0 +1,27 @@
+{
+  "australia": {
+    "checked": "2026-10-19",
+    "text": "For a student visa, check your Confirmation of Enrolment, Genuine Student evidence, financial capacity, health insurance and current English-test requirements. Study Australia’s application guide links to the government process; an admission offer alone is not visa approval.",
+    "source": "https://www.studyaustralia.gov.au/en/plan-your-move/visa-application-process"
+  },
+  "canada": {
+    "checked": "2026-10-19",
+    "text": "Check whether your application needs a provincial or territorial attestation letter (PAL/TAL). From 1 January 2026, degree-granting master’s and doctoral programmes at public designated learning institutions are among the exemptions; evidence of an exemption is still required. Other applicants should follow IRCC’s current rules and their institution’s instructions.",
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/provincial-attestation-letter.html"
+  },
+  "uk": {
+    "checked": "2026-10-19",
+    "text": "Check licensed sponsorship, financial and English evidence, and any ATAS requirement separately from course admission. GOV.UK currently states that the Graduate visa lasts two years for applications made by 31 December 2026, or 18 months from 1 January 2027; doctoral graduates have a three-year route. Eligibility and the application date matter, and future rules may change.",
+    "source": "https://www.gov.uk/student-visa"
+  },
+  "germany": {
+    "checked": "2026-10-19",
+    "text": "German Missions in Pakistan direct student applications through the Consular Services Portal for Islamabad and Karachi, according to consular jurisdiction. Follow its questionnaire and current document list. The mission warns that degree certificates, transcripts and proof of tuition payment where applicable are mandatory even if a portal field labels them optional.",
+    "source": "https://pakistan.diplo.de/pk-en/service/2-study-visa-seite-1676104"
+  },
+  "new-zealand": {
+    "checked": "2026-10-19",
+    "text": "The Fee Paying Student Visa requires an approved provider’s offer, tuition and living-cost evidence, and medical/travel insurance, alongside other conditions. An overseas application may be assessed with a conditional offer, but an unconditional offer is needed for final approval. Choose the visa route matching your funding and study arrangement.",
+    "source": "https://www.immigration.govt.nz/visas/fee-paying-student-visa/"
+  }
+}

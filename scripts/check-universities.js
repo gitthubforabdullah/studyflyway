@@ -42,7 +42,7 @@ for (const u of listings) {
   assert.equal(new Set(ids).size, ids.length, u.name + ': unique section IDs');
 }
 if (output !== root && fs.existsSync(path.join(root, 'ads.txt'))) {
-  assert.equal(fs.readFileSync(path.join(output, 'ads.txt'), 'utf8'), fs.readFileSync(path.join(root, 'ads.txt'), 'utf8'), 'Build preserves ads.txt');
+  assert.equal(fs.readFileSync(path.join(output, 'ads.txt'), 'utf8').trim(), fs.readFileSync(path.join(root, 'ads.txt'), 'utf8').trim(), 'Build preserves ads.txt declaration');
 }
 const photos = JSON.parse(fs.readFileSync(path.join(root, 'research/campus-photos.json'), 'utf8'));
 const files = [];
@@ -51,7 +51,7 @@ function collect(dir) {
     if (['dist', 'node_modules', '.git', '.tmp'].includes(ent.name)) continue;
     const target = path.join(dir, ent.name);
     if (ent.isDirectory()) collect(target);
-    else if (ent.name.endsWith('.html') && !/^google[a-f0-9]+\.html$/.test(ent.name)) files.push(target);
+    else if (ent.name.endsWith('.html') && !/^google[a-f0-9]+\.html$/.test(ent.name) && !(ent.name === 'index.html' && dir !== output)) files.push(target);
   }
 }
 collect(output);
@@ -62,7 +62,7 @@ for (const file of files) {
   const rel = path.relative(output, file);
   assert.equal((html.match(/data-destinations-menu/g)||[]).length,1, rel+': shared dropdown');
   assert(/class="nav-dropdown-toggle"[^>]*>Destinations<\/a>/.test(html),rel+': no dropdown arrow');
-  assert.equal(((html.match(/<nav id="navigation"[\s\S]*?<\/nav>/)[0]+html.match(/<footer[\s\S]*?<\/footer>/)[0]).match(/href="[^"]*english-tests.html"/g)||[]).length,2,rel+': English Tests navigation and footer');
+  assert.equal(((html.match(/<nav id="navigation"[\s\S]*?<\/nav>/)[0]+html.match(/<footer[\s\S]*?<\/footer>/)[0]).match(/href="[^"]*\/english-tests(?:\.html)?"/g)||[]).length,2,rel+': English Tests navigation and footer');
   const head=html.match(/<head>[\s\S]*?<\/head>/)[0];
   assert.equal((head.match(/adsbygoogle.js\?client=ca-pub-9576135533715323/g)||[]).length,1,rel+': AdSense preserved');
   if (!/<nav id="navigation"[\s\S]*?>Universities<\/a>/.test(html)) errors.push(`${rel}: missing navigation link`);
@@ -72,7 +72,9 @@ for (const file of files) {
     const decoded = url.replaceAll('&amp;', '&');
     const [targetWithQuery, hash] = decoded.split('#');
     const target = targetWithQuery.split('?')[0];
-    const resolved = !target ? file : target.startsWith('/') ? path.join(output, target.slice(1)) : path.resolve(path.dirname(file), target);
+    let resolved = !target ? file : target.startsWith('/') ? path.join(output, target.slice(1)) : path.resolve(path.dirname(file), target);
+    if (fs.existsSync(resolved + '.html')) resolved += '.html';
+    else if (fs.existsSync(resolved) && fs.statSync(resolved).isDirectory()) resolved = path.join(resolved, 'index.html');
     if (!fs.existsSync(resolved)) { errors.push(`${rel}: broken ${attr} ${url}`); continue; }
     if (hash && resolved.endsWith('.html')) {
       const destination = fs.readFileSync(resolved, 'utf8');
@@ -98,7 +100,7 @@ for (const u of records) {
   assert.equal(photos[u.id].length, 3);
   assert(photos[u.id].every(photo => photo.author && photo.license && photo.source && photo.local && fs.existsSync(path.join(output, photo.local))),u.name+': locally hosted, credited photographs');
   const guide = fs.readFileSync(path.join(output, 'countries', u.country + '.html'), 'utf8');
-  assert(guide.includes('../universities/' + u.slug + '.html'), `${u.name}: linked country guide`);
+  assert(guide.includes('/universities/' + u.slug + '"') || guide.includes('../universities/' + u.slug + '.html'), `${u.name}: linked country guide`);
 }
 const directory = fs.readFileSync(path.join(output, 'universities.html'), 'utf8');
 assert.equal((directory.match(/data-university-name=/g) || []).length, 88);

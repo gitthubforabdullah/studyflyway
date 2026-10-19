@@ -12,7 +12,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-melbourne"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "sydney",
@@ -27,7 +29,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-sydney"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "monash",
@@ -42,7 +46,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/monash-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "ubc",
@@ -57,7 +63,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-british-columbia"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "toronto",
@@ -72,14 +80,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-toronto"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "mcgill",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "30",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/mcgill-university"
     },
     "internationalStudents": {
@@ -87,7 +97,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/mcgill-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "manchester",
@@ -102,14 +114,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-manchester"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "edinburgh",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "35",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/university-edinburgh"
     },
     "internationalStudents": {
@@ -117,7 +131,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-edinburgh"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "birmingham",
@@ -132,7 +148,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-birmingham"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "tum",
@@ -147,7 +165,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/technical-university-munich"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "heidelberg",
@@ -162,7 +182,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/universitat-heidelberg"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "rwth",
@@ -177,7 +199,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/rwth-aachen-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "auckland",
@@ -192,7 +216,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-auckland"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "otago",
@@ -207,14 +233,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-otago"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "canterbury",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "257",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/university-canterbury-te-whare-wananga-o-waitaha"
     },
     "internationalStudents": {
@@ -222,14 +250,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-canterbury-te-whare-wananga-o-waitaha"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "australian-national-university",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "29",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/australian-national-university-anu"
     },
     "internationalStudents": {
@@ -237,7 +267,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/australian-national-university-anu"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "unsw-sydney",
@@ -252,7 +284,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-new-south-wales-unsw-sydney"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-queensland",
@@ -267,7 +301,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-queensland"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-western-australia",
@@ -282,7 +318,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-western-australia"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "adelaide-university",
@@ -297,7 +335,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/adelaide-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-technology-sydney",
@@ -312,7 +352,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-technology-sydney-uts"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "rmit-university",
@@ -327,7 +369,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/rmit-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "deakin-university",
@@ -342,7 +386,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/deakin-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "griffith-university",
@@ -357,14 +403,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/griffith-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "queensland-university-of-technology",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "240",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/queensland-university-technology-qut"
     },
     "internationalStudents": {
@@ -372,14 +420,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/queensland-university-technology-qut"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "curtin-university",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "189",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/curtin-university"
     },
     "internationalStudents": {
@@ -387,7 +437,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/curtin-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "macquarie-university",
@@ -402,7 +454,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/macquarie-university-sydney-australia"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-wollongong",
@@ -417,7 +471,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-wollongong"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-newcastle",
@@ -432,7 +488,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-newcastle-australia-uon"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "la-trobe-university",
@@ -447,7 +505,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/la-trobe-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "flinders-university",
@@ -462,7 +522,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/flinders-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-tasmania",
@@ -477,14 +539,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-tasmania"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-alberta",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "96",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/university-alberta"
     },
     "internationalStudents": {
@@ -492,7 +556,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-alberta"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "mcmaster-university",
@@ -507,7 +573,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/mcmaster-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-waterloo",
@@ -522,7 +590,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-waterloo"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-ottawa",
@@ -537,7 +607,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-ottawa"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "western-university",
@@ -552,7 +624,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/western-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-calgary",
@@ -567,7 +641,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-calgary"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "queen-s-university",
@@ -582,7 +658,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/queens-university-kingston"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "dalhousie-university",
@@ -597,7 +675,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/dalhousie-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "simon-fraser-university",
@@ -612,7 +692,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/simon-fraser-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-victoria",
@@ -627,7 +709,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-victoria-uvic"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "york-university",
@@ -642,7 +726,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/york-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "concordia-university",
@@ -657,7 +743,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/concordia-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-manitoba",
@@ -672,7 +760,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-manitoba"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-saskatchewan",
@@ -687,7 +777,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-saskatchewan"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-guelph",
@@ -702,7 +794,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-guelph"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-new-brunswick",
@@ -717,7 +811,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-new-brunswick"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "memorial-university-of-newfoundland",
@@ -732,7 +828,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/memorial-university-newfoundland"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-oxford",
@@ -747,7 +845,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-oxford"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-cambridge",
@@ -762,7 +862,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-cambridge"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "imperial-college-london",
@@ -777,22 +879,26 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/imperial-college-london"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-college-london",
     "ranking": {
       "publisher": "QS World University Rankings",
-      "position": "9",
-      "edition": null,
+      "position": "=8",
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/ucl-university-college-london"
     },
     "internationalStudents": {
-      "total": 25672,
+      "total": 29881,
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/ucl-university-college-london"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "king-s-college-london",
@@ -807,7 +913,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/kings-college-london"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "london-school-of-economics-and-political-science",
@@ -822,7 +930,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/london-school-economics-political-science-lse"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-bristol",
@@ -837,7 +947,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-bristol"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-warwick",
@@ -852,14 +964,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-warwick"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-glasgow",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "80",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/university-glasgow"
     },
     "internationalStudents": {
@@ -867,7 +981,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-glasgow"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-southampton",
@@ -882,7 +998,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-southampton"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-liverpool",
@@ -897,7 +1015,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-liverpool"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-leeds",
@@ -912,7 +1032,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-leeds"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-nottingham",
@@ -927,7 +1049,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-nottingham"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "durham-university",
@@ -942,7 +1066,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/durham-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-st-andrews",
@@ -957,7 +1083,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-st-andrews"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "queen-mary-university-of-london",
@@ -972,14 +1100,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/queen-mary-university-london"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "lancaster-university",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "164",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/lancaster-university"
     },
     "internationalStudents": {
@@ -987,7 +1117,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/lancaster-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "leipzig-university",
@@ -1002,14 +1134,16 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/universitat-leipzig"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "technische-universitat-berlin",
     "ranking": {
       "publisher": "QS World University Rankings",
       "position": "=158",
-      "edition": null,
+      "edition": "2027",
       "source": "https://www.topuniversities.com/universities/technische-universitat-berlin-tu-berlin"
     },
     "internationalStudents": {
@@ -1017,7 +1151,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/technische-universitat-berlin-tu-berlin"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "freie-universitat-berlin",
@@ -1032,7 +1168,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/freie-universitaet-berlin"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "humboldt-universitat-zu-berlin",
@@ -1047,7 +1185,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/humboldt-universitat-zu-berlin"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "karlsruhe-institute-of-technology",
@@ -1062,7 +1202,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/kit-karlsruhe-institute-technology"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-bonn",
@@ -1077,7 +1219,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/rheinische-friedrich-wilhelms-universitat-bonn"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-hamburg",
@@ -1092,7 +1236,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/universitat-hamburg"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-04",
+    "rankingChecked": "2026-10-19",
+    "reviewNote": "Ranking confirmed in the publisher search listing; student total could not be rechecked because the source timed out."
   },
   {
     "id": "university-of-tubingen",
@@ -1107,7 +1253,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/eberhard-karls-universitat-tubingen"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-freiburg",
@@ -1122,7 +1270,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/albert-ludwigs-universitaet-freiburg"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-gottingen",
@@ -1137,7 +1287,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-gottingen"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "tu-dresden",
@@ -1152,7 +1304,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/technische-universitat-dresden"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "friedrich-alexander-universitat-erlangen-nurnberg",
@@ -1167,7 +1321,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/friedrich-alexander-universitat-erlangen-nurnberg"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-cologne",
@@ -1182,7 +1338,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-cologne"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-munster",
@@ -1197,7 +1355,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-munster"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-mannheim",
@@ -1212,7 +1372,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/universitat-mannheim"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-stuttgart",
@@ -1227,7 +1389,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/universitat-stuttgart"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-wurzburg",
@@ -1242,7 +1406,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/julius-maximilians-universitat-wurzburg"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "auckland-university-of-technology",
@@ -1257,7 +1423,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/auckland-university-technology-aut"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "university-of-waikato",
@@ -1272,7 +1440,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/university-waikato"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "massey-university",
@@ -1287,7 +1457,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/massey-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "victoria-university-of-wellington",
@@ -1302,7 +1474,9 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/victoria-university-wellington"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   },
   {
     "id": "lincoln-university",
@@ -1317,6 +1491,8 @@
       "basis": "QS institutional profile; underlying census year not specified in the displayed statistics",
       "source": "https://www.topuniversities.com/universities/lincoln-university"
     },
-    "checked": "2026-10-04"
+    "checked": "2026-10-19",
+    "rankingChecked": "2026-10-19",
+    "studentsChecked": "2026-10-19"
   }
 ]
