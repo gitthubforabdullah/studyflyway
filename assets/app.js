@@ -9,7 +9,9 @@ if (siteHeader && pageIntro) {
   let headerFramePending = false;
   const updateHeaderVisibility = () => {
     headerFramePending = false;
-    const pastIntro = pageIntro.getBoundingClientRect().bottom <= 0;
+    // Compare with the bar's untransformed position to avoid flickering as it hides.
+    const headerBottom = siteHeader.offsetHeight + (parseFloat(getComputedStyle(siteHeader).top) || 0);
+    const pastIntro = pageIntro.getBoundingClientRect().bottom <= headerBottom;
     siteHeader.classList.toggle('is-past-intro', pastIntro);
     siteHeader.inert = pastIntro;
   };
