@@ -16,7 +16,6 @@ require('./scripts/build-consultants');
 require('./scripts/build-country-background');
 require('./scripts/enhance-destinations');
 require('./scripts/clean-site-links');
-require('./scripts/install-feedback');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || process.env.URL || '');
