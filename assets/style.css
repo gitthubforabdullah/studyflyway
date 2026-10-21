@@ -31,8 +31,6 @@ body main{background:#fff}
 .site-header~main>.hero,.site-header~main>.page-top{background:var(--intro-background)}
 .site-header{top:12px;width:calc(100% - 32px);max-width:1760px;margin:12px auto;border:1px solid #e7e4f3;border-radius:22px;background:#fffefa;box-shadow:0 10px 36px #34377612;backdrop-filter:blur(16px)}
 .site-header .navrow{width:calc(100% - 44px);min-height:76px;gap:18px}
-.site-header{transition:transform .2s ease,opacity .2s ease,visibility .2s;will-change:transform}
-.site-header.is-past-intro{transform:translateY(calc(-100% - 24px));opacity:0;visibility:hidden;pointer-events:none}
 .site-header .brand{font-size:1.25rem;gap:10px}
 .site-header .brand img{width:36px;height:36px}
 .site-header .brand small{font-size:.65rem}

@@ -2,31 +2,6 @@
 document.documentElement.classList.add('js');
 const menu = document.querySelector('[data-menu]');
 const nav = document.querySelector('[data-nav]');
-// Keep navigation within the introductory area on every page.
-const siteHeader = document.querySelector('.site-header');
-const pageIntro = document.querySelector('main > .hero, main > .page-top');
-if (siteHeader && pageIntro) {
-  let headerFramePending = false;
-  const updateHeaderVisibility = () => {
-    headerFramePending = false;
-    // Compare with the bar's untransformed position to avoid flickering as it hides.
-    const headerBottom = siteHeader.offsetHeight + (parseFloat(getComputedStyle(siteHeader).top) || 0);
-    const pastIntro = pageIntro.getBoundingClientRect().bottom <= headerBottom;
-    siteHeader.classList.toggle('is-past-intro', pastIntro);
-    siteHeader.inert = pastIntro;
-  };
-  const requestHeaderUpdate = () => {
-    if (!headerFramePending) {
-      headerFramePending = true;
-      requestAnimationFrame(updateHeaderVisibility);
-    }
-  };
-  window.addEventListener('scroll', requestHeaderUpdate, {passive: true});
-  window.addEventListener('resize', requestHeaderUpdate, {passive: true});
-  window.addEventListener('pageshow', requestHeaderUpdate);
-  if ('ResizeObserver' in window) new ResizeObserver(requestHeaderUpdate).observe(pageIntro);
-  updateHeaderVisibility();
-}
 if (menu && nav) {
   menu.setAttribute('aria-label', 'Open navigation menu');
   menu.addEventListener('click', () => {
