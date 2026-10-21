@@ -191,3 +191,7 @@ body main{background:#fff}
 .university-profile-lettermark{width:100%;min-height:360px;border-radius:120px 0 120px 0;font-size:4rem;background:linear-gradient(135deg,#d7edff,#e3ddff)}
 @media(max-width:800px){.university-profile-hero{gap:24px}.university-title-row{gap:12px}.university-title-row .university-identity{width:52px;height:52px;font-size:.85rem}.university-profile-heading .btn{padding:10px 15px;font-size:.8rem}.university-profile-hero .campus-photo img,.university-profile-lettermark{height:280px;min-height:280px;border-radius:80px 0 80px 0}}
 @media(max-width:600px){.university-profile-hero{grid-template-columns:minmax(0,1fr) 110px;align-items:start;gap:16px}.university-title-row{display:block;margin:12px 0}.university-title-row .university-identity{width:40px;height:40px;font-size:.75rem;margin-bottom:12px}.university-title-row h1{font-size:1.55rem}.university-profile-hero .campus-photo img,.university-profile-lettermark{height:150px;min-height:150px;border-radius:38px 0 38px 0}.university-profile-lettermark{font-size:1.8rem}.university-profile-heading .actions{flex-direction:column;align-items:stretch;margin-top:18px}.university-profile-heading .btn{white-space:normal;text-align:center;padding:10px 12px}.university-card-content h2,.university-card-content .university-location{min-height:0}}
+
+/* Menu wordmark colors. */
+.site-header .brand-study{color:#000}
+.site-header .brand-flyway{color:var(--primary)}

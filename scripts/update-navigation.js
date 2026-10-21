@@ -10,6 +10,7 @@ function update(dir) {
     if (entry.isDirectory()) { update(file); continue; }
     if (!entry.name.endsWith('.html')) continue;
     let html = fs.readFileSync(file, 'utf8');
+    html = html.replace(/<header\b[\s\S]*?<\/header>/, header => header.replace('<span>StudyFlyway<small>', '<span><span class="brand-study">Study</span><span class="brand-flyway">Flyway</span><small>'));
     const prefix = entry.name === '404.html' ? '/' : '../'.repeat(path.relative(root, dir).split(path.sep).filter(Boolean).length);
     // A stable PNG favicon lets search engines use the existing StudyFlyway mark.
     html = html.replace(/<link rel="icon"[^>]*>/g, `<link rel="icon" href="${prefix}assets/favicon.png" type="image/png" sizes="96x96">`);
