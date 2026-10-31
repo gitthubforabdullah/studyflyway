@@ -9,6 +9,9 @@ const adsContent = fs.readFileSync(adsFile, 'utf8').replace(/^\uFEFF/, '').trim(
 if (!adsContent.split(/\r?\n/).some(line => /^google\.com,\s*pub-9576135533715323,\s*DIRECT,\s*f08c47fec0942fa0\s*$/.test(line))) {
   throw Error('ads.txt must contain the StudyFlyway AdSense publisher declaration.');
 }
+// Deployment packages the checked-in design. Legacy editorial generators rewrite
+// page layouts, so run them only when explicitly refreshing generated content.
+if (process.argv.includes('--regenerate')) {
 require('./scripts/update-navigation');
 require('./scripts/sync-university-styles');
 require('./scripts/build-universities');
@@ -17,6 +20,7 @@ require('./scripts/build-country-background');
 require('./scripts/enhance-destinations');
 require('./scripts/clean-site-links');
 require('./scripts/build-scholarships');
+}
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || 'https://' + fs.readFileSync(path.join(root, 'CNAME'), 'utf8').trim());

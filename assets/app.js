@@ -80,7 +80,7 @@ document.querySelectorAll('[data-scholarship]').forEach(card => {
 });
 const filterForm = document.querySelector('[data-filters]');
 if(filterForm) {
-  const controls = [...filterForm.querySelectorAll('[name]')];
+  const controls = [...filterForm.elements].filter(control => control.name);
   const cards = [...document.querySelectorAll('[data-scholarship]')];
   const count = document.querySelector('[data-count]');
   const empty = document.querySelector('[data-empty]');

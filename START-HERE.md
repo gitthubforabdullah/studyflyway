@@ -12,11 +12,23 @@ The homepage student image is included locally. Destination photos use Unsplash 
 
 ## Deploy from GitHub
 
-Keep using your existing GitHub deployment connection. Commit and push website updates to your repository as usual.
+The workflow in `.github/workflows/pages.yml` builds and publishes `dist` to GitHub Pages whenever updates are pushed to `main`. It can also be started manually from the Actions tab. No packages or framework are required.
+
+One-time GitHub Pages setup:
+
+1. Push the workflow and website changes to `gitthubforabdullah/studyflyway` on `main`.
+2. Open the repository's **Settings > Pages** and choose **GitHub Actions** under **Build and deployment > Source**.
+3. Keep **Custom domain** set to **studyflyway.online** and save it. The build also preserves the existing `CNAME`, but a custom Actions workflow requires the domain to be configured in Pages settings.
+4. Open **Actions > Deploy website to GitHub Pages** and check that the run succeeds. If needed, select **Run workflow** for `main` after saving the Pages settings.
+5. Visit `https://studyflyway.online/` and `https://studyflyway.online/scholarships/auckland-excellence/`. Enable **Enforce HTTPS** in Pages settings when available.
+
+If the domain shows GitHub's “There isn't a GitHub Pages site here” screen, check the publishing source, successful deployment, and saved custom domain first. Editing the site's `404.html` cannot fix that hosting error. If GitHub reports a DNS error, follow its domain check before changing DNS records. Setup reference: [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
 If your deployment runs a build, use **node prepare.js** and publish **dist**. The build generates static pages, clean URL directory indexes, SEO metadata, a sitemap, robots.txt, ads.txt, and copies the custom-domain CNAME. It needs no packages. The public origin defaults to the domain in CNAME; override it with SITE_URL or --url when needed.
 
-If your current deployment publishes the repository directly, retain that setup. The generated dist output is only used when your deployment is configured to build and publish it. Do not upload API credentials or environment files.
+The deployment build packages the existing HTML without rerunning editorial page generators. Generator instructions elsewhere in this guide refer to manual content refreshes: `node prepare.js --regenerate` opts into the legacy generators, which need layout updates before use with the current redesign. Review their output before committing. For routine publication, use `node prepare.js` without that flag.
+
+Publish the generated `dist` artifact rather than the repository root so extensionless links, the sitemap and robots.txt are included. Do not upload API credentials or environment files.
 
 ### Contact form setup
 

@@ -113,7 +113,7 @@ for (const u of additional) {
   assert(fs.existsSync(path.join(output,'universities',u.slug+'.html')),u.name+': static profile');
   assert(u.intro && u.links.website.startsWith('https://'),u.name+': reviewed directory content');
 }
-assert(directory.includes('class="university-directory-grid"'));
+assert(/class="[^"]*university-directory-grid[^"]*"/.test(directory));
 assert(!directory.includes('data-university-country'));
 const sitemapPath = path.join(output, 'sitemap.xml');
 if (output !== root && fs.existsSync(sitemapPath)) {
