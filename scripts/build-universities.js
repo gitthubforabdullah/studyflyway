@@ -36,7 +36,7 @@ function document(title, description, content, prefix, directory = false) {
   <meta property="og:type" content="website">
   <meta property="og:title" content="${escape(title)} | StudyFlyway">
   <meta property="og:description" content="${escape(description)}">
-  <link rel="icon" href="${prefix}assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="${prefix}assets/favicon.svg?v=original-logo-1" type="image/svg+xml">
   <link rel="stylesheet" href="${prefix}assets/style.css?v=${styleVersion}">
   <script src="${prefix}assets/app.js" defer></script>
   ${directory ? '<script src="assets/universities.js" defer></script>' : ''}

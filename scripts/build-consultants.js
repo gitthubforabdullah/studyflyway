@@ -29,7 +29,7 @@ function document(title, description, content, directory = false) {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${escape(title)} | StudyFlyway</title><meta name="description" content="${escape(description)}">
 <meta name="theme-color" content="#5755e8"><meta property="og:type" content="website"><meta property="og:title" content="${escape(title)} | StudyFlyway"><meta property="og:description" content="${escape(description)}">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.svg?v=original-logo-1" type="image/svg+xml">
 <link rel="stylesheet" href="/assets/style.css?v=${sharedVersion}"><link rel="stylesheet" href="/assets/consultants.css?v=${version}">
 <script src="/assets/app.js" defer></script>${directory ? '<script src="/assets/consultants.js" defer></script>' : ''}
 </head><body><a class="skip" href="#main">Skip to content</a>${chrome('header')}<main id="main">${content}</main>${chrome('footer')}
