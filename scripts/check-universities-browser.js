@@ -13,8 +13,7 @@ if (!chromePath) throw Error('Chrome or Edge is required for browser checks.');
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const server = http.createServer((req, res) => {
   const url = new URL(req.url, 'http://localhost');
-  let target = path.resolve(root, '.' + decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname));
-  if (!path.extname(target) && fs.existsSync(target + '.html')) target += '.html';
+  const target = path.resolve(root, '.' + decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname));
   if (!target.startsWith(root + path.sep) || !fs.existsSync(target) || fs.statSync(target).isDirectory()) { res.writeHead(404); res.end(); return; }
   const types = {'.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png':'image/png', '.jpg':'image/jpeg', '.jpeg':'image/jpeg', '.ico':'image/x-icon'};
   res.setHeader('Content-Type', types[path.extname(target)] || 'application/octet-stream');
@@ -52,7 +51,7 @@ async function run() {
     await send('Runtime.enable');
     await send('Network.enable');
     // Use the site's existing font fallbacks so remote font loading cannot delay scripts.
-    await send('Network.setBlockedURLs', {urls: ['https://*']});
+    await send('Network.setBlockedURLs', {urls: ['*fonts.googleapis.com*', '*fonts.gstatic.com*', '*pagead2.googlesyndication.com*']});
     let scriptsDisabled = false;
     const visit = async url => {
       await send('Page.navigate', {url: base + url});
@@ -70,7 +69,7 @@ async function run() {
       fs.writeFileSync(path.join(temp,'profile-desktop.png'),Buffer.from(shot.data,'base64'));
       console.log('Design previews captured.');await send('Browser.close').catch(()=>{});return;
     }
-    const visible = () => evaluate("document.querySelector('#university-results').dataset.matchCount === undefined ? [...document.querySelectorAll('[data-university]')].filter(card => !card.hidden).length : Number(document.querySelector('#university-results').dataset.matchCount)");
+    const visible = () => evaluate("[...document.querySelectorAll('[data-university]')].filter(card => !card.hidden).length");
     const filter = (q, country) => evaluate(`document.querySelector('#university-search').value=${JSON.stringify(q)};document.querySelector('#university-country').value=${JSON.stringify(country)};document.querySelector('#university-search').dispatchEvent(new Event('input',{bubbles:true}));`);
     await visit('/universities.html');
     await evaluate("Promise.all([...document.querySelectorAll('.university-identity img')].slice(0,3).map(img=>img.decode()))");
@@ -78,9 +77,9 @@ async function run() {
     console.log('Directory loaded; checking filters.');
     assert.equal(await visible(), 88);
     const grid = await evaluate("getComputedStyle(document.querySelector('#university-results')).gridTemplateColumns");
-    assert.equal(grid.split(' ').length,1,'Single column directory rows');
+    assert.equal(grid.split(' ').length,3,'Three desktop columns');
     const aligned = await evaluate("JSON.stringify([...document.querySelectorAll('[data-university]')].slice(0,3).map(card=>card.getBoundingClientRect().top))");
-    assert.equal(new Set(JSON.parse(aligned)).size,3,'First three university cards occupy separate directory rows');
+    assert.equal(new Set(JSON.parse(aligned)).size,1,'First three cards sit side by side');
     await filter('', 'canada'); assert.equal(await visible(), 20);
     await filter('TORONTO', 'canada'); assert.equal(await visible(), 1);
     await filter('toronto', 'germany'); assert.equal(await visible(), 0);
@@ -100,28 +99,28 @@ async function run() {
     await send('Emulation.setDeviceMetricsOverride', {width: 390, height: 900, deviceScaleFactor: 1, mobile: true});
     await evaluate("document.querySelector('[data-menu]').click()");
     assert.equal(await evaluate("getComputedStyle(document.querySelector('[data-nav]')).display"), 'flex');
-    assert.equal(await evaluate("!!document.querySelector('[data-nav] a[href=\"/universities\"]')"), true);
+    assert.equal(await evaluate("!!document.querySelector('[data-nav] a[href=\"universities.html\"]')"), true);
     const records = JSON.parse(fs.readFileSync(path.join(root, 'research/universities.json'), 'utf8'));
     console.log('Filters and responsive directory passed; checking profiles.');
     for (const u of records) {
       await visit('/universities/' + u.slug + '.html');
       assert.equal(await evaluate('document.querySelectorAll("h1").length'), 1);
-      assert.equal(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': reference photo beside heading on mobile');
+      assert.equal(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': photo beside heading on mobile');
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), true, u.name + ': mobile overflow');
       assert.equal(await evaluate('document.querySelectorAll(".campus-gallery img").length'), 3);
       assert.equal(await evaluate('[...document.querySelectorAll(".campus-gallery img")].every(img=>img.loading==="lazy")'), true);
-      await evaluate("document.querySelector('.reference-full-guide').open=true; Promise.all([...document.querySelectorAll('[data-campus-image]')].map(img=>{img.loading='eager';return img.decode()}))");
+      await evaluate("Promise.all([...document.querySelectorAll('[data-campus-image]')].map(img=>{img.loading='eager';return img.decode()}))");
       assert.equal(await evaluate("[...document.querySelectorAll('[data-campus-image]')].every(img=>img.naturalWidth>0 && new URL(img.src).origin===location.origin)"),true,u.name+': campus photographs served locally');
     }
     const added = JSON.parse(fs.readFileSync(path.join(root,'research/additional-universities.json'),'utf8'));
     for(const u of added) {
       await visit('/universities/'+u.slug+'.html');
       assert.equal(await evaluate('document.querySelectorAll("h1").length'),1);
-      assert.equal(await evaluate("document.querySelector('.university-profile-lettermark').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': reference side-by-side mobile header');
+      assert.equal(await evaluate("document.querySelector('.university-profile-lettermark').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,u.name+': consistent side-by-side header');
       assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true,u.name+': mobile overflow');
     }
     await visit('/universities/university-of-melbourne.html');
-    await evaluate("document.querySelector('.reference-full-guide').open=true; document.querySelector('#gallery').scrollIntoView()");
+    await evaluate("document.querySelector('#gallery').scrollIntoView()");
     await sleep(2000);
     const photoStatus = await evaluate('[...document.querySelectorAll("[data-campus-image]")].map(img=>({loaded:img.naturalWidth>0,complete:img.complete}))');
     console.log('Campus photo load status:', JSON.stringify(photoStatus));
@@ -150,29 +149,28 @@ async function run() {
       assert.equal(await evaluate("getComputedStyle(document.querySelector('#destination-links')).display"), 'block', page);
       await evaluate("document.querySelector('.nav-dropdown-toggle').focus()");
       await send('Input.dispatchKeyEvent',{type:'keyDown',key:'ArrowDown',code:'ArrowDown'});
-      assert.equal(await evaluate("document.activeElement.textContent"), await evaluate("document.querySelector('#destination-links a').textContent"));
+      assert.equal(await evaluate("document.activeElement.textContent"), 'Australia');
       await send('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape'});
       assert.equal(await evaluate("document.querySelector('.nav-dropdown-toggle').getAttribute('aria-expanded')"), 'false');
     }
     await send('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});
     await visit('/english-tests.html');
-    await evaluate("document.querySelector('[data-menu]').click(); document.querySelector('.destination-expand').click()");
+    await evaluate("document.querySelector('[data-menu]').click(); document.querySelector('.nav-dropdown-toggle').focus()");
     assert.equal(await evaluate("getComputedStyle(document.querySelector('#destination-links')).display"),'block');
     assert.equal(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1'),true);
     await send('Emulation.setScriptExecutionDisabled',{value:true}); scriptsDisabled=true;
     await visit('/english-tests.html');
     assert.equal(await evaluate("document.querySelectorAll('h1').length"),1);
-    await evaluate("document.querySelector('.reference-full-guide > summary').click()");
     assert.equal(await evaluate("document.querySelector('#ielts').innerText.includes('IELTS Academic')"),true);
     await send('Emulation.setScriptExecutionDisabled',{value:false}); scriptsDisabled=false;
     await send('Emulation.setDeviceMetricsOverride',{width:1440,height:1000,deviceScaleFactor:1,mobile:false});
     await visit('/about.html');
     await evaluate("document.querySelector('.nav-dropdown-toggle').click()");
     for (let attempt=0;attempt<50;attempt++) {
-      if (await evaluate("location.pathname === '/destinations'")) break;
+      if (await evaluate("location.pathname === '/destinations.html'")) break;
       await sleep(100);
     }
-    assert.equal(await evaluate('location.pathname'),'/destinations','Destinations link navigates');
+    assert.equal(await evaluate('location.pathname'),'/destinations.html','Destinations link navigates');
     await visit('/universities/university-of-melbourne.html');
     assert.equal(await evaluate("document.querySelector('.university-profile-hero .campus-photo img').getBoundingClientRect().left >= document.querySelector('.university-profile-heading').getBoundingClientRect().right"),true,'Desktop photo beside heading');
     const profileShot=await send('Page.captureScreenshot',{format:'png'});
