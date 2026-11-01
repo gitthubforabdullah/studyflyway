@@ -78,7 +78,7 @@ body main{background:#fff}
 @media(prefers-reduced-motion:reduce){.site-header,.site-header .navlinks>a,.site-header .nav-dropdown-toggle{transition:none}}
 
 /* StudyFlyway wordmark colors. */
-.brand .brand-study{color:#0866c6}.brand .brand-flyway{color:#111111}
+.brand .brand-study{color:#111111}.brand .brand-flyway{color:#0866c6}
 
 /* Shared university styles: generated from universities.css. */
 /* University directory and profiles: shared colours and fonts come from style.css. */
