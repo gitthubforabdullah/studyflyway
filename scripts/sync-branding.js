@@ -14,11 +14,11 @@ function update(dir) {
     const prefix = path.relative(path.dirname(file), root).split(path.sep).join('/');
     const assets = (prefix ? prefix + '/' : '') + 'assets/';
     html = html.replace(/<link\b(?=[^>]*\brel="icon")[^>]*>/g, '');
-    html = html.replace('</head>', `<link rel="icon" href="${assets}favicon.svg?v=blue-black-1" type="image/svg+xml"><link rel="icon" href="${assets}favicon.png?v=blue-black-1" type="image/png" sizes="96x96"></head>`);
+    html = html.replace('</head>', `<link rel="icon" href="${assets}favicon.svg?v=original-logo-2" type="image/svg+xml"><link rel="icon" href="${assets}favicon.png?v=original-logo-2" type="image/png" sizes="96x96"></head>`);
     html = html.replace(/<span>StudyFlyway<small>/g, '<span><span class="brand-study">Study</span><span class="brand-flyway">Flyway</span><small>');
-    html = html.replace(/original-logo-1/g, 'blue-black-1');
+    html = html.replace(/(?:original-logo-1|blue-black-1)/g, 'original-logo-2');
     html = html.replace(/assets\/gmail\.svg(?:\?[^" ]*)?/g, 'assets/gmail.svg?v=refined-1');
-    html = html.replace(/(<meta name="theme-color" content=")[^"]+/g, '$1#0866c6');
+    html = html.replace(/(<meta name="theme-color" content=")[^"]+/g, '$1#5755e8');
     if (html !== fs.readFileSync(file, 'utf8')) fs.writeFileSync(file, html);
   }
 }
