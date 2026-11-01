@@ -17,6 +17,7 @@ require('./scripts/build-country-background');
 require('./scripts/enhance-destinations');
 require('./scripts/clean-site-links');
 require('./scripts/build-scholarships');
+require('./scripts/sync-branding');
 const output = path.join(root, 'dist');
 const supplied = process.argv.find(arg => arg.startsWith('--url='));
 const origin = supplied ? supplied.slice(6) : (process.env.SITE_URL || 'https://' + fs.readFileSync(path.join(root, 'CNAME'), 'utf8').trim());
